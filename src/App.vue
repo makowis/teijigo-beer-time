@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img class="logo" src="./assets/logo.png">
+    <img class="logo" src="./assets/kawaii_logo.png">
     <router-view/>
   </div>
 </template>
