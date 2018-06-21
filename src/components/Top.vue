@@ -5,8 +5,8 @@
       <div class="marquee-inner">
         M3-2018秋 参戦決定！！！！衝撃のデビューを見逃すな！！！
       </div>
-    </div>  
-    
+    </div>
+
   </div>
 </template>
 
@@ -33,7 +33,7 @@ h1, h2 {
   background-color: black;
   padding: 10px;
 }
- 
+
 .marquee::after {
   content: "";
   white-space: nowrap;
