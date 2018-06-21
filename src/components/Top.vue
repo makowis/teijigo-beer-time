@@ -1,6 +1,6 @@
 <template>
   <div class="top">
-    <h1>{{ msg }}</h1>
+    <h1 class="blink">{{ msg }}</h1>
     <div class="marquee">
       <div class="marquee-inner">
         M3-2018秋 参戦決定！！！！衝撃のデビューを見逃すな！！！！
@@ -59,5 +59,18 @@ h1, h2 {
 @keyframes marquee {
     0% { left: 100%; transform: translate(0); }
   100% { left: 0; transform: translate(-100%); }
+}
+
+.blink {
+  animation: blink 1s step-end infinite;
+  -webkit-animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  75% { opacity: 0.0; }
+}
+
+@-webkit-keyframes blink {
+  75% { opacity: 0.0; }
 }
 </style>
