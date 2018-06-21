@@ -3,7 +3,7 @@
     <h1>{{ msg }}</h1>
     <div class="marquee">
       <div class="marquee-inner">
-        M3-2018秋 参戦決定！！！！衝撃のデビューを見逃すな！！！
+        M3-2018秋 参戦決定！！！！衝撃のデビューを見逃すな！！！！
       </div>
     </div>
 
@@ -15,7 +15,7 @@ export default {
   name: 'Top',
   data() {
     return {
-      msg: '定時後ビールタイム公式サイト',
+      msg: '定時後ビールタイム非公式サイト',
     };
   },
 };
