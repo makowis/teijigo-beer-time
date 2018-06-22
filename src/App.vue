@@ -25,4 +25,8 @@ export default {
   max-height: 400px;
   max-width: 100%;
 }
+
+body {
+  background-image: url("./assets/bg.png");
+}
 </style>
