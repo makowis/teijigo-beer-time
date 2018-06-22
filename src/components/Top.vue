@@ -10,6 +10,9 @@
       <h2>サークルカット</h2>
       <img class="circle-cut" src="../assets/cut.png" alt="サークルカット">
     </section>
+    <router-link to="/disco">
+      ＞＞＞＞DISCOGRAPHY＜＜＜＜
+    </router-link>
 
   </div>
 </template>

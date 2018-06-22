@@ -1,7 +1,12 @@
 <template>
   <div id="app">
-    <img class="logo" src="./assets/logo_1.png">
+    <router-link to="/">
+      <img class="logo" src="./assets/logo_1.png">
+    </router-link>
     <router-view/>
+    <footer>
+      <p>©定時後ビールタイム</p>
+    </footer>
   </div>
 </template>
 
@@ -32,5 +37,9 @@ body {
   margin: 0;
   background-image: url("./assets/bg.png");
   background-attachment: fixed;
+}
+
+footer {
+  padding: 30px;
 }
 </style>
