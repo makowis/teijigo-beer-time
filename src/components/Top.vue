@@ -6,6 +6,10 @@
         M3-2018秋 参戦決定！！！！衝撃のデビューを見逃すな！！！！
       </div>
     </div>
+    <section>
+      <h2>サークルカット</h2>
+      <img class="circle-cut" src="../assets/cut_1.png" alt="サークルカット">
+    </section>
 
   </div>
 </template>
@@ -42,7 +46,7 @@ h1, h2 {
 
 .marquee > .marquee-inner {
   position: absolute;
-  top: 10;
+  top: 10px;
   white-space: nowrap;
   animation-name: marquee;
   animation-timing-function: linear;
@@ -73,4 +77,15 @@ h1, h2 {
 @-webkit-keyframes blink {
   75% { opacity: 0.0; }
 }
+
+.circle-cut {
+  width: 200px;
+  max-width: 100%;
+}
+
+section {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 </style>
