@@ -6,6 +6,6 @@ describe('Top.vue', () => {
     const Constructor = Vue.extend(Top);
     const vm = new Constructor().$mount();
     expect(vm.$el.querySelector('.top h1').textContent)
-      .toEqual('定時後ビールタイム非公式サイト');
+      .toEqual('定時後ビールタイム公式サイト');
   });
 });

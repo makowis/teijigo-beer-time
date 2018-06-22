@@ -8,7 +8,7 @@
     </div>
     <section>
       <h2>サークルカット</h2>
-      <img class="circle-cut" src="../assets/cut_1.png" alt="サークルカット">
+      <img class="circle-cut" src="../assets/cut.png" alt="サークルカット">
     </section>
 
   </div>
@@ -19,7 +19,7 @@ export default {
   name: 'Top',
   data() {
     return {
-      msg: '定時後ビールタイム非公式サイト',
+      msg: '定時後ビールタイム公式サイト',
     };
   },
 };

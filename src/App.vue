@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img class="logo" src="./assets/logo.png">
+    <img class="logo" src="./assets/logo_1.png">
     <router-view/>
   </div>
 </template>
@@ -22,6 +22,7 @@ export default {
 }
 
 #app .logo {
+  max-height: 400px;
   max-width: 100%;
 }
 </style>
