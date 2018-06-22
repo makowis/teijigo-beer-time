@@ -23,10 +23,14 @@ export default {
 
 #app .logo {
   max-height: 400px;
-  max-width: 100%;
+  max-width: 90%;
+  margin: 0 10px;
+  box-sizing: border-box;
 }
 
 body {
+  margin: 0;
   background-image: url("./assets/bg.png");
+  background-attachment: fixed;
 }
 </style>
