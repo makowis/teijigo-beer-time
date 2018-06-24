@@ -3,7 +3,7 @@
     <h1 class="blink">{{ msg }}</h1>
     <div class="marquee">
       <div class="marquee-inner">
-        M3-2018秋 参戦決定！！！！衝撃のデビューを見逃すな！！！！
+        M3-2018秋 参戦予定！！！！衝撃のデビューを見逃すな！！！！
       </div>
     </div>
     <section>
