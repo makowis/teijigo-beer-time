@@ -36,7 +36,6 @@ export default {
 body {
   margin: 0;
   background-image: url("./assets/bg.png");
-  background-attachment: fixed;
 }
 
 footer {
