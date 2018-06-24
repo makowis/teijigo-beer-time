@@ -2,6 +2,7 @@
 
 > 定時後ビールタイム公式サイト
 
+[![Build Status](https://travis-ci.com/makowis/teijigo-beer-time.svg?branch=master)](https://travis-ci.com/makowis/teijigo-beer-time)
 [![CodeFactor](https://www.codefactor.io/repository/github/makowis/teijigo-beer-time/badge)](https://www.codefactor.io/repository/github/makowis/teijigo-beer-time)
 
 ## Build Setup
