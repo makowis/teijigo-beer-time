@@ -2,6 +2,8 @@
 
 > 定時後ビールタイム公式サイト
 
+[![CodeFactor](https://www.codefactor.io/repository/github/makowis/teijigo-beer-time/badge)](https://www.codefactor.io/repository/github/makowis/teijigo-beer-time)
+
 ## Build Setup
 
 ``` bash
