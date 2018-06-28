@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Top from '@/components/Top';
-import router from '@/router';
+import router from '@/router/index.ts';
 
 describe('Top.vue', () => {
   it('should render correct contents', () => {
