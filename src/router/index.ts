@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Top from '@/components/Top';
-import Disco from '@/components/Disco';
-import NotFound from '@/components/NotFound';
+import Top from '@/components/Top.vue';
+import Disco from '@/components/Disco.vue';
+import NotFound from '@/components/NotFound.vue';
 
 Vue.use(Router);
 
