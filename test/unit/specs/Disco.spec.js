@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Disco from '@/components/Disco';
-import router from '@/router';
+import router from '@/router/index.ts';
 
 describe('Disco.vue', () => {
   it('should render correct contents', () => {
