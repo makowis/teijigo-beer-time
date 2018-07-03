@@ -7,6 +7,11 @@
       </div>
     </div>
     <section>
+      <h2>アクセスカウンター</h2>
+      <p>あなたは{{ accessCounter }}人目の訪問者です。</p>
+      <p>現在の累計訪問者数は{{ realtimeCounter }}人です。</p>
+    </section>
+    <section>
       <h2>サークルカット</h2>
       <img class="circle-cut" src="../assets/cut.png" alt="サークルカット">
     </section>
@@ -19,13 +24,37 @@
 
 <script lang="ts">
 import Vue from 'vue';
+import database from '../firebase-config.ts';
 
 export default Vue.extend({
   name: 'Top',
   data() {
     return {
       msg: '定時後ビールタイム公式サイト',
+      accessCounter: 0,
+      realtimeCounter: 0,
     };
+  },
+  created() {
+    this.countUp();
+    this.listen();
+  },
+  methods: {
+    listen() {
+      database.ref('access_counter').on('value', (snapshot) => {
+        if (snapshot) {
+          const accessCount = parseInt(snapshot.val(), 10);
+          this.realtimeCounter = accessCount;
+        }
+      });
+    },
+    countUp() {
+      database.ref('access_counter').once('value').then((snapshot) => {
+        const accessCount = parseInt(snapshot.val(), 10) + 1;
+        database.ref().update({ access_counter: accessCount });
+        this.accessCounter = accessCount;
+      });
+    },
   },
 });
 </script>
