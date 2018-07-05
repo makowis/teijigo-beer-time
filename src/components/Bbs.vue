@@ -20,8 +20,12 @@
     <div>
       <ul class="message-list">
         <li v-for="(item, key) in messageList" v-bind:key="key">
-          {{item.message}} by {{item.name}}
-          <span class="time-label">{{item.createdAt}}</span>
+          <p>
+            {{item.message}} by {{item.name}}
+          </p>
+          <p class="time-label">
+            {{item.createdAt}}
+          </p>
         </li>
       </ul>
     </div>
@@ -146,8 +150,8 @@ export default Vue.extend({
   }
 
   .message-list .time-label {
-    position: absolute;
-    top: 5px;
-    right: 10px;
+    font-size: smaller;
+    text-align: right;
+    margin-bottom: 0;
   }
 </style>
