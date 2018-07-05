@@ -46,7 +46,11 @@ export default Vue.extend({
     listen() {
       database.ref('messages/').on('value', (snapshot) => {
         if (snapshot) {
-          this.messageList = snapshot.val();
+          const list = snapshot.val();
+          const keys = Object.keys(list);
+
+          const values = keys.map(v => list[v]);
+          this.messageList = values.reverse();
         }
       });
     },
