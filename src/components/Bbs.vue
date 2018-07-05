@@ -50,7 +50,11 @@ export default Vue.extend({
           const keys = Object.keys(list);
 
           const values = keys.map(v => list[v]);
-          this.messageList = values.reverse();
+          this.messageList = values.sort((a, b) => {
+            if (a.sortKey > b.sortKey) return 1;
+            if (a.sortKey < b.sortKey) return -1;
+            return 0;
+          });
         }
       });
     },
