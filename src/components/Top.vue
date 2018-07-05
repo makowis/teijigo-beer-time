@@ -10,15 +10,24 @@
       <h2>アクセスカウンター</h2>
       <p>あなたは{{ accessCounter }}人目の訪問者です。</p>
       <p>現在の累計訪問者数は{{ realtimeCounter }}人です。</p>
+      <small>
+        <router-link to="/bbs">キリ番報告はこちらで！！！</router-link>
+      </small>
     </section>
     <section>
       <h2>サークルカット</h2>
       <img class="circle-cut" src="../assets/cut.png" alt="サークルカット">
     </section>
-    <router-link to="/disco">
-      ＞＞＞＞DISCOGRAPHY＜＜＜＜
-    </router-link>
-
+    <p>
+      <router-link to="/disco">
+        ＞＞＞＞DISCOGRAPHY＜＜＜＜
+      </router-link>
+    </p>
+    <p>
+      <router-link to="/bbs">
+        ★★★★★一言掲示板★★★★★
+      </router-link>
+    </p>
   </div>
 </template>
 
