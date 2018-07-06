@@ -9,10 +9,10 @@
 
 <script lang="ts">
 import Vue from 'vue';
-import Component from 'vue-class-component';
 
-@Component
-export default class NotFound extends Vue {}
+export default Vue.extend({
+  name: 'not-found',
+});
 </script>
 
 <style scoped>
