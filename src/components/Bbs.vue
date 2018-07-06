@@ -35,14 +35,12 @@
 <script lang="ts">
 import moment from 'moment';
 import Vue from 'vue';
-import Component from 'vue-class-component';
-import firebase from 'firebase';
 import database from '../firebase-config.ts';
 
 interface Message {
   name: string;
   message: string;
-  createdAt: string;
+  createdAt: Date;
   sortKey: number;
 }
 
@@ -52,49 +50,49 @@ interface BbsData {
   message: string;
 }
 
-@Component
-export default class Bbs extends Vue implements BbsData {
-  messageList: Message[] = [];
-  name: string = '';
-  message: string = '';
-
+export default Vue.extend({
+  name: 'bbs',
+  data(): BbsData {
+    return {
+      messageList: [],
+      name: '',
+      message: '',
+    };
+  },
   created() {
     this.listen();
-  }
-
-  listen() {
-    database
-      .ref('messages/')
-      .on('value', (snapshot: firebase.database.DataSnapshot | null) => {
+  },
+  methods: {
+    listen() {
+      database.ref('messages/').on('value', (snapshot) => {
         if (snapshot) {
           const list = snapshot.val();
           const keys = Object.keys(list);
 
           const values = keys.map((v) => list[v]);
-          this.messageList = values.sort((a: Message, b: Message) => {
+          this.messageList = values.sort((a, b) => {
             if (a.sortKey > b.sortKey) return 1;
             if (a.sortKey < b.sortKey) return -1;
             return 0;
           });
         }
       });
-  }
+    },
+    sendMessage() {
+      if (!this.name || !this.message) return;
 
-  sendMessage() {
-    if (!this.name || !this.message) return;
+      database.ref('messages/').push({
+        name: this.name,
+        message: this.message,
+        createdAt: moment(new Date()).format('YYYY/MM/DD H:mm:ss'),
+        sortKey: -new Date(),
+      });
 
-    const message: Message = {
-      name: this.name,
-      message: this.message,
-      createdAt: moment(new Date()).format('YYYY/MM/DD H:mm:ss'),
-      sortKey: -new Date(),
-    };
-    database.ref('messages/').push(message);
-
-    this.name = '';
-    this.message = '';
-  }
-}
+      this.name = '';
+      this.message = '';
+    },
+  },
+});
 </script>
 
 <style scoped>

@@ -6,17 +6,7 @@
     "strict": true,
     "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
-    "noImplicitThis": true,
-    "baseUrl": "",
-    "paths": {
-      "vue": [
-        "/node_modules/vue/types/index"
-      ],
-      "vue-class-component": [
-        "/node_modules/vue-class-component/lib/index"
-      ]
-    },
-    "experimentalDecorators": true
+    "noImplicitThis": true
   },
   "include": [
     "src/**/*"

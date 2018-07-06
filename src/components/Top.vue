@@ -33,45 +33,42 @@
 
 <script lang="ts">
 import Vue from 'vue';
-import Component from 'vue-class-component';
-import firebase from 'firebase';
 import database from '../firebase-config.ts';
 
-@Component
-export default class Top extends Vue {
-  msg: string = '定時後ビールタイム公式サイト';
-  accessCounter: number = 0;
-  realtimeCounter: number = 0;
-
+export default Vue.extend({
+  name: 'Top',
+  data() {
+    return {
+      msg: '定時後ビールタイム公式サイト',
+      accessCounter: 0,
+      realtimeCounter: 0,
+    };
+  },
   created() {
     this.countUp();
     this.listen();
-  }
-
-  listen() {
-    database
-      .ref('access_counter')
-      .on('value', (snapshot: firebase.database.DataSnapshot | null) => {
+  },
+  methods: {
+    listen() {
+      database.ref('access_counter').on('value', (snapshot) => {
         if (snapshot) {
           const accessCount = parseInt(snapshot.val(), 10);
           this.realtimeCounter = accessCount;
         }
       });
-  }
-
-  countUp() {
-    database
-      .ref('access_counter')
-      .once('value')
-      .then((snapshot: firebase.database.DataSnapshot | null) => {
-        if (snapshot) {
+    },
+    countUp() {
+      database
+        .ref('access_counter')
+        .once('value')
+        .then((snapshot) => {
           const accessCount = parseInt(snapshot.val(), 10) + 1;
           database.ref().update({ access_counter: accessCount });
           this.accessCounter = accessCount;
-        }
-      });
-  }
-}
+        });
+    },
+  },
+});
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
