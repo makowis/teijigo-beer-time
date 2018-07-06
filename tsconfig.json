@@ -14,9 +14,9 @@
       ],
       "vue-class-component": [
         "/node_modules/vue-class-component/lib/index"
-      ],
+      ]
     },
-    "experimentalDecorators": true,
+    "experimentalDecorators": true
   },
   "include": [
     "src/**/*"
