@@ -8,10 +8,10 @@
 
 <script lang="ts">
 import Vue from 'vue';
+import Component from 'vue-class-component';
 
-export default Vue.extend({
-  name: 'disco',
-});
+@Component
+export default class Disco extends Vue {}
 </script>
 
 <style scoped>
