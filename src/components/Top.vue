@@ -58,11 +58,14 @@ export default Vue.extend({
       });
     },
     countUp() {
-      database.ref('access_counter').once('value').then((snapshot) => {
-        const accessCount = parseInt(snapshot.val(), 10) + 1;
-        database.ref().update({ access_counter: accessCount });
-        this.accessCounter = accessCount;
-      });
+      database
+        .ref('access_counter')
+        .once('value')
+        .then((snapshot) => {
+          const accessCount = parseInt(snapshot.val(), 10) + 1;
+          database.ref().update({ access_counter: accessCount });
+          this.accessCounter = accessCount;
+        });
     },
   },
 });
@@ -70,7 +73,8 @@ export default Vue.extend({
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
+h1,
+h2 {
   font-weight: normal;
 }
 
@@ -82,7 +86,7 @@ h1, h2 {
 }
 
 .marquee::after {
-  content: "";
+  content: '';
   white-space: nowrap;
   display: inline-block;
 }
@@ -104,8 +108,14 @@ h1, h2 {
 }
 
 @keyframes marquee {
-    0% { left: 100%; transform: translate(0); }
-  100% { left: 0; transform: translate(-100%); }
+  0% {
+    left: 100%;
+    transform: translate(0);
+  }
+  100% {
+    left: 0;
+    transform: translate(-100%);
+  }
 }
 
 .blink {
@@ -114,11 +124,15 @@ h1, h2 {
 }
 
 @keyframes blink {
-  75% { opacity: 0.0; }
+  75% {
+    opacity: 0;
+  }
 }
 
 @-webkit-keyframes blink {
-  75% { opacity: 0.0; }
+  75% {
+    opacity: 0;
+  }
 }
 
 .circle-cut {
@@ -130,5 +144,4 @@ section {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-
 </style>

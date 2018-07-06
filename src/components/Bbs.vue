@@ -37,23 +37,22 @@ import moment from 'moment';
 import Vue from 'vue';
 import database from '../firebase-config.ts';
 
-
 interface Message {
-  name: string,
-  message: string,
-  createdAt: Date,
-  sortKey: number
+  name: string;
+  message: string;
+  createdAt: Date;
+  sortKey: number;
 }
 
 interface BbsData {
-  messageList: Message[],
-  name: string,
-  message: string
+  messageList: Message[];
+  name: string;
+  message: string;
 }
 
 export default Vue.extend({
   name: 'bbs',
-  data() :BbsData {
+  data(): BbsData {
     return {
       messageList: [],
       name: '',
@@ -70,7 +69,7 @@ export default Vue.extend({
           const list = snapshot.val();
           const keys = Object.keys(list);
 
-          const values = keys.map(v => list[v]);
+          const values = keys.map((v) => list[v]);
           this.messageList = values.sort((a, b) => {
             if (a.sortKey > b.sortKey) return 1;
             if (a.sortKey < b.sortKey) return -1;
@@ -86,7 +85,7 @@ export default Vue.extend({
         name: this.name,
         message: this.message,
         createdAt: moment(new Date()).format('YYYY/MM/DD H:mm:ss'),
-        sortKey: -(new Date()),
+        sortKey: -new Date(),
       });
 
       this.name = '';
@@ -97,61 +96,61 @@ export default Vue.extend({
 </script>
 
 <style scoped>
+.message-form {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+@media all and (min-width: 480px) {
   .message-form {
-    padding: 10px;
-    box-sizing: border-box;
+    width: 400px;
+    margin: auto;
   }
+}
 
-  @media all and (min-width: 480px) {
-    .message-form {
-      width: 400px;
-      margin: auto;
-    }
-  }
+.message-form-group {
+  margin-bottom: 10px;
+}
 
-  .message-form-group {
-    margin-bottom: 10px;
-  }
+.message-form-group label {
+  font-weight: bold;
+}
 
-  .message-form-group label {
-    font-weight: bold;
-  }
+.message-form-group input {
+  display: block;
+  box-sizing: border-box;
+  padding: 5px;
+  width: 100%;
+}
 
-  .message-form-group input {
-    display: block;
-    box-sizing: border-box;
-    padding: 5px;
-    width: 100%;
-  }
+.message-form button {
+  background-color: gray;
+  width: 100px;
+  color: white;
+  padding: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
 
-  .message-form button {
-    background-color: gray;
-    width: 100px;
-    color: white;
-    padding: 5px;
-    margin-right: 10px;
-    margin-left: 10px;
-  }
+.message-list {
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+  text-align: left;
+  max-width: 90%;
+}
 
-  .message-list {
-    padding: 0;
-    margin-left: auto;
-    margin-right: auto;
-    list-style: none;
-    text-align: left;
-    max-width: 90%;
-  }
+.message-list li {
+  position: relative;
+  background-color: white;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+}
 
-  .message-list li {
-    position: relative;
-    background-color: white;
-    padding: 5px 10px;
-    margin-bottom: 5px;
-  }
-
-  .message-list .time-label {
-    font-size: smaller;
-    text-align: right;
-    margin-bottom: 0;
-  }
+.message-list .time-label {
+  font-size: smaller;
+  text-align: right;
+  margin-bottom: 0;
+}
 </style>

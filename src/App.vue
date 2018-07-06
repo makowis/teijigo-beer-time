@@ -37,7 +37,7 @@ export default Vue.extend({
 
 body {
   margin: 0;
-  background-image: url("./assets/bg.png");
+  background-image: url('./assets/bg.png');
 }
 
 footer {
