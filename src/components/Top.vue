@@ -28,6 +28,11 @@
         ★★★★★一言掲示板★★★★★
       </router-link>
     </p>
+    <p>
+      <router-link to="/member">
+        🍺🍺🍺🍺️メンバー紹介🍺🍺🍺🍺
+      </router-link>
+    </p>
   </div>
 </template>
 
