@@ -40,7 +40,7 @@
 import Vue from 'vue';
 import Component from 'vue-class-component';
 import firebase from 'firebase';
-import database from '../firebase-config.ts';
+import database from '../firebase-config';
 
 @Component
 export default class Top extends Vue {

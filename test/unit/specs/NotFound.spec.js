@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import NotFound from '@/components/NotFound';
-import router from '@/router/index.ts';
+import router from '@/router/index';
 
 describe('NotFound.vue', () => {
   it('should render correct contents', () => {

@@ -23,7 +23,7 @@
 <script lang="ts">
 import Vue from 'vue';
 import Component from 'vue-class-component';
-import members from '@/resources/members.ts';
+import members from '@/resources/members';
 
 @Component
 export default class Member extends Vue {
