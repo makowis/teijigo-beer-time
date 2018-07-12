@@ -10,39 +10,10 @@
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td>さかもとP</td>
-          <td>プロデューサー</td>
-          <td>準備中</td>
-        </tr>
-        <tr>
-          <td>ビール飲まない社員K</td>
-          <td>
-            人の褌や自分の褌で相撲を取ったりする
-            <br>
-            （主にトラックメーカー）
-          </td>
-          <td>
-            ビールじゃなくてハイボールなら飲みます。
-            <br>
-            定時後ハイボールタイム、よろしこ
-          </td>
-        </tr>
-        <tr>
-          <td>yokizo</td>
-          <td>えらそーにする</td>
-          <td>リハビリ中で戦力になれないので、えらそーにしてます。</td>
-        </tr>
-        <tr>
-          <td>管理人MAKO</td>
-          <td>サイトの管理とお茶汲み</td>
-          <td>
-            サイトの管理人です。
-            <br>
-            音楽作れないのでホムペ担当になりました。
-            <br>
-            昔懐かしい雰囲気のサイトを作って行きたいと思います！
-          </td>
+        <tr v-for="member in members" v-bind:key="member.name">
+          <td>{{member.name}}</td>
+          <td v-html="member.charge"></td>
+          <td v-html="member.profile"></td>
         </tr>
       </tbody>
     </table>
@@ -52,9 +23,12 @@
 <script lang="ts">
 import Vue from 'vue';
 import Component from 'vue-class-component';
+import members from '@/resources/members.ts';
 
 @Component
-export default class Member extends Vue {}
+export default class Member extends Vue {
+  members = members;
+}
 </script>
 
 <style scoped>
