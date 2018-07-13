@@ -9,8 +9,8 @@ export interface Member {
 const sakamotop =
   {
     name: 'さかもとP',
-    charge: 'プロデューサー',
-    profile: '準備中',
+    charge: 'なばかりプロデューサー兼テイジゴビールタイマー',
+    profile: 'ビール大好き！！！！！！',
   };
 
 const noBeerK =
@@ -49,13 +49,21 @@ const shacho =
   profile: `コネをフル活用して良い作品を作ります！`,
 }
 
+const kero =
+{
+  name: 'ケロ',
+  charge: 'ミュージさん',
+  profile: `ウィットに富んだフレキシブルな音楽でナウなヤングにバカウケ`,
+}
+
 
 export const members: Member[] = [
   sakamotop,
   noBeerK,
   yukizo,
-  mako,
   shacho,
+  kero,
+  mako,
 ];
 
 export default members;
