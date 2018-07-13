@@ -42,11 +42,20 @@ const mako =
 昔懐かしい雰囲気のサイトを作って行きたいと思います！`,
 }
 
+const shacho =
+{
+  name: 'しゃちょー',
+  charge: 'ProTooler',
+  profile: `コネをフル活用して良い作品を作ります！`,
+}
+
+
 export const members: Member[] = [
   sakamotop,
   noBeerK,
   yukizo,
   mako,
+  shacho,
 ];
 
 export default members;
