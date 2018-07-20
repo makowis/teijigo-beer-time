@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Member.vue should match the snapshot 1`] = `
+<div
+  class="member"
+>
+  <h1>
+    MEMBER
+  </h1>
+   
+  <table
+    class="member-table"
+  >
+    <thead>
+      <tr>
+        <th>
+          名前
+        </th>
+         
+        <th>
+          担当
+        </th>
+         
+        <th>
+          自己紹介
+        </th>
+      </tr>
+    </thead>
+     
+    <tbody>
+      <tr>
+        <td>
+          さかもとP
+        </td>
+         
+        <td>
+          なばかりプロデューサー兼テイジゴビールタイマー
+        </td>
+         
+        <td>
+          ビール大好き！！！！！！
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ビール飲まない社員K
+        </td>
+         
+        <td>
+          人の褌や自分の褌で相撲を取ったりする
+
+          <br />
+          
+（主にトラックメーカー）
+        </td>
+         
+        <td>
+          ビールじゃなくてハイボールなら飲みます。
+
+          <br />
+          
+定時後ハイボールタイム、よろしこ
+        </td>
+      </tr>
+      <tr>
+        <td>
+          yokizo
+        </td>
+         
+        <td>
+          えらそーにする
+        </td>
+         
+        <td>
+          リハビリ中で戦力になれないので、えらそーにしてます。
+        </td>
+      </tr>
+      <tr>
+        <td>
+          しゃちょー
+        </td>
+         
+        <td>
+          ProTooler
+        </td>
+         
+        <td>
+          コネをフル活用して良い作品を作ります！
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ケロ
+        </td>
+         
+        <td>
+          ミュージさん
+        </td>
+         
+        <td>
+          ウィットに富んだフレキシブルな音楽でナウなヤングにバカウケ
+        </td>
+      </tr>
+      <tr>
+        <td>
+          管理人MAKO
+        </td>
+         
+        <td>
+          サイトの管理とお茶汲み
+        </td>
+         
+        <td>
+          サイトの管理人です。
+
+          <br />
+          
+音楽作れないのでホムペ担当になりました。
+
+          <br />
+          
+昔懐かしい雰囲気のサイトを作って行きたいと思います！
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
