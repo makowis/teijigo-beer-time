@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import Disco from '@/components/Disco';
+import Disco from '@/components/pages/Disco';
 import router from '@/router/index';
 
 describe('Disco.vue', () => {

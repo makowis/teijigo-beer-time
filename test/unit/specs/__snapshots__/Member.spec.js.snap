@@ -2,127 +2,209 @@
 
 exports[`Member.vue should match the snapshot 1`] = `
 <div
-  class="member"
+  id="app"
 >
-  <h1>
-    MEMBER
-  </h1>
-   
-  <table
-    class="member-table"
+  <nav
+    id="menu-container"
   >
-    <thead>
-      <tr>
-        <th>
-          名前
-        </th>
-         
-        <th>
-          担当
-        </th>
-         
-        <th>
-          自己紹介
-        </th>
-      </tr>
-    </thead>
+    <ul
+      class="menu"
+    >
+      <li
+        class="menu-item"
+      >
+        <a
+          class="router-link-active"
+          href="/"
+        >
+          
+          トップ
+        
+        </a>
+      </li>
+       
+      <li
+        class="menu-item"
+      >
+        <a
+          class=""
+          href="/disco"
+        >
+          
+          DISCOGRAPHY
+        
+        </a>
+      </li>
+       
+      <li
+        class="menu-item"
+      >
+        <a
+          class=""
+          href="/member"
+        >
+          
+          メンバー紹介
+        
+        </a>
+      </li>
+       
+      <li
+        class="menu-item"
+      >
+        <a
+          class=""
+          href="/bbs"
+        >
+          
+          一言掲示板
+        
+        </a>
+      </li>
+    </ul>
+  </nav>
+   
+  <div
+    id="main-container"
+  >
+    <a
+      class="router-link-active"
+      href="/"
+    >
+      <img
+        class="logo"
+        src="@/assets/logo_1.png"
+      />
+    </a>
      
-    <tbody>
-      <tr>
-        <td>
-          さかもとP
-        </td>
+    <div
+      class="member"
+    >
+      <!---->
+       
+      <table
+        class="member-table"
+      >
+        <thead>
+          <tr>
+            <th>
+              名前
+            </th>
+             
+            <th>
+              担当
+            </th>
+             
+            <th>
+              自己紹介
+            </th>
+          </tr>
+        </thead>
          
-        <td>
-          なばかりプロデューサー兼テイジゴビールタイマー
-        </td>
-         
-        <td>
-          ビール大好き！！！！！！
-        </td>
-      </tr>
-      <tr>
-        <td>
-          ビール飲まない社員K
-        </td>
-         
-        <td>
-          人の褌や自分の褌で相撲を取ったりする
+        <tbody>
+          <tr>
+            <td>
+              さかもとP
+            </td>
+             
+            <td>
+              なばかりプロデューサー兼テイジゴビールタイマー
+            </td>
+             
+            <td>
+              ビール大好き！！！！！！
+            </td>
+          </tr>
+          <tr>
+            <td>
+              ビール飲まない社員K
+            </td>
+             
+            <td>
+              人の褌や自分の褌で相撲を取ったりする
 
-          <br />
-          
+              <br />
+              
 （主にトラックメーカー）
-        </td>
-         
-        <td>
-          ビールじゃなくてハイボールなら飲みます。
+            </td>
+             
+            <td>
+              ビールじゃなくてハイボールなら飲みます。
 
-          <br />
-          
+              <br />
+              
 定時後ハイボールタイム、よろしこ
-        </td>
-      </tr>
-      <tr>
-        <td>
-          yokizo
-        </td>
-         
-        <td>
-          えらそーにする
-        </td>
-         
-        <td>
-          リハビリ中で戦力になれないので、えらそーにしてます。
-        </td>
-      </tr>
-      <tr>
-        <td>
-          しゃちょー
-        </td>
-         
-        <td>
-          ProTooler
-        </td>
-         
-        <td>
-          コネをフル活用して良い作品を作ります！
-        </td>
-      </tr>
-      <tr>
-        <td>
-          ケロ
-        </td>
-         
-        <td>
-          ミュージさん
-        </td>
-         
-        <td>
-          ウィットに富んだフレキシブルな音楽でナウなヤングにバカウケ
-        </td>
-      </tr>
-      <tr>
-        <td>
-          管理人MAKO
-        </td>
-         
-        <td>
-          サイトの管理とお茶汲み
-        </td>
-         
-        <td>
-          サイトの管理人です。
+            </td>
+          </tr>
+          <tr>
+            <td>
+              yokizo
+            </td>
+             
+            <td>
+              えらそーにする
+            </td>
+             
+            <td>
+              リハビリ中で戦力になれないので、えらそーにしてます。
+            </td>
+          </tr>
+          <tr>
+            <td>
+              しゃちょー
+            </td>
+             
+            <td>
+              ProTooler
+            </td>
+             
+            <td>
+              コネをフル活用して良い作品を作ります！
+            </td>
+          </tr>
+          <tr>
+            <td>
+              ケロ
+            </td>
+             
+            <td>
+              ミュージさん
+            </td>
+             
+            <td>
+              ウィットに富んだフレキシブルな音楽でナウなヤングにバカウケ
+            </td>
+          </tr>
+          <tr>
+            <td>
+              管理人MAKO
+            </td>
+             
+            <td>
+              サイトの管理とお茶汲み
+            </td>
+             
+            <td>
+              サイトの管理人です。
 
-          <br />
-          
+              <br />
+              
 音楽作れないのでホムペ担当になりました。
 
-          <br />
-          
+              <br />
+              
 昔懐かしい雰囲気のサイトを作って行きたいと思います！
-        </td>
-      </tr>
-    </tbody>
-  </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+     
+    <footer>
+      <p>
+        ©定時後ビールタイム
+      </p>
+    </footer>
+  </div>
 </div>
 `;
