@@ -99,9 +99,4 @@ export default class Top extends Vue {
     opacity: 0;
   }
 }
-
-section {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
 </style>
