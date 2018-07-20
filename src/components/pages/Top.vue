@@ -5,14 +5,7 @@
       <tbt-marquee>
         M3-2018秋 参戦予定！！！！衝撃のデビューを見逃すな！！！！
       </tbt-marquee>
-      <section>
-        <tbt-h2>アクセスカウンター</tbt-h2>
-        <p>あなたは{{ accessCounter }}人目の訪問者です。</p>
-        <p>現在の累計訪問者数は{{ realtimeCounter }}人です。</p>
-        <small>
-          <router-link to="/bbs">キリ番報告はこちらで！！！</router-link>
-        </small>
-      </section>
+      <tbt-access-counter-section v-bind="counter" />
       <section>
         <tbt-h2>サークルカット</tbt-h2>
         <img class="circle-cut" src="@/assets/cut.png" alt="サークルカット">
@@ -45,6 +38,7 @@ import DefaultTemplate from '@/components/templates/Default';
 import TbtH1 from '@/components/atoms/TbtH1';
 import TbtH2 from '@/components/atoms/TbtH2';
 import TbtMarquee from '@/components/atoms/TbtMarquee';
+import TbtAccessCounterSection from '@/components/organisms/TbtAccessCounterSection';
 
 @Component({
   components: {
@@ -52,12 +46,12 @@ import TbtMarquee from '@/components/atoms/TbtMarquee';
     TbtH1,
     TbtH2,
     TbtMarquee,
+    TbtAccessCounterSection,
   },
 })
 export default class Top extends Vue {
   msg: string = '定時後ビールタイム公式サイト';
-  accessCounter: number = 0;
-  realtimeCounter: number = 0;
+  counter = { access: 0, realtime: 0 };
 
   created() {
     this.countUp();
@@ -69,8 +63,8 @@ export default class Top extends Vue {
       .ref('access_counter')
       .on('value', (snapshot: firebase.database.DataSnapshot | null) => {
         if (snapshot) {
-          const accessCount = parseInt(snapshot.val(), 10);
-          this.realtimeCounter = accessCount;
+          const realtime = parseInt(snapshot.val(), 10);
+          this.counter = { ...this.counter, realtime };
         }
       });
   }
@@ -81,9 +75,9 @@ export default class Top extends Vue {
       .once('value')
       .then((snapshot: firebase.database.DataSnapshot | null) => {
         if (snapshot) {
-          const accessCount = parseInt(snapshot.val(), 10) + 1;
-          database.ref().update({ access_counter: accessCount });
-          this.accessCounter = accessCount;
+          const access = parseInt(snapshot.val(), 10) + 1;
+          database.ref().update({ access_counter: access });
+          this.counter = { ...this.counter, access };
         }
       });
   }
