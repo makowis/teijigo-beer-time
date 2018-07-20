@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Bbs.vue should match the snapshot 1`] = `
+<div
+  class="bbs"
+>
+  <h1>
+    一言掲示板
+  </h1>
+   
+  <p>
+    
+    足跡や、あいさつ、キリ番報告、等に使用していただいて構いません。
+    
+    <br />
+    
+    誹謗中傷、個人情報などの書き込みはご遠慮ください。
+  
+  </p>
+   
+  <div
+    class="message-form"
+  >
+    <div
+      class="message-form-group"
+    >
+      <label
+        for="nameInput"
+      >
+        HN(ハンドルネーム)
+      </label>
+       
+      <input
+        id="nameInput"
+        maxlength="20"
+        type="text"
+      />
+    </div>
+     
+    <div
+      class="message-form-group"
+    >
+      <label
+        for="messageInput"
+      >
+        メッセージ
+      </label>
+       
+      <input
+        id="messageInput"
+        maxlength="100"
+        type="text"
+      />
+    </div>
+     
+    <button
+      type="button"
+    >
+      送信
+    </button>
+  </div>
+   
+  <div>
+    <ul
+      class="message-list"
+    />
+  </div>
+</div>
+`;

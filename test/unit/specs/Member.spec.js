@@ -1,10 +1,9 @@
 import Vue from 'vue';
-import Top from '@/components/Top';
+import Member from '@/components/Member';
 import router from '@/router/index';
 
-describe('Top.vue', () => {
-
-  const Constructor = Vue.extend(Top);
+describe('Member.vue', () => {
+  const Constructor = Vue.extend(Member);
   const vm = new Constructor({ router }).$mount();
 
   it('should match the snapshot', () => {

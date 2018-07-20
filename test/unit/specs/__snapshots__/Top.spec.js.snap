@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Top.vue should match the snapshot 1`] = `
+<div
+  class="top"
+>
+  <h1
+    class="blink"
+  >
+    定時後ビールタイム公式サイト
+  </h1>
+   
+  <div
+    class="marquee"
+  >
+    <div
+      class="marquee-inner"
+    >
+      
+      M3-2018秋 参戦予定！！！！衝撃のデビューを見逃すな！！！！
+    
+    </div>
+  </div>
+   
+  <section>
+    <h2>
+      アクセスカウンター
+    </h2>
+     
+    <p>
+      あなたは0人目の訪問者です。
+    </p>
+     
+    <p>
+      現在の累計訪問者数は0人です。
+    </p>
+     
+    <small>
+      <a
+        class=""
+        href="/bbs"
+      >
+        キリ番報告はこちらで！！！
+      </a>
+    </small>
+  </section>
+   
+  <section>
+    <h2>
+      サークルカット
+    </h2>
+     
+    <img
+      alt="サークルカット"
+      class="circle-cut"
+      src="../assets/cut.png"
+    />
+  </section>
+   
+  <p>
+    <a
+      class=""
+      href="/disco"
+    >
+      
+      ＞＞＞＞DISCOGRAPHY＜＜＜＜
+    
+    </a>
+  </p>
+   
+  <p>
+    <a
+      class=""
+      href="/bbs"
+    >
+      
+      ★★★★★一言掲示板★★★★★
+    
+    </a>
+  </p>
+   
+  <p>
+    <a
+      class=""
+      href="/member"
+    >
+      
+      🍺🍺🍺🍺️メンバー紹介🍺🍺🍺🍺
+    
+    </a>
+  </p>
+</div>
+`;
