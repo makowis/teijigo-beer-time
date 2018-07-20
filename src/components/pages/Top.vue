@@ -8,7 +8,7 @@
         </div>
       </div>
       <section>
-        <h2>アクセスカウンター</h2>
+        <tbt-h2>アクセスカウンター</tbt-h2>
         <p>あなたは{{ accessCounter }}人目の訪問者です。</p>
         <p>現在の累計訪問者数は{{ realtimeCounter }}人です。</p>
         <small>
@@ -16,7 +16,7 @@
         </small>
       </section>
       <section>
-        <h2>サークルカット</h2>
+        <tbt-h2>サークルカット</tbt-h2>
         <img class="circle-cut" src="@/assets/cut.png" alt="サークルカット">
       </section>
       <p>
@@ -45,11 +45,13 @@ import firebase from 'firebase';
 import database from '@/firebase-config';
 import DefaultTemplate from '@/components/templates/Default';
 import TbtH1 from '@/components/atoms/TbtH1';
+import TbtH2 from '@/components/atoms/TbtH2';
 
 @Component({
   components: {
     DefaultTemplate,
     TbtH1,
+    TbtH2,
   },
 })
 export default class Top extends Vue {
@@ -90,10 +92,6 @@ export default class Top extends Vue {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h2 {
-  font-weight: normal;
-}
-
 .marquee {
   overflow: hidden;
   position: relative;
