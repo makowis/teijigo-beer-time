@@ -24,7 +24,7 @@
         </li>
       </ul>
     </nav>
-    <div id="main-content">
+    <div id="main-container">
       <router-link to="/">
         <img class="logo" src="./assets/logo_1.png">
       </router-link>
@@ -60,7 +60,7 @@ export default Vue.extend({
   box-sizing: border-box;
 }
 
-#main-content {
+#main-container {
   width: 80%;
   padding-top: 60px;
   text-align: center;
@@ -89,7 +89,7 @@ export default Vue.extend({
     display: block;
   }
 
-  #main-content {
+  #main-container {
     width: 100%;
     padding-top: 20px;
     border-top: 1px solid black;
