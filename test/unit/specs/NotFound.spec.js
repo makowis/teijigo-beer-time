@@ -3,10 +3,10 @@ import NotFound from '@/components/NotFound';
 import router from '@/router/index';
 
 describe('NotFound.vue', () => {
-  it('should render correct contents', () => {
-    const Constructor = Vue.extend(NotFound);
-    const vm = new Constructor({ router }).$mount();
-    expect(vm.$el.querySelector('.not-found h1').textContent)
-      .toEqual('404 NOT FOUND');
+  const Constructor = Vue.extend(NotFound);
+  const vm = new Constructor({ router }).$mount();
+
+  it('should match the snapshot', () => {
+    expect(vm.$el).toMatchSnapshot()
   });
 });
