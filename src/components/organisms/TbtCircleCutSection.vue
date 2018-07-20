@@ -1,7 +1,7 @@
 <template>
   <section>
     <tbt-h2>サークルカット</tbt-h2>
-    <img :class="$style.circleCut" src="@/assets/cut.png" alt="サークルカット">
+    <tbt-circle-cut-img :class="$style.circleCut" />
   </section>
 </template>
 
@@ -9,10 +9,12 @@
 import Vue from 'vue';
 import Component from 'vue-class-component';
 import TbtH2 from '@/components/atoms/TbtH2';
+import TbtCircleCutImg from '@/components/atoms/TbtCircleCutImg';
 
 @Component({
   components: {
     TbtH2,
+    TbtCircleCutImg,
   },
 })
 export default class TbtAccessCounterSection extends Vue {}
