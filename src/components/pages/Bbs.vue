@@ -1,7 +1,7 @@
 <template>
   <default-template>
     <div class="bbs">
-      <h1>一言掲示板</h1>
+      <tbt-h1>一言掲示板</tbt-h1>
       <p>
         足跡や、あいさつ、キリ番報告、等に使用していただいて構いません。
         <br>
@@ -39,6 +39,7 @@ import moment from 'moment';
 import Vue from 'vue';
 import Component from 'vue-class-component';
 import DefaultTemplate from '@/components/templates/Default';
+import TbtH1 from '@/components/atoms/TbtH1';
 import firebase from 'firebase';
 import database from '@/firebase-config';
 
@@ -58,6 +59,7 @@ interface BbsData {
 @Component({
   components: {
     DefaultTemplate,
+    TbtH1,
   },
 })
 export default class Bbs extends Vue implements BbsData {

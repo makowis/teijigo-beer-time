@@ -1,7 +1,7 @@
 <template>
   <default-template>
     <div class="top">
-      <h1 class="blink">{{ msg }}</h1>
+      <tbt-h1 class="blink">{{ msg }}</tbt-h1>
       <div class="marquee">
         <div class="marquee-inner">
           M3-2018秋 参戦予定！！！！衝撃のデビューを見逃すな！！！！
@@ -44,10 +44,12 @@ import Component from 'vue-class-component';
 import firebase from 'firebase';
 import database from '@/firebase-config';
 import DefaultTemplate from '@/components/templates/Default';
+import TbtH1 from '@/components/atoms/TbtH1';
 
 @Component({
   components: {
     DefaultTemplate,
+    TbtH1,
   },
 })
 export default class Top extends Vue {
@@ -88,7 +90,6 @@ export default class Top extends Vue {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1,
 h2 {
   font-weight: normal;
 }

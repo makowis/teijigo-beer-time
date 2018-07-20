@@ -1,7 +1,7 @@
 <template>
   <default-template>
     <div class="member">
-      <h1>MEMBER</h1>
+      <tbt-h1>MEMBER</tbt-h1>
       <table class="member-table">
         <thead>
           <tr>
@@ -27,10 +27,12 @@ import Vue from 'vue';
 import Component from 'vue-class-component';
 import members from '@/resources/members';
 import DefaultTemplate from '@/components/templates/Default';
+import TbtH1 from '@/components/atoms/TbtH1';
 
 @Component({
   components: {
     DefaultTemplate,
+    TbtH1,
   },
 })
 export default class Member extends Vue {
