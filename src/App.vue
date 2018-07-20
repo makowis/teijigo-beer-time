@@ -62,13 +62,15 @@ export default Vue.extend({
 
 #main-container {
   width: 80%;
+  margin-left: 20%;
+  border-left: 5px solid gainsboro;
   padding-top: 60px;
   text-align: center;
 }
 
 #menu-container {
+  position: fixed;
   width: 20%;
-  border-right: 5px solid gainsboro;
   padding-top: 60px;
 }
 
@@ -92,21 +94,27 @@ export default Vue.extend({
   #main-container {
     width: 100%;
     padding-top: 20px;
+    margin: 0;
     border-top: 1px solid black;
+    border-left: none;
   }
 
   #menu-container {
+    position: relative;
     width: 100%;
-    padding-top: 20px;
-    border-right: none;
+    padding-top: 0;
     border-bottom: 5px solid gainsboro;
   }
 
   #menu-container .menu {
-    display: flex;
     justify-content: space-around;
-    margin: 0;
+    margin: 10px;
     padding: 0;
+  }
+
+  #menu-container .menu .menu-item {
+    display: inline-block;
+    margin-bottom: 10px;
   }
 }
 
