@@ -1,48 +1,55 @@
 <template>
-  <div class="top">
-    <h1 class="blink">{{ msg }}</h1>
-    <div class="marquee">
-      <div class="marquee-inner">
-        M3-2018秋 参戦予定！！！！衝撃のデビューを見逃すな！！！！
+  <default-template>
+    <div class="top">
+      <h1 class="blink">{{ msg }}</h1>
+      <div class="marquee">
+        <div class="marquee-inner">
+          M3-2018秋 参戦予定！！！！衝撃のデビューを見逃すな！！！！
+        </div>
       </div>
+      <section>
+        <h2>アクセスカウンター</h2>
+        <p>あなたは{{ accessCounter }}人目の訪問者です。</p>
+        <p>現在の累計訪問者数は{{ realtimeCounter }}人です。</p>
+        <small>
+          <router-link to="/bbs">キリ番報告はこちらで！！！</router-link>
+        </small>
+      </section>
+      <section>
+        <h2>サークルカット</h2>
+        <img class="circle-cut" src="@/assets/cut.png" alt="サークルカット">
+      </section>
+      <p>
+        <router-link to="/disco">
+          ＞＞＞＞DISCOGRAPHY＜＜＜＜
+        </router-link>
+      </p>
+      <p>
+        <router-link to="/bbs">
+          ★★★★★一言掲示板★★★★★
+        </router-link>
+      </p>
+      <p>
+        <router-link to="/member">
+          🍺🍺🍺🍺️メンバー紹介🍺🍺🍺🍺
+        </router-link>
+      </p>
     </div>
-    <section>
-      <h2>アクセスカウンター</h2>
-      <p>あなたは{{ accessCounter }}人目の訪問者です。</p>
-      <p>現在の累計訪問者数は{{ realtimeCounter }}人です。</p>
-      <small>
-        <router-link to="/bbs">キリ番報告はこちらで！！！</router-link>
-      </small>
-    </section>
-    <section>
-      <h2>サークルカット</h2>
-      <img class="circle-cut" src="../assets/cut.png" alt="サークルカット">
-    </section>
-    <p>
-      <router-link to="/disco">
-        ＞＞＞＞DISCOGRAPHY＜＜＜＜
-      </router-link>
-    </p>
-    <p>
-      <router-link to="/bbs">
-        ★★★★★一言掲示板★★★★★
-      </router-link>
-    </p>
-    <p>
-      <router-link to="/member">
-        🍺🍺🍺🍺️メンバー紹介🍺🍺🍺🍺
-      </router-link>
-    </p>
-  </div>
+  </default-template>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
 import Component from 'vue-class-component';
 import firebase from 'firebase';
-import database from '../firebase-config';
+import database from '@/firebase-config';
+import DefaultTemplate from '@/components/templates/Default';
 
-@Component
+@Component({
+  components: {
+    DefaultTemplate,
+  },
+})
 export default class Top extends Vue {
   msg: string = '定時後ビールタイム公式サイト';
   accessCounter: number = 0;
