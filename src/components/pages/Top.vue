@@ -6,10 +6,7 @@
         M3-2018秋 参戦予定！！！！衝撃のデビューを見逃すな！！！！
       </tbt-marquee>
       <tbt-access-counter-section v-bind="counter" />
-      <section>
-        <tbt-h2>サークルカット</tbt-h2>
-        <img class="circle-cut" src="@/assets/cut.png" alt="サークルカット">
-      </section>
+      <tbt-circle-cut-section />
       <p>
         <router-link to="/disco">
           ＞＞＞＞DISCOGRAPHY＜＜＜＜
@@ -36,17 +33,17 @@ import firebase from 'firebase';
 import database from '@/firebase-config';
 import DefaultTemplate from '@/components/templates/Default';
 import TbtH1 from '@/components/atoms/TbtH1';
-import TbtH2 from '@/components/atoms/TbtH2';
 import TbtMarquee from '@/components/atoms/TbtMarquee';
 import TbtAccessCounterSection from '@/components/organisms/TbtAccessCounterSection';
+import TbtCircleCutSection from '@/components/organisms/TbtCircleCutSection';
 
 @Component({
   components: {
     DefaultTemplate,
     TbtH1,
-    TbtH2,
     TbtMarquee,
     TbtAccessCounterSection,
+    TbtCircleCutSection,
   },
 })
 export default class Top extends Vue {
@@ -101,11 +98,6 @@ export default class Top extends Vue {
   75% {
     opacity: 0;
   }
-}
-
-.circle-cut {
-  width: 200px;
-  max-width: 100%;
 }
 
 section {
