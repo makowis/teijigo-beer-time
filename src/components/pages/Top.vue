@@ -31,11 +31,11 @@ import Vue from 'vue';
 import Component from 'vue-class-component';
 import firebase from 'firebase';
 import database from '@/firebase-config';
-import DefaultTemplate from '@/components/templates/Default';
-import TbtH1 from '@/components/atoms/TbtH1';
-import TbtMarquee from '@/components/atoms/TbtMarquee';
-import TbtAccessCounterSection from '@/components/organisms/TbtAccessCounterSection';
-import TbtCircleCutSection from '@/components/organisms/TbtCircleCutSection';
+import DefaultTemplate from '@/components/templates/Default.vue';
+import TbtH1 from '@/components/atoms/TbtH1.vue';
+import TbtMarquee from '@/components/atoms/TbtMarquee.vue';
+import TbtAccessCounterSection from '@/components/organisms/TbtAccessCounterSection.vue';
+import TbtCircleCutSection from '@/components/organisms/TbtCircleCutSection.vue';
 
 @Component({
   components: {

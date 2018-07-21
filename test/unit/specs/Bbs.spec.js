@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import Bbs from '@/components/pages/Bbs';
+import Bbs from '@/components/pages/Bbs.vue';
 import router from '@/router/index';
 
 describe('Bbs.vue', () => {

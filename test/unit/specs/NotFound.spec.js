@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import NotFound from '@/components/pages/NotFound';
+import NotFound from '@/components/pages/NotFound.vue';
 import router from '@/router/index';
 
 describe('NotFound.vue', () => {

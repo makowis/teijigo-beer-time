@@ -26,8 +26,8 @@
 import Vue from 'vue';
 import Component from 'vue-class-component';
 import members from '@/resources/members';
-import DefaultTemplate from '@/components/templates/Default';
-import TbtH1 from '@/components/atoms/TbtH1';
+import DefaultTemplate from '@/components/templates/Default.vue';
+import TbtH1 from '@/components/atoms/TbtH1.vue';
 
 @Component({
   components: {

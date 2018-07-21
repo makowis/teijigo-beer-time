@@ -12,8 +12,8 @@
 <script lang="ts">
 import Vue from 'vue';
 import Component from 'vue-class-component';
-import TbtH2 from '@/components/atoms/TbtH2';
-import TbtSection from '@/components/atoms/TbtSection';
+import TbtH2 from '@/components/atoms/TbtH2.vue';
+import TbtSection from '@/components/atoms/TbtSection.vue';
 
 @Component({
   props: ['access', 'realtime'],
