@@ -9,6 +9,9 @@
     "noImplicitThis": true,
     "baseUrl": "",
     "paths": {
+      "@/*": [
+        "src/*"
+      ],
       "vue": [
         "/node_modules/vue/types/index"
       ],
@@ -19,7 +22,8 @@
     "experimentalDecorators": true
   },
   "include": [
-    "src/**/*"
+    "src/**/*",
+    "src/**/*.vue"
   ],
   "exclude": [
     "node_modules"
