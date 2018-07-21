@@ -80,7 +80,11 @@ exports[`NotFound.vue should match the snapshot 1`] = `
     <div
       class="not-found"
     >
-      <!---->
+      <h1
+        class="h1"
+      >
+        404 NOT FOUND
+      </h1>
        
       <p>
         このページは存在しません。

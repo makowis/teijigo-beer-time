@@ -80,7 +80,11 @@ exports[`Member.vue should match the snapshot 1`] = `
     <div
       class="member"
     >
-      <!---->
+      <h1
+        class="h1"
+      >
+        MEMBER
+      </h1>
        
       <table
         class="member-table"

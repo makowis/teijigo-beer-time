@@ -80,7 +80,11 @@ exports[`Bbs.vue should match the snapshot 1`] = `
     <div
       class="bbs"
     >
-      <!---->
+      <h1
+        class="h1"
+      >
+        一言掲示板
+      </h1>
        
       <p>
         
