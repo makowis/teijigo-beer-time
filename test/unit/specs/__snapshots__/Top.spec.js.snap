@@ -80,13 +80,66 @@ exports[`Top.vue should match the snapshot 1`] = `
     <div
       class="top"
     >
-      <!---->
+      <h1
+        class="blink h1"
+      >
+        定時後ビールタイム公式サイト
+      </h1>
        
-      <!---->
+      <div
+        class="marquee"
+      >
+        <div
+          class="marqueeInner"
+        >
+          
+      M3-2018秋 参戦予定！！！！衝撃のデビューを見逃すな！！！！
+    
+        </div>
+      </div>
        
-      <!---->
+      <section
+        class="section"
+      >
+        <h2
+          class="h2"
+        >
+          アクセスカウンター
+        </h2>
+         
+        <p>
+          あなたは0人目の訪問者です。
+        </p>
+         
+        <p>
+          現在の累計訪問者数は0人です。
+        </p>
+         
+        <small>
+          <a
+            class=""
+            href="/bbs"
+          >
+            キリ番報告はこちらで！！！
+          </a>
+        </small>
+      </section>
        
-      <!---->
+      <section
+        class="section"
+      >
+        <h2
+          class="h2"
+        >
+          サークルカット
+        </h2>
+         
+        <img
+          alt="サークルカット"
+          class="circleCut"
+          src="@/assets/cut.png"
+        />
+      </section>
        
       <p>
         <a

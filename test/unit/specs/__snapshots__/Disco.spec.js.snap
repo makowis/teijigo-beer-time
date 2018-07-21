@@ -80,7 +80,11 @@ exports[`Disco.vue should match the snapshot 1`] = `
     <div
       class="disco"
     >
-      <!---->
+      <h1
+        class="h1"
+      >
+        DISCOGRAPHY
+      </h1>
        
       <p>
         ★★★★★★★工事中★★★★★★★
