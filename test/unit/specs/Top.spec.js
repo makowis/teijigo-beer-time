@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import Top from '@/components/pages/Top';
+import Top from '@/components/pages/Top.vue';
 import router from '@/router/index';
 
 describe('Top.vue', () => {

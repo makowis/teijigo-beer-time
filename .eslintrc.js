@@ -29,7 +29,7 @@ module.exports = {
     'import/extensions': ['error', 'always', {
       ts: 'never',
       js: 'never',
-      vue: 'never'
+      vue: 'always',
     }],
     // disallow reassignment of function parameters
     // disallow parameter object manipulation except for specific exclusions
