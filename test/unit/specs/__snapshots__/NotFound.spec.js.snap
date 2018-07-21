@@ -2,19 +2,101 @@
 
 exports[`NotFound.vue should match the snapshot 1`] = `
 <div
-  class="not-found"
+  id="app"
 >
-  <h1>
-    404 NOT FOUND
-  </h1>
+  <nav
+    id="menu-container"
+  >
+    <ul
+      class="menu"
+    >
+      <li
+        class="menu-item"
+      >
+        <a
+          class="router-link-active"
+          href="/"
+        >
+          
+          トップ
+        
+        </a>
+      </li>
+       
+      <li
+        class="menu-item"
+      >
+        <a
+          class=""
+          href="/disco"
+        >
+          
+          DISCOGRAPHY
+        
+        </a>
+      </li>
+       
+      <li
+        class="menu-item"
+      >
+        <a
+          class=""
+          href="/member"
+        >
+          
+          メンバー紹介
+        
+        </a>
+      </li>
+       
+      <li
+        class="menu-item"
+      >
+        <a
+          class=""
+          href="/bbs"
+        >
+          
+          一言掲示板
+        
+        </a>
+      </li>
+    </ul>
+  </nav>
    
-  <p>
-    このページは存在しません。
-  </p>
-   
-  <img
-    alt="飲み会のイラストです。ビール飲みましょう"
-    src="../assets/nomikai_salaryman.png"
-  />
+  <div
+    id="main-container"
+  >
+    <a
+      class="router-link-active"
+      href="/"
+    >
+      <img
+        class="logo"
+        src="@/assets/logo_1.png"
+      />
+    </a>
+     
+    <div
+      class="not-found"
+    >
+      <!---->
+       
+      <p>
+        このページは存在しません。
+      </p>
+       
+      <img
+        alt="飲み会のイラストです。ビール飲みましょう"
+        src="@/assets/nomikai_salaryman.png"
+      />
+    </div>
+     
+    <footer>
+      <p>
+        ©定時後ビールタイム
+      </p>
+    </footer>
+  </div>
 </div>
 `;

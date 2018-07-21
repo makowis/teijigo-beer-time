@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import Member from '@/components/Member';
+import Member from '@/components/pages/Member';
 import router from '@/router/index';
 
 describe('Member.vue', () => {
