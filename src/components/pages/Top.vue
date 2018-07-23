@@ -1,5 +1,5 @@
 <template>
-  <default-template>
+  <tbt-default>
     <div class="top">
       <tbt-h1 class="blink">{{ msg }}</tbt-h1>
       <tbt-marquee>
@@ -23,7 +23,7 @@
         </tbt-member-link>
       </p>
     </div>
-  </default-template>
+  </tbt-default>
 </template>
 
 <script lang="ts">
@@ -31,7 +31,7 @@ import Vue from 'vue';
 import Component from 'vue-class-component';
 import firebase from 'firebase';
 import database from '@/firebase-config';
-import DefaultTemplate from '@/components/templates/Default.vue';
+import TbtDefault from '@/components/templates/TbtDefault.vue';
 import TbtH1 from '@/components/atoms/TbtH1.vue';
 import TbtBbsLink from '@/components/atoms/TbtBbsLink.vue';
 import TbtDiscoLink from '@/components/atoms/TbtDiscoLink.vue';
@@ -42,7 +42,7 @@ import TbtCircleCutSection from '@/components/organisms/TbtCircleCutSection.vue'
 
 @Component({
   components: {
-    DefaultTemplate,
+    TbtDefault,
     TbtH1,
     TbtBbsLink,
     TbtDiscoLink,

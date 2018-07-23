@@ -1,5 +1,5 @@
 <template>
-  <default-template>
+  <tbt-default>
     <div class="bbs">
       <tbt-h1>一言掲示板</tbt-h1>
       <p>
@@ -31,14 +31,14 @@
         </ul>
       </div>
     </div>
-  </default-template>
+  </tbt-default>
 </template>
 
 <script lang="ts">
 import moment from 'moment';
 import Vue from 'vue';
 import Component from 'vue-class-component';
-import DefaultTemplate from '@/components/templates/Default.vue';
+import TbtDefault from '@/components/templates/TbtDefault.vue';
 import TbtH1 from '@/components/atoms/TbtH1.vue';
 import firebase from 'firebase';
 import database from '@/firebase-config';
@@ -58,7 +58,7 @@ interface BbsData {
 
 @Component({
   components: {
-    DefaultTemplate,
+    TbtDefault,
     TbtH1,
   },
 })

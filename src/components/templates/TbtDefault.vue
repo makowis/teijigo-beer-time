@@ -22,7 +22,7 @@ import TbtFooter from '@/components/organisms/TbtFooter.vue';
     TbtFooter,
   },
 })
-export default class Default extends Vue {}
+export default class TbtDefault extends Vue {}
 </script>
 
 <style>
