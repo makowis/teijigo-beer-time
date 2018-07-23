@@ -8,19 +8,19 @@
       <tbt-access-counter-section v-bind="counter" />
       <tbt-circle-cut-section />
       <p>
-        <router-link to="/disco">
+        <tbt-disco-link>
           ＞＞＞＞DISCOGRAPHY＜＜＜＜
-        </router-link>
+        </tbt-disco-link>
       </p>
       <p>
-        <router-link to="/bbs">
+        <tbt-bbs-link>
           ★★★★★一言掲示板★★★★★
-        </router-link>
+        </tbt-bbs-link>
       </p>
       <p>
-        <router-link to="/member">
+        <tbt-member-link>
           🍺🍺🍺🍺️メンバー紹介🍺🍺🍺🍺
-        </router-link>
+        </tbt-member-link>
       </p>
     </div>
   </default-template>
@@ -33,6 +33,9 @@ import firebase from 'firebase';
 import database from '@/firebase-config';
 import DefaultTemplate from '@/components/templates/Default.vue';
 import TbtH1 from '@/components/atoms/TbtH1.vue';
+import TbtBbsLink from '@/components/atoms/TbtBbsLink.vue';
+import TbtDiscoLink from '@/components/atoms/TbtDiscoLink.vue';
+import TbtMemberLink from '@/components/atoms/TbtMemberLink.vue';
 import TbtMarquee from '@/components/atoms/TbtMarquee.vue';
 import TbtAccessCounterSection from '@/components/organisms/TbtAccessCounterSection.vue';
 import TbtCircleCutSection from '@/components/organisms/TbtCircleCutSection.vue';
@@ -41,6 +44,9 @@ import TbtCircleCutSection from '@/components/organisms/TbtCircleCutSection.vue'
   components: {
     DefaultTemplate,
     TbtH1,
+    TbtBbsLink,
+    TbtDiscoLink,
+    TbtMemberLink,
     TbtMarquee,
     TbtAccessCounterSection,
     TbtCircleCutSection,

@@ -3,31 +3,31 @@
     <nav id="menu-container">
       <ul class="menu">
         <li class="menu-item">
-          <router-link to="/">
+          <tbt-top-link>
             トップ
-          </router-link>
+          </tbt-top-link>
         </li>
         <li class="menu-item">
-          <router-link to="/disco">
+          <tbt-disco-link>
             DISCOGRAPHY
-          </router-link>
+          </tbt-disco-link>
         </li>
         <li class="menu-item">
-          <router-link to="/member">
+          <tbt-member-link>
             メンバー紹介
-          </router-link>
+          </tbt-member-link>
         </li>
         <li class="menu-item">
-          <router-link to="/bbs">
+          <tbt-bbs-link>
             一言掲示板
-          </router-link>
+          </tbt-bbs-link>
         </li>
       </ul>
     </nav>
     <div id="main-container">
-      <router-link to="/">
+      <tbt-top-link>
         <img class="logo" src="@/assets/logo_1.png">
-      </router-link>
+      </tbt-top-link>
       <slot />
       <footer>
         <p>©定時後ビールタイム</p>
@@ -39,8 +39,19 @@
 <script lang="ts">
 import Vue from 'vue';
 import Component from 'vue-class-component';
+import TbtBbsLink from '@/components/atoms/TbtBbsLink.vue';
+import TbtDiscoLink from '@/components/atoms/TbtDiscoLink.vue';
+import TbtMemberLink from '@/components/atoms/TbtMemberLink.vue';
+import TbtTopLink from '@/components/atoms/TbtTopLink.vue';
 
-@Component
+@Component({
+  components: {
+    TbtBbsLink,
+    TbtDiscoLink,
+    TbtMemberLink,
+    TbtTopLink,
+  },
+})
 export default class Default extends Vue {}
 </script>
 
