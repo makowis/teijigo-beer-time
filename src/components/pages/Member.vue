@@ -1,5 +1,5 @@
 <template>
-  <default-template>
+  <tbt-default>
     <div class="member">
       <tbt-h1>MEMBER</tbt-h1>
       <table class="member-table">
@@ -19,19 +19,19 @@
         </tbody>
       </table>
     </div>
-  </default-template>
+  </tbt-default>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
 import Component from 'vue-class-component';
 import members from '@/resources/members';
-import DefaultTemplate from '@/components/templates/Default.vue';
+import TbtDefault from '@/components/templates/TbtDefault.vue';
 import TbtH1 from '@/components/atoms/TbtH1.vue';
 
 @Component({
   components: {
-    DefaultTemplate,
+    TbtDefault,
     TbtH1,
   },
 })

@@ -5,66 +5,68 @@ exports[`NotFound.vue should match the snapshot 1`] = `
   id="app"
 >
   <nav
+    class="menuContainer"
     id="menu-container"
   >
     <ul
       class="menu"
     >
       <li
-        class="menu-item"
+        class="menuItem"
       >
         <a
           class="router-link-active"
           href="/"
         >
           
-          トップ
-        
+        トップ
+      
         </a>
       </li>
        
       <li
-        class="menu-item"
+        class="menuItem"
       >
         <a
           class=""
           href="/disco"
         >
           
-          DISCOGRAPHY
-        
+        DISCOGRAPHY
+      
         </a>
       </li>
        
       <li
-        class="menu-item"
+        class="menuItem"
       >
         <a
           class=""
           href="/member"
         >
           
-          メンバー紹介
-        
+        メンバー紹介
+      
         </a>
       </li>
        
       <li
-        class="menu-item"
+        class="menuItem"
       >
         <a
           class=""
           href="/bbs"
         >
           
-          一言掲示板
-        
+        一言掲示板
+      
         </a>
       </li>
     </ul>
   </nav>
    
   <div
+    class="mainContainer"
     id="main-container"
   >
     <a
@@ -96,7 +98,9 @@ exports[`NotFound.vue should match the snapshot 1`] = `
       />
     </div>
      
-    <footer>
+    <footer
+      class="footer"
+    >
       <p>
         ©定時後ビールタイム
       </p>
