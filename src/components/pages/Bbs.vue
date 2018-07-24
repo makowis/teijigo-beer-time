@@ -64,7 +64,9 @@ interface BbsData {
 })
 export default class Bbs extends Vue implements BbsData {
   messageList: Message[] = [];
+
   name: string = '';
+
   message: string = '';
 
   created() {

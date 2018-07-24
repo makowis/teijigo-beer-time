@@ -54,6 +54,7 @@ import TbtCircleCutSection from '@/components/organisms/TbtCircleCutSection.vue'
 })
 export default class Top extends Vue {
   msg: string = '定時後ビールタイム公式サイト';
+
   counter = { access: 0, realtime: 0 };
 
   created() {
