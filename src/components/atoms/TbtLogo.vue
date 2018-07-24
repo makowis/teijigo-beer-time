@@ -7,7 +7,7 @@ import Vue from 'vue';
 import Component from 'vue-class-component';
 
 @Component
-export default class TbtH2 extends Vue {}
+export default class TbtLog extends Vue {}
 </script>
 
 <style module>
