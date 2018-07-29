@@ -1,12 +1,14 @@
 <template>
   <tbt-default>
     <div class="top">
-      <tbt-h1 class="blink">{{ msg }}</tbt-h1>
+      <tbt-h1 :class="$style.blink">{{ msg }}</tbt-h1>
+      <p :class="$style.blink">🎉🎉🎉🎉🎉🎉🎉祝！M3当選！🎉🎉🎉🎉🎉🎉</p>
       <tbt-marquee>
-        M3-2018秋 参戦予定！！！！衝撃のデビューを見逃すな！！！！
+        M3-2018秋 参戦決定！！！！衝撃のデビューを見逃すな！！！！
       </tbt-marquee>
       <tbt-access-counter-section v-bind="counter" />
       <tbt-circle-cut-section />
+      <tbt-circle-space-info-section />
       <p>
         <tbt-disco-link>
           ＞＞＞＞DISCOGRAPHY＜＜＜＜
@@ -39,6 +41,7 @@ import TbtMemberLink from '@/components/atoms/TbtMemberLink.vue';
 import TbtMarquee from '@/components/atoms/TbtMarquee.vue';
 import TbtAccessCounterSection from '@/components/organisms/TbtAccessCounterSection.vue';
 import TbtCircleCutSection from '@/components/organisms/TbtCircleCutSection.vue';
+import TbtCircleSpaceInfoSection from '@/components/organisms/TbtCircleSpaceInfoSection.vue';
 
 @Component({
   components: {
@@ -50,6 +53,7 @@ import TbtCircleCutSection from '@/components/organisms/TbtCircleCutSection.vue'
     TbtMarquee,
     TbtAccessCounterSection,
     TbtCircleCutSection,
+    TbtCircleSpaceInfoSection,
   },
 })
 export default class Top extends Vue {
@@ -89,7 +93,7 @@ export default class Top extends Vue {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style module>
 .blink {
   animation: blink 1s step-end infinite;
   -webkit-animation: blink 1s step-end infinite;

@@ -19,7 +19,7 @@ import TbtSection from '@/components/atoms/TbtSection.vue';
     TbtSection,
   },
 })
-export default class TbtAccessCounterSection extends Vue {}
+export default class TbtCircleCutSection extends Vue {}
 </script>
 
 <style module>

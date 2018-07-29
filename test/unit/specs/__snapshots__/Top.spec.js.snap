@@ -83,10 +83,16 @@ exports[`Top.vue should match the snapshot 1`] = `
       class="top"
     >
       <h1
-        class="blink h1"
+        class="h1 blink"
       >
         定時後ビールタイム公式サイト
       </h1>
+       
+      <p
+        class="blink"
+      >
+        🎉🎉🎉🎉🎉🎉🎉祝！M3当選！🎉🎉🎉🎉🎉🎉
+      </p>
        
       <div
         class="marquee"
@@ -95,7 +101,7 @@ exports[`Top.vue should match the snapshot 1`] = `
           class="marqueeInner"
         >
           
-      M3-2018秋 参戦予定！！！！衝撃のデビューを見逃すな！！！！
+      M3-2018秋 参戦決定！！！！衝撃のデビューを見逃すな！！！！
     
         </div>
       </div>
@@ -141,6 +147,50 @@ exports[`Top.vue should match the snapshot 1`] = `
           class="circleCut"
           src="@/assets/cut.png"
         />
+      </section>
+       
+      <section
+        class="section"
+      >
+        <h2
+          class="h2"
+        >
+          スペース配置
+        </h2>
+         
+        <table
+          class="spaceTable"
+        >
+          <tr>
+            <th>
+              サークル名
+            </th>
+             
+            <td>
+              クレオフーガ定時後ビールタイム
+            </td>
+          </tr>
+           
+          <tr>
+            <th>
+              配置場所
+            </th>
+             
+            <td>
+              第一展示場
+            </td>
+          </tr>
+           
+          <tr>
+            <th>
+              スペース番号
+            </th>
+             
+            <td>
+              N-16b
+            </td>
+          </tr>
+        </table>
       </section>
        
       <p>
