@@ -1,9 +1,10 @@
 <template>
   <tbt-default>
     <div class="top">
-      <tbt-h1 class="blink">{{ msg }}</tbt-h1>
+      <tbt-h1 :class="$style.blink">{{ msg }}</tbt-h1>
+      <p :class="$style.blink">🎉🎉🎉🎉🎉🎉🎉祝！M3当選！🎉🎉🎉🎉🎉🎉</p>
       <tbt-marquee>
-        M3-2018秋 参戦予定！！！！衝撃のデビューを見逃すな！！！！
+        M3-2018秋 参戦決定！！！！衝撃のデビューを見逃すな！！！！
       </tbt-marquee>
       <tbt-access-counter-section v-bind="counter" />
       <tbt-circle-cut-section />
@@ -89,7 +90,7 @@ export default class Top extends Vue {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style module>
 .blink {
   animation: blink 1s step-end infinite;
   -webkit-animation: blink 1s step-end infinite;
