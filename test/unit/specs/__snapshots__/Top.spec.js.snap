@@ -149,6 +149,50 @@ exports[`Top.vue should match the snapshot 1`] = `
         />
       </section>
        
+      <section
+        class="section"
+      >
+        <h2
+          class="h2"
+        >
+          スペース配置
+        </h2>
+         
+        <table
+          class="spaceTable"
+        >
+          <tr>
+            <th>
+              サークル名
+            </th>
+             
+            <td>
+              クレオフーガ定時後ビールタイム
+            </td>
+          </tr>
+           
+          <tr>
+            <th>
+              配置場所
+            </th>
+             
+            <td>
+              第一展示場
+            </td>
+          </tr>
+           
+          <tr>
+            <th>
+              スペース番号
+            </th>
+             
+            <td>
+              N-16b
+            </td>
+          </tr>
+        </table>
+      </section>
+       
       <p>
         <a
           class=""

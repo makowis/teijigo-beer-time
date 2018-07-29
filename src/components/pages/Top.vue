@@ -8,6 +8,7 @@
       </tbt-marquee>
       <tbt-access-counter-section v-bind="counter" />
       <tbt-circle-cut-section />
+      <tbt-circle-space-info-section />
       <p>
         <tbt-disco-link>
           ＞＞＞＞DISCOGRAPHY＜＜＜＜
@@ -40,6 +41,7 @@ import TbtMemberLink from '@/components/atoms/TbtMemberLink.vue';
 import TbtMarquee from '@/components/atoms/TbtMarquee.vue';
 import TbtAccessCounterSection from '@/components/organisms/TbtAccessCounterSection.vue';
 import TbtCircleCutSection from '@/components/organisms/TbtCircleCutSection.vue';
+import TbtCircleSpaceInfoSection from '@/components/organisms/TbtCircleSpaceInfoSection.vue';
 
 @Component({
   components: {
@@ -51,6 +53,7 @@ import TbtCircleCutSection from '@/components/organisms/TbtCircleCutSection.vue'
     TbtMarquee,
     TbtAccessCounterSection,
     TbtCircleCutSection,
+    TbtCircleSpaceInfoSection,
   },
 })
 export default class Top extends Vue {
