@@ -1,7 +1,4 @@
-const path = require('path');
-
 module.exports = {
-  rootDir: path.resolve(__dirname, '../../'),
   moduleFileExtensions: [
     'ts',
     'js',
@@ -12,15 +9,16 @@ module.exports = {
     '^@/(.*)$': '<rootDir>/src/$1',
   },
   transform: {
-    '\\.ts$': '<rootDir>/node_modules/ts-jest/preprocessor.js',
-    '^.+\\.js$': '<rootDir>/node_modules/babel-jest',
-    '.*\\.(vue)$': '<rootDir>/node_modules/vue-jest',
+    '^.+\\.ts$': 'ts-jest',
+    '^.+\\.js$': 'babel-jest',
+    '.*\\.(vue)$': 'vue-jest',
   },
   testPathIgnorePatterns: [
     '<rootDir>/test/e2e',
   ],
+  testRegex: "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
   snapshotSerializers: ['<rootDir>/node_modules/jest-serializer-vue'],
-  setupFiles: ['<rootDir>/test/unit/setup'],
+  setupFiles: ['<rootDir>/test/unit/setup.ts'],
   mapCoverage: true,
   coverageDirectory: '<rootDir>/test/unit/coverage',
   collectCoverageFrom: [
