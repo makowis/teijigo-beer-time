@@ -44,7 +44,7 @@ const mako =
 
 const shacho =
 {
-  name: 'しゃちょー',
+  name: 'にっしー',
   charge: 'ProTooler',
   profile: `コネをフル活用して良い作品を作ります！`,
 }
