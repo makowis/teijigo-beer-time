@@ -29,7 +29,7 @@ const yukizo =
   name: 'yokizo',
   charge: `えらそーにする`,
   profile: 'リハビリ中で戦力になれないので、えらそーにしてます。',
-}
+};
 
 const mako =
 {
@@ -47,14 +47,21 @@ const shacho =
   name: 'にっしー',
   charge: 'ProTooler',
   profile: `コネをフル活用して良い作品を作ります！`,
-}
+};
 
 const kero =
 {
   name: 'ケロ',
   charge: 'ミュージさん',
   profile: `ウィットに富んだフレキシブルな音楽でナウなヤングにバカウケ`,
-}
+};
+
+const gutch =
+{
+  name: 'Gutch',
+  charge: `曲に効果音を突っ込む`,
+  profile: 'ビール飲めない！！！！！',
+};
 
 
 export const members: Member[] = [
@@ -63,6 +70,7 @@ export const members: Member[] = [
   yukizo,
   shacho,
   kero,
+  gutch,
   mako,
 ];
 
