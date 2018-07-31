@@ -1,8 +1,8 @@
 <template>
   <tbt-default>
     <div class="top">
-      <tbt-h1 :class="$style.blink">{{ msg }}</tbt-h1>
-      <p :class="$style.blink">🎉🎉🎉🎉🎉🎉🎉祝！M3当選！🎉🎉🎉🎉🎉🎉</p>
+      <tbt-h1><tbt-blink>{{ msg }}</tbt-blink></tbt-h1>
+      <p><tbt-blink>🎉🎉🎉🎉🎉🎉🎉祝！M3当選！🎉🎉🎉🎉🎉🎉</tbt-blink></p>
       <tbt-marquee>
         M3-2018秋 参戦決定！！！！衝撃のデビューを見逃すな！！！！
       </tbt-marquee>
@@ -39,6 +39,7 @@ import TbtBbsLink from '@/components/atoms/TbtBbsLink.vue';
 import TbtDiscoLink from '@/components/atoms/TbtDiscoLink.vue';
 import TbtMemberLink from '@/components/atoms/TbtMemberLink.vue';
 import TbtMarquee from '@/components/atoms/TbtMarquee.vue';
+import TbtBlink from '@/components/atoms/TbtBlink.vue';
 import TbtAccessCounterSection from '@/components/organisms/TbtAccessCounterSection.vue';
 import TbtCircleCutSection from '@/components/organisms/TbtCircleCutSection.vue';
 import TbtCircleSpaceInfoSection from '@/components/organisms/TbtCircleSpaceInfoSection.vue';
@@ -51,6 +52,7 @@ import TbtCircleSpaceInfoSection from '@/components/organisms/TbtCircleSpaceInfo
     TbtDiscoLink,
     TbtMemberLink,
     TbtMarquee,
+    TbtBlink,
     TbtAccessCounterSection,
     TbtCircleCutSection,
     TbtCircleSpaceInfoSection,
@@ -91,23 +93,3 @@ export default class Top extends Vue {
   }
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style module>
-.blink {
-  animation: blink 1s step-end infinite;
-  -webkit-animation: blink 1s step-end infinite;
-}
-
-@keyframes blink {
-  75% {
-    opacity: 0;
-  }
-}
-
-@-webkit-keyframes blink {
-  75% {
-    opacity: 0;
-  }
-}
-</style>
