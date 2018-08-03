@@ -110,9 +110,9 @@
   version "0.3.4"
   resolved "https://registry.yarnpkg.com/@firebase/auth-types/-/auth-types-0.3.4.tgz#253b1b2d9b520a0b945d4617c8418f0f19a4159f"
 
-"@firebase/auth@0.7.1":
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/@firebase/auth/-/auth-0.7.1.tgz#4cfaf4cc3d164cfcb10cf01ce46610de3fa0fc11"
+"@firebase/auth@0.7.2":
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/@firebase/auth/-/auth-0.7.2.tgz#6432f22f370d003f046bf6a395f6af1369c2ecc1"
   dependencies:
     "@firebase/auth-types" "0.3.4"
 
@@ -134,14 +134,14 @@
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/@firebase/firestore-types/-/firestore-types-0.5.0.tgz#dbf3aec64c0dfe2855038decb082059455b41a30"
 
-"@firebase/firestore@0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@firebase/firestore/-/firestore-0.6.0.tgz#57ca88d1f700296ecbe6e10000513b3cd7512a96"
+"@firebase/firestore@0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@firebase/firestore/-/firestore-0.6.1.tgz#c1fd1dc03f2c44d0bb50cc28c89c10691798ff14"
   dependencies:
     "@firebase/firestore-types" "0.5.0"
     "@firebase/logger" "0.1.1"
     "@firebase/webchannel-wrapper" "0.2.8"
-    grpc "1.11.3"
+    grpc "1.13.1"
     tslib "1.9.0"
 
 "@firebase/functions-types@0.2.0":
@@ -3421,14 +3421,14 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
-firebase@5.3.0:
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/firebase/-/firebase-5.3.0.tgz#cb1823142337646a4537144b25667a9b9c62f3b8"
+firebase@5.3.1:
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/firebase/-/firebase-5.3.1.tgz#99df1a9b101d12cd765ef010bb015fdb0b76850b"
   dependencies:
     "@firebase/app" "0.3.3"
-    "@firebase/auth" "0.7.1"
+    "@firebase/auth" "0.7.2"
     "@firebase/database" "0.3.4"
-    "@firebase/firestore" "0.6.0"
+    "@firebase/firestore" "0.6.1"
     "@firebase/functions" "0.3.0"
     "@firebase/messaging" "0.3.5"
     "@firebase/polyfill" "0.3.3"
@@ -3722,14 +3722,14 @@ growly@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/growly/-/growly-1.3.0.tgz#f10748cbe76af964b7c96c93c6bcc28af120c081"
 
-grpc@1.11.3:
-  version "1.11.3"
-  resolved "https://registry.yarnpkg.com/grpc/-/grpc-1.11.3.tgz#46093bb17702b9fc1b099789695e6f47d6487129"
+grpc@1.13.1:
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/grpc/-/grpc-1.13.1.tgz#9b5c49d4e56309b6e3bd631f8948b7b298d88790"
   dependencies:
-    lodash "^4.15.0"
+    lodash "^4.17.5"
     nan "^2.0.0"
     node-pre-gyp "^0.10.0"
-    protobufjs "^5.0.0"
+    protobufjs "^5.0.3"
 
 gzip-size@^4.1.0:
   version "4.1.0"
@@ -5213,7 +5213,7 @@ lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
 
-lodash@4.x, lodash@^4.13.1, lodash@^4.15.0, lodash@^4.17.10, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.0, lodash@^4.3.0:
+lodash@4.x, lodash@^4.13.1, lodash@^4.17.10, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.0, lodash@^4.3.0:
   version "4.17.10"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
 
@@ -6692,7 +6692,7 @@ proto-list@~1.2.1:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/proto-list/-/proto-list-1.2.4.tgz#212d5bfe1318306a420f6402b8e26ff39647a849"
 
-protobufjs@^5.0.0:
+protobufjs@^5.0.3:
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/protobufjs/-/protobufjs-5.0.3.tgz#e4dfe9fb67c90b2630d15868249bcc4961467a17"
   dependencies:
