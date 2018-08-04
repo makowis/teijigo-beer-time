@@ -4,6 +4,7 @@ import Top from '@/components/pages/Top.vue';
 import Disco from '@/components/pages/Disco.vue';
 import Bbs from '@/components/pages/Bbs.vue';
 import Member from '@/components/pages/Member.vue';
+import Beenya from '@/components/pages/Beenya.vue';
 import NotFound from '@/components/pages/NotFound.vue';
 
 Vue.use(Router);
@@ -30,6 +31,11 @@ export default new Router({
       path: '/member',
       name: 'Member',
       component: Member,
+    },
+    {
+      path: '/beenya',
+      name: 'Beenya',
+      component: Beenya,
     },
     {
       path: '*',
