@@ -11,7 +11,9 @@
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit",
     "lint": "eslint --ext .js,.vue,.ts src test/unit test/e2e/specs",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "firebase": "5.3.1",
@@ -22,6 +24,10 @@
     "vue-router": "3.0.1"
   },
   "devDependencies": {
+    "@storybook/vue": "^4.0.0-alpha.9",
+    "@types/storybook__addon-actions": "^3.4.0",
+    "@types/storybook__addon-links": "^3.3.1",
+    "@types/storybook__vue": "^3.3.0",
     "autoprefixer": "9.1.0",
     "babel-core": "6.26.3",
     "babel-eslint": "8.2.6",
@@ -50,7 +56,7 @@
     "eslint-plugin-import": "2.13.0",
     "eslint-plugin-prettier": "2.6.2",
     "eslint-plugin-vue": "4.7.1",
-    "extract-text-webpack-plugin": "3.0.2",
+    "extract-text-webpack-plugin": "^3.0.0-rc.2",
     "file-loader": "1.1.11",
     "friendly-errors-webpack-plugin": "1.7.0",
     "html-webpack-plugin": "3.2.0",
@@ -83,7 +89,7 @@
     "webpack-bundle-analyzer": "2.13.1",
     "webpack-cli": "3.1.0",
     "webpack-dev-server": "3.1.5",
-    "webpack-merge": "4.1.4"
+    "webpack-merge": "^4.1.4"
   },
   "engines": {
     "node": ">= 6.0.0",
