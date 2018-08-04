@@ -21,6 +21,11 @@
           一言掲示板
         </tbt-bbs-link>
       </li>
+      <li :class="$style.menuItem">
+        <tbt-beenya-link>
+          びーにゃの部屋
+        </tbt-beenya-link>
+      </li>
     </ul>
   </nav>
 </template>
@@ -32,6 +37,7 @@ import TbtBbsLink from '@/components/atoms/TbtBbsLink.vue';
 import TbtDiscoLink from '@/components/atoms/TbtDiscoLink.vue';
 import TbtMemberLink from '@/components/atoms/TbtMemberLink.vue';
 import TbtTopLink from '@/components/atoms/TbtTopLink.vue';
+import TbtBeenyaLink from '@/components/atoms/TbtBeenyaLink.vue';
 
 @Component({
   components: {
@@ -39,6 +45,7 @@ import TbtTopLink from '@/components/atoms/TbtTopLink.vue';
     TbtDiscoLink,
     TbtMemberLink,
     TbtTopLink,
+    TbtBeenyaLink,
   },
 })
 export default class TbtMenu extends Vue {}

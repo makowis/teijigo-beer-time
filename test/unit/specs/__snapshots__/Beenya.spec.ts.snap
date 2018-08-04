@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Bbs.vue should match the snapshot 1`] = `
+exports[`Beenya.vue should match the snapshot 1`] = `
 <div
   id="app"
 >
@@ -93,71 +93,55 @@ exports[`Bbs.vue should match the snapshot 1`] = `
     </a>
      
     <div
-      class="bbs"
+      class="beenya"
     >
       <h1
         class="h1"
       >
-        一言掲示板
+        びーにゃの部屋
       </h1>
        
-      <p>
-        
-      足跡や、あいさつ、キリ番報告、等に使用していただいて構いません。
-      
-        <br />
-        
-      誹謗中傷、個人情報などの書き込みはご遠慮ください。
-    
-      </p>
+      <img
+        alt="びーにゃのイラスト"
+        class="icon"
+        src="@/assets/beenya.png"
+      />
        
-      <div
-        class="message-form"
+      <table
+        class="beenyaTable"
       >
-        <div
-          class="message-form-group"
-        >
-          <label
-            for="nameInput"
-          >
-            HN(ハンドルネーム)
-          </label>
+        <tbody>
+          <tr>
+            <th>
+              名前
+            </th>
+             
+            <td>
+              びーにゃ
+            </td>
+          </tr>
            
-          <input
-            id="nameInput"
-            maxlength="20"
-            type="text"
-          />
-        </div>
-         
-        <div
-          class="message-form-group"
-        >
-          <label
-            for="messageInput"
-          >
-            メッセージ
-          </label>
+          <tr>
+            <th>
+              役割
+            </th>
+             
+            <td>
+              アイドル
+            </td>
+          </tr>
            
-          <input
-            id="messageInput"
-            maxlength="100"
-            type="text"
-          />
-        </div>
-         
-        <button
-          type="button"
-        >
-          送信
-        </button>
-      </div>
-       
-      <div>
-        <ul
-          class="message-list"
-        />
-      </div>
+          <tr>
+            <th>
+              自己紹介
+            </th>
+             
+            <td>
+              にゃにゃにゃにゃにゃにゃにゃー！(定時後ビールタイムだー！！)
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
      
     <footer
