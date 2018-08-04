@@ -9,21 +9,8 @@
       <tbt-access-counter-section v-bind="counter" />
       <tbt-circle-cut-section />
       <tbt-circle-space-info-section />
-      <p>
-        <tbt-disco-link>
-          ＞＞＞＞DISCOGRAPHY＜＜＜＜
-        </tbt-disco-link>
-      </p>
-      <p>
-        <tbt-bbs-link>
-          ★★★★★一言掲示板★★★★★
-        </tbt-bbs-link>
-      </p>
-      <p>
-        <tbt-member-link>
-          🍺🍺🍺🍺️メンバー紹介🍺🍺🍺🍺
-        </tbt-member-link>
-      </p>
+      <tbt-mail-section />
+      <tbt-menu-section />
     </div>
   </tbt-default>
 </template>
@@ -35,27 +22,25 @@ import firebase from 'firebase';
 import database from '@/firebase-config';
 import TbtDefault from '@/components/templates/TbtDefault.vue';
 import TbtH1 from '@/components/atoms/TbtH1.vue';
-import TbtBbsLink from '@/components/atoms/TbtBbsLink.vue';
-import TbtDiscoLink from '@/components/atoms/TbtDiscoLink.vue';
-import TbtMemberLink from '@/components/atoms/TbtMemberLink.vue';
 import TbtMarquee from '@/components/atoms/TbtMarquee.vue';
 import TbtBlink from '@/components/atoms/TbtBlink.vue';
 import TbtAccessCounterSection from '@/components/organisms/TbtAccessCounterSection.vue';
 import TbtCircleCutSection from '@/components/organisms/TbtCircleCutSection.vue';
 import TbtCircleSpaceInfoSection from '@/components/organisms/TbtCircleSpaceInfoSection.vue';
+import TbtMenuSection from '@/components/organisms/TbtMenuSection.vue';
+import TbtMailSection from '@/components/organisms/TbtMailSection.vue';
 
 @Component({
   components: {
     TbtDefault,
     TbtH1,
-    TbtBbsLink,
-    TbtDiscoLink,
-    TbtMemberLink,
     TbtMarquee,
     TbtBlink,
     TbtAccessCounterSection,
     TbtCircleCutSection,
     TbtCircleSpaceInfoSection,
+    TbtMenuSection,
+    TbtMailSection,
   },
 })
 export default class Top extends Vue {

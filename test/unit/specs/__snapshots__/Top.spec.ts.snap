@@ -212,38 +212,70 @@ exports[`Top.vue should match the snapshot 1`] = `
         </table>
       </section>
        
-      <p>
-        <a
-          class=""
-          href="/disco"
+      <section
+        class="section"
+      >
+        <h2
+          class="h2"
         >
+          連絡先
+        </h2>
+         
+        <p>
           
-        ＞＞＞＞DISCOGRAPHY＜＜＜＜
-      
-        </a>
-      </p>
+    お問い合わせは
+          <a
+            href="mailto:staff@teijigo-beer-ti.me"
+          >
+            staff🍺teijigo-beer-ti.me
+          </a>
+          （🍺を@マークに変える）にお願いします。
+  
+        </p>
+      </section>
        
-      <p>
-        <a
-          class=""
-          href="/bbs"
+      <section
+        class="section"
+      >
+        <h2
+          class="h2"
         >
-          
-        ★★★★★一言掲示板★★★★★
-      
-        </a>
-      </p>
-       
-      <p>
-        <a
-          class=""
-          href="/member"
-        >
-          
-        🍺🍺🍺🍺️メンバー紹介🍺🍺🍺🍺
-      
-        </a>
-      </p>
+          メニュー
+        </h2>
+         
+        <p>
+          <a
+            class=""
+            href="/disco"
+          >
+            
+      ＞＞＞＞DISCOGRAPHY＜＜＜＜
+    
+          </a>
+        </p>
+         
+        <p>
+          <a
+            class=""
+            href="/bbs"
+          >
+            
+      ★★★★★一言掲示板★★★★★
+    
+          </a>
+        </p>
+         
+        <p>
+          <a
+            class=""
+            href="/member"
+          >
+            
+      🍺🍺🍺🍺️メンバー紹介🍺🍺🍺🍺
+    
+          </a>
+        </p>
+      </section>
     </div>
      
     <footer
