@@ -116,9 +116,9 @@ exports[`Beenya.vue should match the snapshot 1`] = `
               名前
             </th>
              
-            <th>
+            <td>
               びーにゃ
-            </th>
+            </td>
           </tr>
            
           <tr>

@@ -7,7 +7,7 @@
         <tbody>
           <tr>
             <th>名前</th>
-            <th>びーにゃ</th>
+            <td>びーにゃ</td>
           </tr>
           <tr>
             <th>役割</th>
