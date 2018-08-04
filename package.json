@@ -17,7 +17,7 @@
     "firebase": "5.3.1",
     "moment": "2.22.2",
     "postcss-safe-parser": "4.0.1",
-    "vue": "2.5.16",
+    "vue": "2.5.17",
     "vue-class-component": "6.2.0",
     "vue-router": "3.0.1"
   },
@@ -78,7 +78,7 @@
     "vue-jest": "2.6.0",
     "vue-loader": "15.2.6",
     "vue-style-loader": "4.1.1",
-    "vue-template-compiler": "2.5.16",
+    "vue-template-compiler": "^2.5.17",
     "webpack": "4.16.4",
     "webpack-bundle-analyzer": "2.13.1",
     "webpack-cli": "3.1.0",
