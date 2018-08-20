@@ -174,7 +174,7 @@ exports[`Top.vue should match the snapshot 1`] = `
         <h2
           class="h2"
         >
-          スペース配置
+          M3スペース配置
         </h2>
          
         <table
@@ -210,6 +210,30 @@ exports[`Top.vue should match the snapshot 1`] = `
             </td>
           </tr>
         </table>
+         
+        <section
+          class="section"
+        >
+          <h3
+            class="h3"
+          >
+            M3開催情報
+          </h3>
+           
+          <p>
+            日時：2018/10/28(日) 11:00〜15:30
+          </p>
+           
+          <p>
+            場所：東京流通センター(TRC)
+          </p>
+           
+          <a
+            href="http://www.m3net.jp/index.html"
+          >
+            M3公式サイト
+          </a>
+        </section>
       </section>
        
       <section

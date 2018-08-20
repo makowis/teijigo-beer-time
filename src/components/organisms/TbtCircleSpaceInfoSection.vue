@@ -1,6 +1,6 @@
 <template>
   <tbt-section>
-    <tbt-h2>スペース配置</tbt-h2>
+    <tbt-h2>M3スペース配置</tbt-h2>
     <table :class="$style.spaceTable">
       <tr>
         <th>サークル名</th>
@@ -15,6 +15,12 @@
         <td>N-16b</td>
       </tr>
     </table>
+    <tbt-section>
+      <tbt-h3>M3開催情報</tbt-h3>
+      <p>日時：2018/10/28(日) 11:00〜15:30</p>
+      <p>場所：東京流通センター(TRC)</p>
+      <a href="http://www.m3net.jp/index.html">M3公式サイト</a>
+    </tbt-section>
   </tbt-section>
 </template>
 
@@ -22,11 +28,13 @@
 import Vue from 'vue';
 import Component from 'vue-class-component';
 import TbtH2 from '@/components/atoms/TbtH2.vue';
+import TbtH3 from '@/components/atoms/TbtH3.vue';
 import TbtSection from '@/components/atoms/TbtSection.vue';
 
 @Component({
   components: {
     TbtH2,
+    TbtH3,
     TbtSection,
   },
 })
