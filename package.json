@@ -14,7 +14,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "firebase": "5.4.1",
+    "firebase": "5.4.2",
     "moment": "2.22.2",
     "postcss-safe-parser": "4.0.1",
     "vue": "2.5.17",
