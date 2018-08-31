@@ -2,7 +2,7 @@
   <tbt-default>
     <div class="beenya">
       <tbt-h1>びーにゃの部屋</tbt-h1>
-      <img src="@/assets/beenya.png" alt="びーにゃのイラスト" :class="$style.icon">
+      <tbt-beenya-img :class="$style.icon" />
       <table :class="$style.beenyaTable">
         <tbody>
           <tr>
@@ -28,11 +28,13 @@ import Vue from 'vue';
 import Component from 'vue-class-component';
 import TbtDefault from '@/components/templates/TbtDefault.vue';
 import TbtH1 from '@/components/atoms/TbtH1.vue';
+import TbtBeenyaImg from '@/components/atoms/TbtBeenyaImg.vue';
 
 @Component({
   components: {
     TbtDefault,
     TbtH1,
+    TbtBeenyaImg,
   },
 })
 export default class Beenya extends Vue {}
