@@ -15,7 +15,7 @@ exports[`Member.vue should match the snapshot 1`] = `
         class="menuItem"
       >
         <a
-          class="router-link-active"
+          class="router-link-exact-active router-link-active"
           href="/"
         >
           
@@ -83,7 +83,7 @@ exports[`Member.vue should match the snapshot 1`] = `
     id="main-container"
   >
     <a
-      class="router-link-active"
+      class="router-link-exact-active router-link-active"
       href="/"
     >
       <img
