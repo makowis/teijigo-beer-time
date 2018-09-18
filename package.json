@@ -74,7 +74,7 @@
     "ts-jest": "23.1.4",
     "ts-loader": "5.1.0",
     "typescript": "3.0.3",
-    "uglifyjs-webpack-plugin": "2.0.0",
+    "uglifyjs-webpack-plugin": "2.0.1",
     "url-loader": "1.1.1",
     "vue-jest": "2.6.0",
     "vue-loader": "15.4.2",
