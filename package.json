@@ -42,7 +42,7 @@
     "copy-webpack-plugin": "4.5.2",
     "cross-spawn": "6.0.5",
     "css-loader": "1.0.0",
-    "eslint": "5.5.0",
+    "eslint": "5.6.0",
     "eslint-config-airbnb-base": "13.1.0",
     "eslint-config-prettier": "3.0.1",
     "eslint-friendly-formatter": "4.0.1",
