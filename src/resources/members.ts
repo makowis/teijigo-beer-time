@@ -44,9 +44,9 @@ const mako =
 
 const shacho =
 {
-  name: 'にっしー',
-  charge: 'ProTooler',
-  profile: `コネをフル活用して良い作品を作ります！`,
+  name: 'WestTail',
+  charge: 'ProTools見習い',
+  profile: `周囲の素晴らしい才能をリスペクトしつつ頑張りたいと思います`,
 };
 
 const kero =
