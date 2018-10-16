@@ -3,7 +3,10 @@
     <div class="disco">
       <tbt-h1>DISCOGRAPHY</tbt-h1>
       <section>
-        <tbt-h2>1st Album 「HOPE」</tbt-h2>
+        <tbt-h2 :class="$style.albumTitle">1st Album 「HOPE」</tbt-h2>
+        <p :class="$style.onSale">
+          <tbt-blink>2018.10.28 ON SALE！</tbt-blink>
+        </p>
         <tbt-hope-jacket-img :class="$style.jacket" />
         <table border="1" :class="$style.table">
           <thead>
@@ -57,6 +60,7 @@ import Component from 'vue-class-component';
 import TbtDefault from '@/components/templates/TbtDefault.vue';
 import TbtH1 from '@/components/atoms/TbtH1.vue';
 import TbtH2 from '@/components/atoms/TbtH2.vue';
+import TbtBlink from '@/components/atoms/TbtBlink.vue';
 import TbtHopeJacketImg from '@/components/atoms/TbtHopeJacketImg.vue';
 
 @Component({
@@ -65,6 +69,7 @@ import TbtHopeJacketImg from '@/components/atoms/TbtHopeJacketImg.vue';
     TbtH1,
     TbtH2,
     TbtHopeJacketImg,
+    TbtBlink,
   },
 })
 export default class Disco extends Vue {}
@@ -89,5 +94,15 @@ export default class Disco extends Vue {}
   width: 400px;
   max-width: 70%;
   margin-bottom: 20px;
+}
+
+.albumTitle {
+  margin-bottom: 5px;
+}
+
+.onSale {
+  color: red;
+  font-weight: bold;
+  margin: 0 0 15px;
 }
 </style>
