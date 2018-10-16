@@ -103,10 +103,20 @@ exports[`Disco.vue should match the snapshot 1`] = `
        
       <section>
         <h2
-          class="h2"
+          class="h2 albumTitle"
         >
-          1st Album 「HOPE」
+          1st Mini Album「HOPE」
         </h2>
+         
+        <p
+          class="onSale"
+        >
+          <span
+            class="blink"
+          >
+            2018.10.28 ON SALE！
+          </span>
+        </p>
          
         <img
           alt="1st CD「HOPE」のジェケット画像"

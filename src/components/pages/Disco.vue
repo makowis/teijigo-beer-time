@@ -3,7 +3,7 @@
     <div class="disco">
       <tbt-h1>DISCOGRAPHY</tbt-h1>
       <section>
-        <tbt-h2 :class="$style.albumTitle">1st Album 「HOPE」</tbt-h2>
+        <tbt-h2 :class="$style.albumTitle">1st Mini Album「HOPE」</tbt-h2>
         <p :class="$style.onSale">
           <tbt-blink>2018.10.28 ON SALE！</tbt-blink>
         </p>
