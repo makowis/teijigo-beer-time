@@ -101,14 +101,138 @@ exports[`Disco.vue should match the snapshot 1`] = `
         DISCOGRAPHY
       </h1>
        
-      <p>
-        ★★★★★★★工事中★★★★★★★
-      </p>
-       
-      <img
-        alt="工事作業員のイラスト「おじぎ・お詫び」"
-        src="@/assets/job_kouji_ojigi.png"
-      />
+      <section>
+        <h2
+          class="h2"
+        >
+          1st Album 「HOPE」
+        </h2>
+         
+        <img
+          alt="1st CD「HOPE」のジェケット画像"
+          class="jacket"
+          src="@/assets/1st_hope_jacket.png"
+        />
+         
+        <table
+          border="1"
+          class="table"
+        >
+          <thead>
+            <tr>
+              <th>
+                No
+              </th>
+               
+              <th>
+                曲名
+              </th>
+               
+              <th>
+                アーティスト
+              </th>
+            </tr>
+          </thead>
+           
+          <tbody>
+            <tr>
+              <td
+                class="trackNo"
+              >
+                1
+              </td>
+               
+              <td>
+                Alive
+              </td>
+               
+              <td>
+                WestTail feat. ruha
+              </td>
+            </tr>
+             
+            <tr>
+              <td
+                class="trackNo"
+              >
+                2
+              </td>
+               
+              <td>
+                cresc.
+              </td>
+               
+              <td>
+                きむらじお feat.フナモトアユミ
+              </td>
+            </tr>
+             
+            <tr>
+              <td
+                class="trackNo"
+              >
+                3
+              </td>
+               
+              <td>
+                瞬間
+              </td>
+               
+              <td>
+                山口真央 feat. すぴか
+              </td>
+            </tr>
+             
+            <tr>
+              <td
+                class="trackNo"
+              >
+                4
+              </td>
+               
+              <td>
+                Calling
+              </td>
+               
+              <td>
+                NY2 feat. フナモトアユミ
+              </td>
+            </tr>
+             
+            <tr>
+              <td
+                class="trackNo"
+              >
+                5
+              </td>
+               
+              <td>
+                Diary
+              </td>
+               
+              <td>
+                さとうがしfeat. フナモトアユミ
+              </td>
+            </tr>
+             
+            <tr>
+              <td
+                class="trackNo"
+              >
+                6
+              </td>
+               
+              <td>
+                ハルカユーグレハナヤイデ
+              </td>
+               
+              <td>
+                comorebi notes
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
     </div>
      
     <footer
