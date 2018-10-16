@@ -14,6 +14,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@types/jest": "^23.3.5",
     "firebase": "5.5.4",
     "moment": "2.22.2",
     "postcss-safe-parser": "4.0.1",
