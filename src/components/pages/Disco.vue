@@ -40,7 +40,7 @@
           <tr>
             <td :class="$style.trackNo">5</td>
             <td>Diary</td>
-            <td>さとうがしfeat. フナモトアユミ</td>
+            <td>u13 feat. フナモトアユミ</td>
           </tr>
           <tr>
             <td :class="$style.trackNo">6</td>
