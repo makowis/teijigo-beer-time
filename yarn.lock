@@ -227,9 +227,9 @@
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/@firebase/firestore-types/-/firestore-types-0.7.0.tgz#bded7892868cf6b189a121d0f0cec468f1609995"
 
-"@firebase/firestore@0.8.4":
-  version "0.8.4"
-  resolved "https://registry.yarnpkg.com/@firebase/firestore/-/firestore-0.8.4.tgz#2cb35180c002b4ab49e822239c3868c16a645d94"
+"@firebase/firestore@0.8.5":
+  version "0.8.5"
+  resolved "https://registry.yarnpkg.com/@firebase/firestore/-/firestore-0.8.5.tgz#fa11449654a9894237adb23ab8c5ae00f745a142"
   dependencies:
     "@firebase/firestore-types" "0.7.0"
     "@firebase/logger" "0.1.1"
@@ -3476,14 +3476,14 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
-firebase@5.5.4:
-  version "5.5.4"
-  resolved "https://registry.yarnpkg.com/firebase/-/firebase-5.5.4.tgz#6c6c9c829c1c223dd6bc9c5a7805a5ebcaf36ae2"
+firebase@5.5.5:
+  version "5.5.5"
+  resolved "https://registry.yarnpkg.com/firebase/-/firebase-5.5.5.tgz#41584a15bf40e3ce474880bb82478de35cc21dbb"
   dependencies:
     "@firebase/app" "0.3.4"
     "@firebase/auth" "0.7.8"
     "@firebase/database" "0.3.6"
-    "@firebase/firestore" "0.8.4"
+    "@firebase/firestore" "0.8.5"
     "@firebase/functions" "0.3.1"
     "@firebase/messaging" "0.3.6"
     "@firebase/polyfill" "0.3.3"
