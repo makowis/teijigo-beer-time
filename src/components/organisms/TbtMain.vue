@@ -29,6 +29,7 @@ export default class TbtMenu extends Vue {}
   border-left: 5px solid gainsboro;
   padding-top: 60px;
   text-align: center;
+  background-image: url('../../assets/bg.png');
 }
 
 @media screen and (max-width: 900px) {
