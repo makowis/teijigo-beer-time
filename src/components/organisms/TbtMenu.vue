@@ -55,7 +55,9 @@ export default class TbtMenu extends Vue {}
 .menuContainer {
   position: fixed;
   width: 20%;
+  height: 100%;
   padding-top: 60px;
+  background-image: url('../../assets/bg.png');
 }
 
 .menu {
