@@ -14,8 +14,8 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "@firebase/app-types": "^0.3.2",
-    "@types/jest": "^23.3.5",
+    "@firebase/app-types": "0.3.2",
+    "@types/jest": "23.3.5",
     "firebase": "5.5.5",
     "moment": "2.22.2",
     "postcss-safe-parser": "4.0.1",
