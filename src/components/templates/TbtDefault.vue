@@ -42,6 +42,5 @@ export default class TbtDefault extends Vue {}
 
 body {
   margin: 0;
-  background-image: url('../../assets/bg.png');
 }
 </style>
