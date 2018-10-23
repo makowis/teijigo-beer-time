@@ -178,6 +178,7 @@ exports[`Top.vue should match the snapshot 1`] = `
         </h2>
          
         <table
+          border="1"
           class="spaceTable"
         >
           <tr>
@@ -233,6 +234,29 @@ exports[`Top.vue should match the snapshot 1`] = `
           >
             M3公式サイト
           </a>
+        </section>
+         
+        <section
+          class="section"
+        >
+          <h3
+            class="h3"
+          >
+            頒布CDクロスフェード
+          </h3>
+           
+          <div
+            class="video crossFade"
+          >
+            <iframe
+              allow="autoplay; encrypted-media"
+              allowfullscreen="allowfullscreen"
+              frameborder="0"
+              height="315"
+              src="https://www.youtube.com/embed/KE3It-tas0Y?rel=0"
+              width="560"
+            />
+          </div>
         </section>
       </section>
        
