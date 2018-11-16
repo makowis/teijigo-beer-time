@@ -7,6 +7,7 @@
         M3-2018秋 参戦決定！！！！衝撃のデビューを見逃すな！！！！
       </tbt-marquee>
       <tbt-access-counter-section v-bind="counter" />
+      <tbt-sns-account-section />
       <tbt-circle-cut-section />
       <tbt-circle-space-info-section />
       <tbt-mail-section />
@@ -29,6 +30,7 @@ import TbtCircleCutSection from '@/components/organisms/TbtCircleCutSection.vue'
 import TbtCircleSpaceInfoSection from '@/components/organisms/TbtCircleSpaceInfoSection.vue';
 import TbtMenuSection from '@/components/organisms/TbtMenuSection.vue';
 import TbtMailSection from '@/components/organisms/TbtMailSection.vue';
+import TbtSnsAccountSection from '@/components/organisms/TbtSnsAccountSection.vue';
 
 @Component({
   components: {
@@ -41,6 +43,7 @@ import TbtMailSection from '@/components/organisms/TbtMailSection.vue';
     TbtCircleSpaceInfoSection,
     TbtMenuSection,
     TbtMailSection,
+    TbtSnsAccountSection,
   },
 })
 export default class Top extends Vue {
