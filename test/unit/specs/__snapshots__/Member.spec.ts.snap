@@ -75,6 +75,19 @@ exports[`Member.vue should match the snapshot 1`] = `
       
         </a>
       </li>
+       
+      <li
+        class="menuItem"
+      >
+        <a
+          href="https://teijigo.booth.pm/items/1093403"
+          target="_blank"
+        >
+          
+        通販(BOOTH)
+      
+        </a>
+      </li>
     </ul>
   </nav>
    
