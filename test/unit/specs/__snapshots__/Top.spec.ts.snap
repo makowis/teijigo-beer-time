@@ -171,20 +171,52 @@ exports[`Top.vue should match the snapshot 1`] = `
         <h2
           class="h2"
         >
-          ソーシャルアカウント
+          News
         </h2>
          
-        <p>
-          
-    最新情報を
-          <a
-            href="https://twitter.com/tbt_cf"
-          >
-            公式Twitterアカウント
-          </a>
-          で配信中！
-  
-        </p>
+        <ul
+          class="newsList"
+        >
+          <li>
+            <span
+              class="blink newsBlink"
+            >
+              NEW
+            </span>
+            
+      通販開始しました！
+      
+            <a
+              href="https://teijigo.booth.pm/items/1093403"
+              target="_blank"
+            >
+              
+        BOOTH Festival APOLLO 第9回
+      
+            </a>
+            
+      に参加中です！
+    
+          </li>
+           
+          <li>
+            <span
+              class="blink newsBlink"
+            >
+              NEW
+            </span>
+             
+            <a
+              href="https://twitter.com/tbt_cf"
+            >
+              公式Twitterアカウント
+            </a>
+            作りました！最新情報をつぶやいていきます！
+    
+          </li>
+        </ul>
+         
+        <p />
       </section>
        
       <section
