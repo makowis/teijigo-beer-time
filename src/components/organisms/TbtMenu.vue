@@ -26,6 +26,11 @@
           びーにゃの部屋
         </tbt-beenya-link>
       </li>
+      <li :class="$style.menuItem">
+        <a href="https://teijigo.booth.pm/items/1093403" target="_blank">
+          通販(BOOTH)
+        </a>
+      </li>
     </ul>
   </nav>
 </template>

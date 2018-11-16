@@ -1,25 +1,21 @@
 <template>
   <tbt-section>
-    <tbt-h2>M3スペース配置</tbt-h2>
+    <tbt-h2>音けっとスペース配置</tbt-h2>
     <table border="1" :class="$style.spaceTable">
       <tr>
         <th>サークル名</th>
-        <td>クレオフーガ定時後ビールタイム</td>
-      </tr>
-      <tr>
-        <th>配置場所</th>
-        <td>第一展示場</td>
+        <td>クレオフーガ</td>
       </tr>
       <tr>
         <th>スペース番号</th>
-        <td>N-16b</td>
+        <td>F3-c</td>
       </tr>
     </table>
     <tbt-section>
-      <tbt-h3>M3開催情報</tbt-h3>
-      <p>日時：2018/10/28(日) 11:00〜15:30</p>
-      <p>場所：東京流通センター(TRC)</p>
-      <a href="http://www.m3net.jp/index.html">M3公式サイト</a>
+      <tbt-h3>音けっと開催情報</tbt-h3>
+      <p>日時：2018/12/2(日) 12:00〜16:00</p>
+      <p>場所：難波御堂筋ホール7階</p>
+      <a href="https://otoketto.jimdo.com/">音けっと公式サイト</a>
     </tbt-section>
     <tbt-section>
       <tbt-h3>頒布CDクロスフェード</tbt-h3>
