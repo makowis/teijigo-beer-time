@@ -2,7 +2,7 @@
   <tbt-default>
     <div class="top">
       <tbt-h1><tbt-blink>{{ msg }}</tbt-blink></tbt-h1>
-      <p><tbt-blink>🎉🎉🎉🎉🎉🎉🎉祝！M3当選！🎉🎉🎉🎉🎉🎉</tbt-blink></p>
+      <p><tbt-blink>🎉🎉🎉🎉🎉🎉🎉音けっと参戦決定！🎉🎉🎉🎉🎉🎉</tbt-blink></p>
       <tbt-marquee>
         「HOPE」通販開始！M3へのご来場ありがとうございました！次回は音けっと出ます！
       </tbt-marquee>
