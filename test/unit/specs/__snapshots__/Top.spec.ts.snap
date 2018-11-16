@@ -174,7 +174,7 @@ exports[`Top.vue should match the snapshot 1`] = `
         <h2
           class="h2"
         >
-          M3スペース配置
+          音けっとスペース配置
         </h2>
          
         <table
@@ -187,17 +187,7 @@ exports[`Top.vue should match the snapshot 1`] = `
             </th>
              
             <td>
-              クレオフーガ定時後ビールタイム
-            </td>
-          </tr>
-           
-          <tr>
-            <th>
-              配置場所
-            </th>
-             
-            <td>
-              第一展示場
+              クレオフーガ
             </td>
           </tr>
            
@@ -207,7 +197,7 @@ exports[`Top.vue should match the snapshot 1`] = `
             </th>
              
             <td>
-              N-16b
+              F3-c
             </td>
           </tr>
         </table>
@@ -218,21 +208,21 @@ exports[`Top.vue should match the snapshot 1`] = `
           <h3
             class="h3"
           >
-            M3開催情報
+            音けっと開催情報
           </h3>
            
           <p>
-            日時：2018/10/28(日) 11:00〜15:30
+            日時：2018/12/2(日) 12:00〜16:00
           </p>
            
           <p>
-            場所：東京流通センター(TRC)
+            場所：難波御堂筋ホール7階
           </p>
            
           <a
-            href="http://www.m3net.jp/index.html"
+            href="https://otoketto.jimdo.com/"
           >
-            M3公式サイト
+            音けっと公式サイト
           </a>
         </section>
          
