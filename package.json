@@ -17,7 +17,7 @@
     "@firebase/app-types": "0.3.2",
     "@types/jest": "23.3.9",
     "firebase": "5.5.8",
-    "lodash.camelcase": "^4.3.0",
+    "lodash.camelcase": "4.3.0",
     "moment": "2.22.2",
     "postcss-safe-parser": "4.0.1",
     "vue": "2.5.17",
