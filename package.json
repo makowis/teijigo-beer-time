@@ -70,7 +70,7 @@
     "postcss-url": "8.0.0",
     "prettier": "1.14.3",
     "rimraf": "2.6.2",
-    "selenium-server": "3.141.5",
+    "selenium-server": "3.141.59",
     "semver": "5.6.0",
     "shelljs": "0.8.3",
     "ts-jest": "23.10.4",
