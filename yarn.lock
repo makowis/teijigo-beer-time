@@ -247,15 +247,15 @@
     tslib "1.9.0"
     xmlhttprequest "1.8.0"
 
-"@firebase/auth-types@0.3.4":
-  version "0.3.4"
-  resolved "https://registry.yarnpkg.com/@firebase/auth-types/-/auth-types-0.3.4.tgz#253b1b2d9b520a0b945d4617c8418f0f19a4159f"
+"@firebase/auth-types@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@firebase/auth-types/-/auth-types-0.4.0.tgz#f65e1d079a2793f581a995a92f56005e44cf4aac"
 
-"@firebase/auth@0.7.9":
-  version "0.7.9"
-  resolved "https://registry.yarnpkg.com/@firebase/auth/-/auth-0.7.9.tgz#f915f8eeb6ee16b827518f48a0fa529803d39e4e"
+"@firebase/auth@0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@firebase/auth/-/auth-0.8.0.tgz#e98374341c66e4dc1e7dabdac4015eebfdae56ce"
   dependencies:
-    "@firebase/auth-types" "0.3.4"
+    "@firebase/auth-types" "0.4.0"
 
 "@firebase/database-types@0.3.2":
   version "0.3.2"
@@ -3574,12 +3574,12 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
-firebase@5.5.9:
-  version "5.5.9"
-  resolved "https://registry.yarnpkg.com/firebase/-/firebase-5.5.9.tgz#1e20172d7c7dfafdc75a18378439e0493bc12753"
+firebase@5.6.0:
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/firebase/-/firebase-5.6.0.tgz#fbaecb066a2928ff64f69e7b94669640daba5ba2"
   dependencies:
     "@firebase/app" "0.3.5"
-    "@firebase/auth" "0.7.9"
+    "@firebase/auth" "0.8.0"
     "@firebase/database" "0.3.7"
     "@firebase/firestore" "0.8.8"
     "@firebase/functions" "0.3.3"
