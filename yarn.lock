@@ -1916,9 +1916,9 @@ chrome-trace-event@^1.0.0:
   dependencies:
     tslib "^1.9.0"
 
-chromedriver@2.44.0:
-  version "2.44.0"
-  resolved "https://registry.yarnpkg.com/chromedriver/-/chromedriver-2.44.0.tgz#aed1d136d0ae2d43be80c69ade756ca55ebf8fc3"
+chromedriver@2.44.1:
+  version "2.44.1"
+  resolved "https://registry.yarnpkg.com/chromedriver/-/chromedriver-2.44.1.tgz#bb4dd614cb92b9a816e499ebaa692500011f4a3e"
   dependencies:
     del "^3.0.0"
     extract-zip "^1.6.7"
