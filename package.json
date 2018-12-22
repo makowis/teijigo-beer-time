@@ -43,7 +43,7 @@
     "chromedriver": "2.45.0",
     "copy-webpack-plugin": "4.6.0",
     "cross-spawn": "6.0.5",
-    "css-loader": "2.0.1",
+    "css-loader": "2.0.2",
     "eslint": "5.10.0",
     "eslint-config-airbnb-base": "13.1.0",
     "eslint-config-prettier": "3.3.0",
