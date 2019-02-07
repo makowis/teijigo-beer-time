@@ -122,7 +122,7 @@ exports[`Top.vue should match the snapshot 1`] = `
         <span
           class="blink"
         >
-          🎉🎉🎉🎉🎉🎉🎉音けっと参戦決定！🎉🎉🎉🎉🎉🎉
+          🎉🎉🎉🎉🎉🎉🎉M3-2019春参戦決定！🎉🎉🎉🎉🎉🎉
         </span>
       </p>
        
@@ -133,7 +133,7 @@ exports[`Top.vue should match the snapshot 1`] = `
           class="marqueeInner"
         >
           
-      「HOPE」通販開始！M3へのご来場ありがとうございました！次回は音けっと出ます！
+      M3-2019春に参戦！パワーアップした"ヤツら"が帰ってくる！！！
     
         </div>
       </div>
@@ -241,7 +241,7 @@ exports[`Top.vue should match the snapshot 1`] = `
         <h2
           class="h2"
         >
-          音けっとスペース配置
+          M3-2019春スペース配置
         </h2>
          
         <table
@@ -254,7 +254,17 @@ exports[`Top.vue should match the snapshot 1`] = `
             </th>
              
             <td>
-              クレオフーガ
+              クレオフーガ 定時後ビールタイム
+            </td>
+          </tr>
+           
+          <tr>
+            <th>
+              配置場所
+            </th>
+             
+            <td>
+              第一展示場
             </td>
           </tr>
            
@@ -264,7 +274,7 @@ exports[`Top.vue should match the snapshot 1`] = `
             </th>
              
             <td>
-              F3-c
+              J-06a
             </td>
           </tr>
         </table>
@@ -275,21 +285,21 @@ exports[`Top.vue should match the snapshot 1`] = `
           <h3
             class="h3"
           >
-            音けっと開催情報
+            M3-2019春
           </h3>
            
           <p>
-            日時：2018/12/2(日) 12:00〜16:00
+            日時：2019年 4月28日(日) 11:00～15:30 (予定)
           </p>
            
           <p>
-            場所：難波御堂筋ホール7階
+            場所：東京流通センター(TRC)第一展示場、第二展示場
           </p>
            
           <a
-            href="https://otoketto.jimdo.com/"
+            href="http://www.m3net.jp/"
           >
-            音けっと公式サイト
+            M3公式サイト
           </a>
         </section>
          
