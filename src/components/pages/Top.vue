@@ -2,9 +2,9 @@
   <tbt-default>
     <div class="top">
       <tbt-h1><tbt-blink>{{ msg }}</tbt-blink></tbt-h1>
-      <p><tbt-blink>🎉🎉🎉🎉🎉🎉🎉音けっと参戦決定！🎉🎉🎉🎉🎉🎉</tbt-blink></p>
+      <p><tbt-blink>🎉🎉🎉🎉🎉🎉🎉M3-2019春参戦決定！🎉🎉🎉🎉🎉🎉</tbt-blink></p>
       <tbt-marquee>
-        「HOPE」通販開始！M3へのご来場ありがとうございました！次回は音けっと出ます！
+        M3-2019春に参戦！パワーアップした"ヤツら"が帰ってくる！！！
       </tbt-marquee>
       <tbt-access-counter-section v-bind="counter" />
       <tbt-news-section />
