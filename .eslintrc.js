@@ -3,7 +3,7 @@
 module.exports = {
   root: true,
   parserOptions: {
-    parser: 'babel-eslint',
+    parser: '@typescript-eslint/parser',
     ecmaFeatures: {
       legacyDecorators: true
     }
@@ -16,7 +16,8 @@ module.exports = {
   extends: ['plugin:vue/essential', 'airbnb-base', 'plugin:prettier/recommended'],
   // required to lint *.vue files
   plugins: [
-    'vue'
+    'vue',
+    '@typescript-eslint',
   ],
   // check if imports actually resolve
   settings: {
