@@ -40,7 +40,6 @@ import Vue from 'vue';
 import Component from 'vue-class-component';
 import TbtDefault from '@/components/templates/TbtDefault.vue';
 import TbtH1 from '@/components/atoms/TbtH1.vue';
-import firebase from 'firebase';
 import database from '@/firebase-config';
 
 interface Message {
