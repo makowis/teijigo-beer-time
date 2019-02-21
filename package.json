@@ -21,7 +21,7 @@
     "moment": "2.24.0",
     "postcss-safe-parser": "4.0.1",
     "vue": "2.6.6",
-    "vue-class-component": "6.3.2",
+    "vue-class-component": "7.0.1",
     "vue-router": "3.0.2"
   },
   "devDependencies": {
