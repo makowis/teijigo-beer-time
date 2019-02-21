@@ -14,7 +14,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "@firebase/app-types": "0.3.3",
+    "@firebase/app-types": "0.3.4",
     "@types/jest": "24.0.6",
     "firebase": "5.8.3",
     "lodash.camelcase": "4.3.0",
