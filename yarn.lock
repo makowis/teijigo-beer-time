@@ -263,10 +263,6 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@firebase/app-types@0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@firebase/app-types/-/app-types-0.3.3.tgz#87659dd4cce8d1e341c717c61bd654998ac7142b"
-
 "@firebase/app-types@0.3.4":
   version "0.3.4"
   resolved "https://registry.yarnpkg.com/@firebase/app-types/-/app-types-0.3.4.tgz#ea0b9d23c93efb139a90247bf7361b774eb80aeb"
