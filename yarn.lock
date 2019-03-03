@@ -312,6 +312,11 @@
   version "0.3.4"
   resolved "https://registry.yarnpkg.com/@firebase/app-types/-/app-types-0.3.4.tgz#ea0b9d23c93efb139a90247bf7361b774eb80aeb"
 
+"@firebase/app-types@0.3.5":
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/@firebase/app-types/-/app-types-0.3.5.tgz#b1d4c7ee0e6655bdcafb0ed3d560aea72f6b239d"
+  integrity sha512-ytt2YIiW7hhGn8vrZMGqaPoop57HWxTRJfU/Fm/DYg77C4M7Zj7T1WFz+gmE+EiJY6/S5r2qxsU3pGxvx1OhhQ==
+
 "@firebase/app@0.3.9":
   version "0.3.9"
   resolved "https://registry.yarnpkg.com/@firebase/app/-/app-0.3.9.tgz#c1455a3706df682f35828e076192b0d30a3cc029"
