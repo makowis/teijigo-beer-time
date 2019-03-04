@@ -25,6 +25,8 @@ export default class TbtMenu extends Vue {}
 <style module>
 .mainContainer {
   width: 80%;
+  min-height: 100vh;
+  box-sizing: border-box;
   margin-left: 20%;
   border-left: 5px solid gainsboro;
   padding-top: 60px;
