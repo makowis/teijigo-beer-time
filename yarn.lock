@@ -414,10 +414,10 @@
   resolved "https://registry.yarnpkg.com/@firebase/firestore-types/-/firestore-types-1.1.1.tgz#f185f63ca812020e08d322fa2c1c6cd1e178b409"
   integrity sha512-l0hgXrUKj0kW2+unJPiNpBI2fCjvr4ELD7ikSTczP4nX61r55VHdxP0Ft1dbjOq/ICUo2kq/b8AWDeVUF2u6ow==
 
-"@firebase/firestore@1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@firebase/firestore/-/firestore-1.1.1.tgz#9356aa9e5d445cc526d2b3a4b8278187a0bae5cf"
-  integrity sha512-LcJz8W2WSTSaDJuRkx6NcRbhqjTbG+T+kgkS/xel3XbslkCHT7YHTwJqbJCZu7a6KggEAc1OW4qcngaLbPYzag==
+"@firebase/firestore@1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@firebase/firestore/-/firestore-1.1.2.tgz#9a45ed9a76e801a77f1be61cd6d1fc68c04b4a8d"
+  integrity sha512-ULOF3Bx2zMzrSRzE+ZKz4SNjXYTz2K+ysoAWBHz/PUX6ThOpphDosX1zcW3z4HyaqfMSrneRGJzht830PaH37A==
   dependencies:
     "@firebase/firestore-types" "1.1.1"
     "@firebase/logger" "0.1.10"
@@ -3940,15 +3940,15 @@ findup-sync@^2.0.0:
     micromatch "^3.0.4"
     resolve-dir "^1.0.1"
 
-firebase@5.9.1:
-  version "5.9.1"
-  resolved "https://registry.yarnpkg.com/firebase/-/firebase-5.9.1.tgz#6a20a413494d8ec93361a837b41e970ee0c67bbc"
-  integrity sha512-L4edGoHlWY4EM1IA2ItpDushst+Sg9JZ3D3elHaxtg4tutYZOE8TsP+xjp/yC/iruhUVeXTIVBit4H6+pFw6qg==
+firebase@5.9.2:
+  version "5.9.2"
+  resolved "https://registry.yarnpkg.com/firebase/-/firebase-5.9.2.tgz#ddf54bea24910b148fa1480570683b489db02f1e"
+  integrity sha512-AvXD/LEr9BqyOP3zFNid3+MzWQXNMRVaAT+VkUEkS0iPQLspjUgM2LhUvqRmF//BE+R/fIe9LIEef0WRrvNnCg==
   dependencies:
     "@firebase/app" "0.3.13"
     "@firebase/auth" "0.9.6"
     "@firebase/database" "0.3.16"
-    "@firebase/firestore" "1.1.1"
+    "@firebase/firestore" "1.1.2"
     "@firebase/functions" "0.4.3"
     "@firebase/messaging" "0.3.15"
     "@firebase/polyfill" "0.3.9"
