@@ -63,6 +63,26 @@ const gutch =
   profile: 'ビール飲めない！！！！！',
 };
 
+const meeyan =
+{
+  name: 'みーやん',
+  charge: `ハモるの大好きはもりびと`,
+  profile: 'ボーカルじゃなくてコーラスが得意',
+};
+
+const taiwan =
+{
+  name: '台湾豆乳を飲む人',
+  charge: `作業に参加しない係`,
+  profile: 'ﾆﾎﾝｺﾞワカリマセン',
+};
+
+const makky =
+{
+  name: 'マッキー',
+  charge: `BPM200以上`,
+  profile: 'お酒大好き！！！！！！',
+};
 
 export const members: Member[] = [
   sakamotop,
@@ -71,6 +91,9 @@ export const members: Member[] = [
   shacho,
   kero,
   gutch,
+  meeyan,
+  taiwan,
+  makky,
   mako,
 ];
 
