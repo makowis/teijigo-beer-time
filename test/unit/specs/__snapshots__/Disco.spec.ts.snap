@@ -132,7 +132,7 @@ exports[`Disco.vue should match the snapshot 1`] = `
         </p>
          
         <img
-          alt="1st CD「HOPE」のジェケット画像"
+          alt="1st CD「HOPE」のジャケット画像"
           class="jacket"
           src="@/assets/1st_hope_jacket.png"
         />
