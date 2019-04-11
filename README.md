@@ -5,6 +5,7 @@
 [![Build Status](https://travis-ci.com/makowis/teijigo-beer-time.svg?branch=master)](https://travis-ci.com/makowis/teijigo-beer-time)
 [![CodeFactor](https://www.codefactor.io/repository/github/makowis/teijigo-beer-time/badge)](https://www.codefactor.io/repository/github/makowis/teijigo-beer-time)
 [![BCH compliance](https://bettercodehub.com/edge/badge/makowis/teijigo-beer-time?branch=master)](https://bettercodehub.com/)
+[![codecov](https://codecov.io/gh/makowis/teijigo-beer-time/branch/master/graph/badge.svg)](https://codecov.io/gh/makowis/teijigo-beer-time)
 
 ## Build Setup
 
