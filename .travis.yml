@@ -1,6 +1,15 @@
 language: node_js
-node_js: "8.11.1"
-script: npm run lint && npm run test && npm run build
+node_js:
+  - "stable"
+cache:
+  directories:
+  - node_modules
+script:
+  - yarn lint
+  - yarn global add codecov
+  - yarn test --coverage --bail
+  - codecov
+  - yarn build
 deploy:
   provider: firebase
   skip_cleanup: true
