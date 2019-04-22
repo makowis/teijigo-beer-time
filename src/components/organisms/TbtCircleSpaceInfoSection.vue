@@ -23,7 +23,7 @@
     </tbt-section>
     <tbt-section>
       <tbt-h3>頒布CDクロスフェード</tbt-h3>
-      <tbt-hope-cross-fade :class="$style.crossFade" />
+      <tbt-start-cross-fade :class="$style.crossFade" />
     </tbt-section>
   </tbt-section>
 </template>
@@ -34,14 +34,14 @@ import Component from 'vue-class-component';
 import TbtH2 from '@/components/atoms/TbtH2.vue';
 import TbtH3 from '@/components/atoms/TbtH3.vue';
 import TbtSection from '@/components/atoms/TbtSection.vue';
-import TbtHopeCrossFade from '@/components/atoms/TbtHopeCrossFade.vue';
+import TbtStartCrossFade from '@/components/atoms/TbtStartCrossFade.vue';
 
 @Component({
   components: {
     TbtH2,
     TbtH3,
     TbtSection,
-    TbtHopeCrossFade,
+    TbtStartCrossFade,
   },
 })
 export default class TbtCircleSpaceInfoSection extends Vue {}
