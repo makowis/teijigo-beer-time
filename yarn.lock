@@ -2591,10 +2591,10 @@ chrome-trace-event@^1.0.0:
   dependencies:
     tslib "^1.9.0"
 
-chromedriver@75.1.0:
-  version "75.1.0"
-  resolved "https://registry.yarnpkg.com/chromedriver/-/chromedriver-75.1.0.tgz#edfef5d7a9b16b6f8a12ddb58cbac76ae52732fd"
-  integrity sha512-N2P0fg6FS4c+tTG0R7cCOD5qiVo+E6uAz6xVjmbZesYv1xs1iGdcCUo0IqOY+ppD/4OOObG+XWV1CFWXT6UIgA==
+chromedriver@76.0.0:
+  version "76.0.0"
+  resolved "https://registry.yarnpkg.com/chromedriver/-/chromedriver-76.0.0.tgz#cbf618c5b370799ff6e15b23de07e80f67f89025"
+  integrity sha512-jGyqs0N+lMo9iaNQxGKNPiLJWb2L9s2rwbRr1jJeQ37n6JQ1+5YMGviv/Fx5Z08vBWYbAvrKEzFsuYf8ppl+lw==
   dependencies:
     del "^4.1.1"
     extract-zip "^1.6.7"
@@ -8644,7 +8644,7 @@ selfsigned@^1.10.4:
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.5.0.tgz#dc4bbc7a6ca9d916dee5d43516f0092b58f7b8ab"
 
-semver@6.3.0:
+semver@6.3.0, semver@^6.1.2:
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
   integrity sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==
@@ -8667,11 +8667,6 @@ semver@^6.1.1:
   version "6.1.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.1.1.tgz#53f53da9b30b2103cd4f15eab3a18ecbcb210c9b"
   integrity sha512-rWYq2e5iYW+fFe/oPPtYJxYgjBm8sC4rmoGdUOgBB7VnwKt6HrL793l2voH1UlsyYZpJ4g0wfjnTEO1s1NP2eQ==
-
-semver@^6.1.2:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
-  integrity sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==
 
 send@0.16.2:
   version "0.16.2"
