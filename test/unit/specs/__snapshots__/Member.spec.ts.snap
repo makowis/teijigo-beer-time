@@ -261,6 +261,19 @@ exports[`Member.vue should match the snapshot 1`] = `
           </tr>
           <tr>
             <td>
+              Ag+
+            </td>
+             
+            <td>
+              テレアポ
+            </td>
+             
+            <td>
+              どこでもアポとります！
+            </td>
+          </tr>
+          <tr>
+            <td>
               管理人MAKO
             </td>
              

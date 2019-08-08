@@ -84,6 +84,13 @@ const makky =
   profile: 'お酒大好き！！！！！！',
 };
 
+const ag =
+{
+  name: 'Ag+',
+  charge: `テレアポ`,
+  profile: 'どこでもアポとります！',
+};
+
 export const members: Member[] = [
   sakamotop,
   noBeerK,
@@ -94,6 +101,7 @@ export const members: Member[] = [
   meeyan,
   taiwan,
   makky,
+  ag,
   mako,
 ];
 
