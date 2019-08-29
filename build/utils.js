@@ -67,8 +67,9 @@ exports.cssLoaders = generateCssLoaders({
 exports.cssModuleLoaders = generateCssLoaders({
   loader: 'css-loader',
   options: {
-    modules: true,
-    localIdentName: '[local]_[hash:base64:8]'
+    modules: {
+      localIdentName: `[name]_[local]_[hash:base64:5]`
+    }
   }
 })
 
