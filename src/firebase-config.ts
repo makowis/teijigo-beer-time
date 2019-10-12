@@ -2,7 +2,7 @@ import firebase from 'firebase/app';
 import 'firebase/database';
 
 const config = {
-  databaseURL: "https://teijigo-beer-time.firebaseio.com",
+  databaseURL: 'https://teijigo-beer-time.firebaseio.com',
 };
 
 firebase.initializeApp(config);

@@ -1,6 +1,6 @@
 <template>
   <div :class="$style.video">
-    <slot/>
+    <slot />
   </div>
 </template>
 

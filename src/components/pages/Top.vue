@@ -1,8 +1,12 @@
 <template>
   <tbt-default>
     <div class="top">
-      <tbt-h1><tbt-blink>{{ msg }}</tbt-blink></tbt-h1>
-      <p><tbt-blink>🎉🎉🎉🎉🎉🎉🎉M3-2019秋参戦決定！🎉🎉🎉🎉🎉🎉</tbt-blink></p>
+      <tbt-h1
+        ><tbt-blink>{{ msg }}</tbt-blink></tbt-h1
+      >
+      <p>
+        <tbt-blink>🎉🎉🎉🎉🎉🎉🎉M3-2019秋参戦決定！🎉🎉🎉🎉🎉🎉</tbt-blink>
+      </p>
       <tbt-marquee>
         M3-2019秋に参戦！定時後ビールタイム発、最強トリオがついにタッグを！続報を待て！
       </tbt-marquee>

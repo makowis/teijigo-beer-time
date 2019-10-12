@@ -1,5 +1,5 @@
 <template>
-  <img src="@/assets/beenya.png" alt="びーにゃのイラスト">
+  <img src="@/assets/beenya.png" alt="びーにゃのイラスト" />
 </template>
 
 <script lang="ts">
@@ -10,5 +10,4 @@ import Component from 'vue-class-component';
 export default class TbtBeenyaImg extends Vue {}
 </script>
 
-<style module>
-</style>
+<style module></style>

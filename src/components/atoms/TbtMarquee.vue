@@ -3,7 +3,7 @@
     <div :class="$style.marqueeInner">
       <slot />
     </div>
-   </div>
+  </div>
 </template>
 
 <script lang="ts">
