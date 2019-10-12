@@ -1,5 +1,5 @@
 <template>
-  <img src="@/assets/cut.png" alt="サークルカット">
+  <img src="@/assets/cut.png" alt="サークルカット" />
 </template>
 
 <script lang="ts">
@@ -10,5 +10,4 @@ import Component from 'vue-class-component';
 export default class TbtCircleCutImg extends Vue {}
 </script>
 
-<style module>
-</style>
+<style module></style>

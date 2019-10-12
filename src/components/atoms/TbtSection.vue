@@ -1,6 +1,6 @@
 <template>
   <section :class="$style.section">
-    <slot/>
+    <slot />
   </section>
 </template>
 

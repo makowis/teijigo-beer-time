@@ -4,28 +4,31 @@
       <tbt-h1>一言掲示板</tbt-h1>
       <p>
         足跡や、あいさつ、キリ番報告、等に使用していただいて構いません。
-        <br>
+        <br />
         誹謗中傷、個人情報などの書き込みはご遠慮ください。
       </p>
       <div class="message-form">
         <div class="message-form-group">
           <label for="nameInput">HN(ハンドルネーム)</label>
-          <input type="text" id="nameInput" maxlength="20" v-model="name">
+          <input type="text" id="nameInput" maxlength="20" v-model="name" />
         </div>
         <div class="message-form-group">
           <label for="messageInput">メッセージ</label>
-          <input type="text" id="messageInput" maxlength="100" v-model="message">
+          <input
+            type="text"
+            id="messageInput"
+            maxlength="100"
+            v-model="message"
+          />
         </div>
         <button type="button" @click="sendMessage">送信</button>
       </div>
       <div>
         <ul class="message-list">
           <li v-for="(item, key) in messageList" v-bind:key="key">
-            <p>
-              {{item.message}} by {{item.name}}
-            </p>
+            <p>{{ item.message }} by {{ item.name }}</p>
             <p class="time-label">
-              {{item.createdAt}}
+              {{ item.createdAt }}
             </p>
           </li>
         </ul>

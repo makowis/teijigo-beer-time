@@ -3,7 +3,10 @@
     <div class="not-found">
       <tbt-h1>404 NOT FOUND</tbt-h1>
       <p>このページは存在しません。</p>
-      <img src="@/assets/nomikai_salaryman.png" alt="飲み会のイラストです。ビール飲みましょう">
+      <img
+        src="@/assets/nomikai_salaryman.png"
+        alt="飲み会のイラストです。ビール飲みましょう"
+      />
     </div>
   </tbt-default>
 </template>
@@ -23,5 +26,4 @@ import TbtH1 from '@/components/atoms/TbtH1.vue';
 export default class NotFound extends Vue {}
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>

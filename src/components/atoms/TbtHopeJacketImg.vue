@@ -1,5 +1,8 @@
 <template>
-  <img src="@/assets/1st_hope_jacket.png" alt="1st CD「HOPE」のジャケット画像">
+  <img
+    src="@/assets/1st_hope_jacket.png"
+    alt="1st CD「HOPE」のジャケット画像"
+  />
 </template>
 
 <script lang="ts">
@@ -10,5 +13,4 @@ import Component from 'vue-class-component';
 export default class TbtHopeJacketImg extends Vue {}
 </script>
 
-<style module>
-</style>
+<style module></style>

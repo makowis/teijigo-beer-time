@@ -12,7 +12,7 @@
         </thead>
         <tbody>
           <tr v-for="member in members" v-bind:key="member.name">
-            <td>{{member.name}}</td>
+            <td>{{ member.name }}</td>
             <td v-html="member.charge"></td>
             <td v-html="member.profile"></td>
           </tr>

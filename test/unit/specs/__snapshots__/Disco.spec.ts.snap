@@ -188,14 +188,14 @@ exports[`Disco.vue should match the snapshot 1`] = `
                
               <td>
                 
-            作曲：ビール飲まない社員K
+              作曲：ビール飲まない社員K
                 <br />
                 
-            作詞：ビール飲まない社員K、みーやん
+              作詞：ビール飲まない社員K、みーやん
                 <br />
                 
-            歌：みーやん
-          
+              歌：みーやん
+            
               </td>
             </tr>
              
@@ -216,11 +216,11 @@ exports[`Disco.vue should match the snapshot 1`] = `
                
               <td>
                 
-            作詞・作曲：マッキー
+              作詞・作曲：マッキー
                 <br />
                 
-            歌：IA
-          
+              歌：IA
+            
               </td>
             </tr>
              
@@ -241,14 +241,14 @@ exports[`Disco.vue should match the snapshot 1`] = `
                
               <td>
                 
-            作詞・作曲：u13
+              作詞・作曲：u13
                 <br />
                 
-            編曲：comorebi notes
+              編曲：comorebi notes
                 <br />
                 
-            歌：フナモトアユミ
-          
+              歌：フナモトアユミ
+            
               </td>
             </tr>
              
@@ -269,17 +269,17 @@ exports[`Disco.vue should match the snapshot 1`] = `
                
               <td>
                 
-            企画：WestTail
+              企画：WestTail
                 <br />
                 
-            作曲：comorebi notes
+              作曲：comorebi notes
                 <br />
                 
-            作詞：台湾豆乳を飲む人
+              作詞：台湾豆乳を飲む人
                 <br />
                 
-            歌：Shiho (the Clock Hands)
-          
+              歌：Shiho (the Clock Hands)
+            
               </td>
             </tr>
           </tbody>

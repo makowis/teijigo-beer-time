@@ -1,6 +1,6 @@
 <template>
   <h2 :class="$style.h2">
-    <slot/>
+    <slot />
   </h2>
 </template>
 

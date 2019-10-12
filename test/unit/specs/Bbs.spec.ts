@@ -7,6 +7,6 @@ describe('Bbs.vue', () => {
   const vm = new Constructor({ router }).$mount();
 
   it('should match the snapshot', () => {
-    expect(vm.$el).toMatchSnapshot()
+    expect(vm.$el).toMatchSnapshot();
   });
 });

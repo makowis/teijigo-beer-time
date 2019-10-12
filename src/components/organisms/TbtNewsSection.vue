@@ -12,12 +12,11 @@
       </li>
       <li>
         <tbt-new-blink :class="$style.newsBlink">NEW</tbt-new-blink>
-        <a href="https://twitter.com/tbt_cf">公式Twitterアカウント</a>作りました！最新情報をつぶやいていきます！
+        <a href="https://twitter.com/tbt_cf">公式Twitterアカウント</a
+        >作りました！最新情報をつぶやいていきます！
       </li>
     </ul>
-    <p>
-
-    </p>
+    <p></p>
   </tbt-section>
 </template>
 
@@ -37,7 +36,6 @@ import TbtNewBlink from '@/components/atoms/TbtNewBlink.vue';
 })
 export default class TbtNewsSection extends Vue {}
 </script>
-
 
 <style module>
 .newsList {

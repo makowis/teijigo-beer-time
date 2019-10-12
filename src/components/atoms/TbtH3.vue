@@ -1,6 +1,6 @@
 <template>
   <h3 :class="$style.h3">
-    <slot/>
+    <slot />
   </h3>
 </template>
 
