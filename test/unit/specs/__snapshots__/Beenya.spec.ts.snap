@@ -150,7 +150,9 @@ exports[`Beenya.vue should match the snapshot 1`] = `
             </th>
              
             <td>
-              にゃにゃにゃにゃにゃにゃにゃー！(定時後ビールタイムだー！！)
+              
+            にゃにゃにゃにゃにゃにゃにゃー！(定時後ビールタイムだー！！)
+          
             </td>
           </tr>
         </tbody>
