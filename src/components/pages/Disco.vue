@@ -4,8 +4,65 @@
       <tbt-h1>DISCOGRAPHY</tbt-h1>
       <tbt-section>
         <tbt-h2 :class="$style.albumTitle">
-          2nd Mini Album 「START」
+          3nd Mini Album 「RECYCLE」
           <tbt-new-blink />
+        </tbt-h2>
+        <p :class="$style.onSale">
+          <tbt-blink>2019.10.27 ON SALE！</tbt-blink>
+        </p>
+        <tbt-recycle-jacket-img :class="$style.jacket" />
+        <table border="1" :class="$style.table">
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>曲名</th>
+              <th>アーティスト</th>
+              <th>クレジット</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td :class="$style.trackNo">1</td>
+              <td>paellero</td>
+              <td>comorebi notes</td>
+              <td>
+                作詞・作曲・歌：comorebi notes
+              </td>
+            </tr>
+            <tr>
+              <td :class="$style.trackNo">2</td>
+              <td>Carry on</td>
+              <td>マッキー</td>
+              <td>
+                作詞・作曲：マッキー<br />
+                歌：マッキー feat. IA
+              </td>
+            </tr>
+            <tr>
+              <td :class="$style.trackNo">3</td>
+              <td>大都会フォーエバー</td>
+              <td>comorebi notes</td>
+              <td>
+                作詞・作曲：comorebi notes<br />
+                歌：IA
+              </td>
+            </tr>
+            <tr>
+              <td :class="$style.trackNo">4</td>
+              <td>tanabatight</td>
+              <td>u13</td>
+              <td>
+                作曲：u13
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <tbt-recycle-cross-fade :class="$style.crossFade" />
+      </tbt-section>
+      <hr />
+      <tbt-section>
+        <tbt-h2 :class="$style.albumTitle">
+          2nd Mini Album 「START」
         </tbt-h2>
         <p :class="$style.onSale">
           <tbt-blink>2019.04.27 ON SALE！</tbt-blink>
@@ -130,8 +187,10 @@ import TbtBlink from '@/components/atoms/TbtBlink.vue';
 import TbtNewBlink from '@/components/atoms/TbtNewBlink.vue';
 import TbtHopeJacketImg from '@/components/atoms/TbtHopeJacketImg.vue';
 import TbtStartJacketImg from '@/components/atoms/TbtStartJacketImg.vue';
+import TbtRecycleJacketImg from '@/components/atoms/TbtRecycleJacketImg.vue';
 import TbtHopeCrossFade from '@/components/atoms/TbtHopeCrossFade.vue';
 import TbtStartCrossFade from '@/components/atoms/TbtStartCrossFade.vue';
+import TbtRecycleCrossFade from '@/components/atoms/TbtRecycleCrossFade.vue';
 
 @Component({
   components: {
@@ -141,10 +200,12 @@ import TbtStartCrossFade from '@/components/atoms/TbtStartCrossFade.vue';
     TbtSection,
     TbtHopeJacketImg,
     TbtStartJacketImg,
+    TbtRecycleJacketImg,
     TbtBlink,
     TbtNewBlink,
     TbtHopeCrossFade,
     TbtStartCrossFade,
+    TbtRecycleCrossFade,
   },
 })
 export default class Disco extends Vue {}

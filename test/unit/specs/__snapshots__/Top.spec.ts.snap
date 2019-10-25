@@ -241,7 +241,7 @@ exports[`Top.vue should match the snapshot 1`] = `
         <h2
           class="h2"
         >
-          M3-2019春スペース配置
+          M3-2019秋スペース配置
         </h2>
          
         <table
@@ -274,7 +274,7 @@ exports[`Top.vue should match the snapshot 1`] = `
             </th>
              
             <td>
-              J-06a
+              K-18a
             </td>
           </tr>
         </table>
@@ -285,11 +285,11 @@ exports[`Top.vue should match the snapshot 1`] = `
           <h3
             class="h3"
           >
-            M3-2019春
+            M3-2019秋
           </h3>
            
           <p>
-            日時：2019年 4月28日(日) 11:00～15:30 (予定)
+            日時：2019年 10月27日(日) 11:00～15:30
           </p>
            
           <p>
@@ -320,7 +320,7 @@ exports[`Top.vue should match the snapshot 1`] = `
               allowfullscreen="allowfullscreen"
               frameborder="0"
               height="315"
-              src="https://www.youtube.com/embed/IxTdbkoGM-Q"
+              src="https://www.youtube.com/embed/L_DAzJq4tgg"
               width="560"
             />
           </div>
