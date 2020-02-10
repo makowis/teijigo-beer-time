@@ -8,7 +8,7 @@
         <tbt-blink>🎉🎉🎉🎉🎉🎉🎉M3-2019秋参戦決定！🎉🎉🎉🎉🎉🎉</tbt-blink>
       </p>
       <tbt-marquee>
-        M3-2020秋に参戦！パワーアップしたサウンドをお届けします！
+        M3-2020春に参戦！パワーアップしたサウンドをお届けします！
       </tbt-marquee>
       <tbt-access-counter-section v-bind="counter" />
       <tbt-news-section />
