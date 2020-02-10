@@ -8,7 +8,7 @@
         <tbt-blink>🎉🎉🎉🎉🎉🎉🎉M3-2019秋参戦決定！🎉🎉🎉🎉🎉🎉</tbt-blink>
       </p>
       <tbt-marquee>
-        M3-2019秋に参戦！定時後ビールタイム発、最強トリオがついにタッグを！続報を待て！
+        M3-2020秋に参戦！パワーアップしたサウンドをお届けします！
       </tbt-marquee>
       <tbt-access-counter-section v-bind="counter" />
       <tbt-news-section />
