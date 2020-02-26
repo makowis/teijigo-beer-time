@@ -22,7 +22,7 @@
     "postcss-safe-parser": "4.0.2",
     "vue": "2.6.11",
     "vue-class-component": "7.2.3",
-    "vue-router": "3.1.5"
+    "vue-router": "3.1.6"
   },
   "devDependencies": {
     "@babel/core": "7.8.4",
