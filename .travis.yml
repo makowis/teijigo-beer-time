@@ -12,7 +12,7 @@ script:
   - yarn build
 deploy:
   provider: firebase
-  skip_cleanup: true
+  # skip_cleanup: true
   token:
     secure: $FIREBASE_TOKEN
   project: $FIREBASE_PROJECT
