@@ -28,7 +28,7 @@
     "@babel/core": "7.9.0",
     "@typescript-eslint/eslint-plugin": "2.25.0",
     "@typescript-eslint/parser": "2.25.0",
-    "autoprefixer": "9.7.4",
+    "autoprefixer": "9.7.5",
     "babel-eslint": "10.1.0",
     "babel-helper-vue-jsx-merge-props": "2.0.3",
     "babel-jest": "25.1.0",
