@@ -62,7 +62,7 @@
     "jest": "25.5.4",
     "jest-serializer-vue": "2.0.2",
     "mini-css-extract-plugin": "0.12.0",
-    "nightwatch": "1.3.4",
+    "nightwatch": "1.4.3",
     "node-notifier": "7.0.2",
     "optimize-css-assets-webpack-plugin": "5.0.3",
     "ora": "4.0.5",
