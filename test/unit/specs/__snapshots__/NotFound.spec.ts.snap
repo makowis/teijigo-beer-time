@@ -18,9 +18,7 @@ exports[`NotFound.vue should match the snapshot 1`] = `
           class="router-link-exact-active router-link-active"
           href="/"
         >
-          
-        トップ
-      
+           トップ 
         </a>
       </li>
        
@@ -31,9 +29,7 @@ exports[`NotFound.vue should match the snapshot 1`] = `
           class=""
           href="/disco"
         >
-          
-        DISCOGRAPHY
-      
+           DISCOGRAPHY 
         </a>
       </li>
        
@@ -44,9 +40,7 @@ exports[`NotFound.vue should match the snapshot 1`] = `
           class=""
           href="/member"
         >
-          
-        メンバー紹介
-      
+           メンバー紹介 
         </a>
       </li>
        
@@ -57,9 +51,7 @@ exports[`NotFound.vue should match the snapshot 1`] = `
           class=""
           href="/bbs"
         >
-          
-        一言掲示板
-      
+           一言掲示板 
         </a>
       </li>
        
@@ -70,9 +62,7 @@ exports[`NotFound.vue should match the snapshot 1`] = `
           class=""
           href="/beenya"
         >
-          
-        びーにゃの部屋
-      
+           びーにゃの部屋 
         </a>
       </li>
        

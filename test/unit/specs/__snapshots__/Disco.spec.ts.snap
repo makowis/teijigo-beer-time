@@ -18,9 +18,7 @@ exports[`Disco.vue should match the snapshot 1`] = `
           class="router-link-exact-active router-link-active"
           href="/"
         >
-          
-        トップ
-      
+           トップ 
         </a>
       </li>
        
@@ -31,9 +29,7 @@ exports[`Disco.vue should match the snapshot 1`] = `
           class=""
           href="/disco"
         >
-          
-        DISCOGRAPHY
-      
+           DISCOGRAPHY 
         </a>
       </li>
        
@@ -44,9 +40,7 @@ exports[`Disco.vue should match the snapshot 1`] = `
           class=""
           href="/member"
         >
-          
-        メンバー紹介
-      
+           メンバー紹介 
         </a>
       </li>
        
@@ -57,9 +51,7 @@ exports[`Disco.vue should match the snapshot 1`] = `
           class=""
           href="/bbs"
         >
-          
-        一言掲示板
-      
+           一言掲示板 
         </a>
       </li>
        
@@ -70,9 +62,7 @@ exports[`Disco.vue should match the snapshot 1`] = `
           class=""
           href="/beenya"
         >
-          
-        びーにゃの部屋
-      
+           びーにゃの部屋 
         </a>
       </li>
        
@@ -187,9 +177,7 @@ exports[`Disco.vue should match the snapshot 1`] = `
               </td>
                
               <td>
-                
-              作詞・作曲・歌：comorebi notes
-            
+                作詞・作曲・歌：comorebi notes
               </td>
             </tr>
              
@@ -259,9 +247,7 @@ exports[`Disco.vue should match the snapshot 1`] = `
               </td>
                
               <td>
-                
-              作曲：u13
-            
+                作曲：u13
               </td>
             </tr>
           </tbody>
@@ -289,9 +275,7 @@ exports[`Disco.vue should match the snapshot 1`] = `
         <h2
           class="h2 albumTitle"
         >
-          
-        2nd Mini Album 「START」
-      
+           2nd Mini Album 「START」 
         </h2>
          
         <p
