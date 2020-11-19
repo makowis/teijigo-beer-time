@@ -2,29 +2,19 @@
   <nav id="menu-container" :class="$style.menuContainer">
     <ul :class="$style.menu">
       <li :class="$style.menuItem">
-        <tbt-top-link>
-          トップ
-        </tbt-top-link>
+        <tbt-top-link> トップ </tbt-top-link>
       </li>
       <li :class="$style.menuItem">
-        <tbt-disco-link>
-          DISCOGRAPHY
-        </tbt-disco-link>
+        <tbt-disco-link> DISCOGRAPHY </tbt-disco-link>
       </li>
       <li :class="$style.menuItem">
-        <tbt-member-link>
-          メンバー紹介
-        </tbt-member-link>
+        <tbt-member-link> メンバー紹介 </tbt-member-link>
       </li>
       <li :class="$style.menuItem">
-        <tbt-bbs-link>
-          一言掲示板
-        </tbt-bbs-link>
+        <tbt-bbs-link> 一言掲示板 </tbt-bbs-link>
       </li>
       <li :class="$style.menuItem">
-        <tbt-beenya-link>
-          びーにゃの部屋
-        </tbt-beenya-link>
+        <tbt-beenya-link> びーにゃの部屋 </tbt-beenya-link>
       </li>
       <li :class="$style.menuItem">
         <a href="https://teijigo.booth.pm/items/1093403" target="_blank">

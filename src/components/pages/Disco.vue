@@ -25,9 +25,7 @@
               <td :class="$style.trackNo">1</td>
               <td>paellero</td>
               <td>comorebi notes</td>
-              <td>
-                作詞・作曲・歌：comorebi notes
-              </td>
+              <td>作詞・作曲・歌：comorebi notes</td>
             </tr>
             <tr>
               <td :class="$style.trackNo">2</td>
@@ -51,9 +49,7 @@
               <td :class="$style.trackNo">4</td>
               <td>tanabatight</td>
               <td>u13</td>
-              <td>
-                作曲：u13
-              </td>
+              <td>作曲：u13</td>
             </tr>
           </tbody>
         </table>
@@ -61,9 +57,7 @@
       </tbt-section>
       <hr />
       <tbt-section>
-        <tbt-h2 :class="$style.albumTitle">
-          2nd Mini Album 「START」
-        </tbt-h2>
+        <tbt-h2 :class="$style.albumTitle"> 2nd Mini Album 「START」 </tbt-h2>
         <p :class="$style.onSale">
           <tbt-blink>2019.04.27 ON SALE！</tbt-blink>
         </p>
