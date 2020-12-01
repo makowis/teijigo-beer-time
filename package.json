@@ -73,7 +73,7 @@
     "prettier": "2.1.2",
     "rimraf": "3.0.2",
     "selenium-server": "3.141.59",
-    "semver": "7.3.2",
+    "semver": "7.3.4",
     "shelljs": "0.8.4",
     "ts-jest": "26.4.4",
     "ts-loader": "8.0.11",
