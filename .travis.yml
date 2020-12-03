@@ -13,8 +13,8 @@ script:
 deploy:
   provider: firebase
   skip_cleanup: true
-  token:
-    secure: $FIREBASE_TOKEN
+  edge: true
+  token: $FIREBASE_TOKEN
   project: $FIREBASE_PROJECT
   on:
     branch: master
