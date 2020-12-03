@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@firebase/app-types": "0.6.1",
-    "@types/jest": "26.0.15",
+    "@types/jest": "26.0.16",
     "firebase": "7.24.0",
     "lodash.camelcase": "4.3.0",
     "moment": "2.29.1",
