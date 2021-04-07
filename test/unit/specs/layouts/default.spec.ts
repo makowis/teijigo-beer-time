@@ -11,7 +11,7 @@ describe('index.vue', () => {
       NuxtLink: RouterLinkStub,
       Nuxt: NuxtMock,
     }
-  }).vm;  
+  }).vm;
 
   it('should match the snapshot', () => {
     expect(vm.$el).toMatchSnapshot();
