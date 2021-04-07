@@ -3,14 +3,12 @@ import Index from '@/pages/index.vue';
 
 describe('index.vue', () => {
   const mockMath = Object.create(global.Math);
-  mockMath.random = () => 1;
+  mockMath.random = () => 0.5;
+  global.Math = mockMath;
 
   const vm = mount(Index, {
     stubs: {
       NuxtLink: RouterLinkStub
-    },
-    mocks: {
-      Math: mockMath
     }
   }).vm;
 
