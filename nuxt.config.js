@@ -5,10 +5,6 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
-  router: {
-    base: '/teijigo-beer-time/',
-  },
-
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: '定時後ビールタイム',
