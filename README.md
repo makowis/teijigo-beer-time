@@ -2,7 +2,8 @@
 
 > 定時後ビールタイム公式サイト
 
-[![Build Status](https://travis-ci.com/makowis/teijigo-beer-time.svg?branch=master)](https://travis-ci.com/makowis/teijigo-beer-time)
+[![ci](https://github.com/makowis/teijigo-beer-time/actions/workflows/ci.yml/badge.svg)](https://github.com/makowis/teijigo-beer-time/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/makowis/teijigo-beer-time/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/makowis/teijigo-beer-time/actions/workflows/codeql-analysis.yml)
 [![CodeFactor](https://www.codefactor.io/repository/github/makowis/teijigo-beer-time/badge)](https://www.codefactor.io/repository/github/makowis/teijigo-beer-time)
 [![BCH compliance](https://bettercodehub.com/edge/badge/makowis/teijigo-beer-time?branch=master)](https://bettercodehub.com/)
 [![codecov](https://codecov.io/gh/makowis/teijigo-beer-time/branch/master/graph/badge.svg)](https://codecov.io/gh/makowis/teijigo-beer-time)
