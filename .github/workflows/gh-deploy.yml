@@ -8,7 +8,7 @@ on:
       - completed
 
 jobs:
-  ci:
+  gh_deploy:
     runs-on: ${{ matrix.os }}
 
     strategy:
@@ -16,6 +16,8 @@ jobs:
         os: [ubuntu-latest]
         node: [14]
 
+    # 呼び元のworkflowの結果がsuccessであればmain jobを実行
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
       - name: Checkout 🛎
         uses: actions/checkout@master
