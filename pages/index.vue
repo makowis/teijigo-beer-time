@@ -41,7 +41,11 @@ export default {
   },
   data() {
     return {
-      counter: { access: 0, realtime: 0 },
+      counter: {
+        access: `0000000000000000${Math.floor(Math.random() * 99999)}`.slice(
+          -16
+        ),
+      },
     }
   },
 }
