@@ -21,9 +21,7 @@ export default {
           '定時後にビール飲みながら作曲するかというノリで集まったメンバーでやってる音楽サークルです。',
       },
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/nuxttest/favicon.ico' },
-    ],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
