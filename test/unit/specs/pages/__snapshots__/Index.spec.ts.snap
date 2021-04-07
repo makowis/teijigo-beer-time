@@ -18,7 +18,7 @@ exports[`index.vue should match the snapshot 1`] = `
     <span
       class="blink"
     >
-      🎉🎉🎉🎉🎉🎉🎉M3-2020春参戦決定！🎉🎉🎉🎉🎉🎉
+      🎉🎉🎉🎉🎉🎉🎉M3-2021春参戦決定！🎉🎉🎉🎉🎉🎉
     </span>
   </p>
    
@@ -29,7 +29,7 @@ exports[`index.vue should match the snapshot 1`] = `
       class="marqueeInner"
     >
       
-    M3-2020春に参戦！パワーアップしたサウンドをお届けします！
+    M3-202!春に参戦！パワーアップしたサウンドをお届けします！
   
     </div>
   </div>
