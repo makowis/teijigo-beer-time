@@ -1,0 +1,261 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index.vue should match the snapshot 1`] = `
+<div
+  class="Top"
+>
+  <h1
+    class="h1"
+  >
+    <span
+      class="blink"
+    >
+      定時後ビールタイム公式サイト
+    </span>
+  </h1>
+   
+  <p>
+    <span
+      class="blink"
+    >
+      🎉🎉🎉🎉🎉🎉🎉M3-2020春参戦決定！🎉🎉🎉🎉🎉🎉
+    </span>
+  </p>
+   
+  <div
+    class="marquee"
+  >
+    <div
+      class="marqueeInner"
+    >
+      
+    M3-2020春に参戦！パワーアップしたサウンドをお届けします！
+  
+    </div>
+  </div>
+   
+  <section
+    class="section"
+  >
+    <h2
+      class="h2"
+    >
+      アクセスカウンター
+    </h2>
+     
+    <p>
+      あなたは0人目の訪問者です。
+    </p>
+     
+    <p>
+      現在の累計訪問者数は0人です。
+    </p>
+  </section>
+   
+  <section
+    class="section"
+  >
+    <h2
+      class="h2"
+    >
+      News
+    </h2>
+     
+    <ul
+      class="newsList"
+    >
+      <li>
+        <span
+          class="blink newsBlink"
+        >
+          NEW
+        </span>
+        
+      通販開始しました！
+      
+        <a
+          href="https://teijigo.booth.pm/items/1093403"
+          target="_blank"
+        >
+          
+        BOOTH Festival APOLLO 第9回
+      
+        </a>
+        
+      に参加中です！
+    
+      </li>
+       
+      <li>
+        <span
+          class="blink newsBlink"
+        >
+          NEW
+        </span>
+         
+        <a
+          href="https://twitter.com/tbt_cf"
+        >
+          公式Twitterアカウント
+        </a>
+        作りました！最新情報をつぶやいていきます！
+    
+      </li>
+    </ul>
+     
+    <p />
+  </section>
+   
+  <section
+    class="section"
+  >
+    <h2
+      class="h2"
+    >
+      サークルカット
+    </h2>
+     
+    <img
+      alt="サークルカット"
+      class="circleCut"
+      src="@/assets/cut.png"
+    />
+  </section>
+   
+  <section
+    class="section"
+  >
+    <h2
+      class="h2"
+    >
+      M3-2019秋スペース配置
+    </h2>
+     
+    <table
+      border="1"
+      class="spaceTable"
+    >
+      <tr>
+        <th>
+          サークル名
+        </th>
+         
+        <td>
+          クレオフーガ 定時後ビールタイム
+        </td>
+      </tr>
+       
+      <tr>
+        <th>
+          配置場所
+        </th>
+         
+        <td>
+          第一展示場
+        </td>
+      </tr>
+       
+      <tr>
+        <th>
+          スペース番号
+        </th>
+         
+        <td>
+          K-18a
+        </td>
+      </tr>
+    </table>
+     
+    <section
+      class="section"
+    >
+      <h3
+        class="h3"
+      >
+        M3-2019秋
+      </h3>
+       
+      <p>
+        日時：2019年 10月27日(日) 11:00～15:30
+      </p>
+       
+      <p>
+        場所：東京流通センター(TRC)第一展示場、第二展示場
+      </p>
+       
+      <a
+        href="http://www.m3net.jp/"
+      >
+        M3公式サイト
+      </a>
+    </section>
+     
+    <section
+      class="section"
+    >
+      <h3
+        class="h3"
+      >
+        頒布CDクロスフェード
+      </h3>
+       
+      <div
+        class="video crossFade"
+      >
+        <iframe
+          allow="autoplay; encrypted-media"
+          allowfullscreen="allowfullscreen"
+          frameborder="0"
+          height="315"
+          src="https://www.youtube.com/embed/L_DAzJq4tgg"
+          width="560"
+        />
+      </div>
+    </section>
+  </section>
+   
+  <section
+    class="section"
+  >
+    <h2
+      class="h2"
+    >
+      連絡先
+    </h2>
+     
+    <p>
+      
+    お問い合わせは
+      <a
+        href="mailto:staff@teijigo-beer-ti.me"
+      >
+        staff🍺teijigo-beer-ti.me
+      </a>
+      （🍺を@マークに変える）にお願いします。
+  
+    </p>
+  </section>
+   
+  <section
+    class="section"
+  >
+    <h2
+      class="h2"
+    >
+      メニュー
+    </h2>
+     
+    <p>
+      <a>
+         ＞＞＞＞DISCOGRAPHY＜＜＜＜ 
+      </a>
+    </p>
+     
+    <p>
+      <a>
+         🍺🍺🍺🍺️メンバー紹介🍺🍺🍺🍺 
+      </a>
+    </p>
+  </section>
+</div>
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index.vue should match the snapshot 1`] = `
+<div
+  class="not-found"
+>
+  <h1
+    class="h1"
+  >
+    404 NOT FOUND
+  </h1>
+   
+  <p>
+    このページは存在しません。
+  </p>
+   
+  <img
+    alt="飲み会のイラストです。ビール飲みましょう"
+    src="@/assets/nomikai_salaryman.png"
+  />
+</div>
+`;

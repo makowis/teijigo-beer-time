@@ -1,0 +1,516 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`beenya.vue should match the snapshot 1`] = `
+<div
+  class="disco"
+>
+  <h1
+    class="h1"
+  >
+    DISCOGRAPHY
+  </h1>
+   
+  <section
+    class="section"
+  >
+    <h2
+      class="h2 albumTitle"
+    >
+      
+      3nd Mini Album 「RECYCLE」
+      
+      <span
+        class="blink newsBlink"
+      >
+        NEW
+      </span>
+    </h2>
+     
+    <p
+      class="onSale"
+    >
+      <span
+        class="blink"
+      >
+        2019.10.27 ON SALE！
+      </span>
+    </p>
+     
+    <img
+      alt="3st Mini Album「RECYCLE」のジャケット画像"
+      class="jacket"
+      src="@/assets/3st_mini_album_recycle_jacket.png"
+    />
+     
+    <table
+      border="1"
+      class="table"
+    >
+      <thead>
+        <tr>
+          <th>
+            No
+          </th>
+           
+          <th>
+            曲名
+          </th>
+           
+          <th>
+            アーティスト
+          </th>
+           
+          <th>
+            クレジット
+          </th>
+        </tr>
+      </thead>
+       
+      <tbody>
+        <tr>
+          <td
+            class="trackNo"
+          >
+            1
+          </td>
+           
+          <td>
+            paellero
+          </td>
+           
+          <td>
+            comorebi notes
+          </td>
+           
+          <td>
+            作詞・作曲・歌：comorebi notes
+          </td>
+        </tr>
+         
+        <tr>
+          <td
+            class="trackNo"
+          >
+            2
+          </td>
+           
+          <td>
+            Carry on
+          </td>
+           
+          <td>
+            マッキー
+          </td>
+           
+          <td>
+            
+            作詞・作曲：マッキー
+            <br />
+            
+            歌：マッキー feat. IA
+          
+          </td>
+        </tr>
+         
+        <tr>
+          <td
+            class="trackNo"
+          >
+            3
+          </td>
+           
+          <td>
+            大都会フォーエバー
+          </td>
+           
+          <td>
+            comorebi notes
+          </td>
+           
+          <td>
+            
+            作詞・作曲：comorebi notes
+            <br />
+            
+            歌：IA
+          
+          </td>
+        </tr>
+         
+        <tr>
+          <td
+            class="trackNo"
+          >
+            4
+          </td>
+           
+          <td>
+            tanabatight
+          </td>
+           
+          <td>
+            u13
+          </td>
+           
+          <td>
+            作曲：u13
+          </td>
+        </tr>
+      </tbody>
+    </table>
+     
+    <div
+      class="video crossFade"
+    >
+      <iframe
+        allow="autoplay; encrypted-media"
+        allowfullscreen="allowfullscreen"
+        frameborder="0"
+        height="315"
+        src="https://www.youtube.com/embed/L_DAzJq4tgg"
+        width="560"
+      />
+    </div>
+  </section>
+   
+  <hr />
+   
+  <section
+    class="section"
+  >
+    <h2
+      class="h2 albumTitle"
+    >
+       2nd Mini Album 「START」 
+    </h2>
+     
+    <p
+      class="onSale"
+    >
+      <span
+        class="blink"
+      >
+        2019.04.27 ON SALE！
+      </span>
+    </p>
+     
+    <img
+      alt="2st Mini Album「Start」のジャケット画像"
+      class="jacket"
+      src="@/assets/2st_mini_album_start_jacket.png"
+    />
+     
+    <table
+      border="1"
+      class="table"
+    >
+      <thead>
+        <tr>
+          <th>
+            No
+          </th>
+           
+          <th>
+            曲名
+          </th>
+           
+          <th>
+            アーティスト
+          </th>
+           
+          <th>
+            クレジット
+          </th>
+        </tr>
+      </thead>
+       
+      <tbody>
+        <tr>
+          <td
+            class="trackNo"
+          >
+            1
+          </td>
+           
+          <td>
+            桜風狂想
+          </td>
+           
+          <td>
+            Pecan nene.
+          </td>
+           
+          <td>
+            
+            作曲：ビール飲まない社員K
+            <br />
+            
+            作詞：ビール飲まない社員K、みーやん
+            <br />
+            
+            歌：みーやん
+          
+          </td>
+        </tr>
+         
+        <tr>
+          <td
+            class="trackNo"
+          >
+            2
+          </td>
+           
+          <td>
+            未来ヒーロー
+          </td>
+           
+          <td>
+            マッキー
+          </td>
+           
+          <td>
+            
+            作詞・作曲：マッキー
+            <br />
+            
+            歌：IA
+          
+          </td>
+        </tr>
+         
+        <tr>
+          <td
+            class="trackNo"
+          >
+            3
+          </td>
+           
+          <td>
+            ストロボサイン
+          </td>
+           
+          <td>
+            tan3-16
+          </td>
+           
+          <td>
+            
+            作詞・作曲：u13
+            <br />
+            
+            編曲：comorebi notes
+            <br />
+            
+            歌：フナモトアユミ
+          
+          </td>
+        </tr>
+         
+        <tr>
+          <td
+            class="trackNo"
+          >
+            4
+          </td>
+           
+          <td>
+            桜花
+          </td>
+           
+          <td>
+            珍珠奶茶
+          </td>
+           
+          <td>
+            
+            企画：WestTail
+            <br />
+            
+            作曲：comorebi notes
+            <br />
+            
+            作詞：台湾豆乳を飲む人
+            <br />
+            
+            歌：Shiho (the Clock Hands)
+          
+          </td>
+        </tr>
+      </tbody>
+    </table>
+     
+    <div
+      class="video crossFade"
+    >
+      <iframe
+        allow="autoplay; encrypted-media"
+        allowfullscreen="allowfullscreen"
+        frameborder="0"
+        height="315"
+        src="https://www.youtube.com/embed/IxTdbkoGM-Q"
+        width="560"
+      />
+    </div>
+  </section>
+   
+  <hr />
+   
+  <section
+    class="section"
+  >
+    <h2
+      class="h2 albumTitle"
+    >
+      1st Mini Album「HOPE」
+    </h2>
+     
+    <p
+      class="onSale"
+    >
+      <span
+        class="blink"
+      >
+        2018.10.28 ON SALE！
+      </span>
+    </p>
+     
+    <img
+      alt="1st CD「HOPE」のジャケット画像"
+      class="jacket"
+      src="@/assets/1st_hope_jacket.png"
+    />
+     
+    <table
+      border="1"
+      class="table"
+    >
+      <thead>
+        <tr>
+          <th>
+            No
+          </th>
+           
+          <th>
+            曲名
+          </th>
+           
+          <th>
+            アーティスト
+          </th>
+        </tr>
+      </thead>
+       
+      <tbody>
+        <tr>
+          <td
+            class="trackNo"
+          >
+            1
+          </td>
+           
+          <td>
+            Alive
+          </td>
+           
+          <td>
+            WestTail feat. ruha
+          </td>
+        </tr>
+         
+        <tr>
+          <td
+            class="trackNo"
+          >
+            2
+          </td>
+           
+          <td>
+            cresc.
+          </td>
+           
+          <td>
+            きむらじお feat.フナモトアユミ
+          </td>
+        </tr>
+         
+        <tr>
+          <td
+            class="trackNo"
+          >
+            3
+          </td>
+           
+          <td>
+            瞬間
+          </td>
+           
+          <td>
+            山口真央 feat. すぴか
+          </td>
+        </tr>
+         
+        <tr>
+          <td
+            class="trackNo"
+          >
+            4
+          </td>
+           
+          <td>
+            Calling
+          </td>
+           
+          <td>
+            NY2 feat. フナモトアユミ
+          </td>
+        </tr>
+         
+        <tr>
+          <td
+            class="trackNo"
+          >
+            5
+          </td>
+           
+          <td>
+            Diary
+          </td>
+           
+          <td>
+            u13 feat. フナモトアユミ
+          </td>
+        </tr>
+         
+        <tr>
+          <td
+            class="trackNo"
+          >
+            6
+          </td>
+           
+          <td>
+            ハルカユーグレハナヤイデ
+          </td>
+           
+          <td>
+            comorebi notes
+          </td>
+        </tr>
+      </tbody>
+    </table>
+     
+    <div
+      class="video crossFade"
+    >
+      <iframe
+        allow="autoplay; encrypted-media"
+        allowfullscreen="allowfullscreen"
+        frameborder="0"
+        height="315"
+        src="https://www.youtube.com/embed/KE3It-tas0Y?rel=0"
+        width="560"
+      />
+    </div>
+  </section>
+</div>
+`;
