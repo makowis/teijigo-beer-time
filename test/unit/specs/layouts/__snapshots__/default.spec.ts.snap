@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index.vue should match the snapshot 1`] = `
+<div
+  id="app"
+>
+  <nav
+    class="menuContainer"
+    id="menu-container"
+  >
+    <ul
+      class="menu"
+    >
+      <li
+        class="menuItem"
+      >
+        <a>
+           トップ 
+        </a>
+      </li>
+       
+      <li
+        class="menuItem"
+      >
+        <a>
+           DISCOGRAPHY 
+        </a>
+      </li>
+       
+      <li
+        class="menuItem"
+      >
+        <a>
+           メンバー紹介 
+        </a>
+      </li>
+       
+      <li
+        class="menuItem"
+      >
+        <a>
+           びーにゃの部屋 
+        </a>
+      </li>
+       
+      <li
+        class="menuItem"
+      >
+        <a
+          href="https://teijigo.booth.pm/items/1093403"
+          target="_blank"
+        >
+          
+        通販(BOOTH)
+      
+        </a>
+      </li>
+    </ul>
+  </nav>
+   
+  <div
+    class="mainContainer"
+    id="main-container"
+  >
+    <a>
+      <img
+        class="logo"
+        src="@/assets/logo_1.png"
+      />
+    </a>
+     
+    <div>
+      Nuxt
+    </div>
+     
+    <footer
+      class="footer"
+    >
+      <p>
+        ©定時後ビールタイム
+      </p>
+    </footer>
+  </div>
+</div>
+`;
