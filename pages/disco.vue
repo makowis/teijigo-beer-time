@@ -3,9 +3,17 @@
     <tbt-h-1>DISCOGRAPHY</tbt-h-1>
     <tbt-section>
       <tbt-h-2 :class="$style.albumTitle">
-        3nd Mini Album 「RECYCLE」
+        4th Mini Album 「BATTLE」
         <tbt-new-blink />
       </tbt-h-2>
+      <p :class="$style.onSale">
+        <tbt-blink>2021.4.25 ON SALE！</tbt-blink>
+      </p>
+      <tbt-battle-jacket-img :class="$style.jacket" />
+    </tbt-section>
+    <hr />
+    <tbt-section>
+      <tbt-h-2 :class="$style.albumTitle"> 3nd Mini Album 「RECYCLE」 </tbt-h-2>
       <p :class="$style.onSale">
         <tbt-blink>2019.10.27 ON SALE！</tbt-blink>
       </p>
@@ -177,6 +185,7 @@ import TbtNewBlink from '@/components/atoms/TbtNewBlink.vue'
 import TbtHopeJacketImg from '@/components/atoms/TbtHopeJacketImg.vue'
 import TbtStartJacketImg from '@/components/atoms/TbtStartJacketImg.vue'
 import TbtRecycleJacketImg from '@/components/atoms/TbtRecycleJacketImg.vue'
+import TbtBattleJacketImg from '@/components/atoms/TbtBattleJacketImg.vue'
 import TbtHopeCrossFade from '@/components/atoms/TbtHopeCrossFade.vue'
 import TbtStartCrossFade from '@/components/atoms/TbtStartCrossFade.vue'
 import TbtRecycleCrossFade from '@/components/atoms/TbtRecycleCrossFade.vue'
@@ -194,6 +203,7 @@ export default {
     TbtHopeCrossFade,
     TbtStartCrossFade,
     TbtRecycleCrossFade,
+    TbtBattleJacketImg,
   },
 }
 </script>

@@ -5,7 +5,7 @@
       <tbt-blink>🎉🎉🎉🎉🎉🎉🎉M3-2021春参戦決定！🎉🎉🎉🎉🎉🎉</tbt-blink>
     </p>
     <tbt-marquee>
-      M3-202!春に参戦！パワーアップしたサウンドをお届けします！
+      M3-2021!春に参戦！パワーアップしたサウンドをお届けします！
     </tbt-marquee>
     <tbt-access-counter-section v-bind="counter" />
     <tbt-news-section />
