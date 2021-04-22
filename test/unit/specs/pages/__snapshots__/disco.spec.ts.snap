@@ -17,13 +17,41 @@ exports[`beenya.vue should match the snapshot 1`] = `
       class="h2 albumTitle"
     >
       
-      3nd Mini Album 「RECYCLE」
+      4th Mini Album 「BATTLE」
       
       <span
         class="blink newsBlink"
       >
         NEW
       </span>
+    </h2>
+     
+    <p
+      class="onSale"
+    >
+      <span
+        class="blink"
+      >
+        2021.4.25 ON SALE！
+      </span>
+    </p>
+     
+    <img
+      alt="4st Mini Album「BATTLE」のジャケット画像"
+      class="jacket"
+      src="@/assets/4st_mini_album_battle.png"
+    />
+  </section>
+   
+  <hr />
+   
+  <section
+    class="section"
+  >
+    <h2
+      class="h2 albumTitle"
+    >
+       3nd Mini Album 「RECYCLE」 
     </h2>
      
     <p
