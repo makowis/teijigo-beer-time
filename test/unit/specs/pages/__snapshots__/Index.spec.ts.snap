@@ -124,7 +124,7 @@ exports[`index.vue should match the snapshot 1`] = `
     <h2
       class="h2"
     >
-      M3-2019秋スペース配置
+      M3-2021春スペース配置
     </h2>
      
     <table
@@ -137,7 +137,7 @@ exports[`index.vue should match the snapshot 1`] = `
         </th>
          
         <td>
-          クレオフーガ 定時後ビールタイム
+          定時後ビールタイム
         </td>
       </tr>
        
@@ -147,7 +147,7 @@ exports[`index.vue should match the snapshot 1`] = `
         </th>
          
         <td>
-          第一展示場
+          WEB参加
         </td>
       </tr>
        
@@ -157,7 +157,7 @@ exports[`index.vue should match the snapshot 1`] = `
         </th>
          
         <td>
-          K-18a
+          茶-036
         </td>
       </tr>
     </table>
@@ -168,15 +168,11 @@ exports[`index.vue should match the snapshot 1`] = `
       <h3
         class="h3"
       >
-        M3-2019秋
+        M3-2021春
       </h3>
        
       <p>
-        日時：2019年 10月27日(日) 11:00～15:30
-      </p>
-       
-      <p>
-        場所：東京流通センター(TRC)第一展示場、第二展示場
+        日時：2021年4月25日(日) 10:30～15:30
       </p>
        
       <a
@@ -195,18 +191,9 @@ exports[`index.vue should match the snapshot 1`] = `
         頒布CDクロスフェード
       </h3>
        
-      <div
-        class="video crossFade"
-      >
-        <iframe
-          allow="autoplay; encrypted-media"
-          allowfullscreen="allowfullscreen"
-          frameborder="0"
-          height="315"
-          src="https://www.youtube.com/embed/L_DAzJq4tgg"
-          width="560"
-        />
-      </div>
+      <p>
+        Coming Soon...
+      </p>
     </section>
   </section>
    
