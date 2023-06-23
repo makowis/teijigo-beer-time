@@ -1,4 +1,100 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`index.vue > should match the snapshot 1`] = `
+<div
+  id="app"
+>
+  <nav
+    class="_menuContainer_3a2c03"
+    id="menu-container"
+  >
+    <ul
+      class="_menu_3a2c03"
+    >
+      <li
+        class="_menuItem_3a2c03"
+      >
+        <nuxtlink
+          to="/"
+        >
+          
+           トップ 
+          
+        </nuxtlink>
+      </li>
+      <li
+        class="_menuItem_3a2c03"
+      >
+        <nuxtlink
+          to="/disco"
+        >
+          
+           DISCOGRAPHY 
+          
+        </nuxtlink>
+      </li>
+      <li
+        class="_menuItem_3a2c03"
+      >
+        <nuxtlink
+          to="/member"
+        >
+          
+           メンバー紹介 
+          
+        </nuxtlink>
+      </li>
+      <li
+        class="_menuItem_3a2c03"
+      >
+        <nuxtlink
+          to="/beenya"
+        >
+          
+           びーにゃの部屋 
+          
+        </nuxtlink>
+      </li>
+      <li
+        class="_menuItem_3a2c03"
+      >
+        <a
+          href="https://teijigo.booth.pm/items/1093403"
+          target="_blank"
+        >
+           通販(BOOTH) 
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div
+    class="_mainContainer_d9c376"
+    id="main-container"
+  >
+    <nuxtlink
+      to="/"
+    >
+      
+      <img
+        class="_logo_1efeea"
+        src="/@fs/home/makowis/labo/teijigo-beer-time/assets/logo_1.png"
+      />
+      
+    </nuxtlink>
+    
+    
+    
+    <footer
+      class="_footer_0cacbe"
+    >
+      <p>
+        ©定時後ビールタイム
+      </p>
+    </footer>
+    
+  </div>
+</div>
+`;
 
 exports[`index.vue should match the snapshot 1`] = `
 <div
