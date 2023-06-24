@@ -1,4 +1,5 @@
-import { mount, RouterLinkStub } from '@vue/test-utils'
+import { describe, it, expect } from 'vitest';
+import { mount, RouterLinkStub } from '@vue/test-utils';
 import Index from '@/pages/index.vue';
 
 describe('index.vue', () => {

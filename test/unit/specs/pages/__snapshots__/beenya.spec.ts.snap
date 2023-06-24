@@ -1,4 +1,53 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`beenya.vue > should match the snapshot 1`] = `
+<div
+  class="beenya"
+>
+  <h1
+    class="_h1_adaee0"
+  >
+    
+    びーにゃの部屋
+    
+  </h1>
+  <img
+    alt="びーにゃのイラスト"
+    class="_icon_258a08"
+    src="/assets/beenya.png"
+  />
+  <table
+    class="_beenyaTable_258a08"
+  >
+    <tbody>
+      <tr>
+        <th>
+          名前
+        </th>
+        <td>
+          びーにゃ
+        </td>
+      </tr>
+      <tr>
+        <th>
+          役割
+        </th>
+        <td>
+          アイドル
+        </td>
+      </tr>
+      <tr>
+        <th>
+          自己紹介
+        </th>
+        <td>
+          にゃにゃにゃにゃにゃにゃにゃー！(定時後ビールタイムだー！！)
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
 
 exports[`beenya.vue should match the snapshot 1`] = `
 <div

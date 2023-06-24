@@ -1,4 +1,279 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`index.vue > should match the snapshot 1`] = `
+<div
+  class="member"
+  data-v-c5051c95=""
+>
+  <h1
+    class="_h1_adaee0"
+    data-v-c5051c95=""
+  >
+    
+    MEMBER
+    
+  </h1>
+  <table
+    class="member-table"
+    data-v-c5051c95=""
+  >
+    <thead
+      data-v-c5051c95=""
+    >
+      <tr
+        data-v-c5051c95=""
+      >
+        <th
+          data-v-c5051c95=""
+        >
+          名前
+        </th>
+        <th
+          data-v-c5051c95=""
+        >
+          担当
+        </th>
+        <th
+          data-v-c5051c95=""
+        >
+          自己紹介
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      data-v-c5051c95=""
+    >
+      
+      <tr
+        data-v-c5051c95=""
+      >
+        <td
+          data-v-c5051c95=""
+        >
+          さかもとP
+        </td>
+        <td
+          data-v-c5051c95=""
+        >
+          なばかりプロデューサー兼テイジゴビールタイマー
+        </td>
+        <td
+          data-v-c5051c95=""
+        >
+          ビール大好き！！！！！！
+        </td>
+      </tr>
+      <tr
+        data-v-c5051c95=""
+      >
+        <td
+          data-v-c5051c95=""
+        >
+          ビール飲まない社員K
+        </td>
+        <td
+          data-v-c5051c95=""
+        >
+          人の褌や自分の褌で相撲を取ったりする
+
+          <br />
+          
+（主にトラックメーカー）
+        </td>
+        <td
+          data-v-c5051c95=""
+        >
+          ビールじゃなくてハイボールなら飲みます。
+
+          <br />
+          
+定時後ハイボールタイム、よろしこ
+        </td>
+      </tr>
+      <tr
+        data-v-c5051c95=""
+      >
+        <td
+          data-v-c5051c95=""
+        >
+          yokizo
+        </td>
+        <td
+          data-v-c5051c95=""
+        >
+          えらそーにする
+        </td>
+        <td
+          data-v-c5051c95=""
+        >
+          リハビリ中で戦力になれないので、えらそーにしてます。
+        </td>
+      </tr>
+      <tr
+        data-v-c5051c95=""
+      >
+        <td
+          data-v-c5051c95=""
+        >
+          WestTail
+        </td>
+        <td
+          data-v-c5051c95=""
+        >
+          ProTools見習い
+        </td>
+        <td
+          data-v-c5051c95=""
+        >
+          周囲の素晴らしい才能をリスペクトしつつ頑張りたいと思います
+        </td>
+      </tr>
+      <tr
+        data-v-c5051c95=""
+      >
+        <td
+          data-v-c5051c95=""
+        >
+          ケロ
+        </td>
+        <td
+          data-v-c5051c95=""
+        >
+          ミュージさん
+        </td>
+        <td
+          data-v-c5051c95=""
+        >
+          ウィットに富んだフレキシブルな音楽でナウなヤングにバカウケ
+        </td>
+      </tr>
+      <tr
+        data-v-c5051c95=""
+      >
+        <td
+          data-v-c5051c95=""
+        >
+          Gutch
+        </td>
+        <td
+          data-v-c5051c95=""
+        >
+          曲に効果音を突っ込む
+        </td>
+        <td
+          data-v-c5051c95=""
+        >
+          ビール飲めない！！！！！
+        </td>
+      </tr>
+      <tr
+        data-v-c5051c95=""
+      >
+        <td
+          data-v-c5051c95=""
+        >
+          みーやん
+        </td>
+        <td
+          data-v-c5051c95=""
+        >
+          ハモるの大好きはもりびと
+        </td>
+        <td
+          data-v-c5051c95=""
+        >
+          ボーカルじゃなくてコーラスが得意
+        </td>
+      </tr>
+      <tr
+        data-v-c5051c95=""
+      >
+        <td
+          data-v-c5051c95=""
+        >
+          台湾豆乳を飲む人
+        </td>
+        <td
+          data-v-c5051c95=""
+        >
+          作業に参加しない係
+        </td>
+        <td
+          data-v-c5051c95=""
+        >
+          ﾆﾎﾝｺﾞワカリマセン
+        </td>
+      </tr>
+      <tr
+        data-v-c5051c95=""
+      >
+        <td
+          data-v-c5051c95=""
+        >
+          マッキー
+        </td>
+        <td
+          data-v-c5051c95=""
+        >
+          BPM200以上
+        </td>
+        <td
+          data-v-c5051c95=""
+        >
+          お酒大好き！！！！！！
+        </td>
+      </tr>
+      <tr
+        data-v-c5051c95=""
+      >
+        <td
+          data-v-c5051c95=""
+        >
+          Ag+
+        </td>
+        <td
+          data-v-c5051c95=""
+        >
+          テレアポ
+        </td>
+        <td
+          data-v-c5051c95=""
+        >
+          どこでもアポとります！
+        </td>
+      </tr>
+      <tr
+        data-v-c5051c95=""
+      >
+        <td
+          data-v-c5051c95=""
+        >
+          管理人MAKO
+        </td>
+        <td
+          data-v-c5051c95=""
+        >
+          サイトの管理とお茶汲み
+        </td>
+        <td
+          data-v-c5051c95=""
+        >
+          サイトの管理人です。
+
+          <br />
+          
+音楽作れないのでホムペ担当になりました。
+
+          <br />
+          
+昔懐かしい雰囲気のサイトを作って行きたいと思います！
+        </td>
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+`;
 
 exports[`index.vue should match the snapshot 1`] = `
 <div

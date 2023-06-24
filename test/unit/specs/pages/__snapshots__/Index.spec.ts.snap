@@ -1,4 +1,260 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`index.vue > should match the snapshot 1`] = `
+<div
+  class="Top"
+>
+  <h1
+    class="_h1_adaee0"
+  >
+    
+    <span
+      class="_blink_1fef76"
+    >
+      
+      定時後ビールタイム公式サイト
+      
+    </span>
+    
+  </h1>
+  <p>
+    <span
+      class="_blink_1fef76"
+    >
+      
+      🎉🎉🎉🎉🎉🎉🎉M3-2021春参戦決定！🎉🎉🎉🎉🎉🎉
+      
+    </span>
+  </p>
+  <div
+    class="_marquee_f86009"
+  >
+    <div
+      class="_marqueeInner_f86009"
+    >
+      
+       M3-2021!春に参戦！パワーアップしたサウンドをお届けします！ 
+      
+    </div>
+  </div>
+  <section
+    class="_section_7c249e"
+  >
+    
+    <h2
+      class="_h2_bd7be3"
+    >
+      
+      アクセスカウンター
+      
+    </h2>
+    <p>
+      あなたは0000000000049999人目の訪問者です。
+    </p>
+    
+  </section>
+  <section
+    class="_section_7c249e"
+  >
+    
+    <h2
+      class="_h2_bd7be3"
+    >
+      
+      News
+      
+    </h2>
+    <ul
+      class="_newsList_13067a"
+    >
+      <li>
+        <span
+          class="_blink_1fef76 _newsBlink_2db161 _newsBlink_13067a"
+        >
+          
+          NEW
+          
+        </span>
+         通販開始しました！ 
+        <a
+          href="https://teijigo.booth.pm/items/1093403"
+          target="_blank"
+        >
+           BOOTH Festival APOLLO 第9回 
+        </a>
+         に参加中です！ 
+      </li>
+      <li>
+        <span
+          class="_blink_1fef76 _newsBlink_2db161 _newsBlink_13067a"
+        >
+          
+          NEW
+          
+        </span>
+        <a
+          href="https://twitter.com/tbt_cf"
+        >
+          公式Twitterアカウント
+        </a>
+        作りました！最新情報をつぶやいていきます！ 
+      </li>
+    </ul>
+    <p />
+    
+  </section>
+  <section
+    class="_section_7c249e"
+  >
+    
+    <h2
+      class="_h2_bd7be3"
+    >
+      
+      サークルカット
+      
+    </h2>
+    <img
+      alt="サークルカット"
+      class="_circleCut_a08e88"
+      src="/assets/cut.png"
+    />
+    
+  </section>
+  <section
+    class="_section_7c249e"
+  >
+    
+    <h2
+      class="_h2_bd7be3"
+    >
+      
+      M3-2021春スペース配置
+      
+    </h2>
+    <table
+      border="1"
+      class="_spaceTable_31649c"
+    >
+      <tr>
+        <th>
+          サークル名
+        </th>
+        <td>
+          定時後ビールタイム
+        </td>
+      </tr>
+      <tr>
+        <th>
+          配置場所
+        </th>
+        <td>
+          WEB参加
+        </td>
+      </tr>
+      <tr>
+        <th>
+          スペース番号
+        </th>
+        <td>
+          茶-036
+        </td>
+      </tr>
+    </table>
+    <section
+      class="_section_7c249e"
+    >
+      
+      <h3
+        class="_h3_fa16fe"
+      >
+        
+        M3-2021春
+        
+      </h3>
+      <p>
+        日時：2021年4月25日(日) 10:30～15:30
+      </p>
+      <a
+        href="http://www.m3net.jp/"
+      >
+        M3公式サイト
+      </a>
+      
+    </section>
+    <section
+      class="_section_7c249e"
+    >
+      
+      <h3
+        class="_h3_fa16fe"
+      >
+        
+        頒布CDクロスフェード
+        
+      </h3>
+      <p>
+        Coming Soon...
+      </p>
+      
+    </section>
+    
+  </section>
+  <section
+    class="_section_7c249e"
+  >
+    
+    <h2
+      class="_h2_bd7be3"
+    >
+      
+      連絡先
+      
+    </h2>
+    <p>
+       お問い合わせは
+      <a
+        href="mailto:staff@teijigo-beer-ti.me"
+      >
+        staff🍺teijigo-beer-ti.me
+      </a>
+      （🍺を@マークに変える）にお願いします。 
+    </p>
+    
+  </section>
+  <section
+    class="_section_7c249e"
+  >
+    
+    <h2
+      class="_h2_bd7be3"
+    >
+      
+      メニュー
+      
+    </h2>
+    <p>
+      <nuxtlink
+        to="/disco"
+      >
+        
+         ＞＞＞＞DISCOGRAPHY＜＜＜＜ 
+        
+      </nuxtlink>
+    </p>
+    <p>
+      <nuxtlink
+        to="/member"
+      >
+        
+         🍺🍺🍺🍺️メンバー紹介🍺🍺🍺🍺 
+        
+      </nuxtlink>
+    </p>
+    
+  </section>
+</div>
+`;
 
 exports[`index.vue should match the snapshot 1`] = `
 <div

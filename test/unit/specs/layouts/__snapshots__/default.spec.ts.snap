@@ -5,14 +5,14 @@ exports[`index.vue > should match the snapshot 1`] = `
   id="app"
 >
   <nav
-    class="_menuContainer_3a2c03"
+    class="_menuContainer_b4e9e3"
     id="menu-container"
   >
     <ul
-      class="_menu_3a2c03"
+      class="_menu_b4e9e3"
     >
       <li
-        class="_menuItem_3a2c03"
+        class="_menuItem_b4e9e3"
       >
         <nuxtlink
           to="/"
@@ -23,7 +23,7 @@ exports[`index.vue > should match the snapshot 1`] = `
         </nuxtlink>
       </li>
       <li
-        class="_menuItem_3a2c03"
+        class="_menuItem_b4e9e3"
       >
         <nuxtlink
           to="/disco"
@@ -34,7 +34,7 @@ exports[`index.vue > should match the snapshot 1`] = `
         </nuxtlink>
       </li>
       <li
-        class="_menuItem_3a2c03"
+        class="_menuItem_b4e9e3"
       >
         <nuxtlink
           to="/member"
@@ -45,7 +45,7 @@ exports[`index.vue > should match the snapshot 1`] = `
         </nuxtlink>
       </li>
       <li
-        class="_menuItem_3a2c03"
+        class="_menuItem_b4e9e3"
       >
         <nuxtlink
           to="/beenya"
@@ -56,7 +56,7 @@ exports[`index.vue > should match the snapshot 1`] = `
         </nuxtlink>
       </li>
       <li
-        class="_menuItem_3a2c03"
+        class="_menuItem_b4e9e3"
       >
         <a
           href="https://teijigo.booth.pm/items/1093403"
@@ -68,7 +68,7 @@ exports[`index.vue > should match the snapshot 1`] = `
     </ul>
   </nav>
   <div
-    class="_mainContainer_d9c376"
+    class="_mainContainer_f66df8"
     id="main-container"
   >
     <nuxtlink
@@ -76,8 +76,8 @@ exports[`index.vue > should match the snapshot 1`] = `
     >
       
       <img
-        class="_logo_1efeea"
-        src="/@fs/home/makowis/labo/teijigo-beer-time/assets/logo_1.png"
+        class="_logo_4242e2"
+        src="/assets/logo_1.png"
       />
       
     </nuxtlink>
@@ -85,97 +85,13 @@ exports[`index.vue > should match the snapshot 1`] = `
     
     
     <footer
-      class="_footer_0cacbe"
+      class="_footer_2836b0"
     >
       <p>
         ©定時後ビールタイム
       </p>
     </footer>
     
-  </div>
-</div>
-`;
-
-exports[`index.vue should match the snapshot 1`] = `
-<div
-  id="app"
->
-  <nav
-    class="menuContainer"
-    id="menu-container"
-  >
-    <ul
-      class="menu"
-    >
-      <li
-        class="menuItem"
-      >
-        <a>
-           トップ 
-        </a>
-      </li>
-       
-      <li
-        class="menuItem"
-      >
-        <a>
-           DISCOGRAPHY 
-        </a>
-      </li>
-       
-      <li
-        class="menuItem"
-      >
-        <a>
-           メンバー紹介 
-        </a>
-      </li>
-       
-      <li
-        class="menuItem"
-      >
-        <a>
-           びーにゃの部屋 
-        </a>
-      </li>
-       
-      <li
-        class="menuItem"
-      >
-        <a
-          href="https://teijigo.booth.pm/items/1093403"
-          target="_blank"
-        >
-          
-        通販(BOOTH)
-      
-        </a>
-      </li>
-    </ul>
-  </nav>
-   
-  <div
-    class="mainContainer"
-    id="main-container"
-  >
-    <a>
-      <img
-        class="logo"
-        src="@/assets/logo_1.png"
-      />
-    </a>
-     
-    <div>
-      Nuxt
-    </div>
-     
-    <footer
-      class="footer"
-    >
-      <p>
-        ©定時後ビールタイム
-      </p>
-    </footer>
   </div>
 </div>
 `;
