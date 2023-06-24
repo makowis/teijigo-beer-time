@@ -1,4 +1,3 @@
-import { describe, it, expect } from 'vitest';
 import { mount, RouterLinkStub } from '@vue/test-utils';
 import { Component } from 'vue';
 import DefaultLayout from '@/layouts/default.vue';
