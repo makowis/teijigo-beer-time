@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{329:function(t,n,l){t.exports=l.p+"img/4st_mini_album_battle.7886501.png"},352:function(t,n,l){"use strict";l.r(n);var e=l(9),component=Object(e.a)({},(function(){return(0,this._self._c)("img",{attrs:{src:l(329),alt:"4st Mini Album「BATTLE」のジャケット画像"}})}),[],!1,null,null,null);n.default=component.exports}}]);

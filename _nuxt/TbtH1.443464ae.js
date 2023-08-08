@@ -1,0 +1,1 @@
+import{a as e,b as o,j as t,f as c,o as n}from"./entry.d500db3c.js";const a="_h1_1yiid_2",l={h1:a},r={};function _(s,f){return n(),o("h1",{class:c(s.$style.h1)},[t(s.$slots,"default")],2)}const d={$style:l},i=e(r,[["render",_],["__cssModules",d]]);export{i as T};

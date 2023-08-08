@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{325:function(n,t,e){n.exports=e.p+"img/beenya.4fd7db6.png"},348:function(n,t,e){"use strict";e.r(t);var c=e(9),component=Object(c.a)({},(function(){return(0,this._self._c)("img",{attrs:{src:e(325),alt:"びーにゃのイラスト"}})}),[],!1,null,null,null);t.default=component.exports}}]);
