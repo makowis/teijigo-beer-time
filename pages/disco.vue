@@ -10,6 +10,38 @@
         <tbt-blink>2021.4.25 ON SALE！</tbt-blink>
       </p>
       <tbt-battle-jacket-img :class="$style.jacket" />
+      <table border="1" :class="$style.table">
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>曲名</th>
+            <th>アーティスト</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td :class="$style.trackNo">1</td>
+            <td>作業中にソフトが落ちた</td>
+            <td>マッキー</td>
+          </tr>
+          <tr>
+            <td :class="$style.trackNo">2</td>
+            <td>ノラネコ大戦争</td>
+            <td>u13</td>
+          </tr>
+          <tr>
+            <td :class="$style.trackNo">3</td>
+            <td>anatra falcata</td>
+            <td>comorebi notes</td>
+          </tr>
+          <tr>
+            <td :class="$style.trackNo">4</td>
+            <td>旋風</td>
+            <td>ビール飲まない社員K</td>
+          </tr>
+        </tbody>
+      </table>
+      <tbt-battle-cross-fade :class="$style.crossFade" />
     </tbt-section>
     <hr />
     <tbt-section>
@@ -189,6 +221,7 @@ import TbtBattleJacketImg from '@/components/atoms/TbtBattleJacketImg.vue'
 import TbtHopeCrossFade from '@/components/atoms/TbtHopeCrossFade.vue'
 import TbtStartCrossFade from '@/components/atoms/TbtStartCrossFade.vue'
 import TbtRecycleCrossFade from '@/components/atoms/TbtRecycleCrossFade.vue'
+import TbtBattleCrossFade from '@/components/atoms/TbtBattleCrossFade.vue'
 
 export default {
   components: {
@@ -204,6 +237,7 @@ export default {
     TbtStartCrossFade,
     TbtRecycleCrossFade,
     TbtBattleJacketImg,
+    TbtBattleCrossFade,
   },
 }
 </script>
