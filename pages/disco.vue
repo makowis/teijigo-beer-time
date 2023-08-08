@@ -16,6 +16,7 @@
             <th>No</th>
             <th>曲名</th>
             <th>アーティスト</th>
+            <th>クレジット</th>
           </tr>
         </thead>
         <tbody>
@@ -23,21 +24,25 @@
             <td :class="$style.trackNo">1</td>
             <td>作業中にソフトが落ちた</td>
             <td>マッキー</td>
+            <td>作詞・作曲・歌：マッキー</td>
           </tr>
           <tr>
             <td :class="$style.trackNo">2</td>
             <td>ノラネコ大戦争</td>
             <td>u13</td>
+            <td>作曲：u13</td>
           </tr>
           <tr>
             <td :class="$style.trackNo">3</td>
             <td>anatra falcata</td>
             <td>comorebi notes</td>
+            <td>作曲：comorebi notes</td>
           </tr>
           <tr>
             <td :class="$style.trackNo">4</td>
             <td>旋風</td>
             <td>ビール飲まない社員K</td>
+            <td>作曲：ビール飲まない社員K</td>
           </tr>
         </tbody>
       </table>

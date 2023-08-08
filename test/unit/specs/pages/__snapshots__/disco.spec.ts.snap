@@ -60,6 +60,9 @@ exports[`beenya.vue > should match the snapshot 1`] = `
           <th>
             アーティスト
           </th>
+          <th>
+            クレジット
+          </th>
         </tr>
       </thead>
       <tbody>
@@ -75,6 +78,9 @@ exports[`beenya.vue > should match the snapshot 1`] = `
           <td>
             マッキー
           </td>
+          <td>
+            作詞・作曲・歌：マッキー
+          </td>
         </tr>
         <tr>
           <td
@@ -87,6 +93,9 @@ exports[`beenya.vue > should match the snapshot 1`] = `
           </td>
           <td>
             u13
+          </td>
+          <td>
+            作曲：u13
           </td>
         </tr>
         <tr>
@@ -101,6 +110,9 @@ exports[`beenya.vue > should match the snapshot 1`] = `
           <td>
             comorebi notes
           </td>
+          <td>
+            作曲：comorebi notes
+          </td>
         </tr>
         <tr>
           <td
@@ -113,6 +125,9 @@ exports[`beenya.vue > should match the snapshot 1`] = `
           </td>
           <td>
             ビール飲まない社員K
+          </td>
+          <td>
+            作曲：ビール飲まない社員K
           </td>
         </tr>
       </tbody>
