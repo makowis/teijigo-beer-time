@@ -1,4 +1,4 @@
-import { mount, RouterLinkStub } from '@vue/test-utils'
+import { mount, RouterLinkStub } from '@vue/test-utils';
 import Beenya from '@/pages/beenya.vue';
 
 describe('beenya.vue', () => {

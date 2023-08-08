@@ -2,7 +2,7 @@
   <div id="app">
     <tbt-menu />
     <tbt-main>
-      <Nuxt />
+      <slot />
       <tbt-footer />
     </tbt-main>
   </div>

@@ -1,4 +1,4 @@
-import { mount, RouterLinkStub } from '@vue/test-utils'
+import { mount, RouterLinkStub } from '@vue/test-utils';
 import Disco from '@/pages/disco.vue';
 
 describe('beenya.vue', () => {
