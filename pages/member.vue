@@ -12,7 +12,9 @@
       <tbody>
         <tr v-for="member in members" :key="member.name">
           <td>{{ member.name }}</td>
+          <!-- eslint-disable-next-line -->
           <td v-html="member.charge"></td>
+          <!-- eslint-disable-next-line -->
           <td v-html="member.profile"></td>
         </tr>
       </tbody>
