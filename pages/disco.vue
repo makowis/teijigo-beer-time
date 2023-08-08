@@ -1,3 +1,21 @@
+<script setup lang="ts">
+import TbtH1 from '@/components/atoms/TbtH1.vue'
+import TbtH2 from '@/components/atoms/TbtH2.vue'
+import TbtSection from '@/components/atoms/TbtSection.vue'
+import TbtBlink from '@/components/atoms/TbtBlink.vue'
+import TbtNewBlink from '@/components/atoms/TbtNewBlink.vue'
+import TbtHopeJacketImg from '@/components/atoms/TbtHopeJacketImg.vue'
+import TbtStartJacketImg from '@/components/atoms/TbtStartJacketImg.vue'
+import TbtRecycleJacketImg from '@/components/atoms/TbtRecycleJacketImg.vue'
+import TbtBattleJacketImg from '@/components/atoms/TbtBattleJacketImg.vue'
+import TbtHopeCrossFade from '@/components/atoms/TbtHopeCrossFade.vue'
+import TbtStartCrossFade from '@/components/atoms/TbtStartCrossFade.vue'
+import TbtRecycleCrossFade from '@/components/atoms/TbtRecycleCrossFade.vue'
+import TbtBattleCrossFade from '@/components/atoms/TbtBattleCrossFade.vue'
+import TbtDiscoTable from '@/components/atoms/TbtDiscoTable.vue'
+import recycle from '@/resources/discos'
+</script>
+
 <template>
   <div class="disco">
     <tbt-h-1>DISCOGRAPHY</tbt-h-1>
@@ -50,48 +68,8 @@
         <tbt-blink>2019.10.27 ON SALE！</tbt-blink>
       </p>
       <tbt-recycle-jacket-img :class="$style.jacket" />
-      <table border="1" :class="$style.table">
-        <thead>
-          <tr>
-            <th>No</th>
-            <th>曲名</th>
-            <th>アーティスト</th>
-            <th>クレジット</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td :class="$style.trackNo">1</td>
-            <td>paellero</td>
-            <td>comorebi notes</td>
-            <td>作詞・作曲・歌：comorebi notes</td>
-          </tr>
-          <tr>
-            <td :class="$style.trackNo">2</td>
-            <td>Carry on</td>
-            <td>マッキー</td>
-            <td>
-              作詞・作曲：マッキー<br />
-              歌：マッキー feat. IA
-            </td>
-          </tr>
-          <tr>
-            <td :class="$style.trackNo">3</td>
-            <td>大都会フォーエバー</td>
-            <td>comorebi notes</td>
-            <td>
-              作詞・作曲：comorebi notes<br />
-              歌：IA
-            </td>
-          </tr>
-          <tr>
-            <td :class="$style.trackNo">4</td>
-            <td>tanabatight</td>
-            <td>u13</td>
-            <td>作曲：u13</td>
-          </tr>
-        </tbody>
-      </table>
+      <tbt-disco-table :display-credit="true" :tracks="recycle.tracks">
+      </tbt-disco-table>
       <tbt-recycle-cross-fade :class="$style.crossFade" />
     </tbt-section>
     <hr />
@@ -207,40 +185,6 @@
     </tbt-section>
   </div>
 </template>
-
-<script lang="ts">
-import TbtH1 from '@/components/atoms/TbtH1.vue'
-import TbtH2 from '@/components/atoms/TbtH2.vue'
-import TbtSection from '@/components/atoms/TbtSection.vue'
-import TbtBlink from '@/components/atoms/TbtBlink.vue'
-import TbtNewBlink from '@/components/atoms/TbtNewBlink.vue'
-import TbtHopeJacketImg from '@/components/atoms/TbtHopeJacketImg.vue'
-import TbtStartJacketImg from '@/components/atoms/TbtStartJacketImg.vue'
-import TbtRecycleJacketImg from '@/components/atoms/TbtRecycleJacketImg.vue'
-import TbtBattleJacketImg from '@/components/atoms/TbtBattleJacketImg.vue'
-import TbtHopeCrossFade from '@/components/atoms/TbtHopeCrossFade.vue'
-import TbtStartCrossFade from '@/components/atoms/TbtStartCrossFade.vue'
-import TbtRecycleCrossFade from '@/components/atoms/TbtRecycleCrossFade.vue'
-import TbtBattleCrossFade from '@/components/atoms/TbtBattleCrossFade.vue'
-
-export default {
-  components: {
-    TbtH1,
-    TbtH2,
-    TbtSection,
-    TbtHopeJacketImg,
-    TbtStartJacketImg,
-    TbtRecycleJacketImg,
-    TbtBlink,
-    TbtNewBlink,
-    TbtHopeCrossFade,
-    TbtStartCrossFade,
-    TbtRecycleCrossFade,
-    TbtBattleJacketImg,
-    TbtBattleCrossFade,
-  },
-}
-</script>
 
 <style module>
 .table {
