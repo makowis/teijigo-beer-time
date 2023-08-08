@@ -9,6 +9,9 @@ export default defineConfig({
     coverage: {
       provider: 'v8',
       all: true,
+      exclude: [
+        'nuxt.config.ts',
+      ]
     },
   },
   resolve: {
