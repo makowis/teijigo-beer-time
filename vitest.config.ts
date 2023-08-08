@@ -6,6 +6,19 @@ export default defineConfig({
   test: {
     globals: true,
     environment: "jsdom",
+    coverage: {
+      provider: 'v8',
+      all: true,
+      exclude: [
+        '**/*.d.ts',
+        '**/.{eslint,mocha,prettier}rc.{?(c|m)js,yml}',
+        'nuxt.config.ts',
+        '.nuxt/**',
+        '.output/**',
+        'commitlint.config.js',
+        'stylelint.config.js',
+      ]
+    },
   },
   resolve: {
     alias: {
