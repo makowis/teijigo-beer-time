@@ -83,7 +83,7 @@ exports[`index.vue > should match the snapshot 1`] = `
         >
           公式Twitterアカウント
         </a>
-        作りました！最新情報をつぶやいていきます！ 
+         作りました！最新情報をつぶやいていきます！ 
       </li>
     </ul>
     <p />
