@@ -22,7 +22,7 @@ exports[`index.vue > should match the snapshot 1`] = `
       class="_blink_1fef76"
     >
       
-      🎉🎉🎉🎉🎉🎉🎉M3-2021春参戦決定！🎉🎉🎉🎉🎉🎉
+      🎉🎉🎉🎉🎉🎉🎉M3-2023秋参戦決定！🎉🎉🎉🎉🎉🎉
       
     </span>
   </p>
@@ -33,7 +33,7 @@ exports[`index.vue > should match the snapshot 1`] = `
       class="_marqueeInner_f86009"
     >
       
-       M3-2021!春に参戦！パワーアップしたサウンドをお届けします！ 
+       M3-2023秋に参戦！パワーアップしたサウンドをお届けします！ 
       
     </div>
   </div>
@@ -75,29 +75,15 @@ exports[`index.vue > should match the snapshot 1`] = `
           NEW
           
         </span>
-         通販開始しました！ 
-        <a
-          href="https://teijigo.booth.pm/items/1093403"
-          target="_blank"
-        >
-           BOOTH Festival APOLLO 第9回 
-        </a>
-         に参加中です！ 
+         M3-2023秋に参戦に参加予定です！ 
       </li>
       <li>
-        <span
-          class="_blink_1fef76 _newsBlink_2db161 _newsBlink_13067a"
-        >
-          
-          NEW
-          
-        </span>
         <a
           href="https://twitter.com/tbt_cf"
         >
           公式Twitterアカウント
         </a>
-        作りました！最新情報をつぶやいていきます！ 
+         作りました！最新情報をつぶやいていきます！ 
       </li>
     </ul>
     <p />
@@ -129,7 +115,7 @@ exports[`index.vue > should match the snapshot 1`] = `
       class="_h2_bd7be3"
     >
       
-      M3-2021春スペース配置
+      M3-2023秋スペース配置
       
     </h2>
     <table
@@ -149,7 +135,7 @@ exports[`index.vue > should match the snapshot 1`] = `
           配置場所
         </th>
         <td>
-          WEB参加
+          リアルイベントスペース
         </td>
       </tr>
       <tr>
@@ -157,7 +143,7 @@ exports[`index.vue > should match the snapshot 1`] = `
           スペース番号
         </th>
         <td>
-          茶-036
+          い-16a
         </td>
       </tr>
     </table>
@@ -169,11 +155,11 @@ exports[`index.vue > should match the snapshot 1`] = `
         class="_h3_fa16fe"
       >
         
-        M3-2021春
+        M3-2023秋
         
       </h3>
       <p>
-        日時：2021年4月25日(日) 10:30～15:30
+        日時：2023年10月29日(日)
       </p>
       <a
         href="http://www.m3net.jp/"

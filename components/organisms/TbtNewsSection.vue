@@ -4,16 +4,11 @@
     <ul :class="$style.newsList">
       <li>
         <tbt-new-blink :class="$style.newsBlink">NEW</tbt-new-blink>
-        通販開始しました！
-        <a href="https://teijigo.booth.pm/items/1093403" target="_blank">
-          BOOTH Festival APOLLO 第9回
-        </a>
-        に参加中です！
+        M3-2023秋に参戦に参加予定です！
       </li>
       <li>
-        <tbt-new-blink :class="$style.newsBlink">NEW</tbt-new-blink>
-        <a href="https://twitter.com/tbt_cf">公式Twitterアカウント</a
-        >作りました！最新情報をつぶやいていきます！
+        <a href="https://twitter.com/tbt_cf">公式Twitterアカウント</a>
+        作りました！最新情報をつぶやいていきます！
       </li>
     </ul>
     <p></p>
