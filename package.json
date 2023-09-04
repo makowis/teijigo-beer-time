@@ -30,7 +30,7 @@
     "@types/node": "^20",
     "@vitejs/plugin-vue": "^4.3.3",
     "@vitest/coverage-v8": "^0.34.2",
-    "@vue/test-utils": "^2.4.0",
+    "@vue/test-utils": "^2.4.1",
     "eslint": "^8.47.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-nuxt": "^4.0.0",
