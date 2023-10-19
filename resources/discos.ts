@@ -1,4 +1,4 @@
-type HTML = string;
+type HTML = string
 
 export interface Disco {
   title: string // アルバム名
@@ -6,10 +6,10 @@ export interface Disco {
 }
 
 export interface TrackInfo {
-  no: number; // No
-  name: string; // 曲名
-  artist: string; // アーティスト
-  credit?: HTML; // クレジット
+  no: number // No
+  name: string // 曲名
+  artist: string // アーティスト
+  credit?: HTML // クレジット
 }
 
 export const battle = {
@@ -31,13 +31,13 @@ export const battle = {
       no: 3,
       name: 'anatra falcata',
       artist: 'comorebi notes',
-      credit: '作曲：comorebi notes'
+      credit: '作曲：comorebi notes',
     },
     {
       no: 4,
       name: '旋風',
       artist: 'ビール飲まない社員K',
-      credit: `作曲：ビール飲まない社員K`
+      credit: `作曲：ビール飲まない社員K`,
     },
   ],
 }
@@ -49,7 +49,7 @@ export const recycle = {
       no: 1,
       name: 'paellero',
       artist: 'comorebi notes',
-      credit: '作詞・作曲・歌：comorebi notes'
+      credit: '作詞・作曲・歌：comorebi notes',
     },
     {
       no: 2,
@@ -65,13 +65,13 @@ export const recycle = {
       artist: 'comorebi notes',
       credit: `作詞・作曲：comorebi notes
                <br />
-               歌：IA`
+               歌：IA`,
     },
     {
       no: 4,
       name: 'tanabatight',
       artist: 'u13',
-      credit: `作曲：u13`
+      credit: `作曲：u13`,
     },
   ],
 }
@@ -100,7 +100,7 @@ export const ma_start = {
       artist: 'tan3-16',
       credit: `作詞・作曲：u13<br />
                編曲：comorebi notes<br />
-               歌：フナモトアユミ`
+               歌：フナモトアユミ`,
     },
     {
       no: 4,
@@ -109,7 +109,7 @@ export const ma_start = {
       credit: `企画：WestTail<br />
                作曲：comorebi notes<br />
                作詞：台湾豆乳を飲む人<br />
-               歌：Shiho (the Clock Hands)`
+               歌：Shiho (the Clock Hands)`,
     },
   ],
 }
@@ -145,7 +145,7 @@ export const hope = {
     {
       no: 6,
       name: 'ハルカユーグレハナヤイデ',
-      artist: 'comorebi notes'
+      artist: 'comorebi notes',
     },
   ],
 }
