@@ -40,7 +40,7 @@ export const battle = {
       credit: `作曲：ビール飲まない社員K`
     },
   ]
-};
+}
 
 export const recycle = {
   title: '3nd Mini Album 「RECYCLE」',
@@ -74,7 +74,7 @@ export const recycle = {
       credit: `作曲：u13`
     },
   ]
-};
+}
 
 export const ma_start = {
   title: '2nd Mini Album 「START」',
@@ -112,7 +112,7 @@ export const ma_start = {
                歌：Shiho (the Clock Hands)`
     },
   ]
-};
+}
 
 export const hope = {
   title: '1st Mini Album「HOPE」',
@@ -120,32 +120,32 @@ export const hope = {
     {
       no: 1,
       name: 'Alive',
-      artist: 'WestTail feat. ruha',
+      artist: 'WestTail feat. ruha'
     },
     {
       no: 2,
       name: 'cresc.',
-      artist: 'きむらじお feat.フナモトアユミ',
+      artist: 'きむらじお feat.フナモトアユミ'
     },
     {
       no: 3,
       name: '瞬間',
-      artist: '山口真央 feat. すぴか',
+      artist: '山口真央 feat. すぴか'
     },
     {
       no: 4,
       name: 'Calling',
-      artist: 'NY2 feat. フナモトアユミ',
+      artist: 'NY2 feat. フナモトアユミ'
     },
     {
       no: 5,
       name: 'Diary',
-      artist: 'u13 feat. フナモトアユミ',
+      artist: 'u13 feat. フナモトアユミ'
     },
     {
       no: 6,
       name: 'ハルカユーグレハナヤイデ',
-      artist: 'comorebi notes',
+      artist: 'comorebi notes'
     },
   ]
-};
+}
