@@ -19,6 +19,158 @@ exports[`beenya.vue > should match the snapshot 1`] = `
       class="_h2_bd7be3 _albumTitle_6f40d0"
     >
       
+       5th Mini Album 「RISING」 
+      <span
+        class="_blink_1fef76 _newsBlink_2db161"
+      >
+        
+        NEW
+        
+      </span>
+      
+    </h2>
+    <p
+      class="_onSale_6f40d0"
+    >
+      <span
+        class="_blink_1fef76"
+      >
+        
+        2023.10.29 ON SALE!
+        
+      </span>
+    </p>
+    <img
+      alt="5th Mini Album「Rising」のジャケット画像"
+      class="_jacket_6f40d0"
+      src="/assets/5th_mini_album_rising.png"
+    />
+    <table
+      border="1"
+      class="_table_52eca4"
+    >
+      <thead>
+        <tr>
+          <th>
+            No
+          </th>
+          <th>
+            曲名
+          </th>
+          <th>
+            アーティスト
+          </th>
+          <th>
+            クレジット
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr>
+          <td
+            class="_trackNo_52eca4"
+          >
+            1
+          </td>
+          <td>
+            RISING
+          </td>
+          <td>
+            マッキー
+          </td>
+          <!-- eslint-disable-next-line vue/no-v-html -->
+          <td>
+            作詞・作曲・歌：マッキー
+          </td>
+        </tr>
+        <tr>
+          <td
+            class="_trackNo_52eca4"
+          >
+            2
+          </td>
+          <td>
+            たまご生活
+          </td>
+          <td>
+            hayu
+          </td>
+          <!-- eslint-disable-next-line vue/no-v-html -->
+          <td>
+            作曲：hayu
+          </td>
+        </tr>
+        <tr>
+          <td
+            class="_trackNo_52eca4"
+          >
+            3
+          </td>
+          <td>
+            Game is...
+          </td>
+          <td>
+            ビール飲まない社員K
+          </td>
+          <!-- eslint-disable-next-line vue/no-v-html -->
+          <td>
+            作詞・作曲：ビール飲まない社員K
+               
+            <br />
+            
+               歌：知声、MYK-IV (VoiSona)
+          </td>
+        </tr>
+        <tr>
+          <td
+            class="_trackNo_52eca4"
+          >
+            4
+          </td>
+          <td>
+            はじまりのうた
+          </td>
+          <td>
+            comorebi notes
+          </td>
+          <!-- eslint-disable-next-line vue/no-v-html -->
+          <td>
+            作詞・作曲：comorebi notes
+               
+            <br />
+            
+               歌：花隈千冬 (Synthesizer V Al)
+          </td>
+        </tr>
+        
+      </tbody>
+    </table>
+    <div
+      class="_video_cc3109 _crossFade_6f40d0"
+    >
+      
+      <iframe
+        allow="autoplay; encrypted-media"
+        allowfullscreen=""
+        frameborder="0"
+        height="315"
+        src="https://www.youtube.com/embed/y83GedNBXfQ"
+        width="560"
+      />
+      
+    </div>
+    
+  </section>
+  <hr />
+  <section
+    class="_section_7c249e"
+  >
+    
+    <h2
+      class="_h2_bd7be3 _albumTitle_6f40d0"
+    >
+      
        4th Mini Album 「BATTLE」 
       <span
         class="_blink_1fef76 _newsBlink_2db161"
