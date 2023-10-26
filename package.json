@@ -1,6 +1,9 @@
 {
   "name": "nuxttest",
   "version": "1.0.0",
+  "engines": {
+    "node": "20.x"
+  },
   "private": true,
   "scripts": {
     "build": "nuxt build",
