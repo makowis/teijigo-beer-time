@@ -8,17 +8,33 @@ import TbtHopeJacketImg from '@/components/atoms/TbtHopeJacketImg.vue'
 import TbtStartJacketImg from '@/components/atoms/TbtStartJacketImg.vue'
 import TbtRecycleJacketImg from '@/components/atoms/TbtRecycleJacketImg.vue'
 import TbtBattleJacketImg from '@/components/atoms/TbtBattleJacketImg.vue'
+import TbtRisingJacketImg from '@/components/atoms/TbtRisingJacketImg.vue'
 import TbtHopeCrossFade from '@/components/atoms/TbtHopeCrossFade.vue'
 import TbtStartCrossFade from '@/components/atoms/TbtStartCrossFade.vue'
 import TbtRecycleCrossFade from '@/components/atoms/TbtRecycleCrossFade.vue'
 import TbtBattleCrossFade from '@/components/atoms/TbtBattleCrossFade.vue'
+import TbtRisingCrossFade from '@/components/atoms/TbtRisingCrossFade.vue'
 import TbtDiscoTable from '@/components/atoms/TbtDiscoTable.vue'
-import { recycle, battle, ma_start, hope } from '@/resources/discos'
+import { recycle, battle, ma_start, hope, rising } from '@/resources/discos'
 </script>
 
 <template>
   <div class="disco">
     <tbt-h-1>DISCOGRAPHY</tbt-h-1>
+    <tbt-section>
+      <tbt-h-2 :class="$style.albumTitle">
+        5th Mini Album 「RISING」
+        <tbt-new-blink />
+      </tbt-h-2>
+      <p :class="$style.onSale">
+        <tbt-blink>2023.10.29 ON SALE!</tbt-blink>
+      </p>
+      <tbt-rising-jacket-img :class="$style.jacket" />
+      <tbt-disco-table :display-credit="true" :tracks="rising.tracks">
+      </tbt-disco-table>
+      <tbt-rising-cross-fade :class="$style.crossFade" />
+    </tbt-section>
+    <hr />
     <tbt-section>
       <tbt-h-2 :class="$style.albumTitle">
         4th Mini Album 「BATTLE」
