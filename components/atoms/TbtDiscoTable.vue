@@ -1,12 +1,3 @@
-<script setup lang="ts">
-import type { TrackInfo } from '@/resources/discos'
-
-defineProps<{
-  displayCredit: boolean
-  tracks: TrackInfo[]
-}>()
-</script>
-
 <template>
   <table border="1" :class="$style.table">
     <thead>
@@ -44,3 +35,12 @@ defineProps<{
   text-align: right;
 }
 </style>
+
+<script setup lang="ts">
+import type { TrackInfo } from '@/resources/discos'
+
+defineProps<{
+  displayCredit: boolean
+  tracks: TrackInfo[]
+}>()
+</script>

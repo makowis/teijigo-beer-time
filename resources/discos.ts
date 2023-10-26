@@ -12,6 +12,40 @@ export interface TrackInfo {
   credit?: HTML // クレジット
 }
 
+export const rising = {
+  title: '5th Mini Album 「RISING」',
+  tracks: [
+    {
+      no: 1,
+      name: 'RISING',
+      artist: 'マッキー',
+      credit: '作詞・作曲・歌：マッキー'
+    },
+    {
+      no: 2,
+      name: 'たまご生活',
+      artist: 'hayu',
+      credit: '作曲：hayu',
+    },
+    {
+      no: 3,
+      name: 'Game is...',
+      artist: 'ビール飲まない社員K',
+      credit: `作詞・作曲：ビール飲まない社員K
+               <br />
+               歌：知声、MYK-IV (VoiSona)`,
+    },
+    {
+      no: 4,
+      name: 'はじまりのうた',
+      artist: 'comorebi notes',
+      credit: `作詞・作曲：comorebi notes
+               <br />
+               歌：花隈千冬 (Synthesizer V Al)`,
+    },
+  ],
+}
+
 export const battle = {
   title: '4th Mini Album 「BATTLE」',
   tracks: [
