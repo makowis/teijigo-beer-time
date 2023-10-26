@@ -19,7 +19,7 @@ export const rising = {
       no: 1,
       name: 'RISING',
       artist: 'マッキー',
-      credit: '作詞・作曲・歌：マッキー'
+      credit: '作詞・作曲・歌：マッキー',
     },
     {
       no: 2,
