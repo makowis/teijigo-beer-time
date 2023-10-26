@@ -41,6 +41,7 @@
     left: 100%;
     transform: translate(0);
   }
+
   100% {
     left: 0;
     transform: translate(-100%);
