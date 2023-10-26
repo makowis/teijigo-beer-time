@@ -43,7 +43,7 @@ export default {
     return {
       counter: {
         access: `0000000000000000${Math.floor(Math.random() * 99999)}`.slice(
-          -16
+          -16,
         ),
       },
     }
