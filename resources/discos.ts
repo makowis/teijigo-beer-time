@@ -14,7 +14,7 @@ export interface TrackInfo {
   credit?: HTML // クレジット
 }
 
-export const rising : Disco = {
+export const rising: Disco = {
   title: '5th Mini Album 「RISING」',
   release: '2023.10.29',
   displayCredit: true,
@@ -50,7 +50,7 @@ export const rising : Disco = {
   ],
 }
 
-export const battle : Disco = {
+export const battle: Disco = {
   title: '4th Mini Album 「BATTLE」',
   release: '2021.4.25',
   displayCredit: true,
@@ -82,7 +82,7 @@ export const battle : Disco = {
   ],
 }
 
-export const recycle : Disco = {
+export const recycle: Disco = {
   title: '3nd Mini Album 「RECYCLE」',
   release: '2019.10.27',
   displayCredit: true,
@@ -118,7 +118,7 @@ export const recycle : Disco = {
   ],
 }
 
-export const ma_start : Disco = {
+export const ma_start: Disco = {
   title: '2nd Mini Album 「START」',
   release: '2019.04.27',
   displayCredit: true,
@@ -158,9 +158,9 @@ export const ma_start : Disco = {
   ],
 }
 
-export const hope : Disco = {
+export const hope: Disco = {
   title: '1st Mini Album「HOPE」',
-  release : '2018.10.28',
+  release: '2018.10.28',
   displayCredit: false,
   tracks: [
     {
