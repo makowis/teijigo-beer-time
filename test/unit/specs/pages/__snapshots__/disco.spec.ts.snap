@@ -19,7 +19,7 @@ exports[`beenya.vue > should match the snapshot 1`] = `
       class="_h2_bd7be3 _albumTitle_6f40d0"
     >
       
-       5th Mini Album 「RISING」 
+      5th Mini Album 「RISING」 
       <span
         class="_blink_1fef76 _newsBlink_2db161"
       >
@@ -149,7 +149,6 @@ exports[`beenya.vue > should match the snapshot 1`] = `
     <div
       class="_video_cc3109 _crossFade_6f40d0"
     >
-      
       <iframe
         allow="autoplay; encrypted-media"
         allowfullscreen=""
@@ -158,7 +157,6 @@ exports[`beenya.vue > should match the snapshot 1`] = `
         src="https://www.youtube.com/embed/y83GedNBXfQ"
         width="560"
       />
-      
     </div>
     
   </section>
@@ -171,14 +169,7 @@ exports[`beenya.vue > should match the snapshot 1`] = `
       class="_h2_bd7be3 _albumTitle_6f40d0"
     >
       
-       4th Mini Album 「BATTLE」 
-      <span
-        class="_blink_1fef76 _newsBlink_2db161"
-      >
-        
-        NEW
-        
-      </span>
+      4th Mini Album 「BATTLE」
       
     </h2>
     <p
@@ -293,7 +284,6 @@ exports[`beenya.vue > should match the snapshot 1`] = `
     <div
       class="_video_cc3109 _crossFade_6f40d0"
     >
-      
       <iframe
         allow="autoplay; encrypted-media"
         allowfullscreen=""
@@ -302,7 +292,6 @@ exports[`beenya.vue > should match the snapshot 1`] = `
         src="https://www.youtube.com/embed/29UhRyb4hJg"
         width="560"
       />
-      
     </div>
     
   </section>
@@ -315,7 +304,7 @@ exports[`beenya.vue > should match the snapshot 1`] = `
       class="_h2_bd7be3 _albumTitle_6f40d0"
     >
       
-       3nd Mini Album 「RECYCLE」 
+      3nd Mini Album 「RECYCLE」
       
     </h2>
     <p
@@ -438,7 +427,6 @@ exports[`beenya.vue > should match the snapshot 1`] = `
     <div
       class="_video_cc3109 _crossFade_6f40d0"
     >
-      
       <iframe
         allow="autoplay; encrypted-media"
         allowfullscreen=""
@@ -447,7 +435,6 @@ exports[`beenya.vue > should match the snapshot 1`] = `
         src="https://www.youtube.com/embed/L_DAzJq4tgg"
         width="560"
       />
-      
     </div>
     
   </section>
@@ -460,7 +447,7 @@ exports[`beenya.vue > should match the snapshot 1`] = `
       class="_h2_bd7be3 _albumTitle_6f40d0"
     >
       
-       2nd Mini Album 「START」 
+      2nd Mini Album 「START」
       
     </h2>
     <p
@@ -599,7 +586,6 @@ exports[`beenya.vue > should match the snapshot 1`] = `
     <div
       class="_video_cc3109 _crossFade_6f40d0"
     >
-      
       <iframe
         allow="autoplay; encrypted-media"
         allowfullscreen=""
@@ -608,7 +594,6 @@ exports[`beenya.vue > should match the snapshot 1`] = `
         src="https://www.youtube.com/embed/IxTdbkoGM-Q"
         width="560"
       />
-      
     </div>
     
   </section>
@@ -756,7 +741,6 @@ exports[`beenya.vue > should match the snapshot 1`] = `
     <div
       class="_video_cc3109 _crossFade_6f40d0"
     >
-      
       <iframe
         allow="autoplay; encrypted-media"
         allowfullscreen=""
@@ -765,7 +749,6 @@ exports[`beenya.vue > should match the snapshot 1`] = `
         src="https://www.youtube.com/embed/KE3It-tas0Y?rel=0"
         width="560"
       />
-      
     </div>
     
   </section>

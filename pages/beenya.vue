@@ -1,3 +1,8 @@
+<script setup lang="ts">
+import TbtH1 from '@/components/atoms/TbtH1.vue'
+import TbtBeenyaImg from '@/components/atoms/TbtBeenyaImg.vue'
+</script>
+
 <template>
   <div class="beenya">
     <tbt-h-1>びーにゃの部屋</tbt-h-1>
@@ -20,18 +25,6 @@
     </table>
   </div>
 </template>
-
-<script lang="ts">
-import TbtH1 from '@/components/atoms/TbtH1.vue'
-import TbtBeenyaImg from '@/components/atoms/TbtBeenyaImg.vue'
-
-export default {
-  components: {
-    TbtH1,
-    TbtBeenyaImg,
-  },
-}
-</script>
 
 <style module>
 .icon {

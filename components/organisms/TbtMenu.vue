@@ -1,3 +1,10 @@
+<script setup lang="ts">
+import TbtDiscoLink from '@/components/atoms/TbtDiscoLink.vue'
+import TbtMemberLink from '@/components/atoms/TbtMemberLink.vue'
+import TbtTopLink from '@/components/atoms/TbtTopLink.vue'
+import TbtBeenyaLink from '@/components/atoms/TbtBeenyaLink.vue'
+</script>
+
 <template>
   <nav id="menu-container" :class="$style.menuContainer">
     <ul :class="$style.menu">
@@ -21,22 +28,6 @@
     </ul>
   </nav>
 </template>
-
-<script lang="ts">
-import TbtDiscoLink from '@/components/atoms/TbtDiscoLink.vue'
-import TbtMemberLink from '@/components/atoms/TbtMemberLink.vue'
-import TbtTopLink from '@/components/atoms/TbtTopLink.vue'
-import TbtBeenyaLink from '@/components/atoms/TbtBeenyaLink.vue'
-
-export default {
-  components: {
-    TbtDiscoLink,
-    TbtMemberLink,
-    TbtTopLink,
-    TbtBeenyaLink,
-  },
-}
-</script>
 
 <style module>
 .menuContainer {

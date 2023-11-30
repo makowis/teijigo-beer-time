@@ -2,6 +2,9 @@ type HTML = string
 
 export interface Disco {
   title: string // アルバム名
+  release: string // リリース日
+  displayCredit: boolean // クレジットを表示するか
+  youtubeEmbedUrl: string // クロスフェード動画の埋め込みURL
   tracks: TrackInfo[] // 曲情報
 }
 
@@ -12,8 +15,11 @@ export interface TrackInfo {
   credit?: HTML // クレジット
 }
 
-export const rising = {
+export const rising: Disco = {
   title: '5th Mini Album 「RISING」',
+  release: '2023.10.29',
+  displayCredit: true,
+  youtubeEmbedUrl: 'https://www.youtube.com/embed/y83GedNBXfQ',
   tracks: [
     {
       no: 1,
@@ -46,8 +52,11 @@ export const rising = {
   ],
 }
 
-export const battle = {
+export const battle: Disco = {
   title: '4th Mini Album 「BATTLE」',
+  release: '2021.4.25',
+  displayCredit: true,
+  youtubeEmbedUrl: 'https://www.youtube.com/embed/29UhRyb4hJg',
   tracks: [
     {
       no: 1,
@@ -76,8 +85,11 @@ export const battle = {
   ],
 }
 
-export const recycle = {
+export const recycle: Disco = {
   title: '3nd Mini Album 「RECYCLE」',
+  release: '2019.10.27',
+  displayCredit: true,
+  youtubeEmbedUrl: 'https://www.youtube.com/embed/L_DAzJq4tgg',
   tracks: [
     {
       no: 1,
@@ -110,8 +122,11 @@ export const recycle = {
   ],
 }
 
-export const ma_start = {
+export const ma_start: Disco = {
   title: '2nd Mini Album 「START」',
+  release: '2019.04.27',
+  displayCredit: true,
+  youtubeEmbedUrl: 'https://www.youtube.com/embed/IxTdbkoGM-Q',
   tracks: [
     {
       no: 1,
@@ -148,8 +163,11 @@ export const ma_start = {
   ],
 }
 
-export const hope = {
+export const hope: Disco = {
   title: '1st Mini Album「HOPE」',
+  release: '2018.10.28',
+  displayCredit: false,
+  youtubeEmbedUrl: 'https://www.youtube.com/embed/KE3It-tas0Y?rel=0',
   tracks: [
     {
       no: 1,

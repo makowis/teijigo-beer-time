@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import TbtH1 from '@/components/atoms/TbtH1.vue'
+</script>
+
 <template>
   <div class="not-found">
     <tbt-h-1>404 NOT FOUND</tbt-h-1>
@@ -8,13 +12,3 @@
     />
   </div>
 </template>
-
-<script lang="ts">
-import TbtH1 from '@/components/atoms/TbtH1.vue'
-
-export default {
-  components: {
-    TbtH1,
-  },
-}
-</script>
