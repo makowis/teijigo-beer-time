@@ -2,14 +2,16 @@
 import TbtH1 from '@/components/atoms/TbtH1.vue'
 import TbtMarquee from '@/components/atoms/TbtMarquee.vue'
 import TbtBlink from '@/components/atoms/TbtBlink.vue'
-import TbtAccessCounterSection from '@/components/organisms/TbtAccessCounterSection.vue'
+import TbtAccessCounterSection, {
+  type TbtAccessCounterSectionProps,
+} from '@/components/organisms/TbtAccessCounterSection.vue'
 import TbtCircleCutSection from '@/components/organisms/TbtCircleCutSection.vue'
 import TbtCircleSpaceInfoSection from '@/components/organisms/TbtCircleSpaceInfoSection.vue'
 import TbtMenuSection from '@/components/organisms/TbtMenuSection.vue'
 import TbtMailSection from '@/components/organisms/TbtMailSection.vue'
 import TbtNewsSection from '@/components/organisms/TbtNewsSection.vue'
 
-const counter = {
+const counter: TbtAccessCounterSectionProps = {
   access: `0000000000000000${Math.floor(Math.random() * 99999)}`.slice(-16),
 }
 </script>
