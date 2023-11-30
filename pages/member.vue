@@ -1,3 +1,8 @@
+<script setup lang="ts">
+import members from '@/resources/members'
+import TbtH1 from '@/components/atoms/TbtH1.vue'
+</script>
+
 <template>
   <div class="member">
     <tbt-h-1>MEMBER</tbt-h-1>
@@ -21,22 +26,6 @@
     </table>
   </div>
 </template>
-
-<script lang="ts">
-import members from '@/resources/members'
-import TbtH1 from '@/components/atoms/TbtH1.vue'
-
-export default {
-  components: {
-    TbtH1,
-  },
-  data() {
-    return {
-      members,
-    }
-  },
-}
-</script>
 
 <style scoped>
 .member-table {
