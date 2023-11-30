@@ -2,11 +2,9 @@
 import TbtH2 from '@/components/atoms/TbtH2.vue'
 import TbtSection from '@/components/atoms/TbtSection.vue'
 
-export interface TbtAccessCounterSectionProps {
+defineProps<{
   access: string
-}
-
-defineProps<TbtAccessCounterSectionProps>()
+}>()
 </script>
 
 <template>
