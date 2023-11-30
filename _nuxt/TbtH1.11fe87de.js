@@ -1,0 +1,1 @@
+import{_ as e,c as o,s as t,q as c,o as n}from"./entry.2dc98afb.js";const l="_h1_1yiid_2",r={h1:l},a={};function _(s,f){return n(),o("h1",{class:c(s.$style.h1)},[t(s.$slots,"default")],2)}const d={$style:r},i=e(a,[["render",_],["__cssModules",d]]);export{i as T};
