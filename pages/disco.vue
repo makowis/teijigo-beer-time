@@ -9,11 +9,7 @@ import TbtStartJacketImg from '@/components/atoms/TbtStartJacketImg.vue'
 import TbtRecycleJacketImg from '@/components/atoms/TbtRecycleJacketImg.vue'
 import TbtBattleJacketImg from '@/components/atoms/TbtBattleJacketImg.vue'
 import TbtRisingJacketImg from '@/components/atoms/TbtRisingJacketImg.vue'
-import TbtHopeCrossFade from '@/components/atoms/TbtHopeCrossFade.vue'
-import TbtStartCrossFade from '@/components/atoms/TbtStartCrossFade.vue'
-import TbtRecycleCrossFade from '@/components/atoms/TbtRecycleCrossFade.vue'
-import TbtBattleCrossFade from '@/components/atoms/TbtBattleCrossFade.vue'
-import TbtRisingCrossFade from '@/components/atoms/TbtRisingCrossFade.vue'
+import TbtYoutubeEmbedded from '@/components/atoms/TbtYoutubeEmbedded.vue'
 import TbtDiscoTable from '@/components/atoms/TbtDiscoTable.vue'
 import { recycle, battle, ma_start, hope, rising } from '@/resources/discos'
 </script>
@@ -35,7 +31,10 @@ import { recycle, battle, ma_start, hope, rising } from '@/resources/discos'
         :tracks="rising.tracks"
       >
       </tbt-disco-table>
-      <tbt-rising-cross-fade :class="$style.crossFade" />
+      <tbt-youtube-embedded
+        :class="$style.crossFade"
+        youtube-url="https://www.youtube.com/embed/y83GedNBXfQ"
+      />
     </tbt-section>
     <hr />
     <tbt-section>
@@ -49,7 +48,10 @@ import { recycle, battle, ma_start, hope, rising } from '@/resources/discos'
         :tracks="battle.tracks"
       >
       </tbt-disco-table>
-      <tbt-battle-cross-fade :class="$style.crossFade" />
+      <tbt-youtube-embedded
+        :class="$style.crossFade"
+        youtube-url="https://www.youtube.com/embed/29UhRyb4hJg"
+      />
     </tbt-section>
     <hr />
     <tbt-section>
@@ -63,7 +65,10 @@ import { recycle, battle, ma_start, hope, rising } from '@/resources/discos'
         :tracks="recycle.tracks"
       >
       </tbt-disco-table>
-      <tbt-recycle-cross-fade :class="$style.crossFade" />
+      <tbt-youtube-embedded
+        :class="$style.crossFade"
+        youtube-url="https://www.youtube.com/embed/L_DAzJq4tgg"
+      />
     </tbt-section>
     <hr />
     <tbt-section>
@@ -77,7 +82,10 @@ import { recycle, battle, ma_start, hope, rising } from '@/resources/discos'
         :tracks="ma_start.tracks"
       >
       </tbt-disco-table>
-      <tbt-start-cross-fade :class="$style.crossFade" />
+      <tbt-youtube-embedded
+        :class="$style.crossFade"
+        youtube-url="https://www.youtube.com/embed/IxTdbkoGM-Q"
+      />
     </tbt-section>
     <hr />
     <tbt-section>
@@ -91,7 +99,10 @@ import { recycle, battle, ma_start, hope, rising } from '@/resources/discos'
         :tracks="hope.tracks"
       >
       </tbt-disco-table>
-      <tbt-hope-cross-fade :class="$style.crossFade" />
+      <tbt-youtube-embedded
+        :class="$style.crossFade"
+        youtube-url="https://www.youtube.com/embed/KE3It-tas0Y?rel=0"
+      />
     </tbt-section>
   </div>
 </template>

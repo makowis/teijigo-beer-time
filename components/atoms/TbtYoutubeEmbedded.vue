@@ -1,6 +1,19 @@
+<script setup lang="ts">
+  defineProps<{
+    youtubeUrl: string
+  }>()
+</script>
+
 <template>
   <div :class="$style.video">
-    <slot />
+    <iframe
+      width="560"
+      height="315"
+      :src= youtubeUrl
+      frameborder="0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen
+    ></iframe>
   </div>
 </template>
 
