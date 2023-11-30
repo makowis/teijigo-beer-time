@@ -9,7 +9,7 @@ import TbtMenuSection from '@/components/organisms/TbtMenuSection.vue'
 import TbtMailSection from '@/components/organisms/TbtMailSection.vue'
 import TbtNewsSection from '@/components/organisms/TbtNewsSection.vue'
 
-const access = `0000000000000000${Math.floor(Math.random() * 99999)}`.slice(-16)
+const accessCount = `0000000000000000${Math.floor(Math.random() * 99999)}`.slice(-16)
 </script>
 
 <template>
@@ -21,7 +21,7 @@ const access = `0000000000000000${Math.floor(Math.random() * 99999)}`.slice(-16)
     <tbt-marquee>
       M3-2023秋に参戦！パワーアップしたサウンドをお届けします！
     </tbt-marquee>
-    <tbt-access-counter-section :access="access" />
+    <tbt-access-counter-section :access-count="accessCount" />
     <tbt-news-section />
     <tbt-circle-cut-section />
     <tbt-circle-space-infoSection />
