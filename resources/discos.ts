@@ -2,6 +2,7 @@ type HTML = string
 
 export interface Disco {
   title: string // アルバム名
+  release: string // リリース日
   tracks: TrackInfo[] // 曲情報
 }
 
@@ -12,8 +13,9 @@ export interface TrackInfo {
   credit?: HTML // クレジット
 }
 
-export const rising = {
+export const rising : Disco = {
   title: '5th Mini Album 「RISING」',
+  release: '2023.10.29',
   tracks: [
     {
       no: 1,
@@ -46,8 +48,9 @@ export const rising = {
   ],
 }
 
-export const battle = {
+export const battle : Disco = {
   title: '4th Mini Album 「BATTLE」',
+  release: '2021.4.25',
   tracks: [
     {
       no: 1,
@@ -76,8 +79,9 @@ export const battle = {
   ],
 }
 
-export const recycle = {
+export const recycle : Disco = {
   title: '3nd Mini Album 「RECYCLE」',
+  release: '2019.10.27',
   tracks: [
     {
       no: 1,
@@ -110,8 +114,9 @@ export const recycle = {
   ],
 }
 
-export const ma_start = {
+export const ma_start : Disco = {
   title: '2nd Mini Album 「START」',
+  release: '2019.04.27',
   tracks: [
     {
       no: 1,
@@ -148,8 +153,9 @@ export const ma_start = {
   ],
 }
 
-export const hope = {
+export const hope : Disco = {
   title: '1st Mini Album「HOPE」',
+  release : '2018.10.28',
   tracks: [
     {
       no: 1,

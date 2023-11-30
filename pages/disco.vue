@@ -22,12 +22,10 @@ import { recycle, battle, ma_start, hope, rising } from '@/resources/discos'
   <div class="disco">
     <tbt-h-1>DISCOGRAPHY</tbt-h-1>
     <tbt-section>
-      <tbt-h-2 :class="$style.albumTitle">
-        5th Mini Album 「RISING」
-        <tbt-new-blink />
+      <tbt-h-2 :class="$style.albumTitle">{{ rising.title }}<tbt-new-blink />
       </tbt-h-2>
       <p :class="$style.onSale">
-        <tbt-blink>2023.10.29 ON SALE!</tbt-blink>
+        <tbt-blink>{{ rising.release }} ON SALE!</tbt-blink>
       </p>
       <tbt-rising-jacket-img :class="$style.jacket" />
       <tbt-disco-table :display-credit="true" :tracks="rising.tracks">
@@ -36,12 +34,10 @@ import { recycle, battle, ma_start, hope, rising } from '@/resources/discos'
     </tbt-section>
     <hr />
     <tbt-section>
-      <tbt-h-2 :class="$style.albumTitle">
-        4th Mini Album 「BATTLE」
-        <tbt-new-blink />
+      <tbt-h-2 :class="$style.albumTitle">{{ battle.title }}<tbt-new-blink />
       </tbt-h-2>
       <p :class="$style.onSale">
-        <tbt-blink>2021.4.25 ON SALE！</tbt-blink>
+        <tbt-blink>{{ battle.release }} ON SALE！</tbt-blink>
       </p>
       <tbt-battle-jacket-img :class="$style.jacket" />
       <tbt-disco-table :display-credit="true" :tracks="battle.tracks">
@@ -50,9 +46,9 @@ import { recycle, battle, ma_start, hope, rising } from '@/resources/discos'
     </tbt-section>
     <hr />
     <tbt-section>
-      <tbt-h-2 :class="$style.albumTitle"> 3nd Mini Album 「RECYCLE」 </tbt-h-2>
+      <tbt-h-2 :class="$style.albumTitle">{{ recycle.title }}</tbt-h-2>
       <p :class="$style.onSale">
-        <tbt-blink>2019.10.27 ON SALE！</tbt-blink>
+        <tbt-blink>{{ recycle.release }} ON SALE！</tbt-blink>
       </p>
       <tbt-recycle-jacket-img :class="$style.jacket" />
       <tbt-disco-table :display-credit="true" :tracks="recycle.tracks">
@@ -61,9 +57,9 @@ import { recycle, battle, ma_start, hope, rising } from '@/resources/discos'
     </tbt-section>
     <hr />
     <tbt-section>
-      <tbt-h-2 :class="$style.albumTitle"> 2nd Mini Album 「START」 </tbt-h-2>
+      <tbt-h-2 :class="$style.albumTitle">{{ ma_start.title }}</tbt-h-2>
       <p :class="$style.onSale">
-        <tbt-blink>2019.04.27 ON SALE！</tbt-blink>
+        <tbt-blink>{{ ma_start.release }} ON SALE！</tbt-blink>
       </p>
       <tbt-start-jacket-img :class="$style.jacket" />
       <tbt-disco-table :display-credit="true" :tracks="ma_start.tracks">
@@ -72,9 +68,9 @@ import { recycle, battle, ma_start, hope, rising } from '@/resources/discos'
     </tbt-section>
     <hr />
     <tbt-section>
-      <tbt-h-2 :class="$style.albumTitle">1st Mini Album「HOPE」</tbt-h-2>
+      <tbt-h-2 :class="$style.albumTitle">{{ hope.title }}</tbt-h-2>
       <p :class="$style.onSale">
-        <tbt-blink>2018.10.28 ON SALE！</tbt-blink>
+        <tbt-blink>{{ hope.release }} ON SALE！</tbt-blink>
       </p>
       <tbt-hope-jacket-img :class="$style.jacket" />
       <tbt-disco-table :display-credit="false" :tracks="hope.tracks">

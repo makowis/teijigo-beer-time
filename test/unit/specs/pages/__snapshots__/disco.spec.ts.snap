@@ -19,7 +19,7 @@ exports[`beenya.vue > should match the snapshot 1`] = `
       class="_h2_bd7be3 _albumTitle_6f40d0"
     >
       
-       5th Mini Album 「RISING」 
+      5th Mini Album 「RISING」
       <span
         class="_blink_1fef76 _newsBlink_2db161"
       >
@@ -171,7 +171,7 @@ exports[`beenya.vue > should match the snapshot 1`] = `
       class="_h2_bd7be3 _albumTitle_6f40d0"
     >
       
-       4th Mini Album 「BATTLE」 
+      4th Mini Album 「BATTLE」
       <span
         class="_blink_1fef76 _newsBlink_2db161"
       >
@@ -315,7 +315,7 @@ exports[`beenya.vue > should match the snapshot 1`] = `
       class="_h2_bd7be3 _albumTitle_6f40d0"
     >
       
-       3nd Mini Album 「RECYCLE」 
+      3nd Mini Album 「RECYCLE」
       
     </h2>
     <p
@@ -460,7 +460,7 @@ exports[`beenya.vue > should match the snapshot 1`] = `
       class="_h2_bd7be3 _albumTitle_6f40d0"
     >
       
-       2nd Mini Album 「START」 
+      2nd Mini Album 「START」
       
     </h2>
     <p
