@@ -1,6 +1,6 @@
 <script setup lang="ts">
   defineProps<{
-    youtubeUrl: string
+    youtubeEmbedUrl: string
   }>()
 </script>
 
@@ -9,7 +9,7 @@
     <iframe
       width="560"
       height="315"
-      :src= youtubeUrl
+      :src= youtubeEmbedUrl
       frameborder="0"
       allow="autoplay; encrypted-media"
       allowfullscreen

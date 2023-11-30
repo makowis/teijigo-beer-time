@@ -33,7 +33,7 @@ import { recycle, battle, ma_start, hope, rising } from '@/resources/discos'
       </tbt-disco-table>
       <tbt-youtube-embedded
         :class="$style.crossFade"
-        youtube-url="https://www.youtube.com/embed/y83GedNBXfQ"
+        :youtube-embed-url="rising.youtubeEmbedUrl"
       />
     </tbt-section>
     <hr />
@@ -50,7 +50,7 @@ import { recycle, battle, ma_start, hope, rising } from '@/resources/discos'
       </tbt-disco-table>
       <tbt-youtube-embedded
         :class="$style.crossFade"
-        youtube-url="https://www.youtube.com/embed/29UhRyb4hJg"
+        :youtube-embed-url="battle.youtubeEmbedUrl"
       />
     </tbt-section>
     <hr />
@@ -67,7 +67,7 @@ import { recycle, battle, ma_start, hope, rising } from '@/resources/discos'
       </tbt-disco-table>
       <tbt-youtube-embedded
         :class="$style.crossFade"
-        youtube-url="https://www.youtube.com/embed/L_DAzJq4tgg"
+        :youtube-embed-url="recycle.youtubeEmbedUrl"
       />
     </tbt-section>
     <hr />
@@ -84,7 +84,7 @@ import { recycle, battle, ma_start, hope, rising } from '@/resources/discos'
       </tbt-disco-table>
       <tbt-youtube-embedded
         :class="$style.crossFade"
-        youtube-url="https://www.youtube.com/embed/IxTdbkoGM-Q"
+        :youtube-embed-url="ma_start.youtubeEmbedUrl"
       />
     </tbt-section>
     <hr />
@@ -101,7 +101,7 @@ import { recycle, battle, ma_start, hope, rising } from '@/resources/discos'
       </tbt-disco-table>
       <tbt-youtube-embedded
         :class="$style.crossFade"
-        youtube-url="https://www.youtube.com/embed/KE3It-tas0Y?rel=0"
+        :youtube-embed-url="hope.youtubeEmbedUrl"
       />
     </tbt-section>
   </div>
