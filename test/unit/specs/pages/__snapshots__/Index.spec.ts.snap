@@ -49,7 +49,7 @@ exports[`index.vue > should match the snapshot 1`] = `
       
     </h2>
     <p>
-      あなたは0000000000049999人目の訪問者です。
+      あなたは0004999999999999人目の訪問者です。
     </p>
     
   </section>

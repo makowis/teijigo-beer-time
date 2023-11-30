@@ -19,7 +19,7 @@ exports[`beenya.vue > should match the snapshot 1`] = `
       class="_h2_bd7be3 _albumTitle_6f40d0"
     >
       
-      5th Mini Album 「RISING」
+      5th Mini Album 「RISING」 
       <span
         class="_blink_1fef76 _newsBlink_2db161"
       >
@@ -172,13 +172,6 @@ exports[`beenya.vue > should match the snapshot 1`] = `
     >
       
       4th Mini Album 「BATTLE」
-      <span
-        class="_blink_1fef76 _newsBlink_2db161"
-      >
-        
-        NEW
-        
-      </span>
       
     </h2>
     <p

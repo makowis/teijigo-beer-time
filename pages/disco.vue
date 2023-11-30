@@ -22,25 +22,32 @@ import { recycle, battle, ma_start, hope, rising } from '@/resources/discos'
   <div class="disco">
     <tbt-h-1>DISCOGRAPHY</tbt-h-1>
     <tbt-section>
-      <tbt-h-2 :class="$style.albumTitle">{{ rising.title }}<tbt-new-blink />
+      <tbt-h-2 :class="$style.albumTitle">
+        {{ rising.title }}
+        <tbt-new-blink />
       </tbt-h-2>
       <p :class="$style.onSale">
         <tbt-blink>{{ rising.release }} ON SALE!</tbt-blink>
       </p>
       <tbt-rising-jacket-img :class="$style.jacket" />
-      <tbt-disco-table :display-credit="rising.displayCredit" :tracks="rising.tracks">
+      <tbt-disco-table
+        :display-credit="rising.displayCredit"
+        :tracks="rising.tracks"
+      >
       </tbt-disco-table>
       <tbt-rising-cross-fade :class="$style.crossFade" />
     </tbt-section>
     <hr />
     <tbt-section>
-      <tbt-h-2 :class="$style.albumTitle">{{ battle.title }}<tbt-new-blink />
-      </tbt-h-2>
+      <tbt-h-2 :class="$style.albumTitle">{{ battle.title }}</tbt-h-2>
       <p :class="$style.onSale">
         <tbt-blink>{{ battle.release }} ON SALE！</tbt-blink>
       </p>
       <tbt-battle-jacket-img :class="$style.jacket" />
-      <tbt-disco-table :display-credit="battle.displayCredit" :tracks="battle.tracks">
+      <tbt-disco-table
+        :display-credit="battle.displayCredit"
+        :tracks="battle.tracks"
+      >
       </tbt-disco-table>
       <tbt-battle-cross-fade :class="$style.crossFade" />
     </tbt-section>
@@ -51,7 +58,10 @@ import { recycle, battle, ma_start, hope, rising } from '@/resources/discos'
         <tbt-blink>{{ recycle.release }} ON SALE！</tbt-blink>
       </p>
       <tbt-recycle-jacket-img :class="$style.jacket" />
-      <tbt-disco-table :display-credit="recycle.displayCredit" :tracks="recycle.tracks">
+      <tbt-disco-table
+        :display-credit="recycle.displayCredit"
+        :tracks="recycle.tracks"
+      >
       </tbt-disco-table>
       <tbt-recycle-cross-fade :class="$style.crossFade" />
     </tbt-section>
@@ -62,7 +72,10 @@ import { recycle, battle, ma_start, hope, rising } from '@/resources/discos'
         <tbt-blink>{{ ma_start.release }} ON SALE！</tbt-blink>
       </p>
       <tbt-start-jacket-img :class="$style.jacket" />
-      <tbt-disco-table :display-credit="ma_start.displayCredit" :tracks="ma_start.tracks">
+      <tbt-disco-table
+        :display-credit="ma_start.displayCredit"
+        :tracks="ma_start.tracks"
+      >
       </tbt-disco-table>
       <tbt-start-cross-fade :class="$style.crossFade" />
     </tbt-section>
@@ -73,7 +86,10 @@ import { recycle, battle, ma_start, hope, rising } from '@/resources/discos'
         <tbt-blink>{{ hope.release }} ON SALE！</tbt-blink>
       </p>
       <tbt-hope-jacket-img :class="$style.jacket" />
-      <tbt-disco-table :display-credit="hope.displayCredit" :tracks="hope.tracks">
+      <tbt-disco-table
+        :display-credit="hope.displayCredit"
+        :tracks="hope.tracks"
+      >
       </tbt-disco-table>
       <tbt-hope-cross-fade :class="$style.crossFade" />
     </tbt-section>

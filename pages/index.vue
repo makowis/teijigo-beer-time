@@ -9,7 +9,9 @@ import TbtMenuSection from '@/components/organisms/TbtMenuSection.vue'
 import TbtMailSection from '@/components/organisms/TbtMailSection.vue'
 import TbtNewsSection from '@/components/organisms/TbtNewsSection.vue'
 
-const accessCount = `0000000000000000${Math.floor(Math.random() * 99999)}`.slice(-16)
+const accessCount = `0000000000000000${Math.floor(
+  Math.random() * 9999999999999,
+)}`.slice(-16)
 </script>
 
 <template>
