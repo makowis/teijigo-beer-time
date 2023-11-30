@@ -19,7 +19,7 @@ export const rising: Disco = {
   title: '5th Mini Album 「RISING」',
   release: '2023.10.29',
   displayCredit: true,
-  youtubeEmbedUrl: "https://www.youtube.com/embed/y83GedNBXfQ",
+  youtubeEmbedUrl: 'https://www.youtube.com/embed/y83GedNBXfQ',
   tracks: [
     {
       no: 1,
@@ -56,7 +56,7 @@ export const battle: Disco = {
   title: '4th Mini Album 「BATTLE」',
   release: '2021.4.25',
   displayCredit: true,
-  youtubeEmbedUrl: "https://www.youtube.com/embed/29UhRyb4hJg",
+  youtubeEmbedUrl: 'https://www.youtube.com/embed/29UhRyb4hJg',
   tracks: [
     {
       no: 1,
@@ -89,7 +89,7 @@ export const recycle: Disco = {
   title: '3nd Mini Album 「RECYCLE」',
   release: '2019.10.27',
   displayCredit: true,
-  youtubeEmbedUrl: "https://www.youtube.com/embed/L_DAzJq4tgg",
+  youtubeEmbedUrl: 'https://www.youtube.com/embed/L_DAzJq4tgg',
   tracks: [
     {
       no: 1,
@@ -126,7 +126,7 @@ export const ma_start: Disco = {
   title: '2nd Mini Album 「START」',
   release: '2019.04.27',
   displayCredit: true,
-  youtubeEmbedUrl: "https://www.youtube.com/embed/IxTdbkoGM-Q",
+  youtubeEmbedUrl: 'https://www.youtube.com/embed/IxTdbkoGM-Q',
   tracks: [
     {
       no: 1,
@@ -167,7 +167,7 @@ export const hope: Disco = {
   title: '1st Mini Album「HOPE」',
   release: '2018.10.28',
   displayCredit: false,
-  youtubeEmbedUrl: "https://www.youtube.com/embed/KE3It-tas0Y?rel=0",
+  youtubeEmbedUrl: 'https://www.youtube.com/embed/KE3It-tas0Y?rel=0',
   tracks: [
     {
       no: 1,
