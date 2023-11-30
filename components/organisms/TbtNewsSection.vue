@@ -1,3 +1,9 @@
+<script setup lang="ts">
+import TbtH2 from '@/components/atoms/TbtH2.vue'
+import TbtSection from '@/components/atoms/TbtSection.vue'
+import TbtNewBlink from '@/components/atoms/TbtNewBlink.vue'
+</script>
+
 <template>
   <tbt-section>
     <tbt-h-2>News</tbt-h-2>
@@ -14,20 +20,6 @@
     <p></p>
   </tbt-section>
 </template>
-
-<script lang="ts">
-import TbtH2 from '@/components/atoms/TbtH2.vue'
-import TbtSection from '@/components/atoms/TbtSection.vue'
-import TbtNewBlink from '@/components/atoms/TbtNewBlink.vue'
-
-export default {
-  components: {
-    TbtH2,
-    TbtSection,
-    TbtNewBlink,
-  },
-}
-</script>
 
 <style module>
 .newsList {

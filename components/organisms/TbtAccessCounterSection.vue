@@ -2,7 +2,7 @@
 import TbtH2 from '@/components/atoms/TbtH2.vue'
 import TbtSection from '@/components/atoms/TbtSection.vue'
 
-const props = defineProps<{
+defineProps<{
   access: string
 }>()
 </script>

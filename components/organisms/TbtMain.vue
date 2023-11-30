@@ -1,3 +1,8 @@
+<script setup lang="ts">
+import TbtTopLink from '@/components/atoms/TbtTopLink.vue'
+import TbtLogo from '@/components/atoms/TbtLogo.vue'
+</script>
+
 <template>
   <div id="main-container" :class="$style.mainContainer">
     <tbt-top-link>
@@ -6,18 +11,6 @@
     <slot />
   </div>
 </template>
-
-<script lang="ts">
-import TbtTopLink from '@/components/atoms/TbtTopLink.vue'
-import TbtLogo from '@/components/atoms/TbtLogo.vue'
-
-export default {
-  components: {
-    TbtTopLink,
-    TbtLogo,
-  },
-}
-</script>
 
 <style module>
 .mainContainer {

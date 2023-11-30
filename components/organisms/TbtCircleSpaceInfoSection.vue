@@ -1,3 +1,9 @@
+<script setup lang="ts">
+import TbtH2 from '@/components/atoms/TbtH2.vue'
+import TbtH3 from '@/components/atoms/TbtH3.vue'
+import TbtSection from '@/components/atoms/TbtSection.vue'
+</script>
+
 <template>
   <tbt-section>
     <tbt-h-2>M3-2023秋スペース配置</tbt-h-2>
@@ -27,20 +33,6 @@
     </tbt-section>
   </tbt-section>
 </template>
-
-<script lang="ts">
-import TbtH2 from '@/components/atoms/TbtH2.vue'
-import TbtH3 from '@/components/atoms/TbtH3.vue'
-import TbtSection from '@/components/atoms/TbtSection.vue'
-
-export default {
-  components: {
-    TbtH2,
-    TbtH3,
-    TbtSection,
-  },
-}
-</script>
 
 <style module>
 .spaceTable {
