@@ -39,7 +39,7 @@
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-prettier": "5.0.1",
     "husky": "^8.0.3",
-    "jsdom": "^22.1.0",
+    "jsdom": "^23.0.1",
     "jsdom-global": "^3.0.2",
     "lint-staged": "^15.1.0",
     "nuxt": "^3.8.2",
