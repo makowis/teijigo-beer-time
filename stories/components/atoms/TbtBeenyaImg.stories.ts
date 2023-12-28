@@ -1,6 +1,6 @@
 import type  { Meta, StoryObj } from '@storybook/vue3'
 
-import TbtBeenyaImg from "~/components/atoms/TbtBeenyaImg.vue"
+import TbtBeenyaImg from '~/components/atoms/TbtBeenyaImg.vue'
 
 const meta: Meta<typeof TbtBeenyaImg> = {
   title: 'components/atoms/TbtBeenyaImg',
