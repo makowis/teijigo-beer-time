@@ -1,4 +1,4 @@
-import type  { Meta } from '@storybook/vue3'
+import type { Meta } from '@storybook/vue3'
 
 import TbtH1 from '~/components/atoms/TbtH1.vue'
 import TbtBlink from '~/components/atoms/TbtBlink.vue'
@@ -17,6 +17,6 @@ export const Sample = () => ({
 })
 
 export const H1WithBlink = () => ({
-  components: { TbtH1,TbtBlink },
+  components: { TbtH1, TbtBlink },
   template: '<TbtH1><TbtBlink>Blinkと一緒に使った場合</TbtBlink></TbtH1>',
 })
