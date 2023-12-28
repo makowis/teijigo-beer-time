@@ -1,6 +1,6 @@
-import type  { Meta, StoryObj } from '@storybook/vue3'
+import type { Meta, StoryObj } from '@storybook/vue3'
 
-import TbtBattleJacketImg from "~/components/atoms/TbtBattleJacketImg.vue"
+import TbtBattleJacketImg from '~/components/atoms/TbtBattleJacketImg.vue'
 
 const meta: Meta<typeof TbtBattleJacketImg> = {
   title: 'components/atoms/TbtBattleJacketImg',
@@ -9,7 +9,7 @@ const meta: Meta<typeof TbtBattleJacketImg> = {
 }
 
 export default meta
-type Story =StoryObj<typeof meta>
+type Story = StoryObj<typeof meta>
 
 export const TbtBattleJacketImgStory: Story = {
   args: {},

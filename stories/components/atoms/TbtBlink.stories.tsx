@@ -1,4 +1,4 @@
-import type  { Meta } from '@storybook/vue3'
+import type { Meta } from '@storybook/vue3'
 
 import TbtBlink from '~/components/atoms/TbtBlink.vue'
 
