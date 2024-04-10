@@ -126,6 +126,6 @@ import { recycle, battle, ma_start, hope, rising } from '@/resources/discos'
 
 .crossFade {
   max-width: 80%;
-  margin: 30px auto 30px;
+  margin: 30px auto;
 }
 </style>

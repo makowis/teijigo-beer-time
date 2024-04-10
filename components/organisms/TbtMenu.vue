@@ -50,7 +50,7 @@ import TbtBeenyaLink from '@/components/atoms/TbtBeenyaLink.vue'
   content: '🍺';
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (width <= 900px) {
   .menuContainer {
     position: relative;
     width: 100%;

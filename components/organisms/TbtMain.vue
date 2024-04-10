@@ -24,7 +24,7 @@ import TbtLogo from '@/components/atoms/TbtLogo.vue'
   background-image: url('../../assets/bg.png');
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (width <= 900px) {
   .mainContainer {
     width: 100%;
     padding-top: 20px;
