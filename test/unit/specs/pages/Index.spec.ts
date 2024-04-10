@@ -7,8 +7,10 @@ describe('index.vue', () => {
   global.Math = mockMath;
 
   const vm = mount(Index, {
-    stubs: {
-      NuxtLink: RouterLinkStub
+    global: {
+      stubs: {
+        NuxtLink: RouterLinkStub
+      }
     }
   }).vm;
 

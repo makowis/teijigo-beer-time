@@ -3,8 +3,10 @@ import Disco from '@/pages/disco.vue';
 
 describe('beenya.vue', () => {
   const vm = mount(Disco, {
-    stubs: {
-      NuxtLink: RouterLinkStub
+    global: {
+      stubs: {
+        NuxtLink: RouterLinkStub
+      }
     }
   }).vm;
 

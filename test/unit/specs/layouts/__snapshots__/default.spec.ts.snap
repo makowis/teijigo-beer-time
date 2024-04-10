@@ -14,46 +14,38 @@ exports[`index.vue > should match the snapshot 1`] = `
       <li
         class="_menuItem_b4e9e3"
       >
-        <nuxtlink
-          to="/"
-        >
+        <a>
           
            トップ 
           
-        </nuxtlink>
+        </a>
       </li>
       <li
         class="_menuItem_b4e9e3"
       >
-        <nuxtlink
-          to="/disco"
-        >
+        <a>
           
            DISCOGRAPHY 
           
-        </nuxtlink>
+        </a>
       </li>
       <li
         class="_menuItem_b4e9e3"
       >
-        <nuxtlink
-          to="/member"
-        >
+        <a>
           
            メンバー紹介 
           
-        </nuxtlink>
+        </a>
       </li>
       <li
         class="_menuItem_b4e9e3"
       >
-        <nuxtlink
-          to="/beenya"
-        >
+        <a>
           
            びーにゃの部屋 
           
-        </nuxtlink>
+        </a>
       </li>
       <li
         class="_menuItem_b4e9e3"
@@ -71,16 +63,14 @@ exports[`index.vue > should match the snapshot 1`] = `
     class="_mainContainer_f66df8"
     id="main-container"
   >
-    <nuxtlink
-      to="/"
-    >
+    <a>
       
       <img
         class="_logo_4242e2"
         src="/assets/logo_1.png"
       />
       
-    </nuxtlink>
+    </a>
     
     
     

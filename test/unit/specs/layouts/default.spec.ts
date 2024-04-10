@@ -7,9 +7,11 @@ describe('index.vue', () => {
     template: '<div>Nuxt</div>'
   }
   const vm = mount(DefaultLayout, {
-    stubs: {
-      NuxtLink: RouterLinkStub,
-      Nuxt: NuxtMock,
+    global: {
+      stubs: {
+        NuxtLink: RouterLinkStub,
+        Nuxt: NuxtMock,
+      }
     }
   }).vm;
 

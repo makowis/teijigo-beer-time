@@ -220,22 +220,18 @@ exports[`index.vue > should match the snapshot 1`] = `
       
     </h2>
     <p>
-      <nuxtlink
-        to="/disco"
-      >
+      <a>
         
          ＞＞＞＞DISCOGRAPHY＜＜＜＜ 
         
-      </nuxtlink>
+      </a>
     </p>
     <p>
-      <nuxtlink
-        to="/member"
-      >
+      <a>
         
          🍺🍺🍺🍺️メンバー紹介🍺🍺🍺🍺 
         
-      </nuxtlink>
+      </a>
     </p>
     
   </section>

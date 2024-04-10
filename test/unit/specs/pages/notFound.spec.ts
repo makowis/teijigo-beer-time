@@ -4,8 +4,10 @@ import NotFound from '@/pages/notFound.vue';
 
 describe('index.vue', () => {
   const vm = mount(NotFound, {
-    stubs: {
-      NuxtLink: RouterLinkStub
+    global: {
+      stubs: {
+        NuxtLink: RouterLinkStub
+      }
     }
   }).vm;
 

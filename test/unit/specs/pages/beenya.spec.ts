@@ -3,8 +3,10 @@ import Beenya from '@/pages/beenya.vue';
 
 describe('beenya.vue', () => {
   const vm = mount(Beenya, {
-    stubs: {
-      NuxtLink: RouterLinkStub
+    global: {
+      stubs: {
+        NuxtLink: RouterLinkStub
+      }
     }
   }).vm;
 

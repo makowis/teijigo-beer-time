@@ -3,8 +3,10 @@ import Member from '@/pages/member.vue';
 
 describe('index.vue', () => {
   const vm = mount(Member, {
-    stubs: {
-      NuxtLink: RouterLinkStub
+    global: {
+      stubs: {
+        NuxtLink: RouterLinkStub
+      }
     }
   }).vm;
 
