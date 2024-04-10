@@ -1,5 +1,5 @@
 import { mount, RouterLinkStub } from '@vue/test-utils';
-import { Component } from 'vue';
+import type { Component } from 'vue';
 import DefaultLayout from '@/layouts/default.vue';
 
 describe('index.vue', () => {
