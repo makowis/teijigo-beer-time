@@ -13,7 +13,8 @@
     "postinstall": "nuxt prepare",
     "lint:js": "eslint .",
     "lint:style": "stylelint \"**/*.{vue,css}\" --ignore-path .gitignore",
-    "lint": "yarn lint:js && yarn lint:style",
+    "lint:fix": "yarn lint:js --fix && yarn lint:style --fix && prettier --write .",
+    "lint": "yarn lint:js && yarn lint:style && prettier --check .",
     "test": "vitest",
     "coverage": "vitest run --coverage"
   },
