@@ -15,18 +15,7 @@
     "lint:style": "stylelint \"**/*.{vue,css}\" --ignore-path .gitignore",
     "lint": "yarn lint:js && yarn lint:style",
     "test": "vitest",
-    "coverage": "vitest run --coverage",
-    "prepare": "husky"
-  },
-  "lint-staged": {
-    "*.{js,vue}": "eslint",
-    "*.{css,vue}": "stylelint",
-    "**/*": "prettier --write --ignore-unknown"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "coverage": "vitest run --coverage"
   },
   "devDependencies": {
     "@nuxt/devtools": "^1.1.5",
@@ -38,10 +27,8 @@
     "@vue/test-utils": "^2.4.3",
     "eslint": "^9.0.0",
     "eslint-config-prettier": "^9.1.0",
-    "husky": "^9.0.11",
     "jsdom": "^24.0.0",
     "jsdom-global": "^3.0.2",
-    "lint-staged": "^15.2.2",
     "nuxt": "^3.8.2",
     "prettier": "^3.1.1",
     "stylelint": "^16.3.1",
