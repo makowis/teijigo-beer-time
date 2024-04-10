@@ -48,5 +48,8 @@
     "stylelint-config-prettier": "^9.0.5",
     "stylelint-config-standard": "^36.0.0",
     "vitest": "^1.4.0"
+  },
+  "resolutions": {
+    "string-width": "4.2.3"
   }
 }
