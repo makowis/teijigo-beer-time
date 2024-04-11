@@ -3,25 +3,35 @@
 exports[`beenya.vue > should match the snapshot 1`] = `
 <div
   class="disco"
+  data-v-aede1851=""
 >
   <h1
-    class="_h1_adaee0"
+    class="h1"
+    data-v-700e39a7=""
+    data-v-aede1851=""
   >
     
     DISCOGRAPHY
     
   </h1>
   <section
-    class="_section_7c249e"
+    class="section"
+    data-v-449c662a=""
+    data-v-aede1851=""
   >
     
     <h2
-      class="_h2_bd7be3 _albumTitle_6f40d0"
+      class="h2 album-title"
+      data-v-ad5d9b6c=""
+      data-v-aede1851=""
     >
       
       5th Mini Album 「RISING」 
       <span
-        class="_blink_1fef76 _newsBlink_2db161"
+        class="blink news-blink"
+        data-v-119b1dde=""
+        data-v-a37dc815=""
+        data-v-aede1851=""
       >
         
         NEW
@@ -30,10 +40,13 @@ exports[`beenya.vue > should match the snapshot 1`] = `
       
     </h2>
     <p
-      class="_onSale_6f40d0"
+      class="on-sale"
+      data-v-aede1851=""
     >
       <span
-        class="_blink_1fef76"
+        class="blink"
+        data-v-119b1dde=""
+        data-v-aede1851=""
       >
         
         2023.10.29 ON SALE!
@@ -42,79 +55,123 @@ exports[`beenya.vue > should match the snapshot 1`] = `
     </p>
     <img
       alt="5th Mini Album「Rising」のジャケット画像"
-      class="_jacket_6f40d0"
+      class="jacket"
+      data-v-aede1851=""
       src="/assets/5th_mini_album_rising.png"
     />
     <table
       border="1"
-      class="_table_52eca4"
+      class="table"
+      data-v-0a44f233=""
+      data-v-aede1851=""
     >
-      <thead>
-        <tr>
-          <th>
+      <thead
+        data-v-0a44f233=""
+      >
+        <tr
+          data-v-0a44f233=""
+        >
+          <th
+            data-v-0a44f233=""
+          >
             No
           </th>
-          <th>
+          <th
+            data-v-0a44f233=""
+          >
             曲名
           </th>
-          <th>
+          <th
+            data-v-0a44f233=""
+          >
             アーティスト
           </th>
-          <th>
+          <th
+            data-v-0a44f233=""
+          >
             クレジット
           </th>
         </tr>
       </thead>
-      <tbody>
+      <tbody
+        data-v-0a44f233=""
+      >
         
-        <tr>
+        <tr
+          data-v-0a44f233=""
+        >
           <td
-            class="_trackNo_52eca4"
+            class="track-no"
+            data-v-0a44f233=""
           >
             1
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             RISING
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             マッキー
           </td>
           <!-- eslint-disable-next-line vue/no-v-html -->
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             作詞・作曲・歌：マッキー
           </td>
         </tr>
-        <tr>
+        <tr
+          data-v-0a44f233=""
+        >
           <td
-            class="_trackNo_52eca4"
+            class="track-no"
+            data-v-0a44f233=""
           >
             2
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             たまご生活
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             hayu
           </td>
           <!-- eslint-disable-next-line vue/no-v-html -->
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             作曲：hayu
           </td>
         </tr>
-        <tr>
+        <tr
+          data-v-0a44f233=""
+        >
           <td
-            class="_trackNo_52eca4"
+            class="track-no"
+            data-v-0a44f233=""
           >
             3
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             Game is...
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             ビール飲まない社員K
           </td>
           <!-- eslint-disable-next-line vue/no-v-html -->
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             作詞・作曲：ビール飲まない社員K
                
             <br />
@@ -122,20 +179,29 @@ exports[`beenya.vue > should match the snapshot 1`] = `
                歌：知声、MYK-IV (VoiSona)
           </td>
         </tr>
-        <tr>
+        <tr
+          data-v-0a44f233=""
+        >
           <td
-            class="_trackNo_52eca4"
+            class="track-no"
+            data-v-0a44f233=""
           >
             4
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             はじまりのうた
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             comorebi notes
           </td>
           <!-- eslint-disable-next-line vue/no-v-html -->
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             作詞・作曲：comorebi notes
                
             <br />
@@ -147,11 +213,14 @@ exports[`beenya.vue > should match the snapshot 1`] = `
       </tbody>
     </table>
     <div
-      class="_video_cc3109 _crossFade_6f40d0"
+      class="video cross-fade"
+      data-v-7b99f38e=""
+      data-v-aede1851=""
     >
       <iframe
         allow="autoplay; encrypted-media"
         allowfullscreen=""
+        data-v-7b99f38e=""
         frameborder="0"
         height="315"
         src="https://www.youtube.com/embed/y83GedNBXfQ"
@@ -160,23 +229,32 @@ exports[`beenya.vue > should match the snapshot 1`] = `
     </div>
     
   </section>
-  <hr />
+  <hr
+    data-v-aede1851=""
+  />
   <section
-    class="_section_7c249e"
+    class="section"
+    data-v-449c662a=""
+    data-v-aede1851=""
   >
     
     <h2
-      class="_h2_bd7be3 _albumTitle_6f40d0"
+      class="h2 album-title"
+      data-v-ad5d9b6c=""
+      data-v-aede1851=""
     >
       
       4th Mini Album 「BATTLE」
       
     </h2>
     <p
-      class="_onSale_6f40d0"
+      class="on-sale"
+      data-v-aede1851=""
     >
       <span
-        class="_blink_1fef76"
+        class="blink"
+        data-v-119b1dde=""
+        data-v-aede1851=""
       >
         
         2021.4.25 ON SALE！
@@ -185,96 +263,149 @@ exports[`beenya.vue > should match the snapshot 1`] = `
     </p>
     <img
       alt="4st Mini Album「BATTLE」のジャケット画像"
-      class="_jacket_6f40d0"
+      class="jacket"
+      data-v-aede1851=""
       src="/assets/4st_mini_album_battle.png"
     />
     <table
       border="1"
-      class="_table_52eca4"
+      class="table"
+      data-v-0a44f233=""
+      data-v-aede1851=""
     >
-      <thead>
-        <tr>
-          <th>
+      <thead
+        data-v-0a44f233=""
+      >
+        <tr
+          data-v-0a44f233=""
+        >
+          <th
+            data-v-0a44f233=""
+          >
             No
           </th>
-          <th>
+          <th
+            data-v-0a44f233=""
+          >
             曲名
           </th>
-          <th>
+          <th
+            data-v-0a44f233=""
+          >
             アーティスト
           </th>
-          <th>
+          <th
+            data-v-0a44f233=""
+          >
             クレジット
           </th>
         </tr>
       </thead>
-      <tbody>
+      <tbody
+        data-v-0a44f233=""
+      >
         
-        <tr>
+        <tr
+          data-v-0a44f233=""
+        >
           <td
-            class="_trackNo_52eca4"
+            class="track-no"
+            data-v-0a44f233=""
           >
             1
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             作業中にソフトが落ちた
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             マッキー
           </td>
           <!-- eslint-disable-next-line vue/no-v-html -->
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             作詞・作曲・歌：マッキー
           </td>
         </tr>
-        <tr>
+        <tr
+          data-v-0a44f233=""
+        >
           <td
-            class="_trackNo_52eca4"
+            class="track-no"
+            data-v-0a44f233=""
           >
             2
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             ノラネコ大戦争
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             u13
           </td>
           <!-- eslint-disable-next-line vue/no-v-html -->
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             作曲：u13
           </td>
         </tr>
-        <tr>
+        <tr
+          data-v-0a44f233=""
+        >
           <td
-            class="_trackNo_52eca4"
+            class="track-no"
+            data-v-0a44f233=""
           >
             3
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             anatra falcata
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             comorebi notes
           </td>
           <!-- eslint-disable-next-line vue/no-v-html -->
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             作曲：comorebi notes
           </td>
         </tr>
-        <tr>
+        <tr
+          data-v-0a44f233=""
+        >
           <td
-            class="_trackNo_52eca4"
+            class="track-no"
+            data-v-0a44f233=""
           >
             4
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             旋風
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             ビール飲まない社員K
           </td>
           <!-- eslint-disable-next-line vue/no-v-html -->
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             作曲：ビール飲まない社員K
           </td>
         </tr>
@@ -282,11 +413,14 @@ exports[`beenya.vue > should match the snapshot 1`] = `
       </tbody>
     </table>
     <div
-      class="_video_cc3109 _crossFade_6f40d0"
+      class="video cross-fade"
+      data-v-7b99f38e=""
+      data-v-aede1851=""
     >
       <iframe
         allow="autoplay; encrypted-media"
         allowfullscreen=""
+        data-v-7b99f38e=""
         frameborder="0"
         height="315"
         src="https://www.youtube.com/embed/29UhRyb4hJg"
@@ -295,23 +429,32 @@ exports[`beenya.vue > should match the snapshot 1`] = `
     </div>
     
   </section>
-  <hr />
+  <hr
+    data-v-aede1851=""
+  />
   <section
-    class="_section_7c249e"
+    class="section"
+    data-v-449c662a=""
+    data-v-aede1851=""
   >
     
     <h2
-      class="_h2_bd7be3 _albumTitle_6f40d0"
+      class="h2 album-title"
+      data-v-ad5d9b6c=""
+      data-v-aede1851=""
     >
       
       3nd Mini Album 「RECYCLE」
       
     </h2>
     <p
-      class="_onSale_6f40d0"
+      class="on-sale"
+      data-v-aede1851=""
     >
       <span
-        class="_blink_1fef76"
+        class="blink"
+        data-v-119b1dde=""
+        data-v-aede1851=""
       >
         
         2019.10.27 ON SALE！
@@ -320,62 +463,97 @@ exports[`beenya.vue > should match the snapshot 1`] = `
     </p>
     <img
       alt="3st Mini Album「RECYCLE」のジャケット画像"
-      class="_jacket_6f40d0"
+      class="jacket"
+      data-v-aede1851=""
       src="/assets/3st_mini_album_recycle_jacket.png"
     />
     <table
       border="1"
-      class="_table_52eca4"
+      class="table"
+      data-v-0a44f233=""
+      data-v-aede1851=""
     >
-      <thead>
-        <tr>
-          <th>
+      <thead
+        data-v-0a44f233=""
+      >
+        <tr
+          data-v-0a44f233=""
+        >
+          <th
+            data-v-0a44f233=""
+          >
             No
           </th>
-          <th>
+          <th
+            data-v-0a44f233=""
+          >
             曲名
           </th>
-          <th>
+          <th
+            data-v-0a44f233=""
+          >
             アーティスト
           </th>
-          <th>
+          <th
+            data-v-0a44f233=""
+          >
             クレジット
           </th>
         </tr>
       </thead>
-      <tbody>
+      <tbody
+        data-v-0a44f233=""
+      >
         
-        <tr>
+        <tr
+          data-v-0a44f233=""
+        >
           <td
-            class="_trackNo_52eca4"
+            class="track-no"
+            data-v-0a44f233=""
           >
             1
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             paellero
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             comorebi notes
           </td>
           <!-- eslint-disable-next-line vue/no-v-html -->
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             作詞・作曲・歌：comorebi notes
           </td>
         </tr>
-        <tr>
+        <tr
+          data-v-0a44f233=""
+        >
           <td
-            class="_trackNo_52eca4"
+            class="track-no"
+            data-v-0a44f233=""
           >
             2
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             Carry on
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             マッキー
           </td>
           <!-- eslint-disable-next-line vue/no-v-html -->
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             作詞・作曲：マッキー
                
             <br />
@@ -383,20 +561,29 @@ exports[`beenya.vue > should match the snapshot 1`] = `
                歌：マッキー feat. IA
           </td>
         </tr>
-        <tr>
+        <tr
+          data-v-0a44f233=""
+        >
           <td
-            class="_trackNo_52eca4"
+            class="track-no"
+            data-v-0a44f233=""
           >
             3
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             大都会フォーエバー
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             comorebi notes
           </td>
           <!-- eslint-disable-next-line vue/no-v-html -->
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             作詞・作曲：comorebi notes
                
             <br />
@@ -404,20 +591,29 @@ exports[`beenya.vue > should match the snapshot 1`] = `
                歌：IA
           </td>
         </tr>
-        <tr>
+        <tr
+          data-v-0a44f233=""
+        >
           <td
-            class="_trackNo_52eca4"
+            class="track-no"
+            data-v-0a44f233=""
           >
             4
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             tanabatight
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             u13
           </td>
           <!-- eslint-disable-next-line vue/no-v-html -->
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             作曲：u13
           </td>
         </tr>
@@ -425,11 +621,14 @@ exports[`beenya.vue > should match the snapshot 1`] = `
       </tbody>
     </table>
     <div
-      class="_video_cc3109 _crossFade_6f40d0"
+      class="video cross-fade"
+      data-v-7b99f38e=""
+      data-v-aede1851=""
     >
       <iframe
         allow="autoplay; encrypted-media"
         allowfullscreen=""
+        data-v-7b99f38e=""
         frameborder="0"
         height="315"
         src="https://www.youtube.com/embed/L_DAzJq4tgg"
@@ -438,23 +637,32 @@ exports[`beenya.vue > should match the snapshot 1`] = `
     </div>
     
   </section>
-  <hr />
+  <hr
+    data-v-aede1851=""
+  />
   <section
-    class="_section_7c249e"
+    class="section"
+    data-v-449c662a=""
+    data-v-aede1851=""
   >
     
     <h2
-      class="_h2_bd7be3 _albumTitle_6f40d0"
+      class="h2 album-title"
+      data-v-ad5d9b6c=""
+      data-v-aede1851=""
     >
       
       2nd Mini Album 「START」
       
     </h2>
     <p
-      class="_onSale_6f40d0"
+      class="on-sale"
+      data-v-aede1851=""
     >
       <span
-        class="_blink_1fef76"
+        class="blink"
+        data-v-119b1dde=""
+        data-v-aede1851=""
       >
         
         2019.04.27 ON SALE！
@@ -463,45 +671,71 @@ exports[`beenya.vue > should match the snapshot 1`] = `
     </p>
     <img
       alt="2st Mini Album「Start」のジャケット画像"
-      class="_jacket_6f40d0"
+      class="jacket"
+      data-v-aede1851=""
       src="/assets/2st_mini_album_start_jacket.png"
     />
     <table
       border="1"
-      class="_table_52eca4"
+      class="table"
+      data-v-0a44f233=""
+      data-v-aede1851=""
     >
-      <thead>
-        <tr>
-          <th>
+      <thead
+        data-v-0a44f233=""
+      >
+        <tr
+          data-v-0a44f233=""
+        >
+          <th
+            data-v-0a44f233=""
+          >
             No
           </th>
-          <th>
+          <th
+            data-v-0a44f233=""
+          >
             曲名
           </th>
-          <th>
+          <th
+            data-v-0a44f233=""
+          >
             アーティスト
           </th>
-          <th>
+          <th
+            data-v-0a44f233=""
+          >
             クレジット
           </th>
         </tr>
       </thead>
-      <tbody>
+      <tbody
+        data-v-0a44f233=""
+      >
         
-        <tr>
+        <tr
+          data-v-0a44f233=""
+        >
           <td
-            class="_trackNo_52eca4"
+            class="track-no"
+            data-v-0a44f233=""
           >
             1
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             桜風狂想
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             Pecan nene.
           </td>
           <!-- eslint-disable-next-line vue/no-v-html -->
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             作曲：ビール飲まない社員K
             <br />
             
@@ -511,40 +745,58 @@ exports[`beenya.vue > should match the snapshot 1`] = `
                歌：みーやん
           </td>
         </tr>
-        <tr>
+        <tr
+          data-v-0a44f233=""
+        >
           <td
-            class="_trackNo_52eca4"
+            class="track-no"
+            data-v-0a44f233=""
           >
             2
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             未来ヒーロー
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             マッキー
           </td>
           <!-- eslint-disable-next-line vue/no-v-html -->
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             作詞・作曲：マッキー
             <br />
             
                歌：IA
           </td>
         </tr>
-        <tr>
+        <tr
+          data-v-0a44f233=""
+        >
           <td
-            class="_trackNo_52eca4"
+            class="track-no"
+            data-v-0a44f233=""
           >
             3
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             ストロボサイン
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             tan3-16
           </td>
           <!-- eslint-disable-next-line vue/no-v-html -->
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             作詞・作曲：u13
             <br />
             
@@ -554,20 +806,29 @@ exports[`beenya.vue > should match the snapshot 1`] = `
                歌：フナモトアユミ
           </td>
         </tr>
-        <tr>
+        <tr
+          data-v-0a44f233=""
+        >
           <td
-            class="_trackNo_52eca4"
+            class="track-no"
+            data-v-0a44f233=""
           >
             4
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             桜花
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             珍珠奶茶
           </td>
           <!-- eslint-disable-next-line vue/no-v-html -->
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             企画：WestTail
             <br />
             
@@ -584,11 +845,14 @@ exports[`beenya.vue > should match the snapshot 1`] = `
       </tbody>
     </table>
     <div
-      class="_video_cc3109 _crossFade_6f40d0"
+      class="video cross-fade"
+      data-v-7b99f38e=""
+      data-v-aede1851=""
     >
       <iframe
         allow="autoplay; encrypted-media"
         allowfullscreen=""
+        data-v-7b99f38e=""
         frameborder="0"
         height="315"
         src="https://www.youtube.com/embed/IxTdbkoGM-Q"
@@ -597,23 +861,32 @@ exports[`beenya.vue > should match the snapshot 1`] = `
     </div>
     
   </section>
-  <hr />
+  <hr
+    data-v-aede1851=""
+  />
   <section
-    class="_section_7c249e"
+    class="section"
+    data-v-449c662a=""
+    data-v-aede1851=""
   >
     
     <h2
-      class="_h2_bd7be3 _albumTitle_6f40d0"
+      class="h2 album-title"
+      data-v-ad5d9b6c=""
+      data-v-aede1851=""
     >
       
       1st Mini Album「HOPE」
       
     </h2>
     <p
-      class="_onSale_6f40d0"
+      class="on-sale"
+      data-v-aede1851=""
     >
       <span
-        class="_blink_1fef76"
+        class="blink"
+        data-v-119b1dde=""
+        data-v-aede1851=""
       >
         
         2018.10.28 ON SALE！
@@ -622,114 +895,171 @@ exports[`beenya.vue > should match the snapshot 1`] = `
     </p>
     <img
       alt="1st CD「HOPE」のジャケット画像"
-      class="_jacket_6f40d0"
+      class="jacket"
+      data-v-aede1851=""
       src="/assets/1st_hope_jacket.png"
     />
     <table
       border="1"
-      class="_table_52eca4"
+      class="table"
+      data-v-0a44f233=""
+      data-v-aede1851=""
     >
-      <thead>
-        <tr>
-          <th>
+      <thead
+        data-v-0a44f233=""
+      >
+        <tr
+          data-v-0a44f233=""
+        >
+          <th
+            data-v-0a44f233=""
+          >
             No
           </th>
-          <th>
+          <th
+            data-v-0a44f233=""
+          >
             曲名
           </th>
-          <th>
+          <th
+            data-v-0a44f233=""
+          >
             アーティスト
           </th>
           <!--v-if-->
         </tr>
       </thead>
-      <tbody>
+      <tbody
+        data-v-0a44f233=""
+      >
         
-        <tr>
+        <tr
+          data-v-0a44f233=""
+        >
           <td
-            class="_trackNo_52eca4"
+            class="track-no"
+            data-v-0a44f233=""
           >
             1
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             Alive
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             WestTail feat. ruha
           </td>
           <!-- eslint-disable-next-line vue/no-v-html -->
           <!--v-if-->
         </tr>
-        <tr>
+        <tr
+          data-v-0a44f233=""
+        >
           <td
-            class="_trackNo_52eca4"
+            class="track-no"
+            data-v-0a44f233=""
           >
             2
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             cresc.
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             きむらじお feat.フナモトアユミ
           </td>
           <!-- eslint-disable-next-line vue/no-v-html -->
           <!--v-if-->
         </tr>
-        <tr>
+        <tr
+          data-v-0a44f233=""
+        >
           <td
-            class="_trackNo_52eca4"
+            class="track-no"
+            data-v-0a44f233=""
           >
             3
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             瞬間
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             山口真央 feat. すぴか
           </td>
           <!-- eslint-disable-next-line vue/no-v-html -->
           <!--v-if-->
         </tr>
-        <tr>
+        <tr
+          data-v-0a44f233=""
+        >
           <td
-            class="_trackNo_52eca4"
+            class="track-no"
+            data-v-0a44f233=""
           >
             4
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             Calling
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             NY2 feat. フナモトアユミ
           </td>
           <!-- eslint-disable-next-line vue/no-v-html -->
           <!--v-if-->
         </tr>
-        <tr>
+        <tr
+          data-v-0a44f233=""
+        >
           <td
-            class="_trackNo_52eca4"
+            class="track-no"
+            data-v-0a44f233=""
           >
             5
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             Diary
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             u13 feat. フナモトアユミ
           </td>
           <!-- eslint-disable-next-line vue/no-v-html -->
           <!--v-if-->
         </tr>
-        <tr>
+        <tr
+          data-v-0a44f233=""
+        >
           <td
-            class="_trackNo_52eca4"
+            class="track-no"
+            data-v-0a44f233=""
           >
             6
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             ハルカユーグレハナヤイデ
           </td>
-          <td>
+          <td
+            data-v-0a44f233=""
+          >
             comorebi notes
           </td>
           <!-- eslint-disable-next-line vue/no-v-html -->
@@ -739,11 +1069,14 @@ exports[`beenya.vue > should match the snapshot 1`] = `
       </tbody>
     </table>
     <div
-      class="_video_cc3109 _crossFade_6f40d0"
+      class="video cross-fade"
+      data-v-7b99f38e=""
+      data-v-aede1851=""
     >
       <iframe
         allow="autoplay; encrypted-media"
         allowfullscreen=""
+        data-v-7b99f38e=""
         frameborder="0"
         height="315"
         src="https://www.youtube.com/embed/KE3It-tas0Y?rel=0"
