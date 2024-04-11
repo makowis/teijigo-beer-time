@@ -1,12 +1,12 @@
 <template>
-  <div :class="$style.marquee">
-    <div :class="$style.marqueeInner">
+  <div class="marquee">
+    <div class="marquee-inner">
       <slot />
     </div>
   </div>
 </template>
 
-<style module>
+<style scoped>
 .marquee {
   overflow: hidden;
   position: relative;
@@ -20,7 +20,7 @@
   display: inline-block;
 }
 
-.marqueeInner {
+.marquee-inner {
   position: absolute;
   top: 10px;
   white-space: nowrap;
@@ -31,7 +31,7 @@
   color: orange;
 }
 
-.marqueeInner:hover {
+.marquee-inner:hover {
   animation-play-state: paused;
   cursor: default;
 }

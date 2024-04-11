@@ -7,12 +7,12 @@ import TbtSection from '@/components/atoms/TbtSection.vue'
 <template>
   <tbt-section>
     <tbt-h-2>サークルカット</tbt-h-2>
-    <tbt-circle-cut-img :class="$style.circleCut" />
+    <tbt-circle-cut-img class="circle-cut" />
   </tbt-section>
 </template>
 
-<style module>
-.circleCut {
+<style scoped>
+.circle-cut {
   width: 200px;
   max-width: 100%;
 }

@@ -5,60 +5,68 @@ exports[`index.vue > should match the snapshot 1`] = `
   id="app"
 >
   <nav
-    class="_menuContainer_b4e9e3"
+    class="menu-container"
+    data-v-dac04fc6=""
     id="menu-container"
   >
     <ul
-      class="_menu_b4e9e3"
+      class="menu"
+      data-v-dac04fc6=""
     >
       <li
-        class="_menuItem_b4e9e3"
+        class="menu-item"
+        data-v-dac04fc6=""
       >
-        <nuxtlink
-          to="/"
+        <a
+          data-v-dac04fc6=""
         >
           
            トップ 
           
-        </nuxtlink>
+        </a>
       </li>
       <li
-        class="_menuItem_b4e9e3"
+        class="menu-item"
+        data-v-dac04fc6=""
       >
-        <nuxtlink
-          to="/disco"
+        <a
+          data-v-dac04fc6=""
         >
           
            DISCOGRAPHY 
           
-        </nuxtlink>
+        </a>
       </li>
       <li
-        class="_menuItem_b4e9e3"
+        class="menu-item"
+        data-v-dac04fc6=""
       >
-        <nuxtlink
-          to="/member"
+        <a
+          data-v-dac04fc6=""
         >
           
            メンバー紹介 
           
-        </nuxtlink>
+        </a>
       </li>
       <li
-        class="_menuItem_b4e9e3"
+        class="menu-item"
+        data-v-dac04fc6=""
       >
-        <nuxtlink
-          to="/beenya"
+        <a
+          data-v-dac04fc6=""
         >
           
            びーにゃの部屋 
           
-        </nuxtlink>
+        </a>
       </li>
       <li
-        class="_menuItem_b4e9e3"
+        class="menu-item"
+        data-v-dac04fc6=""
       >
         <a
+          data-v-dac04fc6=""
           href="https://teijigo.booth.pm/items/1093403"
           target="_blank"
         >
@@ -68,26 +76,32 @@ exports[`index.vue > should match the snapshot 1`] = `
     </ul>
   </nav>
   <div
-    class="_mainContainer_f66df8"
+    class="main-container"
+    data-v-f32d09b1=""
     id="main-container"
   >
-    <nuxtlink
-      to="/"
+    <a
+      data-v-f32d09b1=""
     >
       
       <img
-        class="_logo_4242e2"
+        class="logo"
+        data-v-abc21762=""
+        data-v-f32d09b1=""
         src="/assets/logo_1.png"
       />
       
-    </nuxtlink>
+    </a>
     
     
     
     <footer
-      class="_footer_2836b0"
+      class="footer"
+      data-v-b680f940=""
     >
-      <p>
+      <p
+        data-v-b680f940=""
+      >
         ©定時後ビールタイム
       </p>
     </footer>

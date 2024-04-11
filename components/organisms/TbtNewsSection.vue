@@ -7,9 +7,9 @@ import TbtNewBlink from '@/components/atoms/TbtNewBlink.vue'
 <template>
   <tbt-section>
     <tbt-h-2>News</tbt-h-2>
-    <ul :class="$style.newsList">
+    <ul class="news-list">
       <li>
-        <tbt-new-blink :class="$style.newsBlink">NEW</tbt-new-blink>
+        <tbt-new-blink>NEW</tbt-new-blink>
         M3-2023秋に参戦に参加予定です！
       </li>
       <li>
@@ -21,12 +21,12 @@ import TbtNewBlink from '@/components/atoms/TbtNewBlink.vue'
   </tbt-section>
 </template>
 
-<style module>
-.newsList {
+<style scoped>
+.news-list {
   list-style: none;
 }
 
-.newsList li {
+.news-list li {
   margin-bottom: 10px;
 }
 </style>

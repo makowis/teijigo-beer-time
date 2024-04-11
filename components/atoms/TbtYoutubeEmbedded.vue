@@ -3,7 +3,7 @@ defineProps<{ youtubeEmbedUrl: string }>()
 </script>
 
 <template>
-  <div :class="$style.video">
+  <div class="video">
     <iframe
       width="560"
       height="315"
@@ -15,7 +15,7 @@ defineProps<{ youtubeEmbedUrl: string }>()
   </div>
 </template>
 
-<style module>
+<style scoped>
 .video {
   position: relative;
   height: 0;

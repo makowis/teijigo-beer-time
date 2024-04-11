@@ -1,11 +1,11 @@
-import path from "path";
-import vue from '@vitejs/plugin-vue';
-import { defineConfig } from "vitest/config";
+import path from 'path'
+import vue from '@vitejs/plugin-vue'
+import { defineConfig } from 'vitest/config'
 
 export default defineConfig({
   test: {
     globals: true,
-    environment: "jsdom",
+    environment: 'jsdom',
     coverage: {
       provider: 'v8',
       all: true,
@@ -17,13 +17,13 @@ export default defineConfig({
         '.output/**',
         'commitlint.config.js',
         'stylelint.config.js',
-      ]
+      ],
     },
   },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, ''),
-    }
+    },
   },
   plugins: [vue()],
-});
+})

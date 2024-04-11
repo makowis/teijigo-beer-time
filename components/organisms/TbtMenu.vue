@@ -6,21 +6,21 @@ import TbtBeenyaLink from '@/components/atoms/TbtBeenyaLink.vue'
 </script>
 
 <template>
-  <nav id="menu-container" :class="$style.menuContainer">
-    <ul :class="$style.menu">
-      <li :class="$style.menuItem">
+  <nav id="menu-container" class="menu-container">
+    <ul class="menu">
+      <li class="menu-item">
         <tbt-top-link> トップ </tbt-top-link>
       </li>
-      <li :class="$style.menuItem">
+      <li class="menu-item">
         <tbt-disco-link> DISCOGRAPHY </tbt-disco-link>
       </li>
-      <li :class="$style.menuItem">
+      <li class="menu-item">
         <tbt-member-link> メンバー紹介 </tbt-member-link>
       </li>
-      <li :class="$style.menuItem">
+      <li class="menu-item">
         <tbt-beenya-link> びーにゃの部屋 </tbt-beenya-link>
       </li>
-      <li :class="$style.menuItem">
+      <li class="menu-item">
         <a href="https://teijigo.booth.pm/items/1093403" target="_blank">
           通販(BOOTH)
         </a>
@@ -29,8 +29,8 @@ import TbtBeenyaLink from '@/components/atoms/TbtBeenyaLink.vue'
   </nav>
 </template>
 
-<style module>
-.menuContainer {
+<style scoped>
+.menu-container {
   position: fixed;
   width: 20%;
   height: 100%;
@@ -42,16 +42,16 @@ import TbtBeenyaLink from '@/components/atoms/TbtBeenyaLink.vue'
   list-style: none;
 }
 
-.menuItem {
+.menu-item {
   margin-bottom: 20px;
 }
 
-.menuItem::before {
+.menu-item::before {
   content: '🍺';
 }
 
-@media screen and (max-width: 900px) {
-  .menuContainer {
+@media screen and (width <= 900px) {
+  .menu-container {
     position: relative;
     width: 100%;
     padding-top: 0;
@@ -64,7 +64,7 @@ import TbtBeenyaLink from '@/components/atoms/TbtBeenyaLink.vue'
     padding: 0;
   }
 
-  .menuItem {
+  .menu-item {
     display: inline-block;
     margin-bottom: 10px;
   }

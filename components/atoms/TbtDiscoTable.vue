@@ -8,7 +8,7 @@ defineProps<{
 </script>
 
 <template>
-  <table border="1" :class="$style.table">
+  <table border="1" class="table">
     <thead>
       <tr>
         <th>No</th>
@@ -19,7 +19,7 @@ defineProps<{
     </thead>
     <tbody>
       <tr v-for="track in tracks" :key="track.no">
-        <td :class="$style.trackNo">{{ track.no }}</td>
+        <td class="track-no">{{ track.no }}</td>
         <td>{{ track.name }}</td>
         <td>{{ track.artist }}</td>
         <!-- eslint-disable-next-line vue/no-v-html -->
@@ -29,7 +29,7 @@ defineProps<{
   </table>
 </template>
 
-<style module>
+<style scoped>
 .table {
   margin: auto;
   text-align: left;
@@ -40,7 +40,7 @@ defineProps<{
   padding: 5px 10px;
 }
 
-.trackNo {
+.track-no {
   text-align: right;
 }
 </style>

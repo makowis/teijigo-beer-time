@@ -3,11 +3,11 @@ import TbtBlink from '@/components/atoms/TbtBlink.vue'
 </script>
 
 <template>
-  <tbt-blink :class="$style.newsBlink">NEW</tbt-blink>
+  <tbt-blink class="news-blink">NEW</tbt-blink>
 </template>
 
-<style module>
-.newsBlink {
+<style scoped>
+.news-blink {
   color: red;
 }
 </style>

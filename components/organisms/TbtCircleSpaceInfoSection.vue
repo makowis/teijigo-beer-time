@@ -7,19 +7,21 @@ import TbtSection from '@/components/atoms/TbtSection.vue'
 <template>
   <tbt-section>
     <tbt-h-2>M3-2023秋スペース配置</tbt-h-2>
-    <table border="1" :class="$style.spaceTable">
-      <tr>
-        <th>サークル名</th>
-        <td>定時後ビールタイム</td>
-      </tr>
-      <tr>
-        <th>配置場所</th>
-        <td>リアルイベントスペース</td>
-      </tr>
-      <tr>
-        <th>スペース番号</th>
-        <td>い-16a</td>
-      </tr>
+    <table border="1" class="space-table">
+      <tbody>
+        <tr>
+          <th>サークル名</th>
+          <td>定時後ビールタイム</td>
+        </tr>
+        <tr>
+          <th>配置場所</th>
+          <td>リアルイベントスペース</td>
+        </tr>
+        <tr>
+          <th>スペース番号</th>
+          <td>い-16a</td>
+        </tr>
+      </tbody>
     </table>
 
     <tbt-section>
@@ -34,19 +36,14 @@ import TbtSection from '@/components/atoms/TbtSection.vue'
   </tbt-section>
 </template>
 
-<style module>
-.spaceTable {
+<style scoped>
+.space-table {
   max-width: 90%;
   margin: auto;
 }
 
-.spaceTable td,
-.spaceTable th {
+.space-table td,
+.space-table th {
   padding: 5px 10px;
-}
-
-.crossFade {
-  width: 90%;
-  margin: auto;
 }
 </style>

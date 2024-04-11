@@ -5,11 +5,13 @@ exports[`index.vue > should match the snapshot 1`] = `
   class="Top"
 >
   <h1
-    class="_h1_adaee0"
+    class="h1"
+    data-v-700e39a7=""
   >
     
     <span
-      class="_blink_1fef76"
+      class="blink"
+      data-v-119b1dde=""
     >
       
       定時後ビールタイム公式サイト
@@ -19,7 +21,8 @@ exports[`index.vue > should match the snapshot 1`] = `
   </h1>
   <p>
     <span
-      class="_blink_1fef76"
+      class="blink"
+      data-v-119b1dde=""
     >
       
       🎉🎉🎉🎉🎉🎉🎉M3-2023秋参戦決定！🎉🎉🎉🎉🎉🎉
@@ -27,10 +30,12 @@ exports[`index.vue > should match the snapshot 1`] = `
     </span>
   </p>
   <div
-    class="_marquee_f86009"
+    class="marquee"
+    data-v-3e2741bf=""
   >
     <div
-      class="_marqueeInner_f86009"
+      class="marquee-inner"
+      data-v-3e2741bf=""
     >
       
        M3-2023秋に参戦！パワーアップしたサウンドをお届けします！ 
@@ -38,11 +43,13 @@ exports[`index.vue > should match the snapshot 1`] = `
     </div>
   </div>
   <section
-    class="_section_7c249e"
+    class="section"
+    data-v-449c662a=""
   >
     
     <h2
-      class="_h2_bd7be3"
+      class="h2"
+      data-v-ad5d9b6c=""
     >
       
       アクセスカウンター
@@ -54,22 +61,32 @@ exports[`index.vue > should match the snapshot 1`] = `
     
   </section>
   <section
-    class="_section_7c249e"
+    class="section"
+    data-v-449c662a=""
+    data-v-af1e61d6=""
   >
     
     <h2
-      class="_h2_bd7be3"
+      class="h2"
+      data-v-ad5d9b6c=""
+      data-v-af1e61d6=""
     >
       
       News
       
     </h2>
     <ul
-      class="_newsList_13067a"
+      class="news-list"
+      data-v-af1e61d6=""
     >
-      <li>
+      <li
+        data-v-af1e61d6=""
+      >
         <span
-          class="_blink_1fef76 _newsBlink_2db161 _newsBlink_13067a"
+          class="blink news-blink"
+          data-v-119b1dde=""
+          data-v-a37dc815=""
+          data-v-af1e61d6=""
         >
           
           NEW
@@ -77,8 +94,11 @@ exports[`index.vue > should match the snapshot 1`] = `
         </span>
          M3-2023秋に参戦に参加予定です！ 
       </li>
-      <li>
+      <li
+        data-v-af1e61d6=""
+      >
         <a
+          data-v-af1e61d6=""
           href="https://twitter.com/tbt_cf"
         >
           公式Twitterアカウント
@@ -86,15 +106,21 @@ exports[`index.vue > should match the snapshot 1`] = `
          作りました！最新情報をつぶやいていきます！ 
       </li>
     </ul>
-    <p />
+    <p
+      data-v-af1e61d6=""
+    />
     
   </section>
   <section
-    class="_section_7c249e"
+    class="section"
+    data-v-449c662a=""
+    data-v-53a1cf47=""
   >
     
     <h2
-      class="_h2_bd7be3"
+      class="h2"
+      data-v-53a1cf47=""
+      data-v-ad5d9b6c=""
     >
       
       サークルカット
@@ -102,17 +128,22 @@ exports[`index.vue > should match the snapshot 1`] = `
     </h2>
     <img
       alt="サークルカット"
-      class="_circleCut_a08e88"
+      class="circle-cut"
+      data-v-53a1cf47=""
       src="/assets/cut.png"
     />
     
   </section>
   <section
-    class="_section_7c249e"
+    class="section"
+    data-v-0e36659f=""
+    data-v-449c662a=""
   >
     
     <h2
-      class="_h2_bd7be3"
+      class="h2"
+      data-v-0e36659f=""
+      data-v-ad5d9b6c=""
     >
       
       M3-2023秋スペース配置
@@ -120,48 +151,78 @@ exports[`index.vue > should match the snapshot 1`] = `
     </h2>
     <table
       border="1"
-      class="_spaceTable_31649c"
+      class="space-table"
+      data-v-0e36659f=""
     >
-      <tr>
-        <th>
-          サークル名
-        </th>
-        <td>
-          定時後ビールタイム
-        </td>
-      </tr>
-      <tr>
-        <th>
-          配置場所
-        </th>
-        <td>
-          リアルイベントスペース
-        </td>
-      </tr>
-      <tr>
-        <th>
-          スペース番号
-        </th>
-        <td>
-          い-16a
-        </td>
-      </tr>
+      <tbody
+        data-v-0e36659f=""
+      >
+        <tr
+          data-v-0e36659f=""
+        >
+          <th
+            data-v-0e36659f=""
+          >
+            サークル名
+          </th>
+          <td
+            data-v-0e36659f=""
+          >
+            定時後ビールタイム
+          </td>
+        </tr>
+        <tr
+          data-v-0e36659f=""
+        >
+          <th
+            data-v-0e36659f=""
+          >
+            配置場所
+          </th>
+          <td
+            data-v-0e36659f=""
+          >
+            リアルイベントスペース
+          </td>
+        </tr>
+        <tr
+          data-v-0e36659f=""
+        >
+          <th
+            data-v-0e36659f=""
+          >
+            スペース番号
+          </th>
+          <td
+            data-v-0e36659f=""
+          >
+            い-16a
+          </td>
+        </tr>
+      </tbody>
     </table>
     <section
-      class="_section_7c249e"
+      class="section"
+      data-v-0e36659f=""
+      data-v-449c662a=""
     >
       
       <h3
-        class="_h3_fa16fe"
+        class="h3"
+        data-v-0e36659f=""
+        data-v-d18466b7=""
       >
         
         M3-2023秋
         
       </h3>
-      <p>
+      <p
+        data-v-0e36659f=""
+      >
         日時：2023年10月29日(日)
       </p>
       <a
+        data-v-0e36659f=""
         href="http://www.m3net.jp/"
       >
         M3公式サイト
@@ -169,17 +230,23 @@ exports[`index.vue > should match the snapshot 1`] = `
       
     </section>
     <section
-      class="_section_7c249e"
+      class="section"
+      data-v-0e36659f=""
+      data-v-449c662a=""
     >
       
       <h3
-        class="_h3_fa16fe"
+        class="h3"
+        data-v-0e36659f=""
+        data-v-d18466b7=""
       >
         
         頒布CDクロスフェード
         
       </h3>
-      <p>
+      <p
+        data-v-0e36659f=""
+      >
         Coming Soon...
       </p>
       
@@ -187,11 +254,13 @@ exports[`index.vue > should match the snapshot 1`] = `
     
   </section>
   <section
-    class="_section_7c249e"
+    class="section"
+    data-v-449c662a=""
   >
     
     <h2
-      class="_h2_bd7be3"
+      class="h2"
+      data-v-ad5d9b6c=""
     >
       
       連絡先
@@ -209,33 +278,31 @@ exports[`index.vue > should match the snapshot 1`] = `
     
   </section>
   <section
-    class="_section_7c249e"
+    class="section"
+    data-v-449c662a=""
   >
     
     <h2
-      class="_h2_bd7be3"
+      class="h2"
+      data-v-ad5d9b6c=""
     >
       
       メニュー
       
     </h2>
     <p>
-      <nuxtlink
-        to="/disco"
-      >
+      <a>
         
          ＞＞＞＞DISCOGRAPHY＜＜＜＜ 
         
-      </nuxtlink>
+      </a>
     </p>
     <p>
-      <nuxtlink
-        to="/member"
-      >
+      <a>
         
          🍺🍺🍺🍺️メンバー紹介🍺🍺🍺🍺 
         
-      </nuxtlink>
+      </a>
     </p>
     
   </section>

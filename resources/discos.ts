@@ -62,7 +62,7 @@ export const battle: Disco = {
       no: 1,
       name: '作業中にソフトが落ちた',
       artist: 'マッキー',
-      credit: '作詞・作曲・歌：マッキー'
+      credit: '作詞・作曲・歌：マッキー',
     },
     {
       no: 2,

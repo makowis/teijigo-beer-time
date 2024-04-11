@@ -1,10 +1,10 @@
 <template>
-  <h2 :class="$style.h2">
+  <h2 class="h2">
     <slot />
   </h2>
 </template>
 
-<style module>
+<style scoped>
 .h2 {
   font-weight: normal;
 }

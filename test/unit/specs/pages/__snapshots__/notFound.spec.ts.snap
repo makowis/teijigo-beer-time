@@ -5,7 +5,8 @@ exports[`index.vue > should match the snapshot 1`] = `
   class="not-found"
 >
   <h1
-    class="_h1_adaee0"
+    class="h1"
+    data-v-700e39a7=""
   >
     
     404 NOT FOUND
