@@ -1,10 +1,10 @@
 <template>
-  <footer :class="$style.footer">
+  <footer class="footer">
     <p>©定時後ビールタイム</p>
   </footer>
 </template>
 
-<style module>
+<style scoped>
 .footer {
   padding: 30px;
 }

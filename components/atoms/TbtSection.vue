@@ -1,10 +1,10 @@
 <template>
-  <section :class="$style.section">
+  <section class="section">
     <slot />
   </section>
 </template>
 
-<style module>
+<style scoped>
 .section {
   margin-top: 30px;
   margin-bottom: 30px;

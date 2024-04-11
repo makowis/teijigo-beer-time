@@ -1,10 +1,10 @@
 <template>
-  <span :class="$style.blink">
+  <span class="blink">
     <slot />
   </span>
 </template>
 
-<style module>
+<style scoped>
 .blink {
   animation: blink 1s step-end infinite;
 }

@@ -1,8 +1,8 @@
 <template>
-  <img :class="$style.logo" src="@/assets/logo_1.png" />
+  <img class="logo" src="@/assets/logo_1.png" />
 </template>
 
-<style module>
+<style scoped>
 .logo {
   max-height: 400px;
   max-width: 90%;

@@ -4,7 +4,7 @@ import TbtLogo from '@/components/atoms/TbtLogo.vue'
 </script>
 
 <template>
-  <div id="main-container" :class="$style.mainContainer">
+  <div id="main-container" class="main-container">
     <tbt-top-link>
       <tbt-logo />
     </tbt-top-link>
@@ -12,8 +12,8 @@ import TbtLogo from '@/components/atoms/TbtLogo.vue'
   </div>
 </template>
 
-<style module>
-.mainContainer {
+<style scoped>
+.main-container {
   width: 80%;
   min-height: 100vh;
   box-sizing: border-box;
@@ -25,7 +25,7 @@ import TbtLogo from '@/components/atoms/TbtLogo.vue'
 }
 
 @media screen and (width <= 900px) {
-  .mainContainer {
+  .main-container {
     width: 100%;
     padding-top: 20px;
     margin: 0;

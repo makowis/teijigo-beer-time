@@ -18,113 +18,113 @@ import { recycle, battle, ma_start, hope, rising } from '@/resources/discos'
   <div class="disco">
     <tbt-h-1>DISCOGRAPHY</tbt-h-1>
     <tbt-section>
-      <tbt-h-2 :class="$style.albumTitle">
+      <tbt-h-2 class="album-title">
         {{ rising.title }}
         <tbt-new-blink />
       </tbt-h-2>
-      <p :class="$style.onSale">
+      <p class="on-sale">
         <tbt-blink>{{ rising.release }} ON SALE!</tbt-blink>
       </p>
-      <tbt-rising-jacket-img :class="$style.jacket" />
+      <tbt-rising-jacket-img class="jacket" />
       <tbt-disco-table
         :display-credit="rising.displayCredit"
         :tracks="rising.tracks"
       >
       </tbt-disco-table>
       <tbt-youtube-embedded
-        :class="$style.crossFade"
+        class="cross-fade"
         :youtube-embed-url="rising.youtubeEmbedUrl"
       />
     </tbt-section>
     <hr />
     <tbt-section>
-      <tbt-h-2 :class="$style.albumTitle">{{ battle.title }}</tbt-h-2>
-      <p :class="$style.onSale">
+      <tbt-h-2 class="album-title">{{ battle.title }}</tbt-h-2>
+      <p class="on-sale">
         <tbt-blink>{{ battle.release }} ON SALE！</tbt-blink>
       </p>
-      <tbt-battle-jacket-img :class="$style.jacket" />
+      <tbt-battle-jacket-img class="jacket" />
       <tbt-disco-table
         :display-credit="battle.displayCredit"
         :tracks="battle.tracks"
       >
       </tbt-disco-table>
       <tbt-youtube-embedded
-        :class="$style.crossFade"
+        class="cross-fade"
         :youtube-embed-url="battle.youtubeEmbedUrl"
       />
     </tbt-section>
     <hr />
     <tbt-section>
-      <tbt-h-2 :class="$style.albumTitle">{{ recycle.title }}</tbt-h-2>
-      <p :class="$style.onSale">
+      <tbt-h-2 class="album-title">{{ recycle.title }}</tbt-h-2>
+      <p class="on-sale">
         <tbt-blink>{{ recycle.release }} ON SALE！</tbt-blink>
       </p>
-      <tbt-recycle-jacket-img :class="$style.jacket" />
+      <tbt-recycle-jacket-img class="jacket" />
       <tbt-disco-table
         :display-credit="recycle.displayCredit"
         :tracks="recycle.tracks"
       >
       </tbt-disco-table>
       <tbt-youtube-embedded
-        :class="$style.crossFade"
+        class="cross-fade"
         :youtube-embed-url="recycle.youtubeEmbedUrl"
       />
     </tbt-section>
     <hr />
     <tbt-section>
-      <tbt-h-2 :class="$style.albumTitle">{{ ma_start.title }}</tbt-h-2>
-      <p :class="$style.onSale">
+      <tbt-h-2 class="album-title">{{ ma_start.title }}</tbt-h-2>
+      <p class="on-sale">
         <tbt-blink>{{ ma_start.release }} ON SALE！</tbt-blink>
       </p>
-      <tbt-start-jacket-img :class="$style.jacket" />
+      <tbt-start-jacket-img class="jacket" />
       <tbt-disco-table
         :display-credit="ma_start.displayCredit"
         :tracks="ma_start.tracks"
       >
       </tbt-disco-table>
       <tbt-youtube-embedded
-        :class="$style.crossFade"
+        class="cross-fade"
         :youtube-embed-url="ma_start.youtubeEmbedUrl"
       />
     </tbt-section>
     <hr />
     <tbt-section>
-      <tbt-h-2 :class="$style.albumTitle">{{ hope.title }}</tbt-h-2>
-      <p :class="$style.onSale">
+      <tbt-h-2 class="album-title">{{ hope.title }}</tbt-h-2>
+      <p class="on-sale">
         <tbt-blink>{{ hope.release }} ON SALE！</tbt-blink>
       </p>
-      <tbt-hope-jacket-img :class="$style.jacket" />
+      <tbt-hope-jacket-img class="jacket" />
       <tbt-disco-table
         :display-credit="hope.displayCredit"
         :tracks="hope.tracks"
       >
       </tbt-disco-table>
       <tbt-youtube-embedded
-        :class="$style.crossFade"
+        class="cross-fade"
         :youtube-embed-url="hope.youtubeEmbedUrl"
       />
     </tbt-section>
   </div>
 </template>
 
-<style module>
+<style scoped>
 .jacket {
   width: 400px;
   max-width: 70%;
   margin-bottom: 20px;
 }
 
-.albumTitle {
+.album-title {
   margin-bottom: 5px;
 }
 
-.onSale {
+.on-sale {
   color: red;
   font-weight: bold;
   margin: 0 0 15px;
 }
 
-.crossFade {
+.cross-fade {
   max-width: 80%;
   margin: 30px auto;
 }
