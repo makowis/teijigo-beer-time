@@ -24,7 +24,7 @@
     "@nuxt/test-utils": "^3.8.1",
     "@types/node": "^20",
     "@vitejs/plugin-vue": "^5.0.4",
-    "@vitest/coverage-v8": "^1.4.0",
+    "@vitest/coverage-v8": "^1.5.0",
     "@vue/test-utils": "^2.4.3",
     "eslint": "^9.0.0",
     "eslint-config-prettier": "^9.1.0",
@@ -37,7 +37,7 @@
     "stylelint-config-recommended-vue": "^1.5.0",
     "stylelint-config-standard": "^36.0.0",
     "typescript": "^5.4.5",
-    "vitest": "^1.4.0"
+    "vitest": "^1.5.0"
   },
   "resolutions": {
     "string-width": "4.2.3"
