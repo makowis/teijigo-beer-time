@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "^1.1.5",
-    "@nuxt/eslint": "^0.3.6",
+    "@nuxt/eslint": "^0.3.8",
     "@nuxt/test-utils": "^3.8.1",
     "@types/node": "^20",
     "@vitejs/plugin-vue": "^5.0.4",
