@@ -39,6 +39,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
+      - name: update yarn
+        run: yarn set version stable
+
       - name: Install dependencies 👨🏻‍💻
         run: yarn
 
