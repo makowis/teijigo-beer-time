@@ -20,10 +20,10 @@ jobs:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
       - name: Checkout 🛎
-        uses: actions/checkout@master
+        uses: actions/checkout@v4
 
       - name: Setup node env 🏗
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
 
@@ -40,6 +40,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
+      - name: corepack enable
+        run: corepack enable
+
       - name: Install dependencies 👨🏻‍💻
         run: yarn
 
@@ -47,7 +50,7 @@ jobs:
         run: yarn generate
 
       - name: deploy 🚀
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
