@@ -11,12 +11,10 @@ export default defineConfig({
       all: true,
       exclude: [
         '**/*.d.ts',
-        '**/.{eslint,mocha,prettier}rc.{?mjs,yml}',
         'nuxt.config.ts',
         '.nuxt/**',
         '.output/**',
-        'commitlint.config.js',
-        'stylelint.config.js',
+        '**/.{eslint,mocha,prettier,stylelint}rc.{?mjs,yml}',
       ],
     },
   },
