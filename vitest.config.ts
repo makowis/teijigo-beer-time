@@ -10,11 +10,9 @@ export default defineConfig({
       provider: 'v8',
       all: true,
       exclude: [
-        '**/*.d.ts',
-        'nuxt.config.ts',
         '.nuxt/**',
         '.output/**',
-        '**/.{eslint,mocha,prettier,stylelint}rc.{?mjs,yml}',
+        '**/{nuxt,eslint,stylelint}.config.*',
       ],
     },
   },
