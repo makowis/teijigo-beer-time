@@ -939,28 +939,19 @@
   resolved "https://registry.yarnpkg.com/@nuxt/devalue/-/devalue-2.0.2.tgz#5749f04df13bda4c863338d8dabaf370f45ef7c7"
   integrity sha512-GBzP8zOc7CGWyFQS6dv1lQz8VVpz5C2yRszbXufwG/9zhStTIH50EtD87NmWbTMwXDvZLNg8GIpb1UFdH93JCA==
 
-"@nuxt/devtools-kit@1.3.1":
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/@nuxt/devtools-kit/-/devtools-kit-1.3.1.tgz#b86feac969a2f2c4746641aed5dc4af9def39bc3"
-  integrity sha512-YckEiiTef3dMckwLLUb+feKV0O8pS9s8ujw/FQ600oQbOCbq6hpWY5HQYxVYc3E41wu87lFiIZ1rnHjO3nM9sw==
+"@nuxt/devtools-kit@1.3.3", "@nuxt/devtools-kit@^1.3.1":
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/@nuxt/devtools-kit/-/devtools-kit-1.3.3.tgz#d52bcc69c82f2a78a32479c5f37d95d4ed820c20"
+  integrity sha512-YkcuSirzVVi36gWjIl9sJ4lsuiuQiIStY3upLy829zMTIXXeF8yUEBexKL6zHD3UPqCigoF7IuovnfLw78BQ9g==
   dependencies:
     "@nuxt/kit" "^3.11.2"
     "@nuxt/schema" "^3.11.2"
     execa "^7.2.0"
 
-"@nuxt/devtools-kit@^1.3.1":
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/@nuxt/devtools-kit/-/devtools-kit-1.3.2.tgz#1a9694b47692bcf9198f28b1dc721487a7c81806"
-  integrity sha512-ZLEFiUYFSIpQnJ4km8DSE7F7+XIZVslfa/ipFlri9VMffTCRN2Pb1Te9Av35jV9ldc7PYiM70Hs+QLXTJOLE6g==
-  dependencies:
-    "@nuxt/kit" "^3.11.2"
-    "@nuxt/schema" "^3.11.2"
-    execa "^7.2.0"
-
-"@nuxt/devtools-wizard@1.3.1":
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/@nuxt/devtools-wizard/-/devtools-wizard-1.3.1.tgz#3834e083abaf0774c6bda62570da1e65bc291813"
-  integrity sha512-t6qTp573s1NWoS1nqOqKRld6wFWDiMzoFojBG8GeqTwPi2NYbjyPbQobmvMGiihkWPudMpChhAhYwTTyCPFE7Q==
+"@nuxt/devtools-wizard@1.3.3":
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/@nuxt/devtools-wizard/-/devtools-wizard-1.3.3.tgz#208e5186eb1fbb9bbb4f54fd2e4092749d759d88"
+  integrity sha512-9Umo9eDgwhSBDnTzWINXwJBYy2J3ay6OviM7Qdr08B9hDu+CU6MrEpsT4hZ3npD7p1E+9t1YQw/4fZ8NMcPVnw==
   dependencies:
     consola "^3.2.3"
     diff "^5.2.0"
@@ -973,18 +964,18 @@
     rc9 "^2.1.2"
     semver "^7.6.2"
 
-"@nuxt/devtools@^1.1.5", "@nuxt/devtools@^1.3.1":
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/@nuxt/devtools/-/devtools-1.3.1.tgz#008f22640ba12b34c560a410dee7f72dad33fd8c"
-  integrity sha512-SuiuqtlN6OMPn7hYqbydcJmRF/L86yxi8ApcjNVnMURYBPaAAN9egkEFpQ6AjzjX+UnaG1hU8FE0w6pWKSRp3A==
+"@nuxt/devtools@^1.1.5", "@nuxt/devtools@^1.3.3":
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/@nuxt/devtools/-/devtools-1.3.3.tgz#a91f7f3acfd1c8afa7466ee0c7bb163f57a79b98"
+  integrity sha512-rlFIggkUfYvSSZRkk7v9L4aqgmnCGSzcaYJYPA+RGtJQy7asJ3Ziqx/iXnj9Ih81L6vL/BqbX9G49beJGqL/MQ==
   dependencies:
     "@antfu/utils" "^0.7.8"
-    "@nuxt/devtools-kit" "1.3.1"
-    "@nuxt/devtools-wizard" "1.3.1"
+    "@nuxt/devtools-kit" "1.3.3"
+    "@nuxt/devtools-wizard" "1.3.3"
     "@nuxt/kit" "^3.11.2"
-    "@vue/devtools-applet" "^7.1.3"
-    "@vue/devtools-core" "^7.1.3"
-    "@vue/devtools-kit" "^7.1.3"
+    "@vue/devtools-applet" "7.1.3"
+    "@vue/devtools-core" "7.1.3"
+    "@vue/devtools-kit" "7.1.3"
     birpc "^0.2.17"
     consola "^3.2.3"
     cronstrue "^2.50.0"
@@ -1473,10 +1464,10 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.10.3.tgz#391d528054f758f81e53210f1a1eebcf1a8b1d20"
   integrity sha512-qC/xYId4NMebE6w/V33Fh9gWxLgURiNYgVNObbJl2LZv0GUUItCcCqC5axQSwRaAgaxl2mELq1rMzlswaQ0Zxg==
 
-"@shikijs/core@1.5.2":
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/@shikijs/core/-/core-1.5.2.tgz#e3917551ffadf6acbdae495c08065c3d3fd9e381"
-  integrity sha512-wSAOgaz48GmhILFElMCeQypSZmj6Ru6DttOOtl3KNkdJ17ApQuGNCfzpk4cClasVrnIu45++2DBwG4LNMQAfaA==
+"@shikijs/core@1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@shikijs/core/-/core-1.3.0.tgz#5b93b51ddb8def1e3a1543107f9b5b0540f716f6"
+  integrity sha512-7fedsBfuILDTBmrYZNFI8B6ATTxhQAasUHllHmjvSZPnoq4bULWoTpHwmuQvZ8Aq03/tAa2IGo6RXqWtHdWaCA==
 
 "@sigstore/bundle@^2.3.0", "@sigstore/bundle@^2.3.1":
   version "2.3.1"
@@ -2007,22 +1998,34 @@
   resolved "https://registry.yarnpkg.com/@vue/devtools-api/-/devtools-api-6.6.1.tgz#7c14346383751d9f6ad4bea0963245b30220ef83"
   integrity sha512-LgPscpE3Vs0x96PzSSB4IGVSZXZBZHpfxs+ZA1d+VEPwHdOXowy/Y2CsvCAIFrf+ssVU1pD1jidj505EpUnfbA==
 
-"@vue/devtools-applet@^7.1.3":
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/@vue/devtools-applet/-/devtools-applet-7.2.0.tgz#8b66435f62108a49e9912045dcae6173d886faca"
-  integrity sha512-ohl3uHejqu8v6BoCfsadpo6/QU1o585Im8AbH4bZiQTKdIot7OlBdk7pz9bK3muV6N1xKuiDNwYul0QYClOeSg==
+"@vue/devtools-applet@7.1.3":
+  version "7.1.3"
+  resolved "https://registry.yarnpkg.com/@vue/devtools-applet/-/devtools-applet-7.1.3.tgz#6aa6d222bb8ccde873d56bb14b11c7f1e36ebaf7"
+  integrity sha512-525h17FzUF7ssko/U+yeP5jv0HaGm3eI4dVqncWPRCLTDtOy1V+srjoxYqr5qnzx6AdIU2icPQF2KNomd9FGZw==
   dependencies:
-    "@vue/devtools-core" "^7.2.0"
-    "@vue/devtools-kit" "^7.2.0"
-    "@vue/devtools-shared" "^7.2.0"
-    "@vue/devtools-ui" "^7.2.0"
+    "@vue/devtools-core" "^7.1.3"
+    "@vue/devtools-kit" "^7.1.3"
+    "@vue/devtools-shared" "^7.1.3"
+    "@vue/devtools-ui" "^7.1.3"
     lodash-es "^4.17.21"
     perfect-debounce "^1.0.0"
-    shiki "1.5.2"
+    shiki "1.3.0"
     splitpanes "^3.1.5"
     vue-virtual-scroller "2.0.0-beta.8"
 
-"@vue/devtools-core@^7.1.3", "@vue/devtools-core@^7.2.0":
+"@vue/devtools-core@7.1.3":
+  version "7.1.3"
+  resolved "https://registry.yarnpkg.com/@vue/devtools-core/-/devtools-core-7.1.3.tgz#22107b618ae05d873545724c6238a8c41c70b426"
+  integrity sha512-pVbWi8pf2Z/fZPioYOIgu+cv9pQG55k4D8bL31ec+Wfe+pQR0ImFDu0OhHfch1Ra8uvLLrAZTF4IKeGAkmzD4A==
+  dependencies:
+    "@vue/devtools-kit" "^7.1.3"
+    "@vue/devtools-shared" "^7.1.3"
+    mitt "^3.0.1"
+    nanoid "^3.3.4"
+    pathe "^1.1.2"
+    vite-hot-client "^0.2.3"
+
+"@vue/devtools-core@^7.1.3":
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/@vue/devtools-core/-/devtools-core-7.2.0.tgz#985cadb7dfca8495829db67df2150278ce13ea71"
   integrity sha512-cHSeu70rTtubt2DYia+VDGNTC1m84Xyuk5eNTjmOpMLECaJnWnzCv6kR84EZp7rG+MVZalJG+4ecX2GaTbU3cQ==
@@ -2033,6 +2036,17 @@
     nanoid "^3.3.4"
     pathe "^1.1.2"
     vite-hot-client "^0.2.3"
+
+"@vue/devtools-kit@7.1.3":
+  version "7.1.3"
+  resolved "https://registry.yarnpkg.com/@vue/devtools-kit/-/devtools-kit-7.1.3.tgz#0344fd1a926ff535d3be3378e1da8bb71d8430b9"
+  integrity sha512-NFskFSJMVCBXTkByuk2llzI3KD3Blcm7WqiRorWjD6nClHPgkH5BobDH08rfulqq5ocRt5xV+3qOT1Q9FXJrwQ==
+  dependencies:
+    "@vue/devtools-shared" "^7.1.3"
+    hookable "^5.5.3"
+    mitt "^3.0.1"
+    perfect-debounce "^1.0.0"
+    speakingurl "^14.0.1"
 
 "@vue/devtools-kit@^7.1.3", "@vue/devtools-kit@^7.2.0":
   version "7.2.0"
@@ -2045,19 +2059,26 @@
     perfect-debounce "^1.0.0"
     speakingurl "^14.0.1"
 
-"@vue/devtools-shared@7.2.0", "@vue/devtools-shared@^7.2.0":
+"@vue/devtools-shared@7.2.1", "@vue/devtools-shared@^7.1.3":
+  version "7.2.1"
+  resolved "https://registry.yarnpkg.com/@vue/devtools-shared/-/devtools-shared-7.2.1.tgz#576c048375ba3c63e555017abbc0b1019a7d4cbe"
+  integrity sha512-PCJF4UknJmOal68+X9XHyVeQ+idv0LFujkTOIW30+GaMJqwFVN9LkQKX4gLqn61KkGMdJTzQ1bt7EJag3TI6AA==
+  dependencies:
+    rfdc "^1.3.1"
+
+"@vue/devtools-shared@^7.2.0":
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/@vue/devtools-shared/-/devtools-shared-7.2.0.tgz#21c8946473c0ce0ef57be721d878b4972ffe2c8d"
   integrity sha512-gVr3IjKjU7axNvclRgICgy1gq/TDnF1hhBAEox+l5mMXZiTIFVIm1zpcIPssc0HxMDgzy+lXqOVsY4DGyZ+ZeA==
   dependencies:
     rfdc "^1.3.1"
 
-"@vue/devtools-ui@^7.2.0":
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/@vue/devtools-ui/-/devtools-ui-7.2.0.tgz#471b37e8a9191ab09796635798ede7299f4f1d8c"
-  integrity sha512-5raf2DLgicnT6vr9oO8kgN49ZqdDYtyph4hBH3sg9bvY2UtHgJs6m8uPqai5vKSrrEy/V30Rq/tahQlOiEbi+Q==
+"@vue/devtools-ui@^7.1.3":
+  version "7.2.1"
+  resolved "https://registry.yarnpkg.com/@vue/devtools-ui/-/devtools-ui-7.2.1.tgz#3bc286b826347efd1bee129c8ec6e6b93b0758d9"
+  integrity sha512-3XwW6uTn5noXKN4T4T9rpFlQR0B050ebwUO+Y8HsWHv8XZ451xk+A89y00s1Zx7P2SRkDqeJgbi4kYSHnXkxbg==
   dependencies:
-    "@vue/devtools-shared" "7.2.0"
+    "@vue/devtools-shared" "7.2.1"
     "@vueuse/components" "^10.9.0"
     "@vueuse/core" "^10.9.0"
     "@vueuse/integrations" "^10.9.0"
@@ -6560,12 +6581,12 @@ shell-quote@^1.8.1:
   resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.8.1.tgz#6dbf4db75515ad5bac63b4f1894c3a154c766680"
   integrity sha512-6j1W9l1iAs/4xYBI1SYOVZyFcCis9b4KCLQ8fgAGG07QvzaRLVVRQvAy85yNmmZSjYjg4MWh4gNvlPujU/5LpA==
 
-shiki@1.5.2:
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/shiki/-/shiki-1.5.2.tgz#dfaad38dfdc2c0200986e372a63f0ac58be5b1e8"
-  integrity sha512-fpPbuSaatinmdGijE7VYUD3hxLozR3ZZ+iAx8Iy2X6REmJGyF5hQl94SgmiUNTospq346nXUVZx0035dyGvIVw==
+shiki@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/shiki/-/shiki-1.3.0.tgz#3eda35cb49f6f0a98525e9da48fc072e6c655a3f"
+  integrity sha512-9aNdQy/etMXctnPzsje1h1XIGm9YfRcSksKOGqZWXA/qP9G18/8fpz5Bjpma8bOgz3tqIpjERAd6/lLjFyzoww==
   dependencies:
-    "@shikijs/core" "1.5.2"
+    "@shikijs/core" "1.3.0"
 
 siginfo@^2.0.0:
   version "2.0.0"
