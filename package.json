@@ -38,8 +38,5 @@
     "stylelint-config-standard": "^36.0.0",
     "typescript": "^5.4.5",
     "vitest": "^1.6.0"
-  },
-  "resolutions": {
-    "string-width": "4.2.3"
   }
 }
