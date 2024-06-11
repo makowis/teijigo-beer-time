@@ -27,12 +27,13 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
 
+      # ここでyarnを有効化しておかないと後続のcash処理がエラーになる
       - name: corepack enable
         run: corepack enable
 
       - name: Get yarn cache directory path 🛠
         id: yarn-cache-dir-path
-        run: echo "dir=$(yarn cache dir)" >> $GITHUB_OUTPUT
+        run: echo "dir=$(yarn config get cacheFolder)" >> $GITHUB_OUTPUT
 
       - name: Cache node_modules 📦
         uses: actions/cache@v4
