@@ -11,7 +11,7 @@ export default defineConfig({
       all: true,
       exclude: [
         '**/*.d.ts',
-        '**/.{eslint,mocha,prettier}rc.{?(c|m)js,yml}',
+        '**/.{eslint,mocha,prettier}rc.{?mjs,yml}',
         'nuxt.config.ts',
         '.nuxt/**',
         '.output/**',

@@ -5,6 +5,7 @@
     "node": "20.x"
   },
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
