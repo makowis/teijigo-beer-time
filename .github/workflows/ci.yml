@@ -26,6 +26,10 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
 
+      # ここでyarnを有効化しておかないと後続のcash処理がエラーになる
+      - name: corepack enable
+        run: corepack enable
+
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
         run: echo "dir=$(yarn config get cacheFolder)" >> $GITHUB_OUTPUT
@@ -38,9 +42,6 @@ jobs:
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-
-
-      - name: corepack enable
-        run: corepack enable
 
       - name: Install dependencies 👨🏻‍💻
         run: yarn
