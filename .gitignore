@@ -92,3 +92,13 @@ sw.*
 .output
 
 .vscode
+
+# yarn
+.yarn/*
+.pnp.*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
