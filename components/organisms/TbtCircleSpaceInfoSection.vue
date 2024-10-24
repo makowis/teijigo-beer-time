@@ -6,7 +6,7 @@ import TbtSection from '@/components/atoms/TbtSection.vue'
 
 <template>
   <tbt-section>
-    <tbt-h-2>M3-2023秋スペース配置</tbt-h-2>
+    <tbt-h-2>M3-2024秋スペース配置</tbt-h-2>
     <table border="1" class="space-table">
       <tbody>
         <tr>
@@ -19,14 +19,14 @@ import TbtSection from '@/components/atoms/TbtSection.vue'
         </tr>
         <tr>
           <th>スペース番号</th>
-          <td>い-16a</td>
+          <td>第二展示場2階 シ-07a</td>
         </tr>
       </tbody>
     </table>
 
     <tbt-section>
       <tbt-h-3>M3-2023秋</tbt-h-3>
-      <p>日時：2023年10月29日(日)</p>
+      <p>日時：2024年10月27日(日)</p>
       <a href="http://www.m3net.jp/">M3公式サイト</a>
     </tbt-section>
     <tbt-section>
