@@ -18,10 +18,10 @@ const accessCount = `0000000000000000${Math.floor(
   <div class="Top">
     <tbt-h-1><tbt-blink>定時後ビールタイム公式サイト</tbt-blink></tbt-h-1>
     <p>
-      <tbt-blink>🎉🎉🎉🎉🎉🎉🎉M3-2023秋参戦決定！🎉🎉🎉🎉🎉🎉</tbt-blink>
+      <tbt-blink>🎉🎉🎉🎉🎉🎉🎉M3-2024秋参戦決定！🎉🎉🎉🎉🎉🎉</tbt-blink>
     </p>
     <tbt-marquee>
-      M3-2023秋に参戦！パワーアップしたサウンドをお届けします！
+      M3-2024秋に参戦！みなさまのお越しをお待ちしております！
     </tbt-marquee>
     <tbt-access-counter-section :access-count="accessCount" />
     <tbt-news-section />
