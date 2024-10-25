@@ -15,6 +15,15 @@ export interface TrackInfo {
   credit?: HTML // クレジット
 }
 
+export const libreate: Disco = {
+  title: '6th Mini Album 「LIBERATE」',
+  release: '2024.10.27',
+  displayCredit: true,
+  youtubeEmbedUrl: 'https://www.youtube.com/embed/_ilOox8tQLU?si=vd2RgtYa-roJTja1',
+  tracks: [
+  ],
+}
+
 export const rising: Disco = {
   title: '5th Mini Album 「RISING」',
   release: '2023.10.29',
