@@ -19,7 +19,8 @@ export const libreate: Disco = {
   title: '6th Mini Album 「LIBERATE」',
   release: '2024.10.27',
   displayCredit: true,
-  youtubeEmbedUrl: 'https://www.youtube.com/embed/_ilOox8tQLU?si=vd2RgtYa-roJTja1',
+  youtubeEmbedUrl:
+    'https://www.youtube.com/embed/_ilOox8tQLU?si=vd2RgtYa-roJTja1',
   tracks: [
     {
       no: 1,

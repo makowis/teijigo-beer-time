@@ -20,9 +20,7 @@ const accessCount = `0000000000000000${Math.floor(
     <p>
       <tbt-blink>🎉🎉🎉🎉🎉🎉🎉M3-2024秋参戦決定！🎉🎉🎉🎉🎉🎉</tbt-blink>
     </p>
-    <tbt-marquee>
-      ＼奇跡の2年連続参戦！／ M3-2024秋に参戦！
-    </tbt-marquee>
+    <tbt-marquee> ＼奇跡の2年連続参戦！／ M3-2024秋に参戦！ </tbt-marquee>
     <tbt-access-counter-section :access-count="accessCount" />
     <tbt-news-section />
     <tbt-circle-cut-section />

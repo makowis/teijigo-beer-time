@@ -12,7 +12,14 @@ import TbtRisingJacketImg from '@/components/atoms/TbtRisingJacketImg.vue'
 import TbtLiberateJacketImg from '@/components/atoms/TbtLiberateJacketImg.vue'
 import TbtYoutubeEmbedded from '@/components/atoms/TbtYoutubeEmbedded.vue'
 import TbtDiscoTable from '@/components/atoms/TbtDiscoTable.vue'
-import { recycle, battle, ma_start, hope, rising, libreate } from '@/resources/discos'
+import {
+  recycle,
+  battle,
+  ma_start,
+  hope,
+  rising,
+  libreate,
+} from '@/resources/discos'
 </script>
 
 <template>
