@@ -9,9 +9,10 @@ import TbtStartJacketImg from '@/components/atoms/TbtStartJacketImg.vue'
 import TbtRecycleJacketImg from '@/components/atoms/TbtRecycleJacketImg.vue'
 import TbtBattleJacketImg from '@/components/atoms/TbtBattleJacketImg.vue'
 import TbtRisingJacketImg from '@/components/atoms/TbtRisingJacketImg.vue'
+import TbtLiberateJacketImg from '@/components/atoms/TbtLiberateJacketImg.vue'
 import TbtYoutubeEmbedded from '@/components/atoms/TbtYoutubeEmbedded.vue'
 import TbtDiscoTable from '@/components/atoms/TbtDiscoTable.vue'
-import { recycle, battle, ma_start, hope, rising } from '@/resources/discos'
+import { recycle, battle, ma_start, hope, rising, libreate } from '@/resources/discos'
 </script>
 
 <template>
@@ -19,8 +20,27 @@ import { recycle, battle, ma_start, hope, rising } from '@/resources/discos'
     <tbt-h-1>DISCOGRAPHY</tbt-h-1>
     <tbt-section>
       <tbt-h-2 class="album-title">
-        {{ rising.title }}
+        {{ libreate.title }}
         <tbt-new-blink />
+      </tbt-h-2>
+      <p class="on-sale">
+        <tbt-blink>{{ rising.release }} ON SALE!</tbt-blink>
+      </p>
+      <tbt-liberate-jacket-img class="jacket" />
+      <tbt-disco-table
+        :display-credit="libreate.displayCredit"
+        :tracks="libreate.tracks"
+      >
+      </tbt-disco-table>
+      <tbt-youtube-embedded
+        class="cross-fade"
+        :youtube-embed-url="libreate.youtubeEmbedUrl"
+      />
+    </tbt-section>
+    <hr />
+    <tbt-section>
+      <tbt-h-2 class="album-title">
+        {{ rising.title }}
       </tbt-h-2>
       <p class="on-sale">
         <tbt-blink>{{ rising.release }} ON SALE!</tbt-blink>

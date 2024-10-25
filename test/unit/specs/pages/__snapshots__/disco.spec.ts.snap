@@ -26,7 +26,7 @@ exports[`beenya.vue > should match the snapshot 1`] = `
       data-v-aede1851=""
     >
       
-      5th Mini Album 「RISING」 
+      6th Mini Album 「LIBERATE」 
       <span
         class="blink news-blink"
         data-v-119b1dde=""
@@ -37,6 +37,192 @@ exports[`beenya.vue > should match the snapshot 1`] = `
         NEW
         
       </span>
+      
+    </h2>
+    <p
+      class="on-sale"
+      data-v-aede1851=""
+    >
+      <span
+        class="blink"
+        data-v-119b1dde=""
+        data-v-aede1851=""
+      >
+        
+        2023.10.29 ON SALE!
+        
+      </span>
+    </p>
+    <img
+      alt="4st Mini Album「BATTLE」のジャケット画像"
+      class="jacket"
+      data-v-aede1851=""
+      src="/assets/6st_mini_album_liberate.png"
+    />
+    <table
+      border="1"
+      class="table"
+      data-v-0a44f233=""
+      data-v-aede1851=""
+    >
+      <thead
+        data-v-0a44f233=""
+      >
+        <tr
+          data-v-0a44f233=""
+        >
+          <th
+            data-v-0a44f233=""
+          >
+            No
+          </th>
+          <th
+            data-v-0a44f233=""
+          >
+            曲名
+          </th>
+          <th
+            data-v-0a44f233=""
+          >
+            アーティスト
+          </th>
+          <th
+            data-v-0a44f233=""
+          >
+            クレジット
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        data-v-0a44f233=""
+      >
+        
+        <tr
+          data-v-0a44f233=""
+        >
+          <td
+            class="track-no"
+            data-v-0a44f233=""
+          >
+            1
+          </td>
+          <td
+            data-v-0a44f233=""
+          >
+            遮断機の向こう側
+          </td>
+          <td
+            data-v-0a44f233=""
+          >
+            comorebi notes
+          </td>
+          <!-- eslint-disable-next-line vue/no-v-html -->
+          <td
+            data-v-0a44f233=""
+          >
+            作詞・作曲：comorebi notes
+               
+            <br />
+            
+               歌：AIきりたん (NEUTRINO)
+          </td>
+        </tr>
+        <tr
+          data-v-0a44f233=""
+        >
+          <td
+            class="track-no"
+            data-v-0a44f233=""
+          >
+            2
+          </td>
+          <td
+            data-v-0a44f233=""
+          >
+            きのこ生活
+          </td>
+          <td
+            data-v-0a44f233=""
+          >
+            hayu
+          </td>
+          <!-- eslint-disable-next-line vue/no-v-html -->
+          <td
+            data-v-0a44f233=""
+          >
+            作詞・作曲：hayu
+               
+            <br />
+            
+               歌：Synthesizer V AI Megpoid
+          </td>
+        </tr>
+        <tr
+          data-v-0a44f233=""
+        >
+          <td
+            class="track-no"
+            data-v-0a44f233=""
+          >
+            3
+          </td>
+          <td
+            data-v-0a44f233=""
+          >
+            秋空
+          </td>
+          <td
+            data-v-0a44f233=""
+          >
+            ビール飲まない社員K
+          </td>
+          <!-- eslint-disable-next-line vue/no-v-html -->
+          <td
+            data-v-0a44f233=""
+          >
+            作詞・作曲：ビール飲まない社員K
+               
+            <br />
+            
+               歌：MYK-IV (VoiSona)
+          </td>
+        </tr>
+        
+      </tbody>
+    </table>
+    <div
+      class="video cross-fade"
+      data-v-7b99f38e=""
+      data-v-aede1851=""
+    >
+      <iframe
+        allow="autoplay; encrypted-media"
+        allowfullscreen=""
+        data-v-7b99f38e=""
+        frameborder="0"
+        height="315"
+        src="https://www.youtube.com/embed/_ilOox8tQLU?si=vd2RgtYa-roJTja1"
+        width="560"
+      />
+    </div>
+    
+  </section>
+  <hr
+    data-v-aede1851=""
+  />
+  <section
+    class="section"
+    data-v-449c662a=""
+    data-v-aede1851=""
+  >
+    
+    <h2
+      class="h2 album-title"
+      data-v-ad5d9b6c=""
+      data-v-aede1851=""
+    >
+      
+      5th Mini Album 「RISING」
       
     </h2>
     <p

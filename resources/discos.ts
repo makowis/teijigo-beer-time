@@ -21,6 +21,30 @@ export const libreate: Disco = {
   displayCredit: true,
   youtubeEmbedUrl: 'https://www.youtube.com/embed/_ilOox8tQLU?si=vd2RgtYa-roJTja1',
   tracks: [
+    {
+      no: 1,
+      name: '遮断機の向こう側',
+      artist: 'comorebi notes',
+      credit: `作詞・作曲：comorebi notes
+               <br />
+               歌：AIきりたん (NEUTRINO)`,
+    },
+    {
+      no: 2,
+      name: 'きのこ生活',
+      artist: 'hayu',
+      credit: `作詞・作曲：hayu
+               <br />
+               歌：Synthesizer V AI Megpoid`,
+    },
+    {
+      no: 3,
+      name: '秋空',
+      artist: 'ビール飲まない社員K',
+      credit: `作詞・作曲：ビール飲まない社員K
+               <br />
+               歌：MYK-IV (VoiSona)`,
+    },
   ],
 }
 
