@@ -38,7 +38,7 @@ exports[`index.vue > should match the snapshot 1`] = `
       data-v-3e2741bf=""
     >
       
-       M3-2024秋に参戦！みなさまのお越しをお待ちしております！ 
+       ＼奇跡の2年連続参戦！／ M3-2024秋に参戦！ 
       
     </div>
   </div>
@@ -244,11 +244,21 @@ exports[`index.vue > should match the snapshot 1`] = `
         頒布CDクロスフェード
         
       </h3>
-      <p
+      <div
+        class="video cross-fade"
         data-v-0e36659f=""
+        data-v-7b99f38e=""
       >
-        Coming Soon...
-      </p>
+        <iframe
+          allow="autoplay; encrypted-media"
+          allowfullscreen=""
+          data-v-7b99f38e=""
+          frameborder="0"
+          height="315"
+          src="https://www.youtube.com/embed/_ilOox8tQLU?si=vd2RgtYa-roJTja1"
+          width="560"
+        />
+      </div>
       
     </section>
     

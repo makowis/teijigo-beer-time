@@ -2,6 +2,8 @@
 import TbtH2 from '@/components/atoms/TbtH2.vue'
 import TbtH3 from '@/components/atoms/TbtH3.vue'
 import TbtSection from '@/components/atoms/TbtSection.vue'
+import TbtYoutubeEmbedded from '@/components/atoms/TbtYoutubeEmbedded.vue'
+import { libreate } from '@/resources/discos'
 </script>
 
 <template>
@@ -31,7 +33,10 @@ import TbtSection from '@/components/atoms/TbtSection.vue'
     </tbt-section>
     <tbt-section>
       <tbt-h-3>頒布CDクロスフェード</tbt-h-3>
-      <p>Coming Soon...</p>
+      <tbt-youtube-embedded
+        class="cross-fade"
+        :youtube-embed-url="libreate.youtubeEmbedUrl"
+      />
     </tbt-section>
   </tbt-section>
 </template>
@@ -45,5 +50,10 @@ import TbtSection from '@/components/atoms/TbtSection.vue'
 .space-table td,
 .space-table th {
   padding: 5px 10px;
+}
+
+.cross-fade {
+  max-width: 80%;
+  margin: 30px auto;
 }
 </style>
