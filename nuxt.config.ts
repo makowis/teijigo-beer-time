@@ -18,8 +18,11 @@ export default defineNuxtConfig({
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     },
   },
+
   devtools: {
     enabled: true,
   },
+
   modules: ['@nuxt/eslint'],
+  compatibilityDate: '2024-11-12',
 })
