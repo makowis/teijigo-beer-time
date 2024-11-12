@@ -29,8 +29,10 @@
     "@vue/test-utils": "^2.4.6",
     "eslint": "^9.14.0",
     "eslint-config-prettier": "^9.1.0",
+    "h3": "^1.13.0",
     "jsdom": "^25.0.1",
     "jsdom-global": "^3.0.2",
+    "nitropack": "^2.10.4",
     "nuxt": "^3.14.159",
     "postcss-html": "^1.7.0",
     "prettier": "^3.3.3",
@@ -38,7 +40,10 @@
     "stylelint-config-recommended-vue": "^1.5.0",
     "stylelint-config-standard": "^36.0.1",
     "typescript": "^5.6.3",
-    "vitest": "^2.1.4"
+    "vite": "5.4.11",
+    "vitest": "^2.1.4",
+    "vue": "^3.5.12",
+    "vue-router": "^4.4.5"
   },
   "packageManager": "yarn@4.3.0"
 }
