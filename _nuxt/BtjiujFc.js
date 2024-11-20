@@ -1,1 +1,0 @@
-import{_ as c,o as s,c as t,q as o}from"./CASx_NRK.js";const n={},r={class:"h1"};function a(e,_){return s(),t("h1",r,[o(e.$slots,"default",{},void 0,!0)])}const f=c(n,[["render",a],["__scopeId","data-v-cc902377"]]);export{f as T};
