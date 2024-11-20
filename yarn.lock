@@ -2301,13 +2301,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitejs/plugin-vue@npm:^5.1.4, @vitejs/plugin-vue@npm:^5.1.5":
+"@vitejs/plugin-vue@npm:^5.1.4":
   version: 5.1.5
   resolution: "@vitejs/plugin-vue@npm:5.1.5"
   peerDependencies:
     vite: ^5.0.0
     vue: ^3.2.25
   checksum: 10c0/a1599c4044b887be632734b9ed2a1b1b1a6605174fd33726959feed53c66c0acb3c4d977d79552408bbc2916dfc97e8236258c2569f7bdf1e34d19ad2f1bf948
+  languageName: node
+  linkType: hard
+
+"@vitejs/plugin-vue@npm:^5.2.0":
+  version: 5.2.0
+  resolution: "@vitejs/plugin-vue@npm:5.2.0"
+  peerDependencies:
+    vite: ^5.0.0
+    vue: ^3.2.25
+  checksum: 10c0/cdd1850b9dfb4a4548731420381bcfea0912a4dac2392bef0ca0448d5689eefd08e7cfd928f12fccbf7c4a72dd8355fc5d5e8dc61d58853eabb95c96172eb529
   languageName: node
   linkType: hard
 
@@ -7277,7 +7287,7 @@ __metadata:
     "@nuxt/eslint": "npm:^0.7.0"
     "@nuxt/test-utils": "npm:^3.14.4"
     "@types/node": "npm:^22.9.0"
-    "@vitejs/plugin-vue": "npm:^5.1.5"
+    "@vitejs/plugin-vue": "npm:^5.2.0"
     "@vitest/coverage-v8": "npm:^2.1.5"
     "@vue/test-utils": "npm:^2.4.6"
     eslint: "npm:^9.14.0"
