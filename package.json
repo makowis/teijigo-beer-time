@@ -24,7 +24,7 @@
     "@nuxt/eslint": "^0.7.2",
     "@nuxt/test-utils": "^3.14.4",
     "@types/node": "^22.10.1",
-    "@vitejs/plugin-vue": "^5.2.0",
+    "@vitejs/plugin-vue": "^5.2.1",
     "@vitest/coverage-v8": "^2.1.5",
     "@vue/test-utils": "^2.4.6",
     "eslint": "^9.14.0",
