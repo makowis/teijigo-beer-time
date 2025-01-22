@@ -12,7 +12,7 @@ export default defineConfig({
       exclude: [
         '.nuxt/**',
         '.output/**',
-        '**/{nuxt,eslint,stylelint}.config.*',
+        '**/{nuxt,eslint,stylelint,vitest}.config.*',
       ],
     },
   },
