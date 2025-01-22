@@ -20,7 +20,7 @@
     "coverage": "vitest run --coverage"
   },
   "devDependencies": {
-    "@nuxt/devtools": "^1.6.0",
+    "@nuxt/devtools": "^1.7.0",
     "@nuxt/eslint": "^0.7.2",
     "@nuxt/test-utils": "^3.14.4",
     "@types/node": "^22.10.1",
