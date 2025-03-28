@@ -4,14 +4,14 @@ import TbtH2 from '@/components/atoms/TbtH2.vue'
 import TbtSection from '@/components/atoms/TbtSection.vue'
 import TbtBlink from '@/components/atoms/TbtBlink.vue'
 import TbtNewBlink from '@/components/atoms/TbtNewBlink.vue'
+import TbtYoutubeEmbedded from '@/components/atoms/TbtYoutubeEmbedded.vue'
+import TbtDiscoTable from '@/components/atoms/TbtDiscoTable.vue'
 import TbtHopeJacketImg from '@/components/atoms/TbtHopeJacketImg.vue'
 import TbtStartJacketImg from '@/components/atoms/TbtStartJacketImg.vue'
 import TbtRecycleJacketImg from '@/components/atoms/TbtRecycleJacketImg.vue'
 import TbtBattleJacketImg from '@/components/atoms/TbtBattleJacketImg.vue'
 import TbtRisingJacketImg from '@/components/atoms/TbtRisingJacketImg.vue'
 import TbtLiberateJacketImg from '@/components/atoms/TbtLiberateJacketImg.vue'
-import TbtYoutubeEmbedded from '@/components/atoms/TbtYoutubeEmbedded.vue'
-import TbtDiscoTable from '@/components/atoms/TbtDiscoTable.vue'
 import {
   recycle,
   battle,
@@ -20,115 +20,84 @@ import {
   rising,
   libreate,
 } from '@/resources/discos'
+
+const albums = [
+  {
+    title: libreate.title,
+    release: rising.release,
+    jacketComponent: TbtLiberateJacketImg,
+    displayCredit: libreate.displayCredit,
+    tracks: libreate.tracks,
+    youtubeEmbedUrl: libreate.youtubeEmbedUrl,
+    isNew: true,
+  },
+  {
+    title: rising.title,
+    release: rising.release,
+    jacketComponent: TbtRisingJacketImg,
+    displayCredit: rising.displayCredit,
+    tracks: rising.tracks,
+    youtubeEmbedUrl: rising.youtubeEmbedUrl,
+    isNew: false,
+  },
+  {
+    title: battle.title,
+    release: battle.release,
+    jacketComponent: TbtBattleJacketImg,
+    displayCredit: battle.displayCredit,
+    tracks: battle.tracks,
+    youtubeEmbedUrl: battle.youtubeEmbedUrl,
+    isNew: false,
+  },
+  {
+    title: recycle.title,
+    release: recycle.release,
+    jacketComponent: TbtRecycleJacketImg,
+    displayCredit: recycle.displayCredit,
+    tracks: recycle.tracks,
+    youtubeEmbedUrl: recycle.youtubeEmbedUrl,
+    isNew: false,
+  },
+  {
+    title: ma_start.title,
+    release: ma_start.release,
+    jacketComponent: TbtStartJacketImg,
+    displayCredit: ma_start.displayCredit,
+    tracks: ma_start.tracks,
+    youtubeEmbedUrl: ma_start.youtubeEmbedUrl,
+    isNew: false,
+  },
+  {
+    title: hope.title,
+    release: hope.release,
+    jacketComponent: TbtHopeJacketImg,
+    displayCredit: hope.displayCredit,
+    tracks: hope.tracks,
+    youtubeEmbedUrl: hope.youtubeEmbedUrl,
+    isNew: false,
+  },
+]
 </script>
 
 <template>
   <div class="disco">
     <tbt-h-1>DISCOGRAPHY</tbt-h-1>
-    <tbt-section>
+    <tbt-section v-for="(album, index) in albums" :key="index">
       <tbt-h-2 class="album-title">
-        {{ libreate.title }}
-        <tbt-new-blink />
+        {{ album.title }}
+        <tbt-new-blink v-if="album.isNew" />
       </tbt-h-2>
       <p class="on-sale">
-        <tbt-blink>{{ rising.release }} ON SALE!</tbt-blink>
+        <tbt-blink>{{ album.release }} ON SALE!</tbt-blink>
       </p>
-      <tbt-liberate-jacket-img class="jacket" />
+      <album.jacketComponent class="jacket" />
       <tbt-disco-table
-        :display-credit="libreate.displayCredit"
-        :tracks="libreate.tracks"
-      >
-      </tbt-disco-table>
-      <tbt-youtube-embedded
-        class="cross-fade"
-        :youtube-embed-url="libreate.youtubeEmbedUrl"
+        :display-credit="album.displayCredit"
+        :tracks="album.tracks"
       />
-    </tbt-section>
-    <hr />
-    <tbt-section>
-      <tbt-h-2 class="album-title">
-        {{ rising.title }}
-      </tbt-h-2>
-      <p class="on-sale">
-        <tbt-blink>{{ rising.release }} ON SALE!</tbt-blink>
-      </p>
-      <tbt-rising-jacket-img class="jacket" />
-      <tbt-disco-table
-        :display-credit="rising.displayCredit"
-        :tracks="rising.tracks"
-      >
-      </tbt-disco-table>
       <tbt-youtube-embedded
         class="cross-fade"
-        :youtube-embed-url="rising.youtubeEmbedUrl"
-      />
-    </tbt-section>
-    <hr />
-    <tbt-section>
-      <tbt-h-2 class="album-title">{{ battle.title }}</tbt-h-2>
-      <p class="on-sale">
-        <tbt-blink>{{ battle.release }} ON SALE！</tbt-blink>
-      </p>
-      <tbt-battle-jacket-img class="jacket" />
-      <tbt-disco-table
-        :display-credit="battle.displayCredit"
-        :tracks="battle.tracks"
-      >
-      </tbt-disco-table>
-      <tbt-youtube-embedded
-        class="cross-fade"
-        :youtube-embed-url="battle.youtubeEmbedUrl"
-      />
-    </tbt-section>
-    <hr />
-    <tbt-section>
-      <tbt-h-2 class="album-title">{{ recycle.title }}</tbt-h-2>
-      <p class="on-sale">
-        <tbt-blink>{{ recycle.release }} ON SALE！</tbt-blink>
-      </p>
-      <tbt-recycle-jacket-img class="jacket" />
-      <tbt-disco-table
-        :display-credit="recycle.displayCredit"
-        :tracks="recycle.tracks"
-      >
-      </tbt-disco-table>
-      <tbt-youtube-embedded
-        class="cross-fade"
-        :youtube-embed-url="recycle.youtubeEmbedUrl"
-      />
-    </tbt-section>
-    <hr />
-    <tbt-section>
-      <tbt-h-2 class="album-title">{{ ma_start.title }}</tbt-h-2>
-      <p class="on-sale">
-        <tbt-blink>{{ ma_start.release }} ON SALE！</tbt-blink>
-      </p>
-      <tbt-start-jacket-img class="jacket" />
-      <tbt-disco-table
-        :display-credit="ma_start.displayCredit"
-        :tracks="ma_start.tracks"
-      >
-      </tbt-disco-table>
-      <tbt-youtube-embedded
-        class="cross-fade"
-        :youtube-embed-url="ma_start.youtubeEmbedUrl"
-      />
-    </tbt-section>
-    <hr />
-    <tbt-section>
-      <tbt-h-2 class="album-title">{{ hope.title }}</tbt-h-2>
-      <p class="on-sale">
-        <tbt-blink>{{ hope.release }} ON SALE！</tbt-blink>
-      </p>
-      <tbt-hope-jacket-img class="jacket" />
-      <tbt-disco-table
-        :display-credit="hope.displayCredit"
-        :tracks="hope.tracks"
-      >
-      </tbt-disco-table>
-      <tbt-youtube-embedded
-        class="cross-fade"
-        :youtube-embed-url="hope.youtubeEmbedUrl"
+        :youtube-embed-url="album.youtubeEmbedUrl"
       />
     </tbt-section>
   </div>
