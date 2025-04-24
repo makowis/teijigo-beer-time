@@ -21,7 +21,7 @@ import {
   libreate,
 } from '@/resources/discos'
 
-const albums = [
+const discos = [
   {
     title: libreate.title,
     release: rising.release,
@@ -82,24 +82,27 @@ const albums = [
 <template>
   <div class="disco">
     <tbt-h-1>DISCOGRAPHY</tbt-h-1>
-    <tbt-section v-for="(album, index) in albums" :key="index">
-      <tbt-h-2 class="album-title">
-        {{ album.title }}
-        <tbt-new-blink v-if="album.isNew" />
-      </tbt-h-2>
-      <p class="on-sale">
-        <tbt-blink>{{ album.release }} ON SALE!</tbt-blink>
-      </p>
-      <album.jacketComponent class="jacket" />
-      <tbt-disco-table
-        :display-credit="album.displayCredit"
-        :tracks="album.tracks"
-      />
-      <tbt-youtube-embedded
-        class="cross-fade"
-        :youtube-embed-url="album.youtubeEmbedUrl"
-      />
-    </tbt-section>
+    <template v-for="(disco, index) in discos" :key="index">
+      <tbt-section>
+        <tbt-h-2 class="album-title">
+          {{ disco.title }}
+          <tbt-new-blink v-if="disco.isNew" />
+        </tbt-h-2>
+        <p class="on-sale">
+          <tbt-blink>{{ disco.release }} ON SALE!</tbt-blink>
+        </p>
+        <component :is="disco.jacketComponent" class="jacket" />
+        <tbt-disco-table
+          :display-credit="disco.displayCredit"
+          :tracks="disco.tracks"
+        />
+        <tbt-youtube-embedded
+          class="cross-fade"
+          :youtube-embed-url="disco.youtubeEmbedUrl"
+        />
+      </tbt-section>
+      <hr v-if="index < discos.length - 1" />
+    </template>
   </div>
 </template>
 

@@ -14,6 +14,8 @@ exports[`beenya.vue > should match the snapshot 1`] = `
     DISCOGRAPHY
     
   </h1>
+  
+  
   <section
     class="section"
     data-v-449c662a=""
@@ -210,6 +212,8 @@ exports[`beenya.vue > should match the snapshot 1`] = `
   <hr
     data-v-aede1851=""
   />
+  
+  
   <section
     class="section"
     data-v-449c662a=""
@@ -222,7 +226,8 @@ exports[`beenya.vue > should match the snapshot 1`] = `
       data-v-aede1851=""
     >
       
-      5th Mini Album 「RISING」
+      5th Mini Album 「RISING」 
+      <!--v-if-->
       
     </h2>
     <p
@@ -418,6 +423,8 @@ exports[`beenya.vue > should match the snapshot 1`] = `
   <hr
     data-v-aede1851=""
   />
+  
+  
   <section
     class="section"
     data-v-449c662a=""
@@ -430,7 +437,8 @@ exports[`beenya.vue > should match the snapshot 1`] = `
       data-v-aede1851=""
     >
       
-      4th Mini Album 「BATTLE」
+      4th Mini Album 「BATTLE」 
+      <!--v-if-->
       
     </h2>
     <p
@@ -443,7 +451,7 @@ exports[`beenya.vue > should match the snapshot 1`] = `
         data-v-aede1851=""
       >
         
-        2021.4.25 ON SALE！
+        2021.4.25 ON SALE!
         
       </span>
     </p>
@@ -618,6 +626,8 @@ exports[`beenya.vue > should match the snapshot 1`] = `
   <hr
     data-v-aede1851=""
   />
+  
+  
   <section
     class="section"
     data-v-449c662a=""
@@ -630,7 +640,8 @@ exports[`beenya.vue > should match the snapshot 1`] = `
       data-v-aede1851=""
     >
       
-      3nd Mini Album 「RECYCLE」
+      3nd Mini Album 「RECYCLE」 
+      <!--v-if-->
       
     </h2>
     <p
@@ -643,7 +654,7 @@ exports[`beenya.vue > should match the snapshot 1`] = `
         data-v-aede1851=""
       >
         
-        2019.10.27 ON SALE！
+        2019.10.27 ON SALE!
         
       </span>
     </p>
@@ -826,6 +837,8 @@ exports[`beenya.vue > should match the snapshot 1`] = `
   <hr
     data-v-aede1851=""
   />
+  
+  
   <section
     class="section"
     data-v-449c662a=""
@@ -838,7 +851,8 @@ exports[`beenya.vue > should match the snapshot 1`] = `
       data-v-aede1851=""
     >
       
-      2nd Mini Album 「START」
+      2nd Mini Album 「START」 
+      <!--v-if-->
       
     </h2>
     <p
@@ -851,7 +865,7 @@ exports[`beenya.vue > should match the snapshot 1`] = `
         data-v-aede1851=""
       >
         
-        2019.04.27 ON SALE！
+        2019.04.27 ON SALE!
         
       </span>
     </p>
@@ -1050,6 +1064,8 @@ exports[`beenya.vue > should match the snapshot 1`] = `
   <hr
     data-v-aede1851=""
   />
+  
+  
   <section
     class="section"
     data-v-449c662a=""
@@ -1062,7 +1078,8 @@ exports[`beenya.vue > should match the snapshot 1`] = `
       data-v-aede1851=""
     >
       
-      1st Mini Album「HOPE」
+      1st Mini Album「HOPE」 
+      <!--v-if-->
       
     </h2>
     <p
@@ -1075,7 +1092,7 @@ exports[`beenya.vue > should match the snapshot 1`] = `
         data-v-aede1851=""
       >
         
-        2018.10.28 ON SALE！
+        2018.10.28 ON SALE!
         
       </span>
     </p>
@@ -1271,5 +1288,8 @@ exports[`beenya.vue > should match the snapshot 1`] = `
     </div>
     
   </section>
+  <!--v-if-->
+  
+  
 </div>
 `;
