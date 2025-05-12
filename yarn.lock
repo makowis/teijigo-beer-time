@@ -9867,7 +9867,7 @@ __metadata:
     stylelint-config-recommended-vue: "npm:^1.6.0"
     stylelint-config-standard: "npm:^38.0.0"
     typescript: "npm:^5.8.3"
-    vite: "npm:^6.3.3"
+    vite: "npm:^6.3.5"
     vitest: "npm:3.1.2"
     vue: "npm:3.5.13"
     vue-router: "npm:^4.5.0"
@@ -13543,7 +13543,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^6.2.1, vite@npm:^6.3.3":
+"vite@npm:^6.2.1":
   version: 6.3.3
   resolution: "vite@npm:6.3.3"
   dependencies:
@@ -13647,6 +13647,61 @@ __metadata:
   bin:
     vite: bin/vite.js
   checksum: 10c0/226bb3c1875e1982559007007580e8d083b81f5289f18e28841d622ba030599e1bd9926adccc8264879e319e9f9e4f48a38a0dc52a5dfcdf2a9cb7313bfc1816
+  languageName: node
+  linkType: hard
+
+"vite@npm:^6.3.5":
+  version: 6.3.5
+  resolution: "vite@npm:6.3.5"
+  dependencies:
+    esbuild: "npm:^0.25.0"
+    fdir: "npm:^6.4.4"
+    fsevents: "npm:~2.3.3"
+    picomatch: "npm:^4.0.2"
+    postcss: "npm:^8.5.3"
+    rollup: "npm:^4.34.9"
+    tinyglobby: "npm:^0.2.13"
+  peerDependencies:
+    "@types/node": ^18.0.0 || ^20.0.0 || >=22.0.0
+    jiti: ">=1.21.0"
+    less: "*"
+    lightningcss: ^1.21.0
+    sass: "*"
+    sass-embedded: "*"
+    stylus: "*"
+    sugarss: "*"
+    terser: ^5.16.0
+    tsx: ^4.8.1
+    yaml: ^2.4.2
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  peerDependenciesMeta:
+    "@types/node":
+      optional: true
+    jiti:
+      optional: true
+    less:
+      optional: true
+    lightningcss:
+      optional: true
+    sass:
+      optional: true
+    sass-embedded:
+      optional: true
+    stylus:
+      optional: true
+    sugarss:
+      optional: true
+    terser:
+      optional: true
+    tsx:
+      optional: true
+    yaml:
+      optional: true
+  bin:
+    vite: bin/vite.js
+  checksum: 10c0/df70201659085133abffc6b88dcdb8a57ef35f742a01311fc56a4cfcda6a404202860729cc65a2c401a724f6e25f9ab40ce4339ed4946f550541531ced6fe41c
   languageName: node
   linkType: hard
 
