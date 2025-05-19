@@ -9905,7 +9905,7 @@ __metadata:
     vite: "npm:^6.3.4"
     vitest: "npm:3.1.2"
     vue: "npm:3.5.13"
-    vue-router: "npm:^4.5.0"
+    vue-router: "npm:^4.5.1"
   languageName: unknown
   linkType: soft
 
@@ -13831,17 +13831,6 @@ __metadata:
   peerDependencies:
     eslint: ^8.57.0 || ^9.0.0
   checksum: 10c0/b4a045113966a90d0b8248a9e9eb67db65e654335cedab5d8a2dd01e0d4f1d95caf4135fe9d6a2739cc8cef1ff6f4da9457ea7ba118176d5a5b6a22862661f58
-  languageName: node
-  linkType: hard
-
-"vue-router@npm:^4.5.0":
-  version: 4.5.0
-  resolution: "vue-router@npm:4.5.0"
-  dependencies:
-    "@vue/devtools-api": "npm:^6.6.4"
-  peerDependencies:
-    vue: ^3.2.0
-  checksum: 10c0/5521c8d0ab7634ea75118824d4b4cae3748964725b3d3b4064eb3dbd44013381ea3163d4d856af61655936cd897b84f8eeebb312d0668532c3074d53814bd953
   languageName: node
   linkType: hard
 
