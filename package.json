@@ -28,7 +28,7 @@
     "@vitest/coverage-v8": "^3.1.2",
     "@vue/compiler-sfc": "^3.5.13",
     "@vue/test-utils": "^2.4.6",
-    "eslint": "^9.25.1",
+    "eslint": "^9.27.0",
     "eslint-config-prettier": "^10.1.2",
     "h3": "^1.15.3",
     "jsdom": "^26.1.0",
