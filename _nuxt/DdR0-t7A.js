@@ -1,0 +1,1 @@
+import{_ as c,c as s,o as t,m as o}from"./CznGYFgv.js";const n={},r={class:"h1"};function a(e,_){return t(),s("h1",r,[o(e.$slots,"default",{},void 0,!0)])}const f=c(n,[["render",a],["__scopeId","data-v-cc902377"]]);export{f as T};
