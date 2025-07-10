@@ -21,9 +21,7 @@ import TbtBeenyaLink from '@/components/atoms/TbtBeenyaLink.vue'
         <tbt-beenya-link> びーにゃの部屋 </tbt-beenya-link>
       </li>
       <li class="menu-item">
-        <a href="https://teijigo.booth.pm/items/1093403" target="_blank">
-          通販(BOOTH)
-        </a>
+        <a href="https://teijigo.booth.pm/" target="_blank"> 通販(BOOTH) </a>
       </li>
     </ul>
   </nav>
