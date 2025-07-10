@@ -23,5 +23,8 @@ yarn test
 yarn lint
 
 # lintの問題を解決
-yarn lint
+yarn lint:fix
+
+# ライブラリアップデート
+yarn upgrade-interactive
 ```
