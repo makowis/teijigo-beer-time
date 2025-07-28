@@ -3248,12 +3248,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^24.0.12":
-  version: 24.0.12
-  resolution: "@types/node@npm:24.0.12"
+"@types/node@npm:^24.1.0":
+  version: 24.1.0
+  resolution: "@types/node@npm:24.1.0"
   dependencies:
     undici-types: "npm:~7.8.0"
-  checksum: 10c0/333777c3416b758bbdb72a09e9db5599ff7789dca519d3fcf8150a1c56c79d808e0009e92d52016e80033b3c52724def08aad2c5b396e28f00dbdfe40a1756a4
+  checksum: 10c0/6c4686bc144f6ce7bffd4cadc3e1196e2217c1da4c639c637213719c8a3ee58b6c596b994befcbffeacd9d9eb0c3bff6529d2bc27da5d1cb9d58b1da0056f9f4
   languageName: node
   linkType: hard
 
@@ -9439,7 +9439,7 @@ __metadata:
     "@nuxt/devtools": "npm:^2.6.2"
     "@nuxt/eslint": "npm:^1.5.2"
     "@nuxt/test-utils": "npm:^3.19.2"
-    "@types/node": "npm:^24.0.12"
+    "@types/node": "npm:^24.1.0"
     "@vitejs/plugin-vue": "npm:^6.0.0"
     "@vitest/coverage-v8": "npm:^3.2.4"
     "@vue/compiler-sfc": "npm:^3.5.17"
