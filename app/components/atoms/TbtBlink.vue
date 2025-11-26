@@ -1,6 +1,6 @@
 <template>
   <span class="blink">
-    <slot />
+    <slot></slot>
   </span>
 </template>
 

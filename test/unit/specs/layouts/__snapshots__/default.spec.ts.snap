@@ -6,19 +6,19 @@ exports[`index.vue > should match the snapshot 1`] = `
 >
   <nav
     class="menu-container"
-    data-v-dac04fc6=""
+    data-v-28c0de1b=""
     id="menu-container"
   >
     <ul
       class="menu"
-      data-v-dac04fc6=""
+      data-v-28c0de1b=""
     >
       <li
         class="menu-item"
-        data-v-dac04fc6=""
+        data-v-28c0de1b=""
       >
         <a
-          data-v-dac04fc6=""
+          data-v-28c0de1b=""
         >
           
            トップ 
@@ -27,10 +27,10 @@ exports[`index.vue > should match the snapshot 1`] = `
       </li>
       <li
         class="menu-item"
-        data-v-dac04fc6=""
+        data-v-28c0de1b=""
       >
         <a
-          data-v-dac04fc6=""
+          data-v-28c0de1b=""
         >
           
            DISCOGRAPHY 
@@ -39,10 +39,10 @@ exports[`index.vue > should match the snapshot 1`] = `
       </li>
       <li
         class="menu-item"
-        data-v-dac04fc6=""
+        data-v-28c0de1b=""
       >
         <a
-          data-v-dac04fc6=""
+          data-v-28c0de1b=""
         >
           
            メンバー紹介 
@@ -51,10 +51,10 @@ exports[`index.vue > should match the snapshot 1`] = `
       </li>
       <li
         class="menu-item"
-        data-v-dac04fc6=""
+        data-v-28c0de1b=""
       >
         <a
-          data-v-dac04fc6=""
+          data-v-28c0de1b=""
         >
           
            びーにゃの部屋 
@@ -63,10 +63,10 @@ exports[`index.vue > should match the snapshot 1`] = `
       </li>
       <li
         class="menu-item"
-        data-v-dac04fc6=""
+        data-v-28c0de1b=""
       >
         <a
-          data-v-dac04fc6=""
+          data-v-28c0de1b=""
           href="https://teijigo.booth.pm/"
           target="_blank"
         >
@@ -77,18 +77,18 @@ exports[`index.vue > should match the snapshot 1`] = `
   </nav>
   <div
     class="main-container"
-    data-v-f32d09b1=""
+    data-v-af982278=""
     id="main-container"
   >
     <a
-      data-v-f32d09b1=""
+      data-v-af982278=""
     >
       
       <img
         class="logo"
-        data-v-abc21762=""
-        data-v-f32d09b1=""
-        src="/assets/logo_1.png"
+        data-v-7b6f3805=""
+        data-v-af982278=""
+        src="/app/assets/logo_1.png"
       />
       
     </a>
@@ -97,10 +97,10 @@ exports[`index.vue > should match the snapshot 1`] = `
     
     <footer
       class="footer"
-      data-v-b680f940=""
+      data-v-3f845372=""
     >
       <p
-        data-v-b680f940=""
+        data-v-3f845372=""
       >
         ©定時後ビールタイム
       </p>

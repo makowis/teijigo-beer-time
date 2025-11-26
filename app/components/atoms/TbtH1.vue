@@ -1,11 +1,11 @@
 <template>
-  <h3 class="h3">
-    <slot />
-  </h3>
+  <h1 class="h1">
+    <slot></slot>
+  </h1>
 </template>
 
 <style scoped>
-.h3 {
+.h1 {
   font-weight: normal;
 }
 </style>

@@ -8,7 +8,7 @@ import TbtFooter from '@/components/organisms/TbtFooter.vue'
   <div id="app">
     <tbt-menu />
     <tbt-main>
-      <slot />
+      <slot></slot>
       <tbt-footer />
     </tbt-main>
   </div>

@@ -6,12 +6,12 @@ exports[`index.vue > should match the snapshot 1`] = `
 >
   <h1
     class="h1"
-    data-v-700e39a7=""
+    data-v-887c42ec=""
   >
     
     <span
       class="blink"
-      data-v-119b1dde=""
+      data-v-a6dd56fd=""
     >
       
       定時後ビールタイム公式サイト
@@ -22,7 +22,7 @@ exports[`index.vue > should match the snapshot 1`] = `
   <p>
     <span
       class="blink"
-      data-v-119b1dde=""
+      data-v-a6dd56fd=""
     >
       
       🎉🎉🎉🎉🎉🎉🎉M3-2024秋参戦決定！🎉🎉🎉🎉🎉🎉
@@ -31,11 +31,11 @@ exports[`index.vue > should match the snapshot 1`] = `
   </p>
   <div
     class="marquee"
-    data-v-3e2741bf=""
+    data-v-13e183a9=""
   >
     <div
       class="marquee-inner"
-      data-v-3e2741bf=""
+      data-v-13e183a9=""
     >
       
        ＼奇跡の2年連続参戦！／ M3-2024秋に参戦！ 
@@ -44,12 +44,12 @@ exports[`index.vue > should match the snapshot 1`] = `
   </div>
   <section
     class="section"
-    data-v-449c662a=""
+    data-v-7768f48d=""
   >
     
     <h2
       class="h2"
-      data-v-ad5d9b6c=""
+      data-v-3117fb04=""
     >
       
       アクセスカウンター
@@ -62,14 +62,14 @@ exports[`index.vue > should match the snapshot 1`] = `
   </section>
   <section
     class="section"
-    data-v-449c662a=""
-    data-v-af1e61d6=""
+    data-v-6e41aa24=""
+    data-v-7768f48d=""
   >
     
     <h2
       class="h2"
-      data-v-ad5d9b6c=""
-      data-v-af1e61d6=""
+      data-v-3117fb04=""
+      data-v-6e41aa24=""
     >
       
       News
@@ -77,16 +77,16 @@ exports[`index.vue > should match the snapshot 1`] = `
     </h2>
     <ul
       class="news-list"
-      data-v-af1e61d6=""
+      data-v-6e41aa24=""
     >
       <li
-        data-v-af1e61d6=""
+        data-v-6e41aa24=""
       >
         <span
           class="blink news-blink"
-          data-v-119b1dde=""
-          data-v-a37dc815=""
-          data-v-af1e61d6=""
+          data-v-6e41aa24=""
+          data-v-9912abab=""
+          data-v-a6dd56fd=""
         >
           
           NEW
@@ -95,10 +95,10 @@ exports[`index.vue > should match the snapshot 1`] = `
          M3-2023秋に参戦に参加予定です！ 
       </li>
       <li
-        data-v-af1e61d6=""
+        data-v-6e41aa24=""
       >
         <a
-          data-v-af1e61d6=""
+          data-v-6e41aa24=""
           href="https://twitter.com/tbt_cf"
         >
           公式Twitterアカウント
@@ -107,20 +107,20 @@ exports[`index.vue > should match the snapshot 1`] = `
       </li>
     </ul>
     <p
-      data-v-af1e61d6=""
+      data-v-6e41aa24=""
     />
     
   </section>
   <section
     class="section"
-    data-v-449c662a=""
-    data-v-53a1cf47=""
+    data-v-641101f2=""
+    data-v-7768f48d=""
   >
     
     <h2
       class="h2"
-      data-v-53a1cf47=""
-      data-v-ad5d9b6c=""
+      data-v-3117fb04=""
+      data-v-641101f2=""
     >
       
       サークルカット
@@ -129,21 +129,21 @@ exports[`index.vue > should match the snapshot 1`] = `
     <img
       alt="サークルカット"
       class="circle-cut"
-      data-v-53a1cf47=""
-      src="/assets/cut.png"
+      data-v-641101f2=""
+      src="/app/assets/cut.png"
     />
     
   </section>
   <section
     class="section"
-    data-v-0e36659f=""
-    data-v-449c662a=""
+    data-v-1edda32e=""
+    data-v-7768f48d=""
   >
     
     <h2
       class="h2"
-      data-v-0e36659f=""
-      data-v-ad5d9b6c=""
+      data-v-1edda32e=""
+      data-v-3117fb04=""
     >
       
       M3-2024秋スペース配置
@@ -152,49 +152,49 @@ exports[`index.vue > should match the snapshot 1`] = `
     <table
       border="1"
       class="space-table"
-      data-v-0e36659f=""
+      data-v-1edda32e=""
     >
       <tbody
-        data-v-0e36659f=""
+        data-v-1edda32e=""
       >
         <tr
-          data-v-0e36659f=""
+          data-v-1edda32e=""
         >
           <th
-            data-v-0e36659f=""
+            data-v-1edda32e=""
           >
             サークル名
           </th>
           <td
-            data-v-0e36659f=""
+            data-v-1edda32e=""
           >
             定時後ビールタイム
           </td>
         </tr>
         <tr
-          data-v-0e36659f=""
+          data-v-1edda32e=""
         >
           <th
-            data-v-0e36659f=""
+            data-v-1edda32e=""
           >
             配置場所
           </th>
           <td
-            data-v-0e36659f=""
+            data-v-1edda32e=""
           >
             リアルイベントスペース
           </td>
         </tr>
         <tr
-          data-v-0e36659f=""
+          data-v-1edda32e=""
         >
           <th
-            data-v-0e36659f=""
+            data-v-1edda32e=""
           >
             スペース番号
           </th>
           <td
-            data-v-0e36659f=""
+            data-v-1edda32e=""
           >
             第二展示場2階 シ-07a
           </td>
@@ -203,26 +203,26 @@ exports[`index.vue > should match the snapshot 1`] = `
     </table>
     <section
       class="section"
-      data-v-0e36659f=""
-      data-v-449c662a=""
+      data-v-1edda32e=""
+      data-v-7768f48d=""
     >
       
       <h3
         class="h3"
-        data-v-0e36659f=""
-        data-v-d18466b7=""
+        data-v-1edda32e=""
+        data-v-aa0e9692=""
       >
         
         M3-2023秋
         
       </h3>
       <p
-        data-v-0e36659f=""
+        data-v-1edda32e=""
       >
         日時：2024年10月27日(日)
       </p>
       <a
-        data-v-0e36659f=""
+        data-v-1edda32e=""
         href="http://www.m3net.jp/"
       >
         M3公式サイト
@@ -231,14 +231,14 @@ exports[`index.vue > should match the snapshot 1`] = `
     </section>
     <section
       class="section"
-      data-v-0e36659f=""
-      data-v-449c662a=""
+      data-v-1edda32e=""
+      data-v-7768f48d=""
     >
       
       <h3
         class="h3"
-        data-v-0e36659f=""
-        data-v-d18466b7=""
+        data-v-1edda32e=""
+        data-v-aa0e9692=""
       >
         
         頒布CDクロスフェード
@@ -246,13 +246,13 @@ exports[`index.vue > should match the snapshot 1`] = `
       </h3>
       <div
         class="video cross-fade"
-        data-v-0e36659f=""
-        data-v-7b99f38e=""
+        data-v-1edda32e=""
+        data-v-e29cb6b7=""
       >
         <iframe
           allow="autoplay; encrypted-media"
           allowfullscreen=""
-          data-v-7b99f38e=""
+          data-v-e29cb6b7=""
           frameborder="0"
           height="315"
           src="https://www.youtube.com/embed/_ilOox8tQLU?si=vd2RgtYa-roJTja1"
@@ -265,12 +265,12 @@ exports[`index.vue > should match the snapshot 1`] = `
   </section>
   <section
     class="section"
-    data-v-449c662a=""
+    data-v-7768f48d=""
   >
     
     <h2
       class="h2"
-      data-v-ad5d9b6c=""
+      data-v-3117fb04=""
     >
       
       連絡先
@@ -289,12 +289,12 @@ exports[`index.vue > should match the snapshot 1`] = `
   </section>
   <section
     class="section"
-    data-v-449c662a=""
+    data-v-7768f48d=""
   >
     
     <h2
       class="h2"
-      data-v-ad5d9b6c=""
+      data-v-3117fb04=""
     >
       
       メニュー

@@ -1,5 +1,5 @@
 <template>
   <NuxtLink to="/member">
-    <slot />
+    <slot></slot>
   </NuxtLink>
 </template>
