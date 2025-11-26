@@ -14,9 +14,6 @@
         "esbenp.prettier-vscode",
         "stylelint.vscode-stylelint",
         "EditorConfig.EditorConfig",
-        "formulahendry.auto-rename-tag",
-        "christian-kohler.path-intellisense",
-        "streetsidesoftware.code-spell-checker",
         "GitHub.copilot"
       ],
       "settings": {
