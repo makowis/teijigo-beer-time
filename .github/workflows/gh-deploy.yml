@@ -14,7 +14,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node: [22]
+        node: [24]
 
     # 呼び元のworkflowの結果がsuccessであればmain jobを実行
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
