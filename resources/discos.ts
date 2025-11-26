@@ -1,4 +1,15 @@
-type HTML = string
+/**
+ * HTMLマークアップを含む文字列を表すブランドタイプ
+ * 通常のstringとは区別され、HTMLとして意図された文字列のみを受け入れる
+ */
+export type HTML = string & { readonly __brand: 'HTML' }
+
+/**
+ * 文字列をHTML型に変換するヘルパー関数
+ * @param value - HTML文字列
+ * @returns HTML型の文字列
+ */
+export const html = (value: string): HTML => value as HTML
 
 export interface Disco {
   title: string // アルバム名
@@ -26,25 +37,25 @@ export const libreate: Disco = {
       no: 1,
       name: '遮断機の向こう側',
       artist: 'comorebi notes',
-      credit: `作詞・作曲：comorebi notes
+      credit: html(`作詞・作曲：comorebi notes
                <br />
-               歌：AIきりたん (NEUTRINO)`,
+               歌：AIきりたん (NEUTRINO)`),
     },
     {
       no: 2,
       name: 'きのこ生活',
       artist: 'hayu',
-      credit: `作詞・作曲：hayu
+      credit: html(`作詞・作曲：hayu
                <br />
-               歌：Synthesizer V AI Megpoid`,
+               歌：Synthesizer V AI Megpoid`),
     },
     {
       no: 3,
       name: '秋空',
       artist: 'ビール飲まない社員K',
-      credit: `作詞・作曲：ビール飲まない社員K
+      credit: html(`作詞・作曲：ビール飲まない社員K
                <br />
-               歌：MYK-IV (VoiSona)`,
+               歌：MYK-IV (VoiSona)`),
     },
   ],
 }
@@ -65,23 +76,23 @@ export const rising: Disco = {
       no: 2,
       name: 'たまご生活',
       artist: 'hayu',
-      credit: '作曲：hayu',
+      credit: html('作曲：hayu'),
     },
     {
       no: 3,
       name: 'Game is...',
       artist: 'ビール飲まない社員K',
-      credit: `作詞・作曲：ビール飲まない社員K
+      credit: html(`作詞・作曲：ビール飲まない社員K
                <br />
-               歌：知声、MYK-IV (VoiSona)`,
+               歌：知声、MYK-IV (VoiSona)`),
     },
     {
       no: 4,
       name: 'はじまりのうた',
       artist: 'comorebi notes',
-      credit: `作詞・作曲：comorebi notes
+      credit: html(`作詞・作曲：comorebi notes
                <br />
-               歌：花隈千冬 (Synthesizer V Al)`,
+               歌：花隈千冬 (Synthesizer V Al)`),
     },
   ],
 }
@@ -102,19 +113,19 @@ export const battle: Disco = {
       no: 2,
       name: 'ノラネコ大戦争',
       artist: 'u13',
-      credit: '作曲：u13',
+      credit: html('作曲：u13'),
     },
     {
       no: 3,
       name: 'anatra falcata',
       artist: 'comorebi notes',
-      credit: '作曲：comorebi notes',
+      credit: html('作曲：comorebi notes'),
     },
     {
       no: 4,
       name: '旋風',
       artist: 'ビール飲まない社員K',
-      credit: `作曲：ビール飲まない社員K`,
+      credit: html(`作曲：ビール飲まない社員K`),
     },
   ],
 }
@@ -129,29 +140,29 @@ export const recycle: Disco = {
       no: 1,
       name: 'paellero',
       artist: 'comorebi notes',
-      credit: '作詞・作曲・歌：comorebi notes',
+      credit: html('作詞・作曲・歌：comorebi notes'),
     },
     {
       no: 2,
       name: 'Carry on',
       artist: 'マッキー',
-      credit: `作詞・作曲：マッキー
+      credit: html(`作詞・作曲：マッキー
                <br />
-               歌：マッキー feat. IA`,
+               歌：マッキー feat. IA`),
     },
     {
       no: 3,
       name: '大都会フォーエバー',
       artist: 'comorebi notes',
-      credit: `作詞・作曲：comorebi notes
+      credit: html(`作詞・作曲：comorebi notes
                <br />
-               歌：IA`,
+               歌：IA`),
     },
     {
       no: 4,
       name: 'tanabatight',
       artist: 'u13',
-      credit: `作曲：u13`,
+      credit: html(`作曲：u13`),
     },
   ],
 }
@@ -166,33 +177,33 @@ export const ma_start: Disco = {
       no: 1,
       name: '桜風狂想',
       artist: 'Pecan nene.',
-      credit: `作曲：ビール飲まない社員K<br />
+      credit: html(`作曲：ビール飲まない社員K<br />
                作詞：ビール飲まない社員K、みーやん<br />
-               歌：みーやん`,
+               歌：みーやん`),
     },
     {
       no: 2,
       name: '未来ヒーロー',
       artist: 'マッキー',
-      credit: `作詞・作曲：マッキー<br />
-               歌：IA`,
+      credit: html(`作詞・作曲：マッキー<br />
+               歌：IA`),
     },
     {
       no: 3,
       name: 'ストロボサイン',
       artist: 'tan3-16',
-      credit: `作詞・作曲：u13<br />
+      credit: html(`作詞・作曲：u13<br />
                編曲：comorebi notes<br />
-               歌：フナモトアユミ`,
+               歌：フナモトアユミ`),
     },
     {
       no: 4,
       name: '桜花',
       artist: '珍珠奶茶',
-      credit: `企画：WestTail<br />
+      credit: html(`企画：WestTail<br />
                作曲：comorebi notes<br />
                作詞：台湾豆乳を飲む人<br />
-               歌：Shiho (the Clock Hands)`,
+               歌：Shiho (the Clock Hands)`),
     },
   ],
 }
