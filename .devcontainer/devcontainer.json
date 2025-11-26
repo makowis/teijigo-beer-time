@@ -13,7 +13,6 @@
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
         "stylelint.vscode-stylelint",
-        "bradlc.vscode-tailwindcss",
         "EditorConfig.EditorConfig",
         "formulahendry.auto-rename-tag",
         "christian-kohler.path-intellisense",
