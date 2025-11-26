@@ -1,0 +1,87 @@
+# Cursor Rules for teijigo-beer-time
+
+## Project Overview
+
+This is a music circle "定時後ビールタイム" (Teijigo Beer Time) official website.
+It intentionally uses a retro 90s-style homepage design.
+
+## Tech Stack
+
+- Nuxt 4 + Vue 3 (Composition API with `<script setup>`)
+- TypeScript
+- Yarn 4 (Berry) - use `corepack enable` to activate
+- Node.js 24.x (Active LTS)
+- Vitest + Vue Test Utils for testing
+- ESLint 9 (Flat Config) + Stylelint + Prettier
+
+## Code Style
+
+### Vue Components
+
+- ALWAYS use `<script setup lang="ts">`
+- Block order: `<script>` → `<template>` → `<style>`
+- Component names in templates: kebab-case (`<tbt-h1>`)
+- Use `<style scoped>`
+- All components must have `Tbt` prefix (e.g., `TbtBlink.vue`)
+
+### Example Component
+
+```vue
+<script setup lang="ts">
+defineProps<{
+  title: string
+}>()
+</script>
+
+<template>
+  <div class="my-component">
+    <slot></slot>
+  </div>
+</template>
+
+<style scoped>
+.my-component {
+  /* styles */
+}
+</style>
+```
+
+### TypeScript
+
+- Avoid `any` type
+- Prefix unused variables with `_`
+- Leverage type inference
+
+### CSS
+
+- Class names: kebab-case
+- No `!important`
+- No vendor prefixes (autoprefixer handles it)
+- Max nesting depth: 5
+
+## Directory Structure
+
+```
+app/
+├── components/
+│   ├── atoms/       # Smallest components (Tbt prefix)
+│   └── organisms/   # Composite components
+├── pages/           # File-based routing
+├── layouts/         # Layout components
+└── resources/       # Static data
+```
+
+## Commands
+
+```bash
+yarn dev        # Dev server
+yarn test       # Run tests
+yarn lint       # Lint check
+yarn lint:fix   # Auto-fix lint issues
+```
+
+## Important Notes
+
+- Retro design (blink, marquee effects) is INTENTIONAL
+- No UI libraries (Tailwind, Vuetify, etc.)
+- Static site deployed to GitHub Pages
