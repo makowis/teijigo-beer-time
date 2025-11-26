@@ -1,4 +1,4 @@
-import{T as r}from"./B30yIuVk.js";import{e as s,c as a,b as l,a as e,w as c,F as i,r as m,j as p,o,d as f,t as h,_ as u}from"./BNO7KsKI.js";const d={name:"さかもとP",charge:"なばかりプロデューサー兼テイジゴビールタイマー",profile:"ビール大好き！！！！！！"},_={name:"ビール飲まない社員K",charge:`人の褌や自分の褌で相撲を取ったりする
+import{T as r}from"./6p_xmSzz.js";import{e as s,c as a,b as l,a as e,w as c,F as i,r as m,j as p,o,d as f,t as h,_ as u}from"./lEproUDG.js";const d={name:"さかもとP",charge:"なばかりプロデューサー兼テイジゴビールタイマー",profile:"ビール大好き！！！！！！"},_={name:"ビール飲まない社員K",charge:`人の褌や自分の褌で相撲を取ったりする
 <br>
 （主にトラックメーカー）`,profile:`ビールじゃなくてハイボールなら飲みます。
 <br>
