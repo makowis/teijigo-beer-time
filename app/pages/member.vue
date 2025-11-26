@@ -9,9 +9,9 @@ import TbtH1 from '@/components/atoms/TbtH1.vue'
     <table class="member-table">
       <thead>
         <tr>
-          <th>名前</th>
-          <th>担当</th>
-          <th>自己紹介</th>
+          <th scope="col">名前</th>
+          <th scope="col">担当</th>
+          <th scope="col">自己紹介</th>
         </tr>
       </thead>
       <tbody>

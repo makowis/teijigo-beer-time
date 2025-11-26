@@ -33,9 +33,9 @@ describe('TbtNewsSection.vue', () => {
     expect(newBlink.text()).toBe('NEW')
   })
 
-  it('should render Twitter link', () => {
-    const twitterLink = wrapper.find('a[href="https://twitter.com/tbt_cf"]')
-    expect(twitterLink.exists()).toBe(true)
-    expect(twitterLink.text()).toBe('公式Twitterアカウント')
+  it('should render X (formerly Twitter) link', () => {
+    const xLink = wrapper.find('a[href="https://x.com/tbt_cf"]')
+    expect(xLink.exists()).toBe(true)
+    expect(xLink.text()).toContain('公式X')
   })
 })

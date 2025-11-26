@@ -10,15 +10,15 @@ import TbtBeenyaImg from '@/components/atoms/TbtBeenyaImg.vue'
     <table class="beenya-table">
       <tbody>
         <tr>
-          <th>名前</th>
+          <th scope="row">名前</th>
           <td>びーにゃ</td>
         </tr>
         <tr>
-          <th>役割</th>
+          <th scope="row">役割</th>
           <td>アイドル</td>
         </tr>
         <tr>
-          <th>自己紹介</th>
+          <th scope="row">自己紹介</th>
           <td>にゃにゃにゃにゃにゃにゃにゃー！(定時後ビールタイムだー！！)</td>
         </tr>
       </tbody>

@@ -6,6 +6,7 @@ import TbtFooter from '@/components/organisms/TbtFooter.vue'
 
 <template>
   <div id="app">
+    <a href="#main-container" class="skip-link">メインコンテンツへスキップ</a>
     <VitePwaManifest />
     <tbt-menu />
     <tbt-main>
@@ -22,6 +23,21 @@ import TbtFooter from '@/components/organisms/TbtFooter.vue'
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
   display: flex;
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px;
+  z-index: 100;
+  transition: top 0.3s;
+}
+
+.skip-link:focus {
+  top: 0;
 }
 
 @media screen and (width <= 900px) {

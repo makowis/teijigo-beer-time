@@ -1,5 +1,5 @@
 <template>
-  <img class="logo" src="@/assets/logo_1.png" />
+  <img class="logo" src="@/assets/logo_1.png" alt="定時後ビールタイム ロゴ" />
 </template>
 
 <style scoped>

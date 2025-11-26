@@ -11,10 +11,10 @@ defineProps<{
   <table border="1" class="table">
     <thead>
       <tr>
-        <th>No</th>
-        <th>曲名</th>
-        <th>アーティスト</th>
-        <th v-if="displayCredit">クレジット</th>
+        <th scope="col">No</th>
+        <th scope="col">曲名</th>
+        <th scope="col">アーティスト</th>
+        <th v-if="displayCredit" scope="col">クレジット</th>
       </tr>
     </thead>
     <tbody>

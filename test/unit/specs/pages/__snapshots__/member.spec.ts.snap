@@ -26,16 +26,19 @@ exports[`index.vue > should match the snapshot 1`] = `
       >
         <th
           data-v-a6953055=""
+          scope="col"
         >
           名前
         </th>
         <th
           data-v-a6953055=""
+          scope="col"
         >
           担当
         </th>
         <th
           data-v-a6953055=""
+          scope="col"
         >
           自己紹介
         </th>

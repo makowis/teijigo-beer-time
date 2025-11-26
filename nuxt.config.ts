@@ -5,7 +5,7 @@ const SITE_DESCRIPTION =
   '定時後にビール飲みながら作曲するかというノリで集まったメンバーでやってる音楽サークルです。'
 const SITE_URL = 'https://teijigo-beer-ti.me/'
 const OGP_IMAGE = `${SITE_URL}ogp.png`
-const TWITTER_ACCOUNT = '@tbt_cf'
+const X_ACCOUNT = '@tbt_cf'
 
 export default defineNuxtConfig({
   app: {
@@ -28,7 +28,7 @@ export default defineNuxtConfig({
         { property: 'og:locale', content: 'ja_JP' },
         // Twitter Card
         { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:site', content: TWITTER_ACCOUNT },
+        { name: 'twitter:site', content: X_ACCOUNT },
         { name: 'twitter:title', content: SITE_TITLE },
         { name: 'twitter:description', content: SITE_DESCRIPTION },
         { name: 'twitter:image', content: OGP_IMAGE },
