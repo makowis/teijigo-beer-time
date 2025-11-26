@@ -1,0 +1,1 @@
+import{_ as s,c as t,o as c,i as o}from"./DQglVBl5.js";const n={},a={class:"h1"};function r(e,_){return c(),t("h1",a,[o(e.$slots,"default",{},void 0,!0)])}const f=Object.assign(s(n,[["render",r],["__scopeId","data-v-cc902377"]]),{__name:"AtomsTbtH1"});export{f as T};
