@@ -1,7 +1,7 @@
 <template>
   <div class="marquee">
     <div class="marquee-inner">
-      <slot />
+      <slot></slot>
     </div>
   </div>
 </template>

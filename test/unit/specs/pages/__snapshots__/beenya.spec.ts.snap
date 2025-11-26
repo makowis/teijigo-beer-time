@@ -3,12 +3,12 @@
 exports[`beenya.vue > should match the snapshot 1`] = `
 <div
   class="beenya"
-  data-v-f862fa7f=""
+  data-v-97a16dd5=""
 >
   <h1
     class="h1"
-    data-v-700e39a7=""
-    data-v-f862fa7f=""
+    data-v-887c42ec=""
+    data-v-97a16dd5=""
   >
     
     びーにゃの部屋
@@ -17,54 +17,54 @@ exports[`beenya.vue > should match the snapshot 1`] = `
   <img
     alt="びーにゃのイラスト"
     class="icon"
-    data-v-f862fa7f=""
-    src="/assets/beenya.png"
+    data-v-97a16dd5=""
+    src="/app/assets/beenya.png"
   />
   <table
     class="beenya-table"
-    data-v-f862fa7f=""
+    data-v-97a16dd5=""
   >
     <tbody
-      data-v-f862fa7f=""
+      data-v-97a16dd5=""
     >
       <tr
-        data-v-f862fa7f=""
+        data-v-97a16dd5=""
       >
         <th
-          data-v-f862fa7f=""
+          data-v-97a16dd5=""
         >
           名前
         </th>
         <td
-          data-v-f862fa7f=""
+          data-v-97a16dd5=""
         >
           びーにゃ
         </td>
       </tr>
       <tr
-        data-v-f862fa7f=""
+        data-v-97a16dd5=""
       >
         <th
-          data-v-f862fa7f=""
+          data-v-97a16dd5=""
         >
           役割
         </th>
         <td
-          data-v-f862fa7f=""
+          data-v-97a16dd5=""
         >
           アイドル
         </td>
       </tr>
       <tr
-        data-v-f862fa7f=""
+        data-v-97a16dd5=""
       >
         <th
-          data-v-f862fa7f=""
+          data-v-97a16dd5=""
         >
           自己紹介
         </th>
         <td
-          data-v-f862fa7f=""
+          data-v-97a16dd5=""
         >
           にゃにゃにゃにゃにゃにゃにゃー！(定時後ビールタイムだー！！)
         </td>

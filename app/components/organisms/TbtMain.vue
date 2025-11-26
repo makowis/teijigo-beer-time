@@ -8,7 +8,7 @@ import TbtLogo from '@/components/atoms/TbtLogo.vue'
     <tbt-top-link>
       <tbt-logo />
     </tbt-top-link>
-    <slot />
+    <slot></slot>
   </div>
 </template>
 

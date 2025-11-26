@@ -6,7 +6,7 @@ exports[`index.vue > should match the snapshot 1`] = `
 >
   <h1
     class="h1"
-    data-v-700e39a7=""
+    data-v-887c42ec=""
   >
     
     404 NOT FOUND
@@ -17,7 +17,7 @@ exports[`index.vue > should match the snapshot 1`] = `
   </p>
   <img
     alt="飲み会のイラストです。ビール飲みましょう"
-    src="/assets/nomikai_salaryman.png"
+    src="/app/assets/nomikai_salaryman.png"
   />
 </div>
 `;

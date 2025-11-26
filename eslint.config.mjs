@@ -3,7 +3,7 @@ import withNuxt from './.nuxt/eslint.config.mjs'
 import eslintConfigPrettier from 'eslint-config-prettier'
 
 export default withNuxt(eslintConfigPrettier, {
-  files: ['*.js', '*.vue', '*.ts'],
+  files: ['**/*.js', '**/*.vue', '**/*.ts'],
   languageOptions: {
     globals: {
       ...globals.browser,
