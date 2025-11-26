@@ -11,6 +11,7 @@
 - **Node.js**: 24.x (Active LTS)
 - **テスト**: Vitest + Vue Test Utils
 - **リンター**: ESLint 9 (Flat Config) + Stylelint + Prettier
+- **Git メインブランチ**: `master`
 
 ## ディレクトリ構成
 
