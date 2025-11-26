@@ -1,5 +1,5 @@
-import type { HTML } from './discos'
-import { html } from './discos'
+import type { HTML } from './types'
+import { html } from './types'
 
 export interface Member {
   name: string
