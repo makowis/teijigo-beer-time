@@ -50,7 +50,7 @@
     }
   },
 
-  "postCreateCommand": "corepack enable && yarn install",
+  "postCreateCommand": "sudo corepack enable && yarn install",
 
   "remoteUser": "node"
 }
