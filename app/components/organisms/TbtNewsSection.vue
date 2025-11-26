@@ -10,7 +10,7 @@ import TbtNewBlink from '@/components/atoms/TbtNewBlink.vue'
     <ul class="news-list">
       <li>
         <tbt-new-blink>NEW</tbt-new-blink>
-        M3-2023秋に参戦に参加予定です！
+        M3-2024秋に参加予定です！
       </li>
       <li>
         <a href="https://twitter.com/tbt_cf">公式Twitterアカウント</a>

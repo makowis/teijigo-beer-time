@@ -1,6 +1,6 @@
 <template>
   <img
     src="@/assets/6st_mini_album_liberate.png"
-    alt="4st Mini Album「BATTLE」のジャケット画像"
+    alt="6th Mini Album「LIBERATE」のジャケット画像"
   />
 </template>
