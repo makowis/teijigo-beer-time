@@ -1,0 +1,1 @@
+import{_ as s,c as t,o,i as a}from"./xs7NMNIi.js";const c={},n={class:"h1"};function r(e,_){return o(),t("h1",n,[a(e.$slots,"default",{},void 0,!0)])}const f=Object.assign(s(c,[["render",r],["__scopeId","data-v-a1fa7766"]]),{__name:"AtomsTbtH1"});export{f as T};
