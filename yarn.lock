@@ -9130,38 +9130,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nuxttest@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "nuxttest@workspace:."
-  dependencies:
-    "@nuxt/devtools": "npm:^3.1.1"
-    "@nuxt/eslint": "npm:^1.10.0"
-    "@nuxt/test-utils": "npm:^3.20.1"
-    "@types/node": "npm:^24.10.1"
-    "@vitejs/plugin-vue": "npm:^6.0.2"
-    "@vitest/coverage-v8": "npm:^4.0.14"
-    "@vue/compiler-sfc": "npm:^3.5.25"
-    "@vue/test-utils": "npm:^2.4.6"
-    eslint: "npm:^9.39.1"
-    eslint-config-prettier: "npm:^10.1.8"
-    h3: "npm:^2.0.1-rc.5"
-    jsdom: "npm:^27.2.0"
-    jsdom-global: "npm:^3.0.2"
-    nitropack: "npm:^2.12.9"
-    nuxt: "npm:^4.2.1"
-    postcss-html: "npm:^1.8.0"
-    prettier: "npm:^3.6.2"
-    stylelint: "npm:^16.26.0"
-    stylelint-config-recommended-vue: "npm:^1.6.1"
-    stylelint-config-standard: "npm:^39.0.1"
-    typescript: "npm:^5.9.3"
-    vite: "npm:^7.2.4"
-    vitest: "npm:4.0.14"
-    vue: "npm:3.5.25"
-    vue-router: "npm:^4.6.3"
-  languageName: unknown
-  linkType: soft
-
 "nypm@npm:^0.3.8":
   version: 0.3.12
   resolution: "nypm@npm:0.3.12"
@@ -11571,6 +11539,38 @@ __metadata:
   checksum: 10c0/d4679609bb2a9b48eeaf84632b6d844128d2412b95b6de07d53d8ee8baf4ca0857c9331dfa510390a0727b550fd543d4d1a10995ad86cdf078423fbb8d99831d
   languageName: node
   linkType: hard
+
+"teijigo-beer-time@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "teijigo-beer-time@workspace:."
+  dependencies:
+    "@nuxt/devtools": "npm:^3.1.1"
+    "@nuxt/eslint": "npm:^1.10.0"
+    "@nuxt/test-utils": "npm:^3.20.1"
+    "@types/node": "npm:^24.10.1"
+    "@vitejs/plugin-vue": "npm:^6.0.2"
+    "@vitest/coverage-v8": "npm:^4.0.14"
+    "@vue/compiler-sfc": "npm:^3.5.25"
+    "@vue/test-utils": "npm:^2.4.6"
+    eslint: "npm:^9.39.1"
+    eslint-config-prettier: "npm:^10.1.8"
+    h3: "npm:^2.0.1-rc.5"
+    jsdom: "npm:^27.2.0"
+    jsdom-global: "npm:^3.0.2"
+    nitropack: "npm:^2.12.9"
+    nuxt: "npm:^4.2.1"
+    postcss-html: "npm:^1.8.0"
+    prettier: "npm:^3.6.2"
+    stylelint: "npm:^16.26.0"
+    stylelint-config-recommended-vue: "npm:^1.6.1"
+    stylelint-config-standard: "npm:^39.0.1"
+    typescript: "npm:^5.9.3"
+    vite: "npm:^7.2.4"
+    vitest: "npm:4.0.14"
+    vue: "npm:3.5.25"
+    vue-router: "npm:^4.6.3"
+  languageName: unknown
+  linkType: soft
 
 "terser@npm:^5.17.4":
   version: 5.36.0
