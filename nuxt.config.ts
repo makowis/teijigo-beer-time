@@ -32,8 +32,13 @@ export default defineNuxtConfig({
         { name: 'twitter:title', content: SITE_TITLE },
         { name: 'twitter:description', content: SITE_DESCRIPTION },
         { name: 'twitter:image', content: OGP_IMAGE },
+        // PWA
+        { name: 'theme-color', content: '#ffffff' },
       ],
-      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'apple-touch-icon', href: '/pwa-192x192.png' },
+      ],
     },
   },
 
@@ -80,8 +85,7 @@ export default defineNuxtConfig({
       installPrompt: true,
     },
     devOptions: {
-      enabled: true,
-      type: 'module',
+      enabled: false,
     },
   },
 
