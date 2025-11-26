@@ -41,6 +41,49 @@ export default defineNuxtConfig({
     enabled: true,
   },
 
-  modules: ['@nuxt/eslint'],
+  modules: ['@nuxt/eslint', '@vite-pwa/nuxt'],
+
+  pwa: {
+    registerType: 'autoUpdate',
+    manifest: {
+      name: SITE_TITLE,
+      short_name: SITE_NAME,
+      description: SITE_DESCRIPTION,
+      theme_color: '#ffffff',
+      background_color: '#ffffff',
+      display: 'standalone',
+      start_url: '/',
+      icons: [
+        {
+          src: 'pwa-192x192.png',
+          sizes: '192x192',
+          type: 'image/png',
+        },
+        {
+          src: 'pwa-512x512.png',
+          sizes: '512x512',
+          type: 'image/png',
+        },
+        {
+          src: 'pwa-512x512.png',
+          sizes: '512x512',
+          type: 'image/png',
+          purpose: 'any maskable',
+        },
+      ],
+    },
+    workbox: {
+      navigateFallback: '/',
+      globPatterns: ['**/*.{js,css,html,png,svg,ico}'],
+    },
+    client: {
+      installPrompt: true,
+    },
+    devOptions: {
+      enabled: true,
+      type: 'module',
+    },
+  },
+
   compatibilityDate: '2024-11-12',
 })
