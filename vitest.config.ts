@@ -21,6 +21,8 @@ export default defineConfig({
         'test/**',
         '**/*.{spec,test}.{ts,js,vue}',
         '**/{nuxt,eslint,stylelint,vitest}.config.*',
+        // 画像ファイルはテスト対象外
+        'app/assets/**/*.{png,jpg,jpeg,gif,svg,webp}',
       ],
     },
   },
