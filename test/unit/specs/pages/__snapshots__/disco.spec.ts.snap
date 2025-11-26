@@ -75,21 +75,25 @@ exports[`beenya.vue > should match the snapshot 1`] = `
         >
           <th
             data-v-58a0e6f8=""
+            scope="col"
           >
             No
           </th>
           <th
             data-v-58a0e6f8=""
+            scope="col"
           >
             曲名
           </th>
           <th
             data-v-58a0e6f8=""
+            scope="col"
           >
             アーティスト
           </th>
           <th
             data-v-58a0e6f8=""
+            scope="col"
           >
             クレジット
           </th>
@@ -204,6 +208,7 @@ exports[`beenya.vue > should match the snapshot 1`] = `
         frameborder="0"
         height="315"
         src="https://www.youtube.com/embed/_ilOox8tQLU?si=vd2RgtYa-roJTja1"
+        title="YouTube動画"
         width="560"
       />
     </div>
@@ -264,21 +269,25 @@ exports[`beenya.vue > should match the snapshot 1`] = `
         >
           <th
             data-v-58a0e6f8=""
+            scope="col"
           >
             No
           </th>
           <th
             data-v-58a0e6f8=""
+            scope="col"
           >
             曲名
           </th>
           <th
             data-v-58a0e6f8=""
+            scope="col"
           >
             アーティスト
           </th>
           <th
             data-v-58a0e6f8=""
+            scope="col"
           >
             クレジット
           </th>
@@ -415,6 +424,7 @@ exports[`beenya.vue > should match the snapshot 1`] = `
         frameborder="0"
         height="315"
         src="https://www.youtube.com/embed/y83GedNBXfQ"
+        title="YouTube動画"
         width="560"
       />
     </div>
@@ -475,21 +485,25 @@ exports[`beenya.vue > should match the snapshot 1`] = `
         >
           <th
             data-v-58a0e6f8=""
+            scope="col"
           >
             No
           </th>
           <th
             data-v-58a0e6f8=""
+            scope="col"
           >
             曲名
           </th>
           <th
             data-v-58a0e6f8=""
+            scope="col"
           >
             アーティスト
           </th>
           <th
             data-v-58a0e6f8=""
+            scope="col"
           >
             クレジット
           </th>
@@ -618,6 +632,7 @@ exports[`beenya.vue > should match the snapshot 1`] = `
         frameborder="0"
         height="315"
         src="https://www.youtube.com/embed/29UhRyb4hJg"
+        title="YouTube動画"
         width="560"
       />
     </div>
@@ -678,21 +693,25 @@ exports[`beenya.vue > should match the snapshot 1`] = `
         >
           <th
             data-v-58a0e6f8=""
+            scope="col"
           >
             No
           </th>
           <th
             data-v-58a0e6f8=""
+            scope="col"
           >
             曲名
           </th>
           <th
             data-v-58a0e6f8=""
+            scope="col"
           >
             アーティスト
           </th>
           <th
             data-v-58a0e6f8=""
+            scope="col"
           >
             クレジット
           </th>
@@ -829,6 +848,7 @@ exports[`beenya.vue > should match the snapshot 1`] = `
         frameborder="0"
         height="315"
         src="https://www.youtube.com/embed/L_DAzJq4tgg"
+        title="YouTube動画"
         width="560"
       />
     </div>
@@ -889,21 +909,25 @@ exports[`beenya.vue > should match the snapshot 1`] = `
         >
           <th
             data-v-58a0e6f8=""
+            scope="col"
           >
             No
           </th>
           <th
             data-v-58a0e6f8=""
+            scope="col"
           >
             曲名
           </th>
           <th
             data-v-58a0e6f8=""
+            scope="col"
           >
             アーティスト
           </th>
           <th
             data-v-58a0e6f8=""
+            scope="col"
           >
             クレジット
           </th>
@@ -1056,6 +1080,7 @@ exports[`beenya.vue > should match the snapshot 1`] = `
         frameborder="0"
         height="315"
         src="https://www.youtube.com/embed/IxTdbkoGM-Q"
+        title="YouTube動画"
         width="560"
       />
     </div>
@@ -1116,16 +1141,19 @@ exports[`beenya.vue > should match the snapshot 1`] = `
         >
           <th
             data-v-58a0e6f8=""
+            scope="col"
           >
             No
           </th>
           <th
             data-v-58a0e6f8=""
+            scope="col"
           >
             曲名
           </th>
           <th
             data-v-58a0e6f8=""
+            scope="col"
           >
             アーティスト
           </th>
@@ -1283,6 +1311,7 @@ exports[`beenya.vue > should match the snapshot 1`] = `
         frameborder="0"
         height="315"
         src="https://www.youtube.com/embed/KE3It-tas0Y?rel=0"
+        title="YouTube動画"
         width="560"
       />
     </div>

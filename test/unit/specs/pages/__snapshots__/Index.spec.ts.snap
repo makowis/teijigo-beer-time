@@ -99,9 +99,17 @@ exports[`index.vue > should match the snapshot 1`] = `
       >
         <a
           data-v-6e41aa24=""
-          href="https://twitter.com/tbt_cf"
+          href="https://x.com/tbt_cf"
+          rel="noopener noreferrer"
+          target="_blank"
         >
-          公式Twitterアカウント
+           公式X（旧Twitter）アカウント 
+          <span
+            class="visually-hidden"
+            data-v-6e41aa24=""
+          >
+            （新しいタブで開きます）
+          </span>
         </a>
          作りました！最新情報をつぶやいていきます！ 
       </li>
@@ -162,6 +170,7 @@ exports[`index.vue > should match the snapshot 1`] = `
         >
           <th
             data-v-1edda32e=""
+            scope="row"
           >
             サークル名
           </th>
@@ -176,6 +185,7 @@ exports[`index.vue > should match the snapshot 1`] = `
         >
           <th
             data-v-1edda32e=""
+            scope="row"
           >
             配置場所
           </th>
@@ -190,6 +200,7 @@ exports[`index.vue > should match the snapshot 1`] = `
         >
           <th
             data-v-1edda32e=""
+            scope="row"
           >
             スペース番号
           </th>
@@ -223,9 +234,17 @@ exports[`index.vue > should match the snapshot 1`] = `
       </p>
       <a
         data-v-1edda32e=""
-        href="http://www.m3net.jp/"
+        href="https://www.m3net.jp/"
+        rel="noopener noreferrer"
+        target="_blank"
       >
-        M3公式サイト
+         M3公式サイト 
+        <span
+          class="visually-hidden"
+          data-v-1edda32e=""
+        >
+          （新しいタブで開きます）
+        </span>
       </a>
       
     </section>
@@ -256,6 +275,7 @@ exports[`index.vue > should match the snapshot 1`] = `
           frameborder="0"
           height="315"
           src="https://www.youtube.com/embed/_ilOox8tQLU?si=vd2RgtYa-roJTja1"
+          title="YouTube動画"
           width="560"
         />
       </div>

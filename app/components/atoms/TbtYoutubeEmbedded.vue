@@ -1,5 +1,8 @@
 <script setup lang="ts">
-defineProps<{ youtubeEmbedUrl: string }>()
+defineProps<{
+  youtubeEmbedUrl: string
+  videoTitle?: string
+}>()
 </script>
 
 <template>
@@ -8,6 +11,7 @@ defineProps<{ youtubeEmbedUrl: string }>()
       width="560"
       height="315"
       :src="youtubeEmbedUrl"
+      :title="videoTitle || 'YouTube動画'"
       frameborder="0"
       allow="autoplay; encrypted-media"
       allowfullscreen

@@ -4,6 +4,12 @@ exports[`index.vue > should match the snapshot 1`] = `
 <div
   id="app"
 >
+  <a
+    class="skip-link"
+    href="#main-container"
+  >
+    メインコンテンツへスキップ
+  </a>
   <vitepwamanifest />
   <nav
     class="menu-container"
@@ -69,9 +75,16 @@ exports[`index.vue > should match the snapshot 1`] = `
         <a
           data-v-28c0de1b=""
           href="https://teijigo.booth.pm/"
+          rel="noopener noreferrer"
           target="_blank"
         >
            通販(BOOTH) 
+          <span
+            class="visually-hidden"
+            data-v-28c0de1b=""
+          >
+            （新しいタブで開きます）
+          </span>
         </a>
       </li>
     </ul>
@@ -86,6 +99,7 @@ exports[`index.vue > should match the snapshot 1`] = `
     >
       
       <img
+        alt="定時後ビールタイム ロゴ"
         class="logo"
         data-v-7b6f3805=""
         data-v-af982278=""
