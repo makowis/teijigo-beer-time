@@ -4,6 +4,7 @@ exports[`index.vue > should match the snapshot 1`] = `
 <div
   id="app"
 >
+  <vitepwamanifest />
   <nav
     class="menu-container"
     data-v-28c0de1b=""

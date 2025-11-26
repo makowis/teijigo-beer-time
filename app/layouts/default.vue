@@ -6,6 +6,7 @@ import TbtFooter from '@/components/organisms/TbtFooter.vue'
 
 <template>
   <div id="app">
+    <VitePwaManifest />
     <tbt-menu />
     <tbt-main>
       <slot></slot>
