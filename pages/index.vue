@@ -24,7 +24,7 @@ const accessCount = `0000000000000000${Math.floor(
     <tbt-access-counter-section :access-count="accessCount" />
     <tbt-news-section />
     <tbt-circle-cut-section />
-    <tbt-circle-space-infoSection />
+    <tbt-circle-space-info-section />
     <tbt-mail-section />
     <tbt-menu-section />
   </div>
