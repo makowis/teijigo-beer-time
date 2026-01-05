@@ -34,7 +34,7 @@
     "h3": "^2.0.1-rc.5",
     "jsdom": "^27.2.0",
     "nitropack": "^2.12.9",
-    "nuxt": "^4.2.1",
+    "nuxt": "^4.2.2",
     "postcss-html": "^1.8.0",
     "prettier": "^3.7.4",
     "stylelint": "^16.26.1",
