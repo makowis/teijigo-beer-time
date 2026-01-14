@@ -1569,6 +1569,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@clack/prompts@npm:1.0.0-alpha.9":
+  version: 1.0.0-alpha.9
+  resolution: "@clack/prompts@npm:1.0.0-alpha.9"
+  dependencies:
+    "@clack/core": "npm:1.0.0-alpha.7"
+    picocolors: "npm:^1.0.0"
+    sisteransi: "npm:^1.0.5"
+  checksum: 10c0/e3022a5cf8e07661628a46f6cc811c2f8f03fb49e5d5a1b6243f08960264f5a61fc9546a348eb2fe0e8fdfb15c4bbea78474291d06a0eb153ea9e491ae42b116
+  languageName: node
+  linkType: hard
+
 "@clack/prompts@npm:^0.11.0":
   version: 0.11.0
   resolution: "@clack/prompts@npm:0.11.0"
@@ -3220,7 +3231,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/kit@npm:^3.20.1":
+"@nuxt/kit@npm:^3.20.2":
   version: 3.20.2
   resolution: "@nuxt/kit@npm:3.20.2"
   dependencies:
@@ -3466,12 +3477,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/test-utils@npm:^3.21.0":
-  version: 3.21.0
-  resolution: "@nuxt/test-utils@npm:3.21.0"
+"@nuxt/test-utils@npm:^3.23.0":
+  version: 3.23.0
+  resolution: "@nuxt/test-utils@npm:3.23.0"
   dependencies:
-    "@nuxt/kit": "npm:^3.20.1"
-    c12: "npm:^3.3.2"
+    "@clack/prompts": "npm:1.0.0-alpha.9"
+    "@nuxt/kit": "npm:^3.20.2"
+    c12: "npm:^3.3.3"
     consola: "npm:^3.4.2"
     defu: "npm:^6.1.4"
     destr: "npm:^2.0.5"
@@ -3480,10 +3492,12 @@ __metadata:
     fake-indexeddb: "npm:^6.2.5"
     get-port-please: "npm:^3.2.0"
     h3: "npm:^1.15.4"
+    h3-next: "npm:h3@^2.0.1-rc.7"
     local-pkg: "npm:^1.1.2"
     magic-string: "npm:^0.30.21"
     node-fetch-native: "npm:^1.6.7"
-    node-mock-http: "npm:^1.0.3"
+    node-mock-http: "npm:^1.0.4"
+    nypm: "npm:^0.6.2"
     ofetch: "npm:^1.5.1"
     pathe: "npm:^2.0.3"
     perfect-debounce: "npm:^2.0.0"
@@ -3494,7 +3508,7 @@ __metadata:
     ufo: "npm:^1.6.1"
     unplugin: "npm:^2.3.11"
     vitest-environment-nuxt: "npm:^1.0.1"
-    vue: "npm:^3.5.25"
+    vue: "npm:^3.5.26"
   peerDependencies:
     "@cucumber/cucumber": ^10.3.1 || >=11.0.0
     "@jest/globals": ^29.5.0 || >=30.0.0
@@ -3526,7 +3540,7 @@ __metadata:
       optional: true
     vitest:
       optional: true
-  checksum: 10c0/71ad3141fbe4a2b6b95809c6fb5eb064808c9cc839249180effad0c758a5c97f4f87b841aa50754d9be08c96042bc39a078bd5b5855080bad74ed92baf2944f3
+  checksum: 10c0/0a4af0d7e2245a791407f4cd3cf3dfb0c38cfb460e7717ffdc1c12f4c12d6faeaa4d78b55ffedf2aa670e196874b301ac69f6f9979123fcc17998407ade49397
   languageName: node
   linkType: hard
 
@@ -6292,6 +6306,31 @@ __metadata:
     magicast:
       optional: true
   checksum: 10c0/5d8df4509e2dcb26d880d99b5c01b66b2b8690b3bdb06f64d6bcac6802ffcc96b6ee0b3a604f0e471b1ebe3c147f16536b8c4544b314a4c6c287ca8a06af829c
+  languageName: node
+  linkType: hard
+
+"c12@npm:^3.3.3":
+  version: 3.3.3
+  resolution: "c12@npm:3.3.3"
+  dependencies:
+    chokidar: "npm:^5.0.0"
+    confbox: "npm:^0.2.2"
+    defu: "npm:^6.1.4"
+    dotenv: "npm:^17.2.3"
+    exsolve: "npm:^1.0.8"
+    giget: "npm:^2.0.0"
+    jiti: "npm:^2.6.1"
+    ohash: "npm:^2.0.11"
+    pathe: "npm:^2.0.3"
+    perfect-debounce: "npm:^2.0.0"
+    pkg-types: "npm:^2.3.0"
+    rc9: "npm:^2.1.2"
+  peerDependencies:
+    magicast: "*"
+  peerDependenciesMeta:
+    magicast:
+      optional: true
+  checksum: 10c0/5b2ac937175717df62fc74ce7fe38685ebd02b3fa94e9cc05be9630d3e5d7f1ec437413d23d63ec0d2eaffcfeda824fb14d3d0fab3df522e60a8b4b3e32a4a33
   languageName: node
   linkType: hard
 
@@ -9166,6 +9205,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"h3-next@npm:h3@^2.0.1-rc.7":
+  version: 2.0.1-rc.7
+  resolution: "h3@npm:2.0.1-rc.7"
+  dependencies:
+    rou3: "npm:^0.7.12"
+    srvx: "npm:^0.10.0"
+  peerDependencies:
+    crossws: ^0.4.1
+  peerDependenciesMeta:
+    crossws:
+      optional: true
+  checksum: 10c0/5d138c282dafc2bf586076a542ab59badcc0e6b90343fb57b5e364fb821f97cfa29921814a39c8c3309581f9ba7a3ced5131dda8fd0bcb20af680f3aaa17e75e
+  languageName: node
+  linkType: hard
+
 "h3@npm:^1.12.0":
   version: 1.13.0
   resolution: "h3@npm:1.13.0"
@@ -11330,6 +11384,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"node-mock-http@npm:^1.0.4":
+  version: 1.0.4
+  resolution: "node-mock-http@npm:1.0.4"
+  checksum: 10c0/86e3f7453cf07ad6b8bd17cf89ff91d45f486a861cf6d891618cf29647d559cbcde1d1f90c9cc02e014ff9f7900b2fb21c96b03ea4b4a415dbe2d65badadceba
+  languageName: node
+  linkType: hard
+
 "node-releases@npm:^2.0.18":
   version: 2.0.18
   resolution: "node-releases@npm:2.0.18"
@@ -13232,6 +13293,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"rou3@npm:^0.7.12":
+  version: 0.7.12
+  resolution: "rou3@npm:0.7.12"
+  checksum: 10c0/2ea87ddd91a5d0f9d9671fa2bb714f57566eae33ecb24e8a61bb298aca8c226483e59cafe1c60297ac9aa58b2b6ad506447374cdbff4e99cf0f9f72a9dae09dc
+  languageName: node
+  linkType: hard
+
 "rou3@npm:^0.7.9":
   version: 0.7.10
   resolution: "rou3@npm:0.7.10"
@@ -13763,6 +13831,15 @@ __metadata:
   version: 1.1.3
   resolution: "sprintf-js@npm:1.1.3"
   checksum: 10c0/09270dc4f30d479e666aee820eacd9e464215cdff53848b443964202bf4051490538e5dd1b42e1a65cf7296916ca17640aebf63dae9812749c7542ee5f288dec
+  languageName: node
+  linkType: hard
+
+"srvx@npm:^0.10.0":
+  version: 0.10.0
+  resolution: "srvx@npm:0.10.0"
+  bin:
+    srvx: bin/srvx.mjs
+  checksum: 10c0/ccba4749cda8c9b8a5202f0ade335582e932f12fec0ebe6e8fa7b25bea09897713f69f76983d15654925716b433ddad1403f565dbe57be1fde4159fe6ba4be4b
   languageName: node
   linkType: hard
 
@@ -14316,7 +14393,7 @@ __metadata:
   dependencies:
     "@nuxt/devtools": "npm:^3.1.1"
     "@nuxt/eslint": "npm:^1.12.1"
-    "@nuxt/test-utils": "npm:^3.21.0"
+    "@nuxt/test-utils": "npm:^3.23.0"
     "@types/node": "npm:^25.0.3"
     "@vite-pwa/nuxt": "npm:^1.1.0"
     "@vitejs/plugin-vue": "npm:^6.0.3"
@@ -15722,6 +15799,24 @@ __metadata:
     typescript:
       optional: true
   checksum: 10c0/2b77f9b934e212218d07eb2aa17d02e91578b08673be95553539dfa4246748ef7bc9ce4a380539c9265d85c4d0432329e9cb02eb1b1aec0f3a358433a1b108c2
+  languageName: node
+  linkType: hard
+
+"vue@npm:^3.5.26":
+  version: 3.5.26
+  resolution: "vue@npm:3.5.26"
+  dependencies:
+    "@vue/compiler-dom": "npm:3.5.26"
+    "@vue/compiler-sfc": "npm:3.5.26"
+    "@vue/runtime-dom": "npm:3.5.26"
+    "@vue/server-renderer": "npm:3.5.26"
+    "@vue/shared": "npm:3.5.26"
+  peerDependencies:
+    typescript: "*"
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: 10c0/057630af8a278b8a682974e3f92388821701be800b3d545d9b45c1444138ccaff1902d2065dab0e7cb971c0509e6c22c09e90787ee5bc8d262ede7012e61f871
   languageName: node
   linkType: hard
 
