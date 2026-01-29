@@ -9275,18 +9275,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"h3@npm:^2.0.1-rc.5":
-  version: 2.0.1-rc.5
-  resolution: "h3@npm:2.0.1-rc.5"
+"h3@npm:^2.0.1-rc.6":
+  version: 2.0.1-rc.11
+  resolution: "h3@npm:2.0.1-rc.11"
   dependencies:
-    rou3: "npm:^0.7.9"
-    srvx: "npm:^0.9.1"
+    rou3: "npm:^0.7.12"
+    srvx: "npm:^0.10.1"
   peerDependencies:
     crossws: ^0.4.1
   peerDependenciesMeta:
     crossws:
       optional: true
-  checksum: 10c0/32843e3d52f750c6616c4764251e24f89e199b5598ae00ead617085844c02e8ab3be0a703cd43976fb2007b3d488a2ba18b559f36be34744256008930fc58e84
+  checksum: 10c0/3e8b3608a825e4278d9853f8bd6c27040f9f996a885500cbc4c8fb60ab079fddda7863ad261dd77f21b969c91f53dd245d0085e43a0177e1cbdcc939124c7b80
   languageName: node
   linkType: hard
 
@@ -13327,13 +13327,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rou3@npm:^0.7.9":
-  version: 0.7.10
-  resolution: "rou3@npm:0.7.10"
-  checksum: 10c0/3206c778925a3891835b0be04a896670500e153c58c645be6959a89d8991037a23741a494e3e7cbe702009c366ffef004e7bbd020e9abd895b750b53524cd58a
-  languageName: node
-  linkType: hard
-
 "run-applescript@npm:^7.0.0":
   version: 7.0.0
   resolution: "run-applescript@npm:7.0.0"
@@ -13870,12 +13863,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"srvx@npm:^0.9.1":
-  version: 0.9.6
-  resolution: "srvx@npm:0.9.6"
+"srvx@npm:^0.10.1":
+  version: 0.10.1
+  resolution: "srvx@npm:0.10.1"
   bin:
     srvx: bin/srvx.mjs
-  checksum: 10c0/4d09a5b4c6bf4b9338b6899438d5e0b50225eff09ca8a413cd3d941d8ea2886f98ca54f14f3e29984d35fbed015f5a67db96297849b928b626014671cca686eb
+  checksum: 10c0/48774e37eb2d8ebfc29ba7f16bb761040c8664d665bd9cddd2be25f82506dd6a17d4b0567b9bf862f0b4865c0f67ae846be62149af0214b00d49aa02f140940c
   languageName: node
   linkType: hard
 
@@ -14429,7 +14422,7 @@ __metadata:
     "@vue/test-utils": "npm:^2.4.6"
     eslint: "npm:^9.39.2"
     eslint-config-prettier: "npm:^10.1.8"
-    h3: "npm:^2.0.1-rc.5"
+    h3: "npm:^2.0.1-rc.6"
     jsdom: "npm:^27.4.0"
     nitropack: "npm:^2.12.9"
     nuxt: "npm:^4.2.2"
