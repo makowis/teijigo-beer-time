@@ -17,7 +17,7 @@ export default defineNuxtConfig({
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { hid: 'description', name: 'description', content: SITE_DESCRIPTION },
+        { name: 'description', content: SITE_DESCRIPTION },
         // OGP
         { property: 'og:type', content: 'website' },
         { property: 'og:site_name', content: SITE_NAME },
