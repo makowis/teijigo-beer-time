@@ -24,7 +24,7 @@ import {
 const discos = [
   {
     title: libreate.title,
-    release: rising.release,
+    release: libreate.release,
     jacketComponent: TbtLiberateJacketImg,
     displayCredit: libreate.displayCredit,
     tracks: libreate.tracks,
