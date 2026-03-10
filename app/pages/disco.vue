@@ -18,17 +18,17 @@ import {
   ma_start,
   hope,
   rising,
-  libreate,
+  liberate,
 } from '@/resources/discos'
 
 const discos = [
   {
-    title: libreate.title,
-    release: libreate.release,
+    title: liberate.title,
+    release: liberate.release,
     jacketComponent: TbtLiberateJacketImg,
-    displayCredit: libreate.displayCredit,
-    tracks: libreate.tracks,
-    youtubeEmbedUrl: libreate.youtubeEmbedUrl,
+    displayCredit: liberate.displayCredit,
+    tracks: liberate.tracks,
+    youtubeEmbedUrl: liberate.youtubeEmbedUrl,
     isNew: true,
   },
   {
