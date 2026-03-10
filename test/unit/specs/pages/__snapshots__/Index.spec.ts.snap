@@ -17,7 +17,6 @@ exports[`index.vue > should match the snapshot 1`] = `
       <li data-v-6e41aa24=""><span data-v-a6dd56fd="" data-v-9912abab="" data-v-6e41aa24="" class="blink news-blink">NEW</span> M3-2024秋に参加予定です！ </li>
       <li data-v-6e41aa24=""><a data-v-6e41aa24="" href="https://x.com/tbt_cf" target="_blank" rel="noopener noreferrer"> 公式X（旧Twitter）アカウント <span data-v-6e41aa24="" class="visually-hidden">（新しいタブで開きます）</span></a> 作りました！最新情報をつぶやいていきます！ </li>
     </ul>
-    <p data-v-6e41aa24=""></p>
   </section>
   <section data-v-7768f48d="" data-v-641101f2="" class="section">
     <h2 data-v-3117fb04="" data-v-641101f2="" class="h2">サークルカット</h2><img data-v-641101f2="" src="/app/assets/cut.png" alt="サークルカット" class="circle-cut">
@@ -46,7 +45,7 @@ exports[`index.vue > should match the snapshot 1`] = `
     </section>
     <section data-v-7768f48d="" data-v-1edda32e="" class="section">
       <h3 data-v-aa0e9692="" data-v-1edda32e="" class="h3">頒布CDクロスフェード</h3>
-      <div data-v-e29cb6b7="" data-v-1edda32e="" class="video cross-fade"><iframe data-v-e29cb6b7="" width="560" height="315" src="https://www.youtube.com/embed/_ilOox8tQLU?si=vd2RgtYa-roJTja1" title="YouTube動画" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
+      <div data-v-e29cb6b7="" data-v-1edda32e="" class="video cross-fade"><iframe data-v-e29cb6b7="" width="560" height="315" src="https://www.youtube.com/embed/_ilOox8tQLU?si=vd2RgtYa-roJTja1" title="YouTube動画" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
     </section>
   </section>
   <section data-v-7768f48d="" class="section">

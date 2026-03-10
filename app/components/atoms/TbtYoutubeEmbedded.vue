@@ -12,7 +12,6 @@ defineProps<{
       height="315"
       :src="youtubeEmbedUrl"
       :title="videoTitle || 'YouTube動画'"
-      frameborder="0"
       allow="autoplay; encrypted-media"
       allowfullscreen
     ></iframe>
@@ -33,5 +32,6 @@ defineProps<{
   left: 0;
   width: 100%;
   height: 100%;
+  border: none;
 }
 </style>

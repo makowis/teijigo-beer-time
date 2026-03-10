@@ -24,7 +24,6 @@ import TbtNewBlink from '@/components/atoms/TbtNewBlink.vue'
         作りました！最新情報をつぶやいていきます！
       </li>
     </ul>
-    <p></p>
   </tbt-section>
 </template>
 

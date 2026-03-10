@@ -45,7 +45,7 @@ exports[`disco.vue > should match the snapshot 1`] = `
         </tr>
       </tbody>
     </table>
-    <div data-v-e29cb6b7="" data-v-6a6380a4="" class="video cross-fade"><iframe data-v-e29cb6b7="" width="560" height="315" src="https://www.youtube.com/embed/_ilOox8tQLU?si=vd2RgtYa-roJTja1" title="YouTube動画" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
+    <div data-v-e29cb6b7="" data-v-6a6380a4="" class="video cross-fade"><iframe data-v-e29cb6b7="" width="560" height="315" src="https://www.youtube.com/embed/_ilOox8tQLU?si=vd2RgtYa-roJTja1" title="YouTube動画" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
   </section>
   <hr data-v-6a6380a4="">
   <section data-v-7768f48d="" data-v-6a6380a4="" class="section">
@@ -95,7 +95,7 @@ exports[`disco.vue > should match the snapshot 1`] = `
         </tr>
       </tbody>
     </table>
-    <div data-v-e29cb6b7="" data-v-6a6380a4="" class="video cross-fade"><iframe data-v-e29cb6b7="" width="560" height="315" src="https://www.youtube.com/embed/y83GedNBXfQ" title="YouTube動画" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
+    <div data-v-e29cb6b7="" data-v-6a6380a4="" class="video cross-fade"><iframe data-v-e29cb6b7="" width="560" height="315" src="https://www.youtube.com/embed/y83GedNBXfQ" title="YouTube動画" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
   </section>
   <hr data-v-6a6380a4="">
   <section data-v-7768f48d="" data-v-6a6380a4="" class="section">
@@ -139,7 +139,7 @@ exports[`disco.vue > should match the snapshot 1`] = `
         </tr>
       </tbody>
     </table>
-    <div data-v-e29cb6b7="" data-v-6a6380a4="" class="video cross-fade"><iframe data-v-e29cb6b7="" width="560" height="315" src="https://www.youtube.com/embed/29UhRyb4hJg" title="YouTube動画" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
+    <div data-v-e29cb6b7="" data-v-6a6380a4="" class="video cross-fade"><iframe data-v-e29cb6b7="" width="560" height="315" src="https://www.youtube.com/embed/29UhRyb4hJg" title="YouTube動画" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
   </section>
   <hr data-v-6a6380a4="">
   <section data-v-7768f48d="" data-v-6a6380a4="" class="section">
@@ -189,7 +189,7 @@ exports[`disco.vue > should match the snapshot 1`] = `
         </tr>
       </tbody>
     </table>
-    <div data-v-e29cb6b7="" data-v-6a6380a4="" class="video cross-fade"><iframe data-v-e29cb6b7="" width="560" height="315" src="https://www.youtube.com/embed/L_DAzJq4tgg" title="YouTube動画" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
+    <div data-v-e29cb6b7="" data-v-6a6380a4="" class="video cross-fade"><iframe data-v-e29cb6b7="" width="560" height="315" src="https://www.youtube.com/embed/L_DAzJq4tgg" title="YouTube動画" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
   </section>
   <hr data-v-6a6380a4="">
   <section data-v-7768f48d="" data-v-6a6380a4="" class="section">
@@ -241,7 +241,7 @@ exports[`disco.vue > should match the snapshot 1`] = `
         </tr>
       </tbody>
     </table>
-    <div data-v-e29cb6b7="" data-v-6a6380a4="" class="video cross-fade"><iframe data-v-e29cb6b7="" width="560" height="315" src="https://www.youtube.com/embed/IxTdbkoGM-Q" title="YouTube動画" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
+    <div data-v-e29cb6b7="" data-v-6a6380a4="" class="video cross-fade"><iframe data-v-e29cb6b7="" width="560" height="315" src="https://www.youtube.com/embed/IxTdbkoGM-Q" title="YouTube動画" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
   </section>
   <hr data-v-6a6380a4="">
   <section data-v-7768f48d="" data-v-6a6380a4="" class="section">
@@ -297,7 +297,7 @@ exports[`disco.vue > should match the snapshot 1`] = `
         </tr>
       </tbody>
     </table>
-    <div data-v-e29cb6b7="" data-v-6a6380a4="" class="video cross-fade"><iframe data-v-e29cb6b7="" width="560" height="315" src="https://www.youtube.com/embed/KE3It-tas0Y?rel=0" title="YouTube動画" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
+    <div data-v-e29cb6b7="" data-v-6a6380a4="" class="video cross-fade"><iframe data-v-e29cb6b7="" width="560" height="315" src="https://www.youtube.com/embed/KE3It-tas0Y?rel=0" title="YouTube動画" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
   </section>
   <!--v-if-->
 </div>"

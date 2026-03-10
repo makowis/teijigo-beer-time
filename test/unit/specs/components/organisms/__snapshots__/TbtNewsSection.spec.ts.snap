@@ -7,6 +7,5 @@ exports[`TbtNewsSection.vue > should match the snapshot 1`] = `
     <li data-v-6e41aa24=""><span data-v-6e41aa24="" class="new-blink">NEW</span> M3-2024秋に参加予定です！ </li>
     <li data-v-6e41aa24=""><a data-v-6e41aa24="" href="https://x.com/tbt_cf" target="_blank" rel="noopener noreferrer"> 公式X（旧Twitter）アカウント <span data-v-6e41aa24="" class="visually-hidden">（新しいタブで開きます）</span></a> 作りました！最新情報をつぶやいていきます！ </li>
   </ul>
-  <p data-v-6e41aa24=""></p>
 </section>"
 `;
