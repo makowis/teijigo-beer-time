@@ -65,8 +65,8 @@ const meeyan = {
 
 const taiwan = {
   name: '台湾豆乳を飲む人',
-  charge: `作業に参加しない係`,
-  profile: 'ﾆﾎﾝｺﾞワカリマセン',
+  charge: html(`作業に参加しない係`),
+  profile: html('ﾆﾎﾝｺﾞワカリマセン'),
 }
 
 const makky = {
