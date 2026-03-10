@@ -2,11 +2,11 @@ import { mount, RouterLinkStub } from '@vue/test-utils'
 import type { Component } from 'vue'
 import DefaultLayout from '@/layouts/default.vue'
 
-describe('index.vue', () => {
+describe('default.vue', () => {
   const NuxtMock: Component = {
     template: '<div>Nuxt</div>',
   }
-  const vm = mount(DefaultLayout, {
+  const wrapper = mount(DefaultLayout, {
     global: {
       stubs: {
         NuxtLink: RouterLinkStub,
@@ -14,9 +14,9 @@ describe('index.vue', () => {
         VitePwaManifest: true,
       },
     },
-  }).vm
+  })
 
   it('should match the snapshot', () => {
-    expect(vm.$el).toMatchSnapshot()
+    expect(wrapper.html()).toMatchSnapshot()
   })
 })
