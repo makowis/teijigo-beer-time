@@ -12855,15 +12855,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-html@npm:^1.8.0":
-  version: 1.8.0
-  resolution: "postcss-html@npm:1.8.0"
+"postcss-html@npm:^1.8.1":
+  version: 1.8.1
+  resolution: "postcss-html@npm:1.8.1"
   dependencies:
     htmlparser2: "npm:^8.0.0"
     js-tokens: "npm:^9.0.0"
     postcss: "npm:^8.5.0"
     postcss-safe-parser: "npm:^6.0.0"
-  checksum: 10c0/b018e2bc498019439a84952aae714b8730e1aed3fdb5ca100f8a1695ed4f7b26b178eac7d7e6df278e7fdb855894266308e292a235d020f85de40ac13a3796f8
+  checksum: 10c0/2db37b710ae4d5cf8493ae982a381c7c1dfed328eb1806c4aa9220b166a0a44a636275beebf072efb41a38017dd35f47216e7cde682c10c8c69e30807d4126c6
   languageName: node
   linkType: hard
 
@@ -15018,7 +15018,7 @@ __metadata:
     jsdom: "npm:^27.4.0"
     nitropack: "npm:^2.13.1"
     nuxt: "npm:^4.2.2"
-    postcss-html: "npm:^1.8.0"
+    postcss-html: "npm:^1.8.1"
     prettier: "npm:^3.8.1"
     stylelint: "npm:^16.26.1"
     stylelint-config-recommended-vue: "npm:^1.6.1"
