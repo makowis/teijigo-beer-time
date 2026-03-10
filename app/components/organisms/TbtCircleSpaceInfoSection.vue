@@ -27,7 +27,7 @@ import { libreate } from '@/resources/discos'
     </table>
 
     <tbt-section>
-      <tbt-h-3>M3-2023秋</tbt-h-3>
+      <tbt-h-3>M3-2024秋</tbt-h-3>
       <p>日時：2024年10月27日(日)</p>
       <a href="https://www.m3net.jp/" target="_blank" rel="noopener noreferrer">
         M3公式サイト
