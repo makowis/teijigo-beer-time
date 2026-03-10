@@ -11,6 +11,7 @@ describe('index.vue', () => {
       stubs: {
         NuxtLink: RouterLinkStub,
         Nuxt: NuxtMock,
+        VitePwaManifest: true,
       },
     },
   }).vm

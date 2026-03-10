@@ -47,7 +47,9 @@
     "vue-router": "^5.0.3"
   },
   "resolutions": {
-    "css-tree": "^3.2.1"
+    "css-tree": "^3.2.1",
+    "@eslint/config-inspector": "^1.5.0",
+    "stylelint-config-recommended": "^18.0.0"
   },
   "packageManager": "yarn@4.12.0"
 }
