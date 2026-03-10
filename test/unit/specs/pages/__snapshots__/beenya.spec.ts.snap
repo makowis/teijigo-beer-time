@@ -1,78 +1,23 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`beenya.vue > should match the snapshot 1`] = `
-<div
-  class="beenya"
-  data-v-97a16dd5=""
->
-  <h1
-    class="h1"
-    data-v-887c42ec=""
-    data-v-97a16dd5=""
-  >
-    
-    びーにゃの部屋
-    
-  </h1>
-  <img
-    alt="びーにゃのイラスト"
-    class="icon"
-    data-v-97a16dd5=""
-    src="/app/assets/beenya.png"
-  />
-  <table
-    class="beenya-table"
-    data-v-97a16dd5=""
-  >
-    <tbody
-      data-v-97a16dd5=""
-    >
-      <tr
-        data-v-97a16dd5=""
-      >
-        <th
-          data-v-97a16dd5=""
-          scope="row"
-        >
-          名前
-        </th>
-        <td
-          data-v-97a16dd5=""
-        >
-          びーにゃ
-        </td>
+"<div data-v-97a16dd5="" class="beenya">
+  <h1 data-v-887c42ec="" data-v-97a16dd5="" class="h1">びーにゃの部屋</h1><img data-v-97a16dd5="" src="/app/assets/beenya.png" alt="びーにゃのイラスト" class="icon">
+  <table data-v-97a16dd5="" class="beenya-table">
+    <tbody data-v-97a16dd5="">
+      <tr data-v-97a16dd5="">
+        <th data-v-97a16dd5="" scope="row">名前</th>
+        <td data-v-97a16dd5="">びーにゃ</td>
       </tr>
-      <tr
-        data-v-97a16dd5=""
-      >
-        <th
-          data-v-97a16dd5=""
-          scope="row"
-        >
-          役割
-        </th>
-        <td
-          data-v-97a16dd5=""
-        >
-          アイドル
-        </td>
+      <tr data-v-97a16dd5="">
+        <th data-v-97a16dd5="" scope="row">役割</th>
+        <td data-v-97a16dd5="">アイドル</td>
       </tr>
-      <tr
-        data-v-97a16dd5=""
-      >
-        <th
-          data-v-97a16dd5=""
-          scope="row"
-        >
-          自己紹介
-        </th>
-        <td
-          data-v-97a16dd5=""
-        >
-          にゃにゃにゃにゃにゃにゃにゃー！(定時後ビールタイムだー！！)
-        </td>
+      <tr data-v-97a16dd5="">
+        <th data-v-97a16dd5="" scope="row">自己紹介</th>
+        <td data-v-97a16dd5="">にゃにゃにゃにゃにゃにゃにゃー！(定時後ビールタイムだー！！)</td>
       </tr>
     </tbody>
   </table>
-</div>
+</div>"
 `;

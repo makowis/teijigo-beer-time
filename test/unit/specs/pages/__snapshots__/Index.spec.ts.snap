@@ -1,340 +1,61 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`index.vue > should match the snapshot 1`] = `
-<div
-  class="Top"
->
-  <h1
-    class="h1"
-    data-v-887c42ec=""
-  >
-    
-    <span
-      class="blink"
-      data-v-a6dd56fd=""
-    >
-      
-      定時後ビールタイム公式サイト
-      
-    </span>
-    
-  </h1>
-  <p>
-    <span
-      class="blink"
-      data-v-a6dd56fd=""
-    >
-      
-      🎉🎉🎉🎉🎉🎉🎉M3-2024秋参戦決定！🎉🎉🎉🎉🎉🎉
-      
-    </span>
-  </p>
-  <div
-    class="marquee"
-    data-v-13e183a9=""
-  >
-    <div
-      class="marquee-inner"
-      data-v-13e183a9=""
-    >
-      
-       ＼奇跡の2年連続参戦！／ M3-2024秋に参戦！ 
-      
-    </div>
+"<div class="Top">
+  <h1 data-v-887c42ec="" class="h1"><span data-v-a6dd56fd="" class="blink">定時後ビールタイム公式サイト</span></h1>
+  <p><span data-v-a6dd56fd="" class="blink">🎉🎉🎉🎉🎉🎉🎉M3-2024秋参戦決定！🎉🎉🎉🎉🎉🎉</span></p>
+  <div data-v-13e183a9="" class="marquee">
+    <div data-v-13e183a9="" class="marquee-inner"> ＼奇跡の2年連続参戦！／ M3-2024秋に参戦！ </div>
   </div>
-  <section
-    class="section"
-    data-v-7768f48d=""
-  >
-    
-    <h2
-      class="h2"
-      data-v-3117fb04=""
-    >
-      
-      アクセスカウンター
-      
-    </h2>
-    <p>
-      あなたは0004999999999999人目の訪問者です。
-    </p>
-    
+  <section data-v-7768f48d="" class="section">
+    <h2 data-v-3117fb04="" class="h2">アクセスカウンター</h2>
+    <p>あなたは0004999999999999人目の訪問者です。</p>
   </section>
-  <section
-    class="section"
-    data-v-6e41aa24=""
-    data-v-7768f48d=""
-  >
-    
-    <h2
-      class="h2"
-      data-v-3117fb04=""
-      data-v-6e41aa24=""
-    >
-      
-      News
-      
-    </h2>
-    <ul
-      class="news-list"
-      data-v-6e41aa24=""
-    >
-      <li
-        data-v-6e41aa24=""
-      >
-        <span
-          class="blink news-blink"
-          data-v-6e41aa24=""
-          data-v-9912abab=""
-          data-v-a6dd56fd=""
-        >
-          
-          NEW
-          
-        </span>
-         M3-2024秋に参加予定です！ 
-      </li>
-      <li
-        data-v-6e41aa24=""
-      >
-        <a
-          data-v-6e41aa24=""
-          href="https://x.com/tbt_cf"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-           公式X（旧Twitter）アカウント 
-          <span
-            class="visually-hidden"
-            data-v-6e41aa24=""
-          >
-            （新しいタブで開きます）
-          </span>
-        </a>
-         作りました！最新情報をつぶやいていきます！ 
-      </li>
+  <section data-v-7768f48d="" data-v-6e41aa24="" class="section">
+    <h2 data-v-3117fb04="" data-v-6e41aa24="" class="h2">News</h2>
+    <ul data-v-6e41aa24="" class="news-list">
+      <li data-v-6e41aa24=""><span data-v-a6dd56fd="" data-v-9912abab="" data-v-6e41aa24="" class="blink news-blink">NEW</span> M3-2024秋に参加予定です！ </li>
+      <li data-v-6e41aa24=""><a data-v-6e41aa24="" href="https://x.com/tbt_cf" target="_blank" rel="noopener noreferrer"> 公式X（旧Twitter）アカウント <span data-v-6e41aa24="" class="visually-hidden">（新しいタブで開きます）</span></a> 作りました！最新情報をつぶやいていきます！ </li>
     </ul>
-    <p
-      data-v-6e41aa24=""
-    />
-    
   </section>
-  <section
-    class="section"
-    data-v-641101f2=""
-    data-v-7768f48d=""
-  >
-    
-    <h2
-      class="h2"
-      data-v-3117fb04=""
-      data-v-641101f2=""
-    >
-      
-      サークルカット
-      
-    </h2>
-    <img
-      alt="サークルカット"
-      class="circle-cut"
-      data-v-641101f2=""
-      src="/app/assets/cut.png"
-    />
-    
+  <section data-v-7768f48d="" data-v-641101f2="" class="section">
+    <h2 data-v-3117fb04="" data-v-641101f2="" class="h2">サークルカット</h2><img data-v-641101f2="" src="/app/assets/cut.png" alt="サークルカット" class="circle-cut">
   </section>
-  <section
-    class="section"
-    data-v-1edda32e=""
-    data-v-7768f48d=""
-  >
-    
-    <h2
-      class="h2"
-      data-v-1edda32e=""
-      data-v-3117fb04=""
-    >
-      
-      M3-2024秋スペース配置
-      
-    </h2>
-    <table
-      border="1"
-      class="space-table"
-      data-v-1edda32e=""
-    >
-      <tbody
-        data-v-1edda32e=""
-      >
-        <tr
-          data-v-1edda32e=""
-        >
-          <th
-            data-v-1edda32e=""
-            scope="row"
-          >
-            サークル名
-          </th>
-          <td
-            data-v-1edda32e=""
-          >
-            定時後ビールタイム
-          </td>
+  <section data-v-7768f48d="" data-v-1edda32e="" class="section">
+    <h2 data-v-3117fb04="" data-v-1edda32e="" class="h2">M3-2024秋スペース配置</h2>
+    <table data-v-1edda32e="" border="1" class="space-table">
+      <tbody data-v-1edda32e="">
+        <tr data-v-1edda32e="">
+          <th data-v-1edda32e="" scope="row">サークル名</th>
+          <td data-v-1edda32e="">定時後ビールタイム</td>
         </tr>
-        <tr
-          data-v-1edda32e=""
-        >
-          <th
-            data-v-1edda32e=""
-            scope="row"
-          >
-            配置場所
-          </th>
-          <td
-            data-v-1edda32e=""
-          >
-            リアルイベントスペース
-          </td>
+        <tr data-v-1edda32e="">
+          <th data-v-1edda32e="" scope="row">配置場所</th>
+          <td data-v-1edda32e="">リアルイベントスペース</td>
         </tr>
-        <tr
-          data-v-1edda32e=""
-        >
-          <th
-            data-v-1edda32e=""
-            scope="row"
-          >
-            スペース番号
-          </th>
-          <td
-            data-v-1edda32e=""
-          >
-            第二展示場2階 シ-07a
-          </td>
+        <tr data-v-1edda32e="">
+          <th data-v-1edda32e="" scope="row">スペース番号</th>
+          <td data-v-1edda32e="">第二展示場2階 シ-07a</td>
         </tr>
       </tbody>
     </table>
-    <section
-      class="section"
-      data-v-1edda32e=""
-      data-v-7768f48d=""
-    >
-      
-      <h3
-        class="h3"
-        data-v-1edda32e=""
-        data-v-aa0e9692=""
-      >
-        
-        M3-2023秋
-        
-      </h3>
-      <p
-        data-v-1edda32e=""
-      >
-        日時：2024年10月27日(日)
-      </p>
-      <a
-        data-v-1edda32e=""
-        href="https://www.m3net.jp/"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-         M3公式サイト 
-        <span
-          class="visually-hidden"
-          data-v-1edda32e=""
-        >
-          （新しいタブで開きます）
-        </span>
-      </a>
-      
+    <section data-v-7768f48d="" data-v-1edda32e="" class="section">
+      <h3 data-v-aa0e9692="" data-v-1edda32e="" class="h3">M3-2024秋</h3>
+      <p data-v-1edda32e="">日時：2024年10月27日(日)</p><a data-v-1edda32e="" href="https://www.m3net.jp/" target="_blank" rel="noopener noreferrer"> M3公式サイト <span data-v-1edda32e="" class="visually-hidden">（新しいタブで開きます）</span></a>
     </section>
-    <section
-      class="section"
-      data-v-1edda32e=""
-      data-v-7768f48d=""
-    >
-      
-      <h3
-        class="h3"
-        data-v-1edda32e=""
-        data-v-aa0e9692=""
-      >
-        
-        頒布CDクロスフェード
-        
-      </h3>
-      <div
-        class="video cross-fade"
-        data-v-1edda32e=""
-        data-v-e29cb6b7=""
-      >
-        <iframe
-          allow="autoplay; encrypted-media"
-          allowfullscreen=""
-          data-v-e29cb6b7=""
-          frameborder="0"
-          height="315"
-          src="https://www.youtube.com/embed/_ilOox8tQLU?si=vd2RgtYa-roJTja1"
-          title="YouTube動画"
-          width="560"
-        />
-      </div>
-      
+    <section data-v-7768f48d="" data-v-1edda32e="" class="section">
+      <h3 data-v-aa0e9692="" data-v-1edda32e="" class="h3">頒布CDクロスフェード</h3>
+      <div data-v-e29cb6b7="" data-v-1edda32e="" class="video cross-fade"><iframe data-v-e29cb6b7="" width="560" height="315" src="https://www.youtube.com/embed/_ilOox8tQLU?si=vd2RgtYa-roJTja1" title="YouTube動画" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
     </section>
-    
   </section>
-  <section
-    class="section"
-    data-v-7768f48d=""
-  >
-    
-    <h2
-      class="h2"
-      data-v-3117fb04=""
-    >
-      
-      連絡先
-      
-    </h2>
-    <p>
-       お問い合わせは
-      <a
-        href="mailto:staff@teijigo-beer-ti.me"
-      >
-        staff🍺teijigo-beer-ti.me
-      </a>
-      （🍺を@マークに変える）にお願いします。 
-    </p>
-    
+  <section data-v-7768f48d="" class="section">
+    <h2 data-v-3117fb04="" class="h2">連絡先</h2>
+    <p> お問い合わせは<a href="mailto:staff@teijigo-beer-ti.me">staff🍺teijigo-beer-ti.me</a>（🍺を@マークに変える）にお願いします。 </p>
   </section>
-  <section
-    class="section"
-    data-v-7768f48d=""
-  >
-    
-    <h2
-      class="h2"
-      data-v-3117fb04=""
-    >
-      
-      メニュー
-      
-    </h2>
-    <p>
-      <a>
-        
-         ＞＞＞＞DISCOGRAPHY＜＜＜＜ 
-        
-      </a>
-    </p>
-    <p>
-      <a>
-        
-         🍺🍺🍺🍺️メンバー紹介🍺🍺🍺🍺 
-        
-      </a>
-    </p>
-    
+  <section data-v-7768f48d="" class="section">
+    <h2 data-v-3117fb04="" class="h2">メニュー</h2>
+    <p><a> ＞＞＞＞DISCOGRAPHY＜＜＜＜ </a></p>
+    <p><a> 🍺🍺🍺🍺️メンバー紹介🍺🍺🍺🍺 </a></p>
   </section>
-</div>
+</div>"
 `;

@@ -6,15 +6,15 @@ describe('index.vue', () => {
   mockMath.random = () => 0.5
   global.Math = mockMath
 
-  const vm = mount(Index, {
+  const wrapper = mount(Index, {
     global: {
       stubs: {
         NuxtLink: RouterLinkStub,
       },
     },
-  }).vm
+  })
 
   it('should match the snapshot', () => {
-    expect(vm.$el).toMatchSnapshot()
+    expect(wrapper.html()).toMatchSnapshot()
   })
 })

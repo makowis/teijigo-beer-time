@@ -3,7 +3,7 @@ import TbtH2 from '@/components/atoms/TbtH2.vue'
 import TbtH3 from '@/components/atoms/TbtH3.vue'
 import TbtSection from '@/components/atoms/TbtSection.vue'
 import TbtYoutubeEmbedded from '@/components/atoms/TbtYoutubeEmbedded.vue'
-import { libreate } from '@/resources/discos'
+import { liberate } from '@/resources/discos'
 </script>
 
 <template>
@@ -27,7 +27,7 @@ import { libreate } from '@/resources/discos'
     </table>
 
     <tbt-section>
-      <tbt-h-3>M3-2023秋</tbt-h-3>
+      <tbt-h-3>M3-2024秋</tbt-h-3>
       <p>日時：2024年10月27日(日)</p>
       <a href="https://www.m3net.jp/" target="_blank" rel="noopener noreferrer">
         M3公式サイト
@@ -38,7 +38,7 @@ import { libreate } from '@/resources/discos'
       <tbt-h-3>頒布CDクロスフェード</tbt-h-3>
       <tbt-youtube-embedded
         class="cross-fade"
-        :youtube-embed-url="libreate.youtubeEmbedUrl"
+        :youtube-embed-url="liberate.youtubeEmbedUrl"
       />
     </tbt-section>
   </tbt-section>

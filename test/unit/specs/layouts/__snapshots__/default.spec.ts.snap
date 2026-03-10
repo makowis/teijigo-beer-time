@@ -1,126 +1,21 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`index.vue > should match the snapshot 1`] = `
-<div
-  id="app"
->
-  <a
-    class="skip-link"
-    href="#main-container"
-  >
-    メインコンテンツへスキップ
-  </a>
-  <vite-pwa-manifest-stub />
-  <nav
-    class="menu-container"
-    data-v-28c0de1b=""
-    id="menu-container"
-  >
-    <ul
-      class="menu"
-      data-v-28c0de1b=""
-    >
-      <li
-        class="menu-item"
-        data-v-28c0de1b=""
-      >
-        <a
-          data-v-28c0de1b=""
-        >
-          
-           トップ 
-          
-        </a>
-      </li>
-      <li
-        class="menu-item"
-        data-v-28c0de1b=""
-      >
-        <a
-          data-v-28c0de1b=""
-        >
-          
-           DISCOGRAPHY 
-          
-        </a>
-      </li>
-      <li
-        class="menu-item"
-        data-v-28c0de1b=""
-      >
-        <a
-          data-v-28c0de1b=""
-        >
-          
-           メンバー紹介 
-          
-        </a>
-      </li>
-      <li
-        class="menu-item"
-        data-v-28c0de1b=""
-      >
-        <a
-          data-v-28c0de1b=""
-        >
-          
-           びーにゃの部屋 
-          
-        </a>
-      </li>
-      <li
-        class="menu-item"
-        data-v-28c0de1b=""
-      >
-        <a
-          data-v-28c0de1b=""
-          href="https://teijigo.booth.pm/"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-           通販(BOOTH) 
-          <span
-            class="visually-hidden"
-            data-v-28c0de1b=""
-          >
-            （新しいタブで開きます）
-          </span>
-        </a>
-      </li>
+exports[`default.vue > should match the snapshot 1`] = `
+"<div id="app"><a href="#main-container" class="skip-link">メインコンテンツへスキップ</a>
+  <vite-pwa-manifest-stub></vite-pwa-manifest-stub>
+  <nav data-v-28c0de1b="" id="menu-container" class="menu-container">
+    <ul data-v-28c0de1b="" class="menu">
+      <li data-v-28c0de1b="" class="menu-item"><a data-v-28c0de1b=""> トップ </a></li>
+      <li data-v-28c0de1b="" class="menu-item"><a data-v-28c0de1b=""> DISCOGRAPHY </a></li>
+      <li data-v-28c0de1b="" class="menu-item"><a data-v-28c0de1b=""> メンバー紹介 </a></li>
+      <li data-v-28c0de1b="" class="menu-item"><a data-v-28c0de1b=""> びーにゃの部屋 </a></li>
+      <li data-v-28c0de1b="" class="menu-item"><a data-v-28c0de1b="" href="https://teijigo.booth.pm/" target="_blank" rel="noopener noreferrer"> 通販(BOOTH) <span data-v-28c0de1b="" class="visually-hidden">（新しいタブで開きます）</span></a></li>
     </ul>
   </nav>
-  <div
-    class="main-container"
-    data-v-af982278=""
-    id="main-container"
-  >
-    <a
-      data-v-af982278=""
-    >
-      
-      <img
-        alt="定時後ビールタイム ロゴ"
-        class="logo"
-        data-v-7b6f3805=""
-        data-v-af982278=""
-        src="/app/assets/logo_1.png"
-      />
-      
-    </a>
-    
-    
-    
-    <footer
-      class="footer"
-      data-v-3f845372=""
-    >
-      <p
-        data-v-3f845372=""
-      >
-        ©定時後ビールタイム
-      </p>
+  <div data-v-af982278="" id="main-container" class="main-container"><a data-v-af982278=""><img data-v-7b6f3805="" data-v-af982278="" class="logo" src="/app/assets/logo_1.png" alt="定時後ビールタイム ロゴ"></a>
+    <footer data-v-3f845372="" class="footer">
+      <p data-v-3f845372="">©定時後ビールタイム</p>
     </footer>
-    
   </div>
-</div>
+</div>"
 `;

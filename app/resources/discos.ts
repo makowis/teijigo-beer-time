@@ -16,7 +16,7 @@ export interface TrackInfo {
   credit?: HTML // クレジット
 }
 
-export const libreate: Disco = {
+export const liberate: Disco = {
   title: '6th Mini Album 「LIBERATE」',
   release: '2024.10.27',
   displayCredit: true,
