@@ -9391,25 +9391,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"h3@npm:^1.12.0":
-  version: 1.13.0
-  resolution: "h3@npm:1.13.0"
-  dependencies:
-    cookie-es: "npm:^1.2.2"
-    crossws: "npm:>=0.2.0 <0.4.0"
-    defu: "npm:^6.1.4"
-    destr: "npm:^2.0.3"
-    iron-webcrypto: "npm:^1.2.1"
-    ohash: "npm:^1.1.4"
-    radix3: "npm:^1.1.2"
-    ufo: "npm:^1.5.4"
-    uncrypto: "npm:^0.1.3"
-    unenv: "npm:^1.10.0"
-  checksum: 10c0/d2e91d44c7133c31c62e39288961be28fb9f2c75f91d83a4a0416e29ff408b3207b79e46ba25a2652e13aea78a3e6f10d12c53d746feb00e91b864e1f4b21302
-  languageName: node
-  linkType: hard
-
-"h3@npm:^1.15.5":
+"h3@npm:^1.12.0, h3@npm:^1.15.5":
   version: 1.15.5
   resolution: "h3@npm:1.15.5"
   dependencies:
@@ -9423,23 +9405,6 @@ __metadata:
     ufo: "npm:^1.6.3"
     uncrypto: "npm:^0.1.3"
   checksum: 10c0/d36c05176555109aa0b42c520dc03350d5baa9fff5067075f0919920a80f966a53eff2785051203a4630f8472bec118e5e0187b186a3105eba3106087cb0ddb9
-  languageName: node
-  linkType: hard
-
-"h3@npm:^2.0.1-rc.16":
-  version: 2.0.1-rc.16
-  resolution: "h3@npm:2.0.1-rc.16"
-  dependencies:
-    rou3: "npm:^0.8.0"
-    srvx: "npm:^0.11.9"
-  peerDependencies:
-    crossws: ^0.4.1
-  peerDependenciesMeta:
-    crossws:
-      optional: true
-  bin:
-    h3: bin/h3.mjs
-  checksum: 10c0/5da1c575307ef3cb953c4e79a1538878b93bca5218935ce77d36e8b4a9ac581ff789252cbbab6288855bcd796eeb2e91d16d00b52d9722d72bbfa515bba576ce
   languageName: node
   linkType: hard
 
@@ -13419,13 +13384,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rou3@npm:^0.8.0":
-  version: 0.8.1
-  resolution: "rou3@npm:0.8.1"
-  checksum: 10c0/c8728cf3c41833db0e20cbadba07b3c678b8b9fb12db1d8803f275a7a6cce02d0be9bee79367575883f65659c9c0ed1001e6527146ed27772e439e5d6c68d264
-  languageName: node
-  linkType: hard
-
 "run-applescript@npm:^7.0.0":
   version: 7.0.0
   resolution: "run-applescript@npm:7.0.0"
@@ -13966,7 +13924,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"srvx@npm:^0.11.2, srvx@npm:^0.11.9":
+"srvx@npm:^0.11.2":
   version: 0.11.9
   resolution: "srvx@npm:0.11.9"
   bin:
@@ -14508,7 +14466,6 @@ __metadata:
     "@vue/test-utils": "npm:^2.4.6"
     eslint: "npm:^10.0.3"
     eslint-config-prettier: "npm:^10.1.8"
-    h3: "npm:^2.0.1-rc.16"
     jsdom: "npm:^28.1.0"
     nitropack: "npm:^2.13.1"
     nuxt: "npm:^4.3.1"
