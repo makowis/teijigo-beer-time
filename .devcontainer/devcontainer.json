@@ -14,7 +14,8 @@
         "esbenp.prettier-vscode",
         "stylelint.vscode-stylelint",
         "EditorConfig.EditorConfig",
-        "GitHub.copilot"
+        "GitHub.copilot",
+        "GitHub.vscode-pull-request-github"
       ],
       "settings": {
         "editor.formatOnSave": true,
