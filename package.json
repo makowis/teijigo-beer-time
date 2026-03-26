@@ -31,7 +31,7 @@
     "@vue/test-utils": "^2.4.6",
     "eslint": "^10.0.3",
     "eslint-config-prettier": "^10.1.8",
-    "h3": "^2.0.1-rc.16",
+    "h3": "^2.0.1-rc.18",
     "jsdom": "^28.1.0",
     "nitropack": "^2.13.1",
     "nuxt": "^4.3.1",
