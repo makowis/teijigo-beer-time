@@ -33,7 +33,7 @@
     "eslint-config-prettier": "^10.1.8",
     "h3": "^2.0.1-rc.16",
     "jsdom": "^28.1.0",
-    "nitropack": "^2.13.1",
+    "nitropack": "^2.13.3",
     "nuxt": "^4.3.1",
     "postcss-html": "^1.8.1",
     "prettier": "^3.8.1",
