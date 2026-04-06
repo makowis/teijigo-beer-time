@@ -9547,12 +9547,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"h3@npm:^2.0.1-rc.16":
-  version: 2.0.1-rc.16
-  resolution: "h3@npm:2.0.1-rc.16"
+"h3@npm:^2.0.1-rc.20":
+  version: 2.0.1-rc.20
+  resolution: "h3@npm:2.0.1-rc.20"
   dependencies:
-    rou3: "npm:^0.8.0"
-    srvx: "npm:^0.11.9"
+    rou3: "npm:^0.8.1"
+    srvx: "npm:^0.11.13"
   peerDependencies:
     crossws: ^0.4.1
   peerDependenciesMeta:
@@ -9560,7 +9560,7 @@ __metadata:
       optional: true
   bin:
     h3: bin/h3.mjs
-  checksum: 10c0/5da1c575307ef3cb953c4e79a1538878b93bca5218935ce77d36e8b4a9ac581ff789252cbbab6288855bcd796eeb2e91d16d00b52d9722d72bbfa515bba576ce
+  checksum: 10c0/9bc662b9b61450625cacb9dcbe8c6d3b86281090f3816ea6c70fad854a24dbb7dcb3450c987f00e71960ee930daf95453253a855c5e1ea8a13e3cd7c3b2113f6
   languageName: node
   linkType: hard
 
@@ -13711,7 +13711,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rou3@npm:^0.8.0":
+"rou3@npm:^0.8.1":
   version: 0.8.1
   resolution: "rou3@npm:0.8.1"
   checksum: 10c0/c8728cf3c41833db0e20cbadba07b3c678b8b9fb12db1d8803f275a7a6cce02d0be9bee79367575883f65659c9c0ed1001e6527146ed27772e439e5d6c68d264
@@ -14247,7 +14247,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"srvx@npm:^0.11.2, srvx@npm:^0.11.9":
+"srvx@npm:^0.11.13":
+  version: 0.11.15
+  resolution: "srvx@npm:0.11.15"
+  bin:
+    srvx: bin/srvx.mjs
+  checksum: 10c0/3f72be7bfb321ad21ae7698a721f1a16b855313d1fa8498a0d68adbec65f8f2d2c5a83cf37849f6489c7403870535a70958976636df3d5274cd785b61b7aa635
+  languageName: node
+  linkType: hard
+
+"srvx@npm:^0.11.2":
   version: 0.11.9
   resolution: "srvx@npm:0.11.9"
   bin:
@@ -14789,7 +14798,7 @@ __metadata:
     "@vue/test-utils": "npm:^2.4.6"
     eslint: "npm:^10.0.3"
     eslint-config-prettier: "npm:^10.1.8"
-    h3: "npm:^2.0.1-rc.16"
+    h3: "npm:^2.0.1-rc.20"
     jsdom: "npm:^28.1.0"
     nitropack: "npm:^2.13.1"
     nuxt: "npm:^4.3.1"
