@@ -44,15 +44,17 @@ import TbtBeenyaLink from '@/components/atoms/TbtBeenyaLink.vue'
 }
 
 .menu {
-  list-style: none;
+  list-style-type: '🍺';
+  padding-left: 1.25em;
+}
+
+.menu ::marker {
+  font-size: 1.25em;
 }
 
 .menu-item {
   margin-bottom: 20px;
-}
-
-.menu-item::before {
-  content: '🍺';
+  padding-left: 0.25em;
 }
 
 .visually-hidden {
