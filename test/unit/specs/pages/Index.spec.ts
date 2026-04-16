@@ -10,6 +10,7 @@ describe('index.vue', () => {
     global: {
       stubs: {
         NuxtLink: RouterLinkStub,
+        ClientOnly: { template: '<slot />' },
       },
     },
   })
