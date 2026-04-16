@@ -1,0 +1,1 @@
+import{_ as s,c as t,j as o,o as a}from"./CLBqKm7o.js";const c={},n={class:"h1"};function r(e,_){return a(),t("h1",n,[o(e.$slots,"default",{},void 0,!0)])}const f=Object.assign(s(c,[["render",r],["__scopeId","data-v-a1fa7766"]]),{__name:"AtomsTbtH1"});export{f as T};
