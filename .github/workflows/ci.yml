@@ -1,20 +1,16 @@
 name: ci
 
 on:
-  push:
-    branches:
-      - master
   pull_request:
     branches:
       - master
 
 jobs:
   ci:
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
 
     strategy:
       matrix:
-        os: [ubuntu-latest]
         node: [24]
 
     steps:
@@ -36,7 +32,7 @@ jobs:
 
       - name: Cache node_modules 📦
         uses: actions/cache@v5
-        id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+        id: yarn-cache
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
