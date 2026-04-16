@@ -93,6 +93,9 @@ sw.*
 
 .vscode
 
+# Claude Code
+.claude/settings.local.json
+
 # yarn
 .yarn/*
 .pnp.*
