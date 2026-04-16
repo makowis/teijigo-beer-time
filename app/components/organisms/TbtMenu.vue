@@ -45,11 +45,13 @@ import TbtBeenyaLink from '@/components/atoms/TbtBeenyaLink.vue'
 
 .menu {
   list-style-type: '🍺';
+  margin-left: 1em;
   padding-left: 1.25em;
 }
 
 .menu ::marker {
   font-size: 1.25em;
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif;
 }
 
 .menu-item {
@@ -78,14 +80,15 @@ import TbtBeenyaLink from '@/components/atoms/TbtBeenyaLink.vue'
   }
 
   .menu {
-    justify-content: space-around;
     margin: 10px;
-    padding: 0;
+    padding-left: 1.25em;
+    text-align: center;
   }
 
   .menu-item {
-    display: inline-block;
-    margin-bottom: 10px;
+    display: inline list-item;
+    margin: 0 0.75em 10px 0;
+    padding-left: 0.25em;
   }
 }
 </style>
