@@ -44,7 +44,7 @@ import TbtBeenyaLink from '@/components/atoms/TbtBeenyaLink.vue'
 }
 
 .menu {
-  list-style-type: "🍺";
+  list-style-type: '🍺';
   padding-left: 1.25em;
 }
 
