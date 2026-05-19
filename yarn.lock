@@ -15651,21 +15651,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"srvx@npm:^0.11.13":
+"srvx@npm:^0.11.13, srvx@npm:^0.11.9":
   version: 0.11.15
   resolution: "srvx@npm:0.11.15"
   bin:
     srvx: bin/srvx.mjs
   checksum: 10c0/3f72be7bfb321ad21ae7698a721f1a16b855313d1fa8498a0d68adbec65f8f2d2c5a83cf37849f6489c7403870535a70958976636df3d5274cd785b61b7aa635
-  languageName: node
-  linkType: hard
-
-"srvx@npm:^0.11.9":
-  version: 0.11.9
-  resolution: "srvx@npm:0.11.9"
-  bin:
-    srvx: bin/srvx.mjs
-  checksum: 10c0/e0e09be97cfae5f3e42bd6e1578e0aece8a65580d5dd136adcc54e50e414e391f6a8a40130aaee989d20b7bef65310b49a77bd23717d5d6ca75d18d6bc69c4d7
   languageName: node
   linkType: hard
 
