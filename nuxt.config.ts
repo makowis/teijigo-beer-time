@@ -34,24 +34,6 @@ export default defineNuxtConfig({
         { name: 'twitter:image', content: OGP_IMAGE },
         // PWA
         { name: 'theme-color', content: '#ffffff' },
-        // CSP（静的サイトのためHTTPヘッダーではなくmetaタグで設定）
-        {
-          'http-equiv': 'Content-Security-Policy',
-          content: [
-            "default-src 'self'",
-            // Nuxt SSGのハイドレーションペイロードにインラインスクリプトが含まれるため unsafe-inline が必要
-            "script-src 'self' 'unsafe-inline'",
-            "style-src 'self' 'unsafe-inline'",
-            "img-src 'self' data:",
-            'frame-src https://www.youtube.com',
-            "connect-src 'self'",
-            "font-src 'self'",
-            "worker-src 'self'",
-            "object-src 'none'",
-            "base-uri 'self'",
-            "form-action 'self'",
-          ].join('; '),
-        },
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
