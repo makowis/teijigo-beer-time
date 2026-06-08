@@ -6144,7 +6144,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/compiler-sfc@npm:3.5.34, @vue/compiler-sfc@npm:^3.5.34":
+"@vue/compiler-sfc@npm:3.5.34":
   version: 3.5.34
   resolution: "@vue/compiler-sfc@npm:3.5.34"
   dependencies:
@@ -6161,7 +6161,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/compiler-sfc@npm:3.5.35":
+"@vue/compiler-sfc@npm:3.5.35, @vue/compiler-sfc@npm:^3.5.35":
   version: 3.5.35
   resolution: "@vue/compiler-sfc@npm:3.5.35"
   dependencies:
@@ -15322,7 +15322,7 @@ __metadata:
     "@vite-pwa/nuxt": "npm:^1.1.1"
     "@vitejs/plugin-vue": "npm:^6.0.7"
     "@vitest/coverage-v8": "npm:^4.1.6"
-    "@vue/compiler-sfc": "npm:^3.5.34"
+    "@vue/compiler-sfc": "npm:^3.5.35"
     "@vue/test-utils": "npm:^2.4.10"
     eslint: "npm:^10.4.0"
     eslint-config-prettier: "npm:^10.1.8"
