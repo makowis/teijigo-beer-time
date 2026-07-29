@@ -19,10 +19,10 @@ jobs:
 
     steps:
       - name: Checkout 🛎
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Setup node env 🏗
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: ${{ matrix.node }}
 
@@ -35,7 +35,7 @@ jobs:
         run: echo "dir=$(yarn config get cacheFolder)" >> $GITHUB_OUTPUT
 
       - name: Cache node_modules 📦
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
@@ -53,6 +53,6 @@ jobs:
         run: yarn coverage
 
       - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v6
+        uses: codecov/codecov-action@v7
         with:
           token: ${{ secrets.CODECOV_TOKEN }}

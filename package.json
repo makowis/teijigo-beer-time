@@ -26,9 +26,9 @@
     "@types/node": "^25.9.0",
     "@vite-pwa/nuxt": "^1.1.1",
     "@vitejs/plugin-vue": "^6.0.7",
-    "@vitest/coverage-v8": "^4.1.6",
+    "@vitest/coverage-v8": "^4.1.8",
     "@vue/compiler-sfc": "^3.5.35",
-    "@vue/test-utils": "^2.4.10",
+    "@vue/test-utils": "^2.4.11",
     "eslint": "^10.4.0",
     "eslint-config-prettier": "^10.1.8",
     "h3": "^2.0.1-rc.22",
@@ -37,14 +37,14 @@
     "nuxt": "^4.4.6",
     "postcss-html": "^1.8.1",
     "prettier": "^3.8.3",
-    "stylelint": "^17.12.0",
+    "stylelint": "^17.13.0",
     "stylelint-config-recommended-vue": "^1.6.1",
     "stylelint-config-standard": "^40.0.0",
     "typescript": "^6.0.3",
     "vite": "^8.0.16",
     "vitest": "^4.1.7",
     "vue": "^3.5.35",
-    "vue-router": "^5.0.7"
+    "vue-router": "^5.1.0"
   },
   "resolutions": {
     "css-tree": "^3.2.1",
