@@ -4,4 +4,4 @@
 
 The components directory contains your Vue.js Components.
 
-_コンポーネントの自動インポートは使っていないので、使う側で明示的に import すること。_
+_Nuxt.js doesn't supercharge these components._

@@ -1,21 +1,7 @@
 {
+  "extends": "./.nuxt/tsconfig.json",
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
-    "lib": ["ESNext", "DOM", "DOM.Iterable"],
-    "jsx": "preserve",
-    "strict": true,
-    "noEmit": true,
-    "isolatedModules": true,
-    "resolveJsonModule": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "types": ["vite/client", "vitest/globals"],
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["src/*"]
-    }
+    "types": ["vitest/globals"]
   },
-  "include": ["src/**/*", "test/**/*", "vite.config.ts", "vitest.config.ts"]
+  "include": [".nuxt/nuxt.d.ts", "app/**/*", "test/**/*"]
 }

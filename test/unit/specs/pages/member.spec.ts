@@ -5,7 +5,7 @@ describe('member.vue', () => {
   const wrapper = mount(Member, {
     global: {
       stubs: {
-        RouterLink: RouterLinkStub,
+        NuxtLink: RouterLinkStub,
       },
     },
   })
