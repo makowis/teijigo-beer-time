@@ -1,0 +1,23 @@
+import{H as e,L as t,P as n,_ as r,b as i,d as a,p as o,t as s,u as c}from"./ZJlJ99FX.js";import{t as l}from"./DOc6skV4.js";var u={},d={class:`h2`};function f(e,r){return n(),o(`h2`,d,[t(e.$slots,`default`,{},void 0,!0)])}var p=Object.assign(s(u,[[`render`,f],[`__scopeId`,`data-v-81a3bad7`]]),{__name:`AtomsTbtH2`}),m={},h={class:`section`};function g(e,r){return n(),o(`section`,h,[t(e.$slots,`default`,{},void 0,!0)])}var _=Object.assign(s(m,[[`render`,g],[`__scopeId`,`data-v-88cff744`]]),{__name:`AtomsTbtSection`}),v={},y={class:`blink`};function b(e,r){return n(),o(`span`,y,[t(e.$slots,`default`,{},void 0,!0)])}var x=Object.assign(s(v,[[`render`,b],[`__scopeId`,`data-v-6d8e3a1b`]]),{__name:`AtomsTbtBlink`}),S=Object.assign(s(i({__name:`TbtNewBlink`,setup(t){return(t,i)=>(n(),a(x,{class:`news-blink`},{default:e(()=>[...i[0]||=[r(`NEW`,-1)]]),_:1}))}}),[[`__scopeId`,`data-v-5b98716b`]]),{__name:`AtomsTbtNewBlink`}),C={class:`video`},w=[`src`,`title`],T=Object.assign(s(i({__name:`TbtYoutubeEmbedded`,props:{youtubeEmbedUrl:{},videoTitle:{}},setup(e){return(t,r)=>(n(),o(`div`,C,[c(`iframe`,{width:`560`,height:`315`,src:e.youtubeEmbedUrl,title:e.videoTitle||`YouTube動画`,allow:`autoplay; encrypted-media`,allowfullscreen:``},null,8,w)]))}}),[[`__scopeId`,`data-v-193ff873`]]),{__name:`AtomsTbtYoutubeEmbedded`}),E={title:`6th Mini Album 「LIBERATE」`,release:`2024.10.27`,displayCredit:!0,youtubeEmbedUrl:`https://www.youtube.com/embed/_ilOox8tQLU?si=vd2RgtYa-roJTja1`,tracks:[{no:1,name:`遮断機の向こう側`,artist:`comorebi notes`,credit:l(`作詞・作曲：comorebi notes
+               <br />
+               歌：AIきりたん (NEUTRINO)`)},{no:2,name:`きのこ生活`,artist:`hayu`,credit:l(`作詞・作曲：hayu
+               <br />
+               歌：Synthesizer V AI Megpoid`)},{no:3,name:`秋空`,artist:`ビール飲まない社員K`,credit:l(`作詞・作曲：ビール飲まない社員K
+               <br />
+               歌：MYK-IV (VoiSona)`)}]},D={title:`5th Mini Album 「RISING」`,release:`2023.10.29`,displayCredit:!0,youtubeEmbedUrl:`https://www.youtube.com/embed/y83GedNBXfQ`,tracks:[{no:1,name:`RISING`,artist:`マッキー`,credit:l(`作詞・作曲・歌：マッキー`)},{no:2,name:`たまご生活`,artist:`hayu`,credit:l(`作曲：hayu`)},{no:3,name:`Game is...`,artist:`ビール飲まない社員K`,credit:l(`作詞・作曲：ビール飲まない社員K
+               <br />
+               歌：知声、MYK-IV (VoiSona)`)},{no:4,name:`はじまりのうた`,artist:`comorebi notes`,credit:l(`作詞・作曲：comorebi notes
+               <br />
+               歌：花隈千冬 (Synthesizer V Al)`)}]},O={title:`4th Mini Album 「BATTLE」`,release:`2021.4.25`,displayCredit:!0,youtubeEmbedUrl:`https://www.youtube.com/embed/29UhRyb4hJg`,tracks:[{no:1,name:`作業中にソフトが落ちた`,artist:`マッキー`,credit:l(`作詞・作曲・歌：マッキー`)},{no:2,name:`ノラネコ大戦争`,artist:`u13`,credit:l(`作曲：u13`)},{no:3,name:`anatra falcata`,artist:`comorebi notes`,credit:l(`作曲：comorebi notes`)},{no:4,name:`旋風`,artist:`ビール飲まない社員K`,credit:l(`作曲：ビール飲まない社員K`)}]},k={title:`3nd Mini Album 「RECYCLE」`,release:`2019.10.27`,displayCredit:!0,youtubeEmbedUrl:`https://www.youtube.com/embed/L_DAzJq4tgg`,tracks:[{no:1,name:`paellero`,artist:`comorebi notes`,credit:l(`作詞・作曲・歌：comorebi notes`)},{no:2,name:`Carry on`,artist:`マッキー`,credit:l(`作詞・作曲：マッキー
+               <br />
+               歌：マッキー feat. IA`)},{no:3,name:`大都会フォーエバー`,artist:`comorebi notes`,credit:l(`作詞・作曲：comorebi notes
+               <br />
+               歌：IA`)},{no:4,name:`tanabatight`,artist:`u13`,credit:l(`作曲：u13`)}]},A={title:`2nd Mini Album 「START」`,release:`2019.04.27`,displayCredit:!0,youtubeEmbedUrl:`https://www.youtube.com/embed/IxTdbkoGM-Q`,tracks:[{no:1,name:`桜風狂想`,artist:`Pecan nene.`,credit:l(`作曲：ビール飲まない社員K<br />
+               作詞：ビール飲まない社員K、みーやん<br />
+               歌：みーやん`)},{no:2,name:`未来ヒーロー`,artist:`マッキー`,credit:l(`作詞・作曲：マッキー<br />
+               歌：IA`)},{no:3,name:`ストロボサイン`,artist:`tan3-16`,credit:l(`作詞・作曲：u13<br />
+               編曲：comorebi notes<br />
+               歌：フナモトアユミ`)},{no:4,name:`桜花`,artist:`珍珠奶茶`,credit:l(`企画：WestTail<br />
+               作曲：comorebi notes<br />
+               作詞：台湾豆乳を飲む人<br />
+               歌：Shiho (the Clock Hands)`)}]},j={title:`1st Mini Album「HOPE」`,release:`2018.10.28`,displayCredit:!1,youtubeEmbedUrl:`https://www.youtube.com/embed/KE3It-tas0Y?rel=0`,tracks:[{no:1,name:`Alive`,artist:`WestTail feat. ruha`},{no:2,name:`cresc.`,artist:`きむらじお feat.フナモトアユミ`},{no:3,name:`瞬間`,artist:`山口真央 feat. すぴか`},{no:4,name:`Calling`,artist:`NY2 feat. フナモトアユミ`},{no:5,name:`Diary`,artist:`u13 feat. フナモトアユミ`},{no:6,name:`ハルカユーグレハナヤイデ`,artist:`comorebi notes`}]};export{k as a,S as c,p as d,A as i,x as l,j as n,D as o,E as r,T as s,O as t,_ as u};
