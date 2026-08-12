@@ -1,9 +1,0 @@
-import{_ as e,a as t,c as n,d as r,f as i,i as a,l as o,p as s,r as c,u as l,v as u,y as d}from"./app-DeNkhyP9.js";import{t as f}from"./TbtH1-BzMgAfDq.js";import{t as p}from"./types-DOc6skV4.js";var m={name:`さかもとP`,charge:p(`なばかりプロデューサー兼テイジゴビールタイマー`),profile:p(`ビール大好き！！！！！！`)},h={name:`ビール飲まない社員K`,charge:p(`人の褌や自分の褌で相撲を取ったりする
-<br>
-（主にトラックメーカー）`),profile:p(`ビールじゃなくてハイボールなら飲みます。
-<br>
-定時後ハイボールタイム、よろしこ`)},g={name:`yokizo`,charge:p(`えらそーにする`),profile:p(`リハビリ中で戦力になれないので、えらそーにしてます。`)},_={name:`管理人MAKO`,charge:p(`サイトの管理とお茶汲み`),profile:p(`サイトの管理人です。
-<br>
-音楽作れないのでホムペ担当になりました。
-<br>
-昔懐かしい雰囲気のサイトを作って行きたいと思います！`)},v=[m,h,g,{name:`WestTail`,charge:p(`ProTools見習い`),profile:p(`周囲の素晴らしい才能をリスペクトしつつ頑張りたいと思います`)},{name:`ケロ`,charge:p(`ミュージさん`),profile:p(`ウィットに富んだフレキシブルな音楽でナウなヤングにバカウケ`)},{name:`Gutch`,charge:p(`曲に効果音を突っ込む`),profile:p(`ビール飲めない！！！！！`)},{name:`みーやん`,charge:p(`ハモるの大好きはもりびと`),profile:p(`ボーカルじゃなくてコーラスが得意`)},{name:`台湾豆乳を飲む人`,charge:p(`作業に参加しない係`),profile:p(`ﾆﾎﾝｺﾞワカリマセン`)},{name:`マッキー`,charge:p(`BPM200以上`),profile:p(`お酒大好き！！！！！！`)},{name:`Ag+`,charge:p(`テレアポ`),profile:p(`どこでもアポとります！`)},_],y={class:`member`},b={class:`member-table`},x=[`innerHTML`],S=[`innerHTML`],C=c(r({__name:`member`,setup(r){return(r,c)=>(i(),n(`div`,y,[l(f,null,{default:e(()=>[...c[0]||=[o(`MEMBER`,-1)]]),_:1}),t(`table`,b,[c[1]||=t(`thead`,null,[t(`tr`,null,[t(`th`,{scope:`col`},`名前`),t(`th`,{scope:`col`},`担当`),t(`th`,{scope:`col`},`自己紹介`)])],-1),t(`tbody`,null,[(i(!0),n(a,null,s(u(v),e=>(i(),n(`tr`,{key:e.name},[t(`td`,null,d(e.name),1),t(`td`,{innerHTML:e.charge},null,8,x),t(`td`,{innerHTML:e.profile},null,8,S)]))),128))])])]))}}),[[`__scopeId`,`data-v-07f33544`]]);export{C as default};

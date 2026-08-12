@@ -1,1 +1,0 @@
-import{c as e,f as t,m as n,r}from"./app-DeNkhyP9.js";var i={},a={class:`h1`};function o(r,i){return t(),e(`h1`,a,[n(r.$slots,`default`,{},void 0,!0)])}var s=r(i,[[`render`,o],[`__scopeId`,`data-v-25b115b8`]]);export{s as t};
