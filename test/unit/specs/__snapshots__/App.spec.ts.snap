@@ -1,0 +1,21 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`App.vue > should match the snapshot 1`] = `
+"<div id="app"><a href="#main-container" class="skip-link">メインコンテンツへスキップ</a>
+  <nav data-v-de959a9d="" id="menu-container" class="menu-container">
+    <ul data-v-de959a9d="" class="menu">
+      <li data-v-de959a9d="" class="menu-item"><a data-v-de959a9d=""> トップ </a></li>
+      <li data-v-de959a9d="" class="menu-item"><a data-v-de959a9d=""> DISCOGRAPHY </a></li>
+      <li data-v-de959a9d="" class="menu-item"><a data-v-de959a9d=""> メンバー紹介 </a></li>
+      <li data-v-de959a9d="" class="menu-item"><a data-v-de959a9d=""> びーにゃの部屋 </a></li>
+      <li data-v-de959a9d="" class="menu-item"><a data-v-de959a9d="" href="https://teijigo.booth.pm/" target="_blank" rel="noopener noreferrer"> 通販(BOOTH) <span data-v-de959a9d="" class="visually-hidden">（新しいタブで開きます）</span></a></li>
+    </ul>
+  </nav>
+  <div data-v-ee101e20="" id="main-container" class="main-container"><a data-v-ee101e20=""><img data-v-143eb11c="" data-v-ee101e20="" class="logo" src="/src/assets/logo_1.png" alt="定時後ビールタイム ロゴ"></a>
+    <router-view-stub></router-view-stub>
+    <footer data-v-2490f3cf="" class="footer">
+      <p data-v-2490f3cf="">©定時後ビールタイム</p>
+    </footer>
+  </div>
+</div>"
+`;

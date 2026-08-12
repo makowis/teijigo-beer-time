@@ -9,7 +9,7 @@ describe('index.vue', () => {
   const wrapper = mount(Index, {
     global: {
       stubs: {
-        NuxtLink: RouterLinkStub,
+        RouterLink: RouterLinkStub,
         ClientOnly: { template: '<slot />' },
       },
     },

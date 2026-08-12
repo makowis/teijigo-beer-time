@@ -1,8 +1,0 @@
-// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
-
-exports[`notFound.vue > should match the snapshot 1`] = `
-"<div class="not-found">
-  <h1 data-v-887c42ec="" class="h1">404 NOT FOUND</h1>
-  <p>このページは存在しません。</p><img src="/app/assets/nomikai_salaryman.png" alt="飲み会のイラストです。ビール飲みましょう">
-</div>"
-`;

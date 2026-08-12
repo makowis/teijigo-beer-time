@@ -5,7 +5,7 @@ describe('disco.vue', () => {
   const wrapper = mount(Disco, {
     global: {
       stubs: {
-        NuxtLink: RouterLinkStub,
+        RouterLink: RouterLinkStub,
       },
     },
   })

@@ -2,58 +2,58 @@
 
 exports[`index.vue > should match the snapshot 1`] = `
 "<div class="Top">
-  <h1 data-v-887c42ec="" class="h1"><span data-v-a6dd56fd="" class="blink">定時後ビールタイム公式サイト</span></h1>
-  <p><span data-v-a6dd56fd="" class="blink">🎉🎉🎉🎉🎉🎉🎉M3-2024秋参戦決定！🎉🎉🎉🎉🎉🎉</span></p>
-  <div data-v-13e183a9="" class="marquee">
-    <div data-v-13e183a9="" class="marquee-inner"> ＼奇跡の2年連続参戦！／ M3-2024秋に参戦！ </div>
+  <h1 data-v-2e7594c6="" class="h1"><span data-v-e15bf86b="" class="blink">定時後ビールタイム公式サイト</span></h1>
+  <p><span data-v-e15bf86b="" class="blink">🎉🎉🎉🎉🎉🎉🎉M3-2024秋参戦決定！🎉🎉🎉🎉🎉🎉</span></p>
+  <div data-v-518dd43e="" class="marquee">
+    <div data-v-518dd43e="" class="marquee-inner"> ＼奇跡の2年連続参戦！／ M3-2024秋に参戦！ </div>
   </div>
-  <section data-v-7768f48d="" class="section">
-    <h2 data-v-3117fb04="" class="h2">アクセスカウンター</h2>
+  <section data-v-c16df711="" class="section">
+    <h2 data-v-8a5132d8="" class="h2">アクセスカウンター</h2>
     <p>あなたは0004999999999999人目の訪問者です。</p>
   </section>
-  <section data-v-7768f48d="" data-v-6e41aa24="" class="section">
-    <h2 data-v-3117fb04="" data-v-6e41aa24="" class="h2">News</h2>
-    <ul data-v-6e41aa24="" class="news-list">
-      <li data-v-6e41aa24=""><span data-v-a6dd56fd="" data-v-9912abab="" data-v-6e41aa24="" class="blink news-blink">NEW</span> M3-2024秋に参加予定です！ </li>
-      <li data-v-6e41aa24=""><a data-v-6e41aa24="" href="https://x.com/tbt_cf" target="_blank" rel="noopener noreferrer"> 公式X（旧Twitter）アカウント <span data-v-6e41aa24="" class="visually-hidden">（新しいタブで開きます）</span></a> 作りました！最新情報をつぶやいていきます！ </li>
+  <section data-v-c16df711="" data-v-4d8da841="" class="section">
+    <h2 data-v-8a5132d8="" data-v-4d8da841="" class="h2">News</h2>
+    <ul data-v-4d8da841="" class="news-list">
+      <li data-v-4d8da841=""><span data-v-e15bf86b="" data-v-34321b92="" data-v-4d8da841="" class="blink news-blink">NEW</span> M3-2024秋に参加予定です！ </li>
+      <li data-v-4d8da841=""><a data-v-4d8da841="" href="https://x.com/tbt_cf" target="_blank" rel="noopener noreferrer"> 公式X（旧Twitter）アカウント <span data-v-4d8da841="" class="visually-hidden">（新しいタブで開きます）</span></a> 作りました！最新情報をつぶやいていきます！ </li>
     </ul>
   </section>
-  <section data-v-7768f48d="" data-v-641101f2="" class="section">
-    <h2 data-v-3117fb04="" data-v-641101f2="" class="h2">サークルカット</h2><img data-v-641101f2="" src="/app/assets/cut.png" alt="サークルカット" class="circle-cut">
+  <section data-v-c16df711="" data-v-5f7c5729="" class="section">
+    <h2 data-v-8a5132d8="" data-v-5f7c5729="" class="h2">サークルカット</h2><img data-v-5f7c5729="" src="/src/assets/cut.png" alt="サークルカット" class="circle-cut">
   </section>
-  <section data-v-7768f48d="" data-v-1edda32e="" class="section">
-    <h2 data-v-3117fb04="" data-v-1edda32e="" class="h2">M3-2024秋スペース配置</h2>
-    <table data-v-1edda32e="" border="1" class="space-table">
-      <tbody data-v-1edda32e="">
-        <tr data-v-1edda32e="">
-          <th data-v-1edda32e="" scope="row">サークル名</th>
-          <td data-v-1edda32e="">定時後ビールタイム</td>
+  <section data-v-c16df711="" data-v-8c240f9c="" class="section">
+    <h2 data-v-8a5132d8="" data-v-8c240f9c="" class="h2">M3-2024秋スペース配置</h2>
+    <table data-v-8c240f9c="" border="1" class="space-table">
+      <tbody data-v-8c240f9c="">
+        <tr data-v-8c240f9c="">
+          <th data-v-8c240f9c="" scope="row">サークル名</th>
+          <td data-v-8c240f9c="">定時後ビールタイム</td>
         </tr>
-        <tr data-v-1edda32e="">
-          <th data-v-1edda32e="" scope="row">配置場所</th>
-          <td data-v-1edda32e="">リアルイベントスペース</td>
+        <tr data-v-8c240f9c="">
+          <th data-v-8c240f9c="" scope="row">配置場所</th>
+          <td data-v-8c240f9c="">リアルイベントスペース</td>
         </tr>
-        <tr data-v-1edda32e="">
-          <th data-v-1edda32e="" scope="row">スペース番号</th>
-          <td data-v-1edda32e="">第二展示場2階 シ-07a</td>
+        <tr data-v-8c240f9c="">
+          <th data-v-8c240f9c="" scope="row">スペース番号</th>
+          <td data-v-8c240f9c="">第二展示場2階 シ-07a</td>
         </tr>
       </tbody>
     </table>
-    <section data-v-7768f48d="" data-v-1edda32e="" class="section">
-      <h3 data-v-aa0e9692="" data-v-1edda32e="" class="h3">M3-2024秋</h3>
-      <p data-v-1edda32e="">日時：2024年10月27日(日)</p><a data-v-1edda32e="" href="https://www.m3net.jp/" target="_blank" rel="noopener noreferrer"> M3公式サイト <span data-v-1edda32e="" class="visually-hidden">（新しいタブで開きます）</span></a>
+    <section data-v-c16df711="" data-v-8c240f9c="" class="section">
+      <h3 data-v-ce414329="" data-v-8c240f9c="" class="h3">M3-2024秋</h3>
+      <p data-v-8c240f9c="">日時：2024年10月27日(日)</p><a data-v-8c240f9c="" href="https://www.m3net.jp/" target="_blank" rel="noopener noreferrer"> M3公式サイト <span data-v-8c240f9c="" class="visually-hidden">（新しいタブで開きます）</span></a>
     </section>
-    <section data-v-7768f48d="" data-v-1edda32e="" class="section">
-      <h3 data-v-aa0e9692="" data-v-1edda32e="" class="h3">頒布CDクロスフェード</h3>
-      <div data-v-e29cb6b7="" data-v-1edda32e="" class="video cross-fade"><iframe data-v-e29cb6b7="" width="560" height="315" src="https://www.youtube.com/embed/_ilOox8tQLU?si=vd2RgtYa-roJTja1" title="YouTube動画" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
+    <section data-v-c16df711="" data-v-8c240f9c="" class="section">
+      <h3 data-v-ce414329="" data-v-8c240f9c="" class="h3">頒布CDクロスフェード</h3>
+      <div data-v-830feb00="" data-v-8c240f9c="" class="video cross-fade"><iframe data-v-830feb00="" width="560" height="315" src="https://www.youtube.com/embed/_ilOox8tQLU?si=vd2RgtYa-roJTja1" title="YouTube動画" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
     </section>
   </section>
-  <section data-v-7768f48d="" class="section">
-    <h2 data-v-3117fb04="" class="h2">連絡先</h2>
+  <section data-v-c16df711="" class="section">
+    <h2 data-v-8a5132d8="" class="h2">連絡先</h2>
     <p> お問い合わせは<a href="mailto:staff@teijigo-beer-ti.me">staff🍺teijigo-beer-ti.me</a>（🍺を@マークに変える）にお願いします。 </p>
   </section>
-  <section data-v-7768f48d="" class="section">
-    <h2 data-v-3117fb04="" class="h2">メニュー</h2>
+  <section data-v-c16df711="" class="section">
+    <h2 data-v-8a5132d8="" class="h2">メニュー</h2>
     <p><a> ＞＞＞＞DISCOGRAPHY＜＜＜＜ </a></p>
     <p><a> 🍺🍺🍺🍺️メンバー紹介🍺🍺🍺🍺 </a></p>
   </section>
