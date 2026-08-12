@@ -1,1 +1,0 @@
-import{L as e,P as t,p as n,t as r}from"./ZJlJ99FX.js";var i={},a={class:`h1`};function o(r,i){return t(),n(`h1`,a,[e(r.$slots,`default`,{},void 0,!0)])}var s=Object.assign(r(i,[[`render`,o],[`__scopeId`,`data-v-a1fa7766`]]),{__name:`AtomsTbtH1`});export{s as t};
