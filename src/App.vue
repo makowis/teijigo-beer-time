@@ -7,10 +7,9 @@ import TbtFooter from '@/components/organisms/TbtFooter.vue'
 <template>
   <div id="app">
     <a href="#main-container" class="skip-link">メインコンテンツへスキップ</a>
-    <VitePwaManifest />
     <tbt-menu />
     <tbt-main>
-      <slot></slot>
+      <RouterView />
       <tbt-footer />
     </tbt-main>
   </div>
