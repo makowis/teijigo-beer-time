@@ -5,7 +5,7 @@ describe('TbtMemberLink.vue', () => {
   const wrapper = mount(TbtMemberLink, {
     global: {
       stubs: {
-        RouterLink: RouterLinkStub,
+        NuxtLink: RouterLinkStub,
       },
     },
     slots: {
@@ -17,7 +17,7 @@ describe('TbtMemberLink.vue', () => {
     expect(wrapper.element).toMatchSnapshot()
   })
 
-  it('should render RouterLink with correct to prop', () => {
+  it('should render NuxtLink with correct to prop', () => {
     const link = wrapper.findComponent(RouterLinkStub)
     expect(link.props('to')).toBe('/member')
   })

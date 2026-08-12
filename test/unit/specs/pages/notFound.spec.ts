@@ -1,12 +1,11 @@
 import { mount, RouterLinkStub } from '@vue/test-utils'
-import App from '@/App.vue'
+import NotFound from '@/pages/notFound.vue'
 
-describe('App.vue', () => {
-  const wrapper = mount(App, {
+describe('notFound.vue', () => {
+  const wrapper = mount(NotFound, {
     global: {
       stubs: {
-        RouterLink: RouterLinkStub,
-        RouterView: true,
+        NuxtLink: RouterLinkStub,
       },
     },
   })

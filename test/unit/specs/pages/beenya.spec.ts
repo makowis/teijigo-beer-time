@@ -5,7 +5,7 @@ describe('beenya.vue', () => {
   const wrapper = mount(Beenya, {
     global: {
       stubs: {
-        RouterLink: RouterLinkStub,
+        NuxtLink: RouterLinkStub,
       },
     },
   })

@@ -43,10 +43,10 @@
     }
   },
 
-  "forwardPorts": [5173],
+  "forwardPorts": [3000],
   "portsAttributes": {
-    "5173": {
-      "label": "Vite Dev Server",
+    "3000": {
+      "label": "Nuxt Dev Server",
       "onAutoForward": "notify"
     }
   },

@@ -65,11 +65,11 @@ typings/
 # next.js build output
 .next
 
-# Vite build output
-dist
+# nuxt.js build output
+.nuxt
 
-# vue-router のファイルベースルーティングが生成する型定義
-src/route-map.d.ts
+# Nuxt generate
+dist
 
 # vuepress build output
 .vuepress/dist
@@ -82,13 +82,14 @@ src/route-map.d.ts
 
 # Service worker
 sw.*
-!public/sw.js
 
 # macOS
 .DS_Store
 
 # Vim swap files
 *.swp
+
+.output
 
 .vscode
 
