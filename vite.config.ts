@@ -37,5 +37,14 @@ export default defineConfig({
     },
   },
 
+  server: {
+    // devcontainer 内から起動するとループバックにしか張らず外から届かないため全インターフェースで待ち受ける
+    host: true,
+  },
+
+  preview: {
+    host: true,
+  },
+
   ssgOptions,
 })
