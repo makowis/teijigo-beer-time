@@ -15,8 +15,6 @@ export default defineNuxtConfig({
         lang: 'ja',
       },
       meta: [
-        { charset: 'utf-8' },
-        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'description', content: SITE_DESCRIPTION },
         // OGP
         { property: 'og:type', content: 'website' },
@@ -89,5 +87,5 @@ export default defineNuxtConfig({
     },
   },
 
-  compatibilityDate: '2026-05-19',
+  compatibilityDate: '2026-08-12',
 })
