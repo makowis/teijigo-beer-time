@@ -10,8 +10,7 @@ export default defineConfig({
       provider: 'v8',
       all: true,
       exclude: [
-        '.nuxt/**',
-        '.output/**',
+        'dist/**',
         'node_modules/**',
         'coverage/**',
         'types/**',
@@ -20,15 +19,16 @@ export default defineConfig({
         'stories/**',
         'test/**',
         '**/*.{spec,test}.{ts,js,vue}',
-        '**/{nuxt,eslint,stylelint,vitest}.config.*',
+        '**/{vite,eslint,stylelint,vitest}.config.*',
+        'src/main.ts',
         // 画像ファイルはテスト対象外
-        'app/assets/**/*.{png,jpg,jpeg,gif,svg,webp}',
+        'src/assets/**/*.{png,jpg,jpeg,gif,svg,webp}',
       ],
     },
   },
   resolve: {
     alias: {
-      '@': path.resolve(import.meta.dirname, 'app'),
+      '@': path.resolve(import.meta.dirname, 'src'),
     },
   },
   plugins: [vue()],

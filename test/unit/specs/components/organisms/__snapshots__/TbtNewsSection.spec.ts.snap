@@ -1,11 +1,11 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`TbtNewsSection.vue > should match the snapshot 1`] = `
-"<section data-v-6e41aa24="">
-  <h2 data-v-6e41aa24="">News</h2>
-  <ul data-v-6e41aa24="" class="news-list">
-    <li data-v-6e41aa24=""><span data-v-6e41aa24="" class="new-blink">NEW</span> M3-2024秋に参加予定です！ </li>
-    <li data-v-6e41aa24=""><a data-v-6e41aa24="" href="https://x.com/tbt_cf" target="_blank" rel="noopener noreferrer"> 公式X（旧Twitter）アカウント <span data-v-6e41aa24="" class="visually-hidden">（新しいタブで開きます）</span></a> 作りました！最新情報をつぶやいていきます！ </li>
+"<section data-v-4d8da841="">
+  <h2 data-v-4d8da841="">News</h2>
+  <ul data-v-4d8da841="" class="news-list">
+    <li data-v-4d8da841=""><span data-v-4d8da841="" class="new-blink">NEW</span> M3-2024秋に参加予定です！ </li>
+    <li data-v-4d8da841=""><a data-v-4d8da841="" href="https://x.com/tbt_cf" target="_blank" rel="noopener noreferrer"> 公式X（旧Twitter）アカウント <span data-v-4d8da841="" class="visually-hidden">（新しいタブで開きます）</span></a> 作りました！最新情報をつぶやいていきます！ </li>
   </ul>
 </section>"
 `;

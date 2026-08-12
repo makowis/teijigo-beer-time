@@ -16,6 +16,12 @@ yarn install
 # 開発環境を立ち上げる
 yarn dev
 
+# 静的サイトをdist/に生成
+yarn build
+
+# 生成した静的サイトをローカルで確認
+yarn preview
+
 # テストを実行
 yarn test
 

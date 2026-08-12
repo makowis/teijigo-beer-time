@@ -1,8 +1,8 @@
 import { mount, RouterLinkStub } from '@vue/test-utils'
-import Beenya from '@/pages/beenya.vue'
+import NotFound from '@/pages/[...path].vue'
 
-describe('beenya.vue', () => {
-  const wrapper = mount(Beenya, {
+describe('[...path].vue', () => {
+  const wrapper = mount(NotFound, {
     global: {
       stubs: {
         RouterLink: RouterLinkStub,

@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink to="/beenya">
+  <RouterLink to="/">
     <slot></slot>
-  </NuxtLink>
+  </RouterLink>
 </template>

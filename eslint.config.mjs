@@ -1,8 +1,30 @@
 import globals from 'globals'
-import withNuxt from './.nuxt/eslint.config.mjs'
+import js from '@eslint/js'
+import tseslint from 'typescript-eslint'
+import pluginVue from 'eslint-plugin-vue'
 import eslintConfigPrettier from 'eslint-config-prettier'
 
-export default withNuxt(
+export default tseslint.config(
+  {
+    ignores: [
+      'dist/**',
+      'coverage/**',
+      'node_modules/**',
+      'src/route-map.d.ts',
+      '.yarn/**',
+    ],
+  },
+  js.configs.recommended,
+  tseslint.configs.recommended,
+  pluginVue.configs['flat/recommended'],
+  {
+    files: ['**/*.vue'],
+    languageOptions: {
+      parserOptions: {
+        parser: tseslint.parser,
+      },
+    },
+  },
   eslintConfigPrettier,
   {
     files: ['**/*.js', '**/*.vue', '**/*.ts'],
@@ -33,7 +55,7 @@ export default withNuxt(
       ],
 
       // Vue固有
-      'vue/multi-word-component-names': 'off', // Nuxt Pagesは単語1つでOK
+      'vue/multi-word-component-names': 'off', // pages配下は単語1つでOK
       'vue/require-default-prop': 'off', // TypeScriptで型推論があるため
       'vue/html-self-closing': [
         'error',
@@ -41,6 +63,14 @@ export default withNuxt(
           html: { void: 'always', normal: 'never', component: 'always' },
         },
       ],
+    },
+  },
+  {
+    files: ['public/sw.js'],
+    languageOptions: {
+      globals: {
+        ...globals.serviceworker,
+      },
     },
   },
   {

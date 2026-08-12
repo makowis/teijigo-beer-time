@@ -5,7 +5,9 @@
 
 ## プロジェクト概要
 
-- **フレームワーク**: Nuxt 4 + Vue 3
+- **ビルドツール**: Vite 8 + Vue 3
+- **ルーティング**: vue-router v5（`vue-router/vite` によるファイルベースルーティング）
+- **静的サイト生成**: vite-ssg（ページ毎に静的HTMLを出力）
 - **言語**: TypeScript
 - **パッケージマネージャー**: Yarn 4 (Berry)
 - **Node.js**: 24.x (Active LTS)
@@ -16,12 +18,14 @@
 ## ディレクトリ構成
 
 ```
-app/
+index.html           # head/OGPの定義とエントリポイント
+src/
+├── App.vue          # 共通レイアウト（メニュー/フッター/グローバルCSS）
+├── main.ts          # ViteSSG のエントリ
 ├── components/
 │   ├── atoms/       # 最小単位のコンポーネント (Tbt接頭辞)
 │   └── organisms/   # 複合コンポーネント
-├── layouts/         # レイアウトコンポーネント
-├── pages/           # ページコンポーネント
+├── pages/           # ページコンポーネント（ファイル名がそのままルート）
 ├── resources/       # 静的データ (discos, members)
 └── assets/          # 画像等のアセット
 ```
@@ -78,7 +82,8 @@ app/
 
 ```bash
 yarn dev        # 開発サーバー起動
-yarn build      # ビルド
+yarn build      # 静的サイトを dist/ に生成
+yarn preview    # 生成した静的サイトをローカル確認
 yarn test       # テスト実行
 yarn lint       # リント実行
 yarn lint:fix   # リント自動修正
@@ -95,3 +100,7 @@ yarn lint:fix   # リント自動修正
 - このサイトは意図的にレトロなデザイン（`<blink>`, `<marquee>` 風効果など）を採用しています
 - モダンなUIライブラリ（Vuetify、Tailwind等）は使用していません
 - 素朴なCSS でスタイリングしています
+- コンポーネントの自動インポートは使わず、`@/components/...` で明示的に import します
+- ページ間リンクは `<RouterLink>` を使います
+- 存在しないURLは `src/pages/[...path].vue` が受け、ビルド時に `dist/404.html` としても出力されます
+- PWAは廃止済みです。`public/sw.js` は旧Service Workerを解除するためだけに存在します
