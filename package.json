@@ -36,7 +36,7 @@
     "postcss": "^8.5.26",
     "postcss-html": "^2.0.0",
     "prettier": "^3.9.6",
-    "rolldown": "^1.2.3",
+    "rolldown": "^1.2.4",
     "stylelint": "^17.14.1",
     "stylelint-config-html": "^2.0.0",
     "stylelint-config-recommended": "^18.0.0",
