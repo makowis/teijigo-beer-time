@@ -8,7 +8,7 @@
 - **フレームワーク**: Nuxt 4 + Vue 3
 - **言語**: TypeScript
 - **パッケージマネージャー**: Yarn 4 (Berry)
-- **Node.js**: 24.x (Active LTS)
+- **Node.js**: 26.x (Active LTS)
 - **テスト**: Vitest + Vue Test Utils
 - **リンター**: ESLint 9 (Flat Config) + Stylelint + Prettier
 - **Git メインブランチ**: `master`

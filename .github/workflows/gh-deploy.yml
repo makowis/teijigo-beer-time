@@ -14,7 +14,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node: [24]
+        node: [26]
 
     # 呼び元のworkflowの結果がsuccessであればmain jobを実行
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
@@ -29,7 +29,7 @@ jobs:
 
       # ここでyarnを有効化しておかないと後続のcash処理がエラーになる
       - name: corepack enable
-        run: corepack enable
+        run: npm install -g corepack && corepack enable
 
       - name: Get yarn cache directory path 🛠
         id: yarn-cache-dir-path
