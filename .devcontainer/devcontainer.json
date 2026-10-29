@@ -1,6 +1,6 @@
 {
   "name": "Teijigo Beer Time",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:26",
 
   "features": {
     "ghcr.io/devcontainers/features/git:1": {}
@@ -51,7 +51,9 @@
     }
   },
 
-  "postCreateCommand": "sudo corepack enable && yarn install",
+  // Node.js 25以降のイメージにはcorepackが同梱されず、代わりに入っているpnpmとbinが衝突するため--forceで上書きする。
+  // npmのglobal prefixはnodeユーザーが書き込める一方、sudoのsecure_pathにはcorepackが入らないためsudoは使わない
+  "postCreateCommand": "npm install -g --force corepack && corepack enable && yarn install",
 
   "remoteUser": "node"
 }
