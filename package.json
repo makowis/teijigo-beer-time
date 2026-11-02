@@ -37,7 +37,7 @@
     "postcss-html": "^2.0.0",
     "prettier": "^3.9.9",
     "rolldown": "^1.2.11",
-    "stylelint": "^17.15.0",
+    "stylelint": "^17.16.0",
     "stylelint-config-html": "^2.0.0",
     "stylelint-config-recommended": "^18.0.0",
     "stylelint-config-recommended-vue": "^2.0.0",
