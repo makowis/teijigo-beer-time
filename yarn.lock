@@ -3449,12 +3449,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^26.6.3":
-  version: 26.6.3
-  resolution: "@types/node@npm:26.6.3"
+"@types/node@npm:^26.6.6":
+  version: 26.6.6
+  resolution: "@types/node@npm:26.6.6"
   dependencies:
     undici-types: "npm:~8.9.0"
-  checksum: 10c0/51070287167d157d246a5ad83e6ead93aa310bbd9cc880ecd1f244a00c2a31491620f997fbbb6ba4ce164388694827999ec68c1d16c3fb64c1037056e64613c7
+  checksum: 10c0/5cb63f644f6e85a257a9cd2403cbcbe196760e2a35fd3ec9fb8b5cff663e14cc832b198cc17b53f870a2e30900ed45a1fb3f53e6589aba26b8e8c484aa672053
   languageName: node
   linkType: hard
 
@@ -11066,7 +11066,7 @@ __metadata:
   resolution: "teijigo-beer-time@workspace:."
   dependencies:
     "@nuxt/eslint": "npm:^1.17.0"
-    "@types/node": "npm:^26.6.3"
+    "@types/node": "npm:^26.6.6"
     "@vite-pwa/nuxt": "npm:^1.1.1"
     "@vitejs/plugin-vue": "npm:^6.0.9"
     "@vitest/coverage-v8": "npm:^5.0.5"
